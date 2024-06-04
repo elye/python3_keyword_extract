@@ -1,0 +1,556 @@
+[MUSIC PLAYING]
+[APPLAUSE]
+JASON TITUS: Good afternoon, everyone. I'm Jason, and it's great to be back here at I/O. This morning,
+you got to hear all about what we're doing for our billions of users. Now I'm excited to share what we're doing for all of you--
+the developers who are solving everyday problems in powerful ways. Whether you're joining us here at Shoreline
+or watching via the livestream or joining us through one of 500 I/O Extended events, welcome.
+[APPLAUSE]
+One of the reasons I love my job is that I get to meet with developers from all around the world and hear what you're up to
+and what you're finding difficult. It helps me understand what we need to do as Google to make things easier,
+as well as what we can do better in our own products. And one thing that becomes instantly clear,
+from Lagos to Warsaw to Jakarta, is how important the broader development community
+is in helping each other figure out things and solve problems together.
+This kind of pay-it-forward culture-- it's one of the great things about working in this industry.
+And I am constantly inspired by the stories I hear out of our Google Developer groups and Google Developer experts
+solving this [INAUDIBLE]. [APPLAUSE]
+I see we have a few of them here today. Every year, with their help, we're
+able to reach more than one million developers through in-person events across 140 countries.
+And our Women Techmakers program is able to engage more than 100,000 women advance their careers
+each year. [APPLAUSE] Our developer community is truly important to us.
+And all of this would not be possible without their efforts. It's also great that in the last two years,
+we have had the number of Google Developer experts double. These are amazing people, like Rayan Al Zahab.
+[APPLAUSE] She both founded her local Google Developer Group
+and Women Techmakers Lebanon. On top of that, she started a web development training
+program for Lebanese and Syrian refugee girls. We also have folks like Rebecca Franks, an IoT and Android
+expert in Johannesburg. [APPLAUSE] Out of her passion for cultural preservation,
+she works on an open source app that lets children read books in their native African languages.
+Google would not be what it is today if it weren't for developers like Rayan, Rebecca, and all of you.
+So thank you. [APPLAUSE]
+As you heard this morning, Sundar was calling out-- the pace of AI innovation is breathtaking.
+A whole new set of capabilities is going to change the way we do things. And what's really exciting to me is that we're
+at an inflection point. AI used to be something that only deep experts and PhDs
+could use, and now it's becoming accessible to everyone. Let me show you what I mean.
+[VIDEO PLAYBACK] - I would totally describe myself as an average high schooler. I like hanging out with my friends, watching movies,
+getting my nails done, and lately I've been into machine learning using convolutional neural networks.
+I don't know why you're laughing at me. - Since childhood, she's always wanted to know everything.
+- Why is that? How is that? What does it do? She just wants to be always learning, moving,
+doing different stuff. - I haven't always been into computer science, but my mom grows rose bushes in my front yard.
+Every season, they'd get disease, and then my mom and I would have to diagnose it. - Knowing Shaza, she wanted to do something about it.
+- I had the idea as a potential thing I could do for my research class with Miss Son.
+- Why anyone would sit around their summer vacation teaching a machine to identify plants--
+not sure, but that was what she wanted to do. - I wanted to have a way people could diagnose plant diseases
+just by taking a photo of it. And so that's when I started looking into TensorFlow. I'd watch different tutorials and read blog posts
+every night. - Shaza took it upon herself to do all the background research necessary and then start to ask, what can this
+really do? - PlantMD works when a user takes a picture of the plant, and it tells you what plant it is
+and whether it's healthy or diseased. And if it is diseased, what disease it is. - My first question was, is it an app
+that's only on your phone? And she's like, no. Somebody has downloaded this app and using it.
+That was, like, wow. Something that I just was so proud.
+- I don't think you have to be a super genius to get into coding. Really anyone can do it with an idea and with perseverance.
+I feel like open source technology and the wealth of information on the internet is empowering my generation.
+I know that I can do anything I put my mind to, and so can anybody else.
+[END PLAYBACK] JASON TITUS: Amazing, right? [APPLAUSE]
+And we're delighted to have Shaza and her family here with us today. [APPLAUSE]
+So you can see why we're so excited about bringing technology like TensorFlow and ML Kit to all of you.
+As developers, you can drop modules into your applications, add a few lines of code, and give them
+intelligent new capabilities. And this is only the beginning of what is possible.
+As a company, we're committed to empowering developers with the latest technology to build things that matter.
+And today, we'll show you what we're doing to make that easier. So over the next hour, we're going
+to talk more about new capabilities we're releasing, as well as the improvements we're making to the platforms and tools you use every day.
+So with that, let's get started with Steph, who's going to tell you the latest on Android. [MUSIC PLAYING]
+Android
+STEPHANIE CUTHBERTSON: Android is growing all over the world with billions of devices, and every month, billions of apps
+downloaded. Our developer community is growing rapidly, right alongside. In China, India, Brazil, the number
+of developers using our IDE almost tripled in just two years.
+With all this growth, we feel a responsibility to support this vast ecosystem.
+And listen, if you feel like your feedback drives what we say here each year, you are right,
+like Kotlin last year. [APPLAUSE]
+Since we made it a fully-supported language, we've launched more and more support, taking advantage
+throughout Android. Already, 35% of pro developers use Kotlin.
+That number grows every month. And 95% of Kotlin users say they're really happy.
+More and more Android development is going towards Kotlin. We are committed for the long term.
+And if you haven't tried it, I would. Just as your feedback shaped investments so far,
+like Play Console, Android Studio, and Kotlin, your feedback shaped this year, too.
+So let's cover three things today. First, distribution-- making apps radically smaller
+so you get more installs. Second, development-- helping you build faster, with better APIs.
+And third, engagement-- bringing users back more and more. Let's go straight into driving installs.
+So Android is growing. That's great. App size is also growing, and that is not great.
+Apps are targeting more people and more countries, which means APKs have more languages, more features.
+The larger your app gets, the less installs you get. And most people think that's an emerging markets issue,
+but it's true in all countries. So how can we make it easier to build smaller apps?
+Our best idea was hard for us. It meant re-architecting our entire app-serving stack.
+But it was the right way to do it. Today, we are excited to announce the new app
+model for Android. Using the Android App Bundle, a new publishing format, you can dramatically reduce app size.
+Apps need a lot of resources to work on every device. The bundle contains it all, but modularized.
+So when you download, Google Play's new dynamic delivery only delivers the code and resources a specific device
+needs. Now, we've tested this with many of you, and we've seen huge savings.
+LinkedIn saved 23%. Twitter saved 35%.
+[INAUDIBLE] saved 50%. Now, if you're wondering, how many devices does that work on?
+The answer is 99%. And that's because it's built on long-standing platform concepts
+like splits and multi-APK. We also wanted this to be almost no work for you.
+And so I'd love to have you see a demo from someone who's been instrumental, along with several teams who built this
+together. Please welcome Tor. [APPLAUSE] TOR NORBYE: Thank you, Steph.
+Demo
+So here I am, in Android Studio, working on my app. And I'd like to make it smaller. So what I'll do is open up our APK Analyzer.
+And as you can see, most of the download size is for resources. We have several large image folders
+with different densities. So this is an app which can really benefit from the new dynamic delivery facility.
+To use it, I don't have to change a single line of code. All I have to do is rebuild my app as an app bundle.
+So I'll invoke the Generate APK dialog. As you can see, we have a new Android App Bundle option.
+Next, I point to my KeyStore, and I can also tell it to export my encryption key for Google Play.
+This is what lets the Play store break apart my app and reassemble it into smaller versions.
+So then I'll trigger the build. And once that's done, we can take a look at the bundle file we just created.
+So as you can see, this looks just like the APK files that you already know and love, but there's some extra metadata
+here, which is what lets the Play store do its magic. So now, in the interest of time, let's assume
+that I've already uploaded my app bundle and my sign in key to the Play Console. So then I land here.
+We have a new page in the Play Console called the App Bundle Explorer. Take a look at the big number on the right.
+This tells me that when I publish this update, I'm going to save nearly 29% on downloads for my users.
+And this page lets me drill into just how that's possible. So in short, creating Android app bundles with Studio
+is super easy, and I hope you'll all try it out and see similar gains for yourselves and your users.
+Android Jetpack
+STEPHANIE CUTHBERTSON: And all this is available now. App bundles and dynamic delivery are launching
+for production use today. [APPLAUSE]
+Now, we're also working to increase installs in other ways. At GDC, we announced Google Play Instant.
+So you can try a game without having to install. Now, games who have adopted this have increased the number
+of players by up to 20%. Today, we're announcing that this is available for all game
+developers. If you want to try it right now, try launching "Candy Crush Saga," because that launches today.
+And to make development easier, we're also releasing a Unity plugin and Cocos integration.
+Now let's dive into our second theme, making app development easier. Android's APIs could be easier.
+One person said, on Android, there's six ways to do everything.
+Last year, we launched Architecture Components. It was a testbed for new ideas, starting
+in top areas that you flagged, like life cycles and data. Today, so many top apps use these in production.
+And more than half of you have said you already use them or plan to in the next year.
+Today, we're announcing Android Jetpack, the next generation of Android APIs to accelerate Android development.
+Jetpack is a set of libraries and tools. We set the basic DNA by including support library
+and architecture components. Jetpack brings these together coherently and adds even more new libraries, work management,
+navigation, paging, slices, and Kotlin extensions
+across everything. All libraries are backwards-compatible,
+which means they work on 95% of devices. So it's been a pain to schedule background tasks.
+Now, with Work Manager, you get a single, easy-to-use API that works nearly everywhere.
+And Jetpack is all about concise APIs. Those of you who've tried it say you're writing up to 1/3 less code.
+Jetpack and Kotlin are intentionally designed to work together so you write
+only the code you need for a pleasant reading and writing experience.
+And Jetpack saves time by embodying opinions about what we found works best for Android development, like RxJava
+or material design. Jetpack's APIs are integrated with the IDE, too.
+For instance, Android Studio now includes a Navigation Editor which works with the library.
+So you can visualize your app flow, almost like you're sketching on a whiteboard. You can add new screens, position them in your flow.
+And under the covers, we'll help you manage the back stack, conditional flows until you get it just right.
+Overall-- [APPLAUSE]
+--IDE tools, we think, are great helpers to make development fast. That's why everything you've seen bundles using Jetpack
+comes with Studio support. And the team also works on making everyday tasks faster.
+You told us, work on emulator boot time, and I'd like you to see it now.
+TOR NORBYE: All right, so first, let me show you how quickly our emulator can start now. Ready, set, go.
+As you can see, it's nearly instant. [APPLAUSE] I was not cheating. It was not running in the background.
+The reason it's so fast is that we support snapshots. So we store the full state of the emulator into a file that we can then load back quickly.
+And you can create these snapshots yourself. So now I'm going to bring back a snapshot I took in the middle of a complex OpenGL 3D stress test.
+Ready, set, go. So you can see it's about two seconds, and it's up and running.
+STEPHANIE CUTHBERTSON: There are more speed enhancements. We added an energy profiler, integrated an improved system
+trace. There's a C++ profiler now. We promoted D8 compiler to stable
+after testing it on our own Android platform, which means smaller, faster binaries by default.
+And we added an ADB Connection Assistant to fix, hey, why can't I connect to that device?
+So that's Android development-- faster and easier. We hope you try Android Studio and Jetpack previews today,
+including all the alpha stage new libraries. Jetpack is just a beginning for us.
+We are testing so many more new ideas, and we hope you watch for them in the months ahead.
+OK, so once your app is built, it's installed, we want to get users coming back. The slices Dave showed are a cool new way
+to drive reengagement. We wanted these to be easy to build. So you'll find templates that are rich and flexible
+so you can compose. You can start with something simple, like a set of rows or grids.
+Then you can add content, like text and images. But not just static content, you can also
+house real-time data and rich controls. And once you get the pieces together in a good setup,
+you can add the code to make slices interactive, like pause a song or go to the next one.
+So then you end up with this cool mini-snippet of your app. And because it's Jetpack, slices work on 95% of devices,
+showing the power of building new features in a Jetpack world. This is also ready for everyone here to try today.
+Your slices will start showing up in Search this summer, timed with the P launch, and Assistant later this year.
+So that's a quick tour of some of the biggest new areas of investment for Android and how your feedback
+has been shaping the landscape. Now let's switch gears and talk about cool devices.
+At CES this year, we announced that Lenovo, Harman, LG, and iHome are all building consumer products powered
+by Android Things-- a powerful platform for developing IoT products.
+This week, Android Things graduates from developer preview to 1.0, ready for everyone
+to build commercial devices. And everyone here at I/O will get a free Android Things
+developer kit. [APPLAUSE]
+If you want to get it first, join the scavenger hunt today, or everyone here can pick one up tomorrow.
+As we continue to expand to more devices and more surfaces, our team and the Assistant team have
+been working closely together. To hear more, please welcome Brad Abrams.
+[APPLAUSE]
+Google Assistant
+BRAD ABRAMS: Awesome. Thanks, Steph. This morning, you heard how the Assistant is becoming even more
+conversational and visual, helping users get things done, save time, and be more present.
+And developers like you have been a big part of the story, making the Assistant more useful across 500 million devices.
+DoorDash, Fitbit, Todoist, Starbucks, Disney, and many, many others are engaging with users
+through Actions that they build. And smart home OEMs like GE, Arlo, Xiaomi, and Logitech
+have made more than 5,000 devices that work with the Assistant. In total, the Google Assistant is
+ready to help with over one million Actions built by Google and all of you.
+And the platform's momentum has been growing every day. It's now available across 16 languages and multiple devices,
+including phones, smart speakers, TVs, cars, watches,
+headphones, and whole new categories of devices like smart displays, which are coming in July.
+And we're delighted to see that many of you are starting to test the waters with this new, emerging era
+of conversational computing. In fact, over half a million developers
+are learning and building with Dialogflow, our conversation development tool.
+Today, I'm excited to share how we're making it even easier for app developers and web developers
+to get started with the Google Assistant. You can think of your Assistant Action as a companion
+experience to your main property that users can access from a smart speaker, even in the car--
+wherever they're not using their phone or laptop. And if you want to personalize that Action for users,
+account linking lets you easily share state between your app and your Action.
+And now, with seamless digital subscriptions, your users can enjoy the content and digital goods
+they purchased in your Android app directly in your Assistant Action.
+Take "The Economist," for example. Because I'm a premium subscriber in their app,
+I can now enjoy that same premium content on any Assistant-enabled device.
+But of course, creating engaging actions doesn't end with digital subscriptions.
+As you saw in the demos this morning, the Assistant is becoming a canvas that blends conversation
+with rich visual interactions for the phone and other devices like smart displays.
+And starting today, you can deeply customize the appearance of your Action.
+You saw a glimpse of what was possible earlier today with demos from Tasty and Starbucks,
+but let me show you another one. Check out the game "King for a Day" here on a smart display.
+It looks beautiful here, on the phone, and on the TV.
+Of course, once you build an Action for the Assistant, you want to get lots of people engaged with that experience.
+And for that, I've got three things to share. First, we're making it even easier
+for you to promote your Action with something new we call Action Links.
+These are hyperlinks that you can use from anywhere that point directly into your Action.
+Let me give you an example. Headspace has built a great experience for the Google Assistant that can help people meditate.
+Now, when they have some new content, they might share a blog post about it.
+This post contains an Action Link right there at the bottom. And that special link triggers the Headspace Action directly
+in the Google Assistant. If you've already built an Action and you want to spread the word, starting today,
+you can visit the Action Console to find your shareable Action Link.
+OK, so now that you've acquired some new users, you want to engage them.
+And for this, we've got Action Notifications.
+Once users opt in, Action Notifications gives you a way to connect with them about new features
+and content. These notifications work on the phone, even if users don't have your Android app installed.
+And now, with cross-surface notifications coming to the Assistant, you'll be able to reengage with your users on speakers,
+smart displays, and other Assistant-enabled devices.
+But to consistently reengage with users, you need to become part of their daily habits.
+And for that, the Assistant supports routines. This is the ability to execute multiple actions
+with a single command for things like waking up in the morning, getting to work, or many other daily tasks.
+And now, with Routine Suggestions, after somebody engages with your Action,
+you can prompt them to add your Action to their routine with just a couple of taps.
+So for example, on my way to work each morning, my Assistant can tell me how to beat traffic,
+and it can also help me order my Americano from Starbucks.
+We're excited to see how Action Links, Action Notifications, and Routine Suggestions will help you drive engagement.
+But the broader challenge of helping people connect with the right Action is reminiscent
+of the early days of the web. Over the past 20 years, we've built up
+a lot of experience in connecting people with the right information, services, and content.
+And we're putting that expertise to work in the Google Assistant. For example, when somebody says, hey, Google, let's
+start a maps quiz, the Assistant should immediately suggest relevant games.
+For that to happen, we need to understand the user's basic intent.
+And that's hard, because there are thousands of ways that users could ask to play a game.
+To handle this complexity, we're beginning to map all the ways that users can
+ask for things into a taxonomy of built-in intents.
+Today, we're making the first set of those intents available. And with these, you'll be able to give the Assistant a deeper
+understanding of what your Action can do. We'll be rolling out hundreds of built-in intents
+in the coming months. So with that, I'm excited to see how you all
+extend your experiences to the Google Assistant, how you'll build rich, immersive interactions, and create
+consistent engagement for your users. To learn more and get started building Actions today,
+visit actions.google.com. And with that, let me introduce Tal, who will tell you
+about the web platform. Thank you. [APPLAUSE]
+Web
+TAL OPPENHEIMER: Thanks, Brad. I don't think it's an exaggeration to say that the web is the world's
+most critical resource for ensuring the free flow of information. The web is a fundamentally open and independent platform.
+So for developers, the web makes it possible to reach users around the world on almost any device.
+And for users, the web provides a truly frictionless experience. You tap on a link and load a page.
+And these properties have allowed the web to reach a massive scale, with over five billion devices
+accessing the web each month. And here at Google, from the very earliest days of page rank to building our very own browser,
+we've been deeply invested in the continued growth and reach of the web. And as part of this, we have two main goals.
+First, to make the web platform itself more powerful and more capable. And second, to build tools to help you easily
+take advantage of this power. Over the past few years on Chrome, we've worked alongside other browsers
+to add capabilities to the platform to support new web experiences we've been calling Progressive Web Apps, or PWAs.
+PWAs are websites that take advantage of modern web platform APIs to build experiences that can do things
+like work while the user's offline, send push notifications, or be added directly to a user's home
+screen. And universally, businesses that have built PWAs have seen incredible results.
+Take Instagram. Instagram launched their PWA last year to increase their reach to users with low-end devices.
+And they were able to double the retention of their web users. Times Internet has been launching
+PWAs across their products and saw an 87% increase in time spent per user for their "Economic
+Times" PWA. And when the Starbucks team rolled out their PWA,
+they doubled their daily and monthly active users on their website.
+And because the web adapts seamlessly to different devices and platforms, their mobile PWA also
+worked well for their desktop web audience. In fact, they found that the number of orders placed on the desktop version
+has grown to be about equal to the number of orders placed on their mobile version.
+And it's not just these businesses. Across sites that advertise with Google,
+we see an average mobile conversion rate boost of 20% when the site switches to a PWA.
+And we also build many of our own products here at Google as PWAs. Google Maps launched a new mobile PWA tailored
+to provide a fast and data-conscious experience, and Google.com itself is a PWA.
+It loads 50% less JavaScript over the network and can support features like retrying search queries
+if you're offline. And investing in a PWA today goes further than ever.
+Chrome OS now provides native support for PWAs, allowing them to be installed and run
+fully integrated and in their own standalone window. And we're incredibly excited that Service Worker,
+the underlying new API that makes PWAs possible, is now supported on all major browsers,
+including recently Edge on Windows and Safari on both desktop and mobile.
+This is probably the most important leap forward for the web in the last decade.
+So PWAs have fundamentally changed what the web can do. But that's only part of it.
+WebAssembly enables websites to run high-performance, low-level code written in languages like C and C++,
+and it has broad support across browsers and devices. And because this code has access to all of the web's APIs,
+WebAssembly enables a new class of content to run on the web platform. As just one example, the AutoCAD team took a 35-year-old
+codebase-- that's older than the web itself-- and were able to compile it to run directly
+inside a browser using WebAssembly. So now all of the power of AutoCAD is just a link away.
+So the web platform's been gaining all these great new capabilities, but we want to make sure it's easy for you to take advantage of them.
+So we've been working on the tools to help. Lighthouse is a feature of Chrome's built-in DevTools
+that analyzes your site and gives you clear guidance on how you can improve your user's experience.
+Half a million developers are running Lighthouse against their site or as part of their continuous integration process, to help avoid performance regressions,
+or even to keep an eye on the competition. And today, we're launching Lighthouse 3.0, which
+makes Lighthouse's performance metrics even more precise and its guidance even more actionable.
+So Lighthouse helps you understand how you can upgrade your site, but we don't want to just give you advice.
+We want to give you the tools to help make sure any new sites you build are high quality by default. We started the AMP Project
+two years ago to help make building fast web pages much easier. And I'm happy to share that AMP is evolving in some big ways.
+We're expanding the kinds of things you can do with AMP. We've added a bunch of features that support
+critical e-commerce experience in AMP, like search auto-complete, a full-featured date picker,
+and soon, infinite scrolling lists. And businesses are seeing the benefits. As just one example, Overstock saw a 36% increase in revenue
+on their AMP pages. And we've introduced AMP Stories, an easy-to-use format for creating immersive stories on the mobile web.
+Now, all AMP content benefits from a fast, free, privacy-preserving cache that optimizes page loads.
+But they've had these Google.com URLs. So we're fixing that with a new standard called web packaging.
+This is also the first step towards our ultimate goal for any fast, responsive web content--
+to be able to take advantage of all of the benefits of AMP. And today, we're announcing a new way
+to take advantage of all of these tools. We introduced Chrome OS almost seven years ago
+to showcase the best of the web and make computing accessible to all. Chromebooks grew 50% this past year,
+both units sold and 28-day active users. And we've expanded to tablets and attachables.
+But it's not just about access to technology. It's also about access to create it.
+And that's why we're expanding Chrome OS to support developers with the ability to securely run Linux apps on Chrome OS.
+[APPLAUSE]
+So this means that many of your favorite tools, editors, and IDEs now work on Chromebooks.
+So starting with the Dev channel on Pixelbooks, you can now build for the web on a platform built
+around the web. And soon, you'll even be able to run Android Studio on Chrome OS.
+[APPLAUSE]
+So all in all, it's an incredibly exciting time to be a web developer.
+Businesses around the world are consistently seeing substantial returns from deeply
+investing in their web experience by building progressive web apps. And the reach of these PWAs is now truly everywhere,
+with support across every major browser. And it's easier than ever to build great web experiences
+with tools like Lighthouse and AMP and so many more of our web developer products that you'll hear about throughout I/O.
+The web platform is light years ahead of where it was in Google's early days, and it remains as core as ever to our mission.
+We're excited about the host of new use cases made possible by today's modern web, so be sure to check out
+the web platform state of the union talk later today to learn more. And now, please join me in welcoming
+Rich to talk about updates to Material Design. [APPLAUSE]
+Material
+RICH FULCHER: Thanks, Tal. I'm going to talk about Material Design's new approach
+to customizing our apps, and share some of the new tools and resources we've created.
+We introduced Material Design in 2014 as a system for creating bold, beautiful,
+and consistent digital products across platforms. We were responding to the desire that we
+heard from you and developers around the world for clear design guidance, for advice
+that would make the experiences you create better for your users. Material has become the design foundation
+for all Google products. And you've taken it and launched it into millions of apps.
+But we've heard two sentiments especially clearly after hundreds of design reviews with product teams
+and developers. First, that you didn't always see Material as flexible enough, that products from different brands
+looked too similar. And second, that our engineering support for Material
+needed to be stronger so that you could more easily realize your design vision.
+Our goal has always been to provide more than just a design
+blueprint. We are committed to delivering resources, tools,
+and engineering components to make it easier for product teams to work together seamlessly from design to development so that you can deliver customized
+experiences for your users. That's why we're proud to announce
+Material Theming, a major update to the Material Design system.
+With Material Theming, we're delivering a truly unified and adaptable design system.
+It enables you to express your brand's unique identity using color, using type, and shape consistently
+across your product. Material Theming retains the consistent guidance
+from Material and expands on it. Let's take a look. [VIDEO PLAYBACK] - What if it was possible to design and build better
+so your ideas could scale from a single sheet to a system?
+With Material, you can apply color dynamically so that every touch enhances the character of your design.
+Typography is adaptable so you can express more by customizing for style and legibility.
+Craft an experience that's responsive across device and platform.
+Streamline collaboration with tools and open source code,
+making it easy to express your brand's unique identity, balancing form and function down to every last detail.
+Material Design isn't a single style. It's an adaptable design system inspired by paper and ink
+and engineered so you can build beautiful, usable products faster.
+What will you make? [MUSIC PLAYING] [END PLAYBACK] [APPLAUSE]
+RICH FULCHER: Material Theming puts you in charge. When you make just a few decisions about aspects
+like color or type, for example, we'll apply those throughout your design.
+You'll see options for customization across our design guidelines.
+And we've added hundreds of new examples. All still Material, but reflecting a much wider range
+of products and styles. When you see something you like, you can use our handy redline viewer to check
+the dimensions, padding, and even the hex color values. Today, we're also releasing two new tools
+to make it faster to go from design to implementation. First, Material Theme Editor.
+This plugin for the popular application Sketch helps designers create and customize
+a unique Material theme. Change one theme value, and it cascades across the design.
+Then that work can be shared easily using Material Gallery.
+This is the tool used by product teams at Google to review and comment on design iterations,
+and it's now available to everyone. When it's time to build, you can see automatic redlines.
+You can identify exactly which component is being used and how it's been customized.
+But we need to make all of this easier not just to design,
+but to realize in code. So our open source Material Design components
+for Android, iOS, the web, and Flutter-- all with Material Theming-- are available today.
+[APPLAUSE]
+These are the same components we use at Google to build our apps. And just as Google creates a custom Material theme that best
+reflects our brand in products-- starting with the new Gmail for the web-- you can use these same components
+to create an experience and a theme that is right for you. More Material components and Material Theming customizations
+will be coming soon, so keep an eye out. We'll be launching regularly. And we'll keep listening, so please
+keep the feedback coming. Material Theming-- a new approach to customizing your apps powered by open source components,
+new tools, and design guidance-- all available today. To make Material yours, get started at material.io.
+And now, here's Jia to talk about progress in AI. [APPLAUSE]
+AI
+JIA LI: Thanks, Rich. Hi, everyone. At Google, we believe developers are driving
+the real-world impact of AI. Of course, we understand how complex this can be.
+Machine learning is a challenge in any environment, but today's developers often target multiple platforms
+and devices. We also have to juggle issues like processing power,
+bandwidth, latency, and battery life. That's why we're committed to making AI easier
+to use, no matter what platform you are on. This begins in the Cloud, which makes
+machine learning accessible to customers in every industry. We believe success in AI should be
+determined by your imagination, not your infrastructure. We invest the best technology to power Google's products,
+and Google Cloud is making these resources available to you. For example, our Cloud TPUs are widely available
+in public beta, making machine learning more affordable than ever before.
+Until recently, training a model to a high accuracy
+on the ImageNet data set cost thousands of dollars. But in a Stanford benchmark contest,
+our TPUs reached the same level for less than $50.
+Cloud TPUs are now available to everyone, and getting started
+is as simple as following this link. And this morning, we announced our new third generation TPU,
+demonstrating our ongoing commitment to AI hardware.
+The Cloud also lets us share our best technology through a growing range of machine learning APIs.
+Our latest is Cloud text-to-speech. Based on DeepMind's WaveNet, the same technology
+behind the voices in the Google Assistants, it generates speech with 32 voices in multiple languages
+and variants. In just a few lines of code, your application
+can realistically speak to your users across many platforms and devices.
+For more sophisticated interaction with your users, text-to-speech can be paired with Dialogflow Enterprise
+Edition. Dialogflow makes it easy to build a conversational agent,
+even with no prior experience. It understands the intent and context
+of what a user says and generates accurate responses, whether you are shopping for clothes
+or scheduling your bike repair. Finally, Cloud AI is always exploring new ways
+to put more power in the hands of developers. This effort continues with Cloud AutoML,
+which automates the creation of machine learning models. Our first widely-available release
+will be AutoML Vision, which makes it possible to recognize images unique to your vocation
+without writing any code. You provide the training examples,
+and AutoML does the rest. Our alpha users are already accomplishing
+a lot with AutoML, from identifying poisonous spiders
+to helping the blind better understand images. But Vision is just the beginning.
+We're looking forward to bringing AutoML to more machine learning tasks very soon.
+To learn more about all Cloud AI products, including AutoML early adoption, please visit our site.
+But Cloud AI technology isn't the only thing that we're pushing in new directions.
+TensorFlow has become a standard in machine learning since we open sourced it two years ago,
+with 13 million downloads. Now we're focusing on bringing it to new platforms.
+We recently announced TensorFlow.js, which brings machine learning to millions of web developers
+through JavaScript. New models can be created right in the browser,
+or on the server side through Node.js. While models trained offline can be imported, and run
+with WebGL acceleration. Of course, there is a big world beyond the browser.
+We also introduced TensorFlow Lite last year, which brings machine learning to Edge devices,
+including Android and iOS phones. This allows offline processing with low latency
+and ensures sensitive data never leaves the device.
+TensorFlow Lite also supports hardware like the Raspberry Pi,
+so smart devices like the AIY Project Vision and Voice Kits
+can leverage it as well. As Dave announced earlier this morning,
+we've released ML Kit in beta, an SDK that brings Google's machine learning capabilities
+to mobile developers through Firebase. The same technology that has powered
+Google's own experiences, like text recognition in Google Translate and Smart Reply in Gmail,
+will be available to power your own apps. Our vision for AI at Google is turning the latest technology
+into products that make better life for everyone. But we cannot do this without creative developers like you.
+Together, we can bring AI to the world. To talk more about how Google is supporting mobile development,
+let me introduce Francis Ma. Thank you. [MUSIC PLAYING]
+Firebase
+[APPLAUSE] FRANCIS MA: Thank you, Jia.
+Our mission for Firebase is to help mobile app teams succeed by providing a platform to help you
+solve key problems across the lifecycle of your app-- from building your app to improving app quality
+to growing your business. We've come a long way since we expanded Firebase two years ago from a real-time database
+to a broad app development platform. And it's so exciting to see there
+are now over 1.2 million apps actively using Firebase every month, including
+many of the top Android and iOS apps like Pandora, Pinterest,
+and Flipkart. We appreciate so many of you are trusting us with your apps,
+whether you're a sole developer or working in large teams. We're committed to helping developers at companies
+of all sizes to succeed. Now, one of our key goals is to help
+you take care of the critical, but sometimes less glamorous parts of app development so you can focus more on your users
+and build cool stuff. As an example, we've worked hard to ensure we're ready to meet your compliance
+needs with many privacy and security standards, as well as with the upcoming GDPR.
+We are also continuing to expand the platform to further simplify everyday developer challenges.
+A little over a year ago, the Fabric team joined forces with us to bring the best of our platforms
+together. And we've made a lot of progress since then. In the last couple of months, we've
+brought Crashlytics, Fabric's flagship crash reporter, into Firebase.
+And we've improved it by integrating it with Google Analytics so you can see what users did in your app that led up to a crash for much
+easier diagnosis. With the combination of Crashlytics, performance
+monitoring, and Google Analytics, Firebase is not just a platform to help you build your app's
+infrastructure, but also to help you better understand and improve your app.
+Another major set of advancements we've been making to Firebase over the last year is introducing machine learning to the platform.
+A few months ago, we took our first step with the release of Firebase Predictions.
+Predictions applies ML to your analytics data and predicts the future behavior of your users
+so you can take proactive actions to optimize your app. For example, you can lower the difficulty of your game
+for users who are likely to abandon it, or send special offers to users who are likely to spend.
+And you can also run A/B tests with different setup to see which of these performed best.
+So Predictions was the first step that we took to bring the power of Google's ML to work for you.
+And today, we're taking our second step with the release of ML Kit in public beta.
+ML Kit-- we're bringing together Google's machine learning technologies from across Google
+and making that available to every mobile developer working on Android and iOS.
+ML Kit provides five out-of-the-box APIs, like image labeling and text recognition,
+and these APIs can run on-device for low latency processing or in the Cloud for higher levels of accuracy.
+You can also bring your own custom TensorFlow Lite model if you have more specific needs.
+So let's talk through an example of how ML Kit can be used in an app. Now, I'm a dad of two. And my young kids are always so curious about the world
+around them. And I thought it'd be fun to build an app where we can take pictures and identify objects in them.
+And by using ML Kit's on-device image labeling API, it's easy for me to apply ML to identify different objects--
+it's a dog, a tree, or a bridge. Now, as many of you are aware, one of the key challenges
+of building for mobile is having a low latency response and assurance that it can work even
+without a network connection. And by using ML Kit's on-device API,
+I can be assured that image labeling will work, even if I'm out on a remote hike with no network connectivity.
+So on-device APIs are great for low latency processing, but there are other times where I want to optimize for highest accuracy possible.
+For example, when identifying landmarks, I want my kids to know this is the Golden Gate Bridge and not
+just any bridge. And ML Kit's Cloud-powered APIs give me that.
+They have a much higher level of accuracy and can be easily integrated right from my app client code.
+Then there are other situations where you may have more specific needs than what the out-of-the-box APIs can cover.
+And for those times, you'd want to bring your own custom ML models. Now, as mobile developers, we know how important
+it is to keep your app binary small and be able to iterate on the experience rapidly.
+With ML Kit, you can upload your TensorFlow Lite model and [? surf ?] that through Google's
+global infrastructure. Your app can dynamically retrieve these models and evaluate them on-device.
+This means you don't need to bundle the model with your app binary, and you can also update it without re-publishing your entire app.
+And since ML Kit is available through Firebase, it's easy for you to take advantage of the broader
+Firebase platform-- for example, experimenting with different ML models
+using A/B testing, or storing your image labels with Cloud Firestore, or measuring processing latency
+with performance monitoring, or understanding the impact on user engagement with Google Analytics.
+We are so excited about the possibilities that machine learning unlocks, whether you want to supercharge your growth or build amazing user
+experiences. We want to harness Google's advances to help you build and grow your app.
+And with that, I'd like to turn it over to Nathan Martz to talk about another area of exciting advancements
+in mobile computing-- augmented reality. Thank you. [MUSIC PLAYING]
+AR Core
+[APPLAUSE] NATHAN MARTZ: Hey, everybody.
+I got to say, it is incredibly exciting to be here today. At Google, we believe that augmented reality represents
+one of the most exciting advances in mobile computing today.
+By enabling our devices to see and sense the world much like we do, AR allows us to interact with digital content
+and information in the context of the real world, which is exactly where it's often the most useful and accessible.
+And as our phones learn to see the world in new ways, they unlock new possibilities for the kinds of experiences
+that developers can create. That's why, just three months ago, we launched ARCore, our platform for building augmented reality
+experiences, to allow you to take advantage of this incredible new technology.
+And we've already seen some amazing apps. For example, you can now create a floor plan
+just by walking around your home. You can visualize the intricacies of the human nervous system at real-world scale.
+Or if you like, transform your dining room table into the home of your next virtual pet.
+And as you've been building, we've been learning and listening to your feedback.
+Today, we're rolling out a major update to ARCore to help you create even richer, more immersive
+and interactive experiences. First, we know that creating a 3D app
+can be challenging, especially when you have to write directly to lower-level APIs like OpenGL.
+That's why we've created Sceneform, a brand new 3D framework that makes it easy for Java developers
+to create ARCore applications. And the thing is, Sceneform is not just
+for people creating apps from scratch. Its design actually makes it really easy
+to quickly add ARCore features to apps that you've already released.
+Under the hood, the Sceneform SDK includes an expressive API, a powerful, physically-based
+renderer, and seamless support for 3D assets inside of Android Studio.
+Best of all, Sceneform is optimized for mobile, architected from the ground-up with performance, memory,
+and binary size in mind. So we also know that sometimes as a developer,
+you want to build an AR app that can react to the specific physical objects in the real world.
+That's why today we're introducing Augmented Images, a new capability in ARCore that makes it possible to attach
+AR content and experiences to the physical images in the real world.
+And Augmented Images doesn't just detect the presence of a picture. It can actually compute the precise 3D orientation
+of that image in real time. So now you can use Augmented Images to do things like bring a textbook to life, create new forms of artwork.
+You can even see what's inside the toy box before you open it.
+Finally, though, we know that if we truly want our computers to work more like we do,
+they need to involve not just the things in our world, but the people in our lives.
+Fundamentally, our time here is spent with family and friends and colleagues. We collaborate, we create, we share experiences together.
+That's why we believe that every incredible thing that you can do by yourself in AR today, you
+should be able to do together with someone else. It makes me very proud to announce the next major step
+in how our phones see and understand the world, a new capability in ARCore that we call Cloud Anchors.
+With Cloud Anchors, we actually allow multiple devices to generate-- thank you-- a shared, synchronized understanding
+of the world so that multiple phones can see and interact with the exact same digital content in the same place
+at the same time. And this allows you, as a developer, to create applications that are collaborative and creative,
+multi-user and multiplayer. To show you exactly what I mean, we actually
+integrated Cloud Anchor support into our experimental, open source, AR drawing app "Just a Line."
+Let's take a look. [VIDEO PLAYBACK] [MUSIC PLAYING]
+So yeah. [APPLAUSE]
+Thank you. We know that Cloud Anchors will enable many new kinds of AR
+experiences. AR experiences that combine the power of your device, your creativity, and the people around you.
+But because these experiences are so powerful, we believe that they should work regardless
+of the kind of phone you own. That's why I'm very excited to say that we're making ARCore's Cloud Anchors
+available on both Android and iOS devices. [APPLAUSE]
+It's pretty awesome. So everything that I've just talked about today, from Sceneform to Augmented Images to Cloud
+Anchors and more, is available for you to use right now.
+You can learn more about that and start creating your own ARCore-powered app by going to developers.google.com/ar.
+And with that, I'm going to hand it back to Jason to wrap things up. Thank you all very much for your time. [APPLAUSE]
+JASON TITUS: Thanks, Nathan. Hopefully you can see from our talks today that we're committed to meet you
+where you are, no matter what platform you're building on, and help you take advantage of the latest innovations,
+from machine learning to augmented reality. And much of what you heard of today
+is built on top of our Cloud technology. This includes powerful APIs around machine learning,
+smarter data analytics with BigQuery, and a focus on low latency and high reliability.
+And whenever possible, we try and take things out as open source, like Kubernetes and TensorFlow,
+so they can be broadly adopted and openly evolved across the industry.
+With our Cloud technology, we're taking the lessons we've learned building large-scale software and bringing them to you.
+So I/O, this year, is bigger than ever. We've got some great content lined up for the next few days.
+And you'll see we're doing something new this year-- inspiration talks. They take a broader look at how the technology that you build
+affects the world around us. So we cover topics like building for a better tech-life balance,
+the future of computing, and using AI to transform health care.
+We all have a responsibility for what we build as well as the people that we build for,
+so I hope you have a chance to check these out. And one of my favorite parts about having
+I/O so close to campus is that we're able to bring in more than 2,000 Googlers who built these products.
+They're here not only to help you, but more importantly, to get your feedback
+on what we can do better. My hope for this conference is that each of you
+walks away feeling that you can do something that you couldn't do before, and that you're able to use that knowledge to build things that matter.
+Thank you very much, and have a great Google I/O. [APPLAUSE] [MUSIC PLAYING]

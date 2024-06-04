@@ -1,0 +1,445 @@
+[MUSIC PLAYING]
+[MUSIC - DRAKE, "ICE MELTS"]
+[CLOCK TICKING]
+[FEET PATTERING]
+[WHISTLE] [NON-ENGLISH WHISPERING]
+[NON-ENGLISH SPEECH]
+[CLATTERING]
+[CARTOON CHARACTERS WHOOPING] [MUSIC PLAYING]
+[CROWD CHEERING]
+JASON TITUS: Hi, everyone. I'm Jason, and I run our developer product group here at Google, and it is so great to be back at Shoreline
+again this year. And for those of you joining via our 400 I/O Extended
+sessions across 85 countries, as well as you joining over the live stream, thank you and welcome.
+Earlier, Sundar talked about our various billion-user platforms, and whether it's Android or the web through Chrome,
+our success here would not be possible without you.
+So we're going to spend the next half an hour diving deep into exactly what we're doing for all of you,
+the developers who build on our platforms every day. [CHEERS]
+And no matter what platform you're building on, our goal is to make your job easier,
+to allow you to focus on the problems you're trying to solve, by minimizing the pain
+points of building a product. We want to simplify repetitive tasks,
+whether that means dealing with user log in or instrumenting analytics or synchronizing real-time data.
+We want to give you the tools to make it easy for you to solve everyday problems in simple and powerful
+ways, as well as create entirely new products using technologies
+like machine learning and VR and voice-enabled interactions.
+It is important to us that you are successful. So in addition to building products that
+help you build your apps, we are also on the ground in over 130 countries
+with programs like Women Techmakers, and the Google Developer Groups. [CHEERS]
+Many of whom are here today. [CROWD CHANTING EXCITEDLY]
+[LAUGHTER]
+So I believe we have GDGs from 79 countries here today.
+So that's pretty exciting. [CHEERING] So we're also investing in training programs,
+like Google developer certifications and courses through Udacity and other partners, to help you deepen your technological capabilities.
+And from this work around the world, we're seeing firsthand that developers
+are at the forefront of technological change and innovation.
+We see you solving challenging problems in ways that could not be done before. For example, last year on a trip to Indonesia,
+I met Gibran Huzaifah. Having watched aquaculture become an increasingly important part of his country's economy,
+he left a career in biology to become one of the nation's 3.5 billion fish farmers.
+What he found was a 400-year-old trade that was mired in inefficiency, where
+farmers were frequently over or under-feeding their fish.
+With his co-founder, Muhammad, they decided they could help, and they started eFishery which builds
+a smart, automated fish-feeder that can sense when fish are hungry and feed them.
+As a result, they can save the farmers up to 20% of their annual cost, as well
+as reducing harmful environmental runoff. And this is just one of many stories
+of how our global developer community is making an impact in unexpected ways.
+Now, I'd like to bring up some colleagues to give updates across our developer platforms.
+Let's get started with what we're doing to make Android development easier. Please welcome Steph.
+[MUSIC PLAYING]
+STEPHANIE SAAD CUTHBERTSON: As Sundar and Dave said, with two billion active devices on Android
+and 82 billion apps installed from Play, Android's momentum is amazing.
+What I like even more is how Android's momentum is making so many developers successful.
+The number of developers with over a million installs grew 35% just in the past year.
+And we're making it easier to grow revenue, too. In addition to credit cards, gift cards, everything else,
+we've expanded direct carrier billing to reach 900 million devices with over 140 operators.
+Altogether, the number of people buying on Play grew by almost 30% in the past year.
+Now, to support this vast ecosystem we're working hard to help developers build great apps at every stage--
+writing your app, tuning, and growing your business. Today, we'll walk through four big themes.
+The first is languages. [CHEERING AND APPLAUSE]
+Next is making Android development faster and easier
+with the IDE and Libraries. Third, we'll show you even more tools for building
+high-quality experiences. Finally, we want to help you grow and reach new users,
+leveraging Android Instant Apps. So let's go straight in. We have been so excited to announce first-class support
+for Kotlin. [APPLAUSE]
+This starts now. In Android Studio, Kotlin support is now built-in. We'll support building apps with as much Kotlin
+as you want, from zero to 100 percent. Now, all of you who've written code in Kotlin know why we did this already.
+But for everyone, we did it because Kotlin is a beautiful programming language.
+We asked one Googler how he felt after writing Kotlin for a couple of weeks. While I would never embarrass Adam Powell
+by using his name on stage, he said, "I think I am in love."
+[LAUGHTER] So, many of you told me Kotlin makes programming fun again, with so many wonderful features like you're going to see here.
+And Tor will show you more in just a moment. As developers, languages are the tools
+we use to express our thoughts. With Kotlin, there's just so much less syntactic noise
+that stands between what I want to say and how I say it.
+Now, for those of you who are wondering what this may mean for the Java programming language and C++,
+our commitment there is unchanged. We're adding Kotlin and enhancing our existing
+languages. For instance, in Android Studio, Java 8 features are now directly supported with the Java C compiler
+and we've added more Java 8 Language APIs in O. So if you wish, you can ignore Kotlin completely
+and your existing language support will keep getting better.
+But if you can't wait to get started with Kotlin, it is incredibly easy.
+Kotlin works 100% with the Java programming language, which means it is completely interoperable. That means you can keep every line of code
+in your existing project. You can seamlessly call from Kotlin into the Java programming language and back, which means
+it is very easy to get started. You can add as little as a single Kotlin class.
+Another reason why Kotlin is such an amazing fit for Android is it's mature and production-ready.
+Kotlin has been around for five years and major apps like Flipboard, Pinterest, Square Cash,
+Expedia, and more are all using Kotlin in production.
+Now, Kotlin's not just a great language. It has outstanding IDE support. The team that brought you Kotlin is the same team
+behind IntelliJ which, as you know, is what powers Android Studio, our IDE.
+Finally, Android has committed to Kotlin as a first-class language, and, as you heard,
+we're announcing our plans to partner with JetBrains to move Kotlin into a nonprofit foundation.
+Kotlin is already open-source under Apache 2, which means it is open and will remain open.
+We love how Kotlin fits with our ethos around community. And now, Tor would love to show you Kotlin in action.
+So, Tor. [CHEERING AND APPLAUSE]
+TOR NORBYE: Thanks, Steph. So here's a pretty typical data class with three properties implemented in Java.
+As you can see, there is a lot of boilerplate code here with fields, scatters, setters, equals, hashCode, and so on.
+Let's take a look at how we would implement this in Kotlin. So I'm going to go ahead and delete this class,
+and now I'm going to write the equivalent Kotlin code. So here's the first line, and that is also the last line.
+That is all you have to write. This code-- [LAUGHTER] [CHEERING AND APPLAUSE]
+This code is completely equivalent to the 87 lines
+I just deleted. The compiler does all the work. It generates the same code as before, plus some extra goodies.
+So from Java, I can call into my new Kotlin class and access the same getters as before.
+But look what happens in Kotlin. Here we have a really nice property syntax.
+So I can, for example, use assignment to assign to this property instead of calling a setter.
+Now, as you're starting out with Kotlin, you might find yourself stuck, realizing you don't know how to do something. So let's say that I'm about to do some image processing
+and I realize that I don't know how to declare a two-dimensional array. Well, what I can do is open up a Java file,
+write the code in Java, which I know how to do, go back to Kotlin, and look what happens when I paste.
+That's right. The IDE converts it for me. [APPLAUSE]
+That is a huge help when you're starting out. So as Steph can attest, I could literally stand for three hours
+and tell you all the things I love about Kotlin. And I think I have. STEPHANIE SAAD CUTHBERTSON: Yes. TOR NORBYE: But we don't have time for that.
+So instead, I will encourage you all to come to our excellent talks on Friday, where you'll learn everything you need to know
+to get started with Kotlin. And I hope you'll love coding in Kotlin as much as I do. STEPHANIE SAAD CUTHBERTSON: Thanks, Tor. TOR NORBYE: Thanks.
+[APPLAUSE] STEPHANIE SAAD CUTHBERTSON: For us at Android,
+adding Kotlin feels like a moment in history. We are excited today.
+It's just the beginning, though. We're even more excited about the possibilities that Kotlin creates for the future.
+But there's more. Our second theme is making development faster and easier
+with our tools and libraries. Android studios are official IDE. It is purpose-built for Android, and we
+keep increasing investment. Today, we're releasing Android Studio 3.0's first Canary,
+focusing on speed and smarts, and Android platform support, plus new libraries for app architecture.
+So let's go straight to a demo. It's more fun. All right.
+So here I have Android Studio 3.0, and I've just built and deployed my app.
+And what you'll see are the new profilers-- CPU, memory, and network.
+So I'm just going to open the app. And let me do a little bit of network
+here so you can see it on the graph. What you can see is the network profiler,
+and it's really cool that you can see all of the requests, but particularly cool would be if you could click and see
+the actual payload of the request. Even better than that would be if you could look and see
+the headers, but I actually think it would be very cool if you could click on the call stack
+and select and go to the line of code. [APPLAUSE]
+So those are the three new profilers.
+3.0 also includes a preview feature for debugging any APK, so you can build in any IDE
+and debug in Android Studio, including using these profilers for Java code.
+So to say more on speed and smarts, your feedback has made driving down sync and build time our number one priority.
+Benchmarking with a real life, 100 module project since 2.2, the build config time has dropped
+from three seconds down-- sorry-- from three minutes down to two seconds. And we will keep working on build speed.
+On the emulators, we've added Play Store for Android testing. And there's so much more here.
+The next thing I want to talk about is Android platform support. You will find awesome features for Android and O,
+like end-to-end instant app support, O system images, and tons of helper tools.
+For instance, Dave talked about adaptive icons, which we all need to build now, so our team has built tools that make that easy.
+And one of my personal favorite features is, to download Android dependencies for build, you don't have to go through the Android SDK manager anymore.
+We're now distributing through our own Maven repository. [CHEERING AND APPLAUSE]
+Finally, you have asked us to make Android Frameworks easier,
+like providing an opinionated guide to best practices or a better way of dealing with lifecycles.
+We're launching a preview of new Architecture Components, libraries for common tasks.
+This starts with libraries for the ViewModel pattern, Data Storage, and managing activity and fragment
+lifecycles. We would love if you'd download and try all of this today.
+Now, as we move from coding over into how to tune your quality and grow, I'd like you to hear from Ellie Powers.
+Please welcome Ellie. Thank you. [MUSIC PLAYING] [APPLAUSE]
+ELLIE POWERS: Thank you, Steph. As all of you know, building a successful business on Play
+starts with a high-quality app. And you've told us that sometimes you need to target the right devices in order to ensure the best
+user experience. So we're making it easier to understand Android's devices
+and target them in the Play console. Now, you can browse a detailed device catalog.
+No more searching for specs one device at a time. If you need a certain amount of RAM or you have a problem with a specific system on a chip,
+you can now set targeting rules to address that. Before excluding devices, you can even
+see your installs, rating, and revenue per device. Now, ensuring quality experiences really matters.
+The Play team took a sample of apps and analyzed the correlation between app quality
+and business success. When apps moved from average to good quality, we saw an amazing six-fold increase
+in spend and a seven-fold increase in retention. That is phenomenal.
+We are always looking for new ways to bring users to your apps, and Instant Apps is our big bet in this area.
+Last year, we previewed Android Instant Apps. Instant Apps allows you to experience everything
+you love about apps, but without the hurdle of installation. Since then, we've been working with partners
+to refine the product. They have launched 50 Instant Apps, from immersive video with Vimeo to mobile commerce with Jet
+to apartment hunting with HotPads. And while it's still early days, developers are reporting positive results.
+For example, Jet, HotPads, and Vimeo are seeing double-digit increases in purchases,
+leads generated, and videos watched. So today, we are opening up Android Instant Apps
+to all Android developers. This means anyone-- [APPLAUSE] Thank you.
+This means anyone can now build and publish an instant app.
+Feedback from our partners has shaped the development tools that we're making available to all Android developers today.
+Let's take a look. You build Instant Apps in Android Studio 3.0.
+Many of you wondered if building an instant app means maintaining two forks of your code, right? The answer is no.
+You can use exactly the same code for your instant app and your installable app.
+Your instant app is downloaded as needed, feature by feature. So you'll organize your project into feature modules
+and then use that code in both your instant app and your installable app.
+Now we know refactoring your app into features can sometimes be a bit of a pain, so we're providing tools to ease the process.
+For example, the new modularized refactoring action helps you move code and resources between modules.
+Every app is different, but we've seen, with our early partners, that instant app development typically takes about four to six weeks with the latest
+tools. As you all know, the faster your product is, the more usage you'll get, so you'll want each module
+to load as quickly as possible. We're providing optimization tools, from space-saving shared libraries,
+to more efficient asset delivery, to on-the-wire compression. And when you're ready, you'll just upload your instant app
+APKs, together with your installable APK in the Play console.
+If you're getting ready to build for Android O, we're introducing new APIs and behaviors for Instant Apps.
+There's a new, more-efficient runtime sandbox and users will be able to find Instant Apps directly
+in the launcher and then add them to their home screens. Let's look at an example.
+I heard about "The New York Times" crossword app recently. And I can search for it in the launcher
+and then open it with a single tap. I can even drag it to the home screen so it's easy to come back later.
+By the way, in early testing "The Times" is seeing significantly more engagement from people playing and completing puzzles.
+To get started building an instant app today, go to g.co/InstantApps and come visit us at our I/O sessions
+or at the Android sandbox. With Android in so many places it's enabled us to create new types of experiences,
+like the Google Assistant, bringing Google's intelligence to billions of people. It's been really cool to see the Assistant really coming to life
+and rolling out on so many devices this year. Next up, we'll learn what the Google Assistant means to you,
+as a developer, from Brad Abrams. Thank you. [MUSIC PLAYING] [APPLAUSE]
+BRAD ABRAMS: Thanks, Ellie. In December last year, we launched an early version
+of the Actions on Google developer platform. This version lets you build apps for Google Home.
+But since then, we've been focused on growing your audience, expanding the platform feature
+set, and improving the developer experience. As you heard in the keynote this morning,
+your apps are now available to Google Assistant users across Android and the iPhone.
+And as we continue to expand the Assistant's reach to more surfaces, the developer platform will follow.
+With apps for the Assistant now available on the phone, you'll have the opportunity to grow your user base.
+But more importantly, you'll be able to build apps for entirely new assistive use cases, things that previously
+weren't well-suited to a voice-only interface, such as shopping for clothes or ordering food
+from a lengthy menu. In addition, with our new UI elements such as image carousels, lists, and suggestion chips,
+users can easily get things done with your app. They can seamlessly transition between voice,
+typing, and taps, all in the same conversation. You can build and deploy apps for the Assistant on the phone
+starting today. [WHOOPING] Thank you. [APPLAUSE] We also want to make it easy to complete purchases
+through the Assistant to help you grow your business. We designed a transaction experience on the Assistant
+to be easy and lightweight for users and developers alike.
+You heard about Transactions this morning from Valerie, but let me expand a little bit from a developer point of view.
+For payments, you can choose to use Google-facilitated payments, which are easy to integrate,
+allow you to leverage hundreds of millions of cards that users have already stored with Google,
+and are available to developers for free. Or you can choose to use a payment method that users
+have already provided you. To do so, we recommend using our new, seamless Account
+Linking support. That allows users to sign in to an existing account
+or even create a new account in just two tabs.
+However, the transaction isn't over when a user pays. Users may want to check on the status of an order,
+modify an order, or even re-order an item. That's why the assistant now allows
+users to see all their transactions in a single history view.
+Finally, we built a new orders update feature to make it easy for users to reengage with your app.
+You're now able to send status updates to users asynchronously like, for example, when a car arrives to pick them up,
+when their food is delivered, or when a prescription is ready. You can start building and testing transactional apps
+today, and they'll be available to Google Assistant users on the phone soon.
+But what good are these transactional features if users can't discover your app?
+Today, we're rolling out a new app directory. Users can access it with a single tap from the Google
+Assistant. It not only has categories and user ratings, it also allows users to try your app right from the directory
+page. Users can also create a shortcut to your app for an easy way
+to invoke it. For example, instead of saying, "OK, Google, ask forecaster Joe, what's the surf report for the Outer
+Banks," you can just say your shortcut. "OK, Google, is the surf up?"
+Each apps directory page is also shareable on the web so that you can promote your app to new users,
+and your existing users can share it with their friends.
+And to make finding your app easier, the Assistant is also learning from the directory
+and other information provided by the developer. Thanks to these additional signals,
+the Assistant can often present users with a few different options for general requests like,
+play a game. While we are confident these features will help improve discoverability of your apps,
+our work is not done. Improving discoverability is important to all of us,
+and you can expect ongoing investments and improvements in this area.
+We're equally invested in providing a great developer experience.
+Today, we're launching a new developer console. The Actions Console helps you work better as a team,
+collect data about your app's usage, performance, and discovery patterns.
+This new console is well integrated with Firebase and the Google Cloud console so you can easily
+share data with your apps. In addition to the brand new console, we're also providing you access to developer tools
+that let you quickly and easily build apps for the Assistant.
+Since launching our platform, we've worked with an expanding number of developer tools companies
+to make their solutions compatible with actions on Google. We're also expanding the capabilities
+of api.ai, our own conversation-building tool, launching new features such as follow-up
+intents, pre-built agents, and in-dialogue analytics.
+While we're still at the early days of the Actions on Google Platform, we're focused on making it robust
+and expanding its reach and capabilities. We're soon launching the platform in UK English,
+with French and German and other languages following later this year.
+We also intend to bring the platform to many new devices, including all those powered by the Google Assistant SDK.
+We're excited about the road ahead and we want more of you to join us by developing for the platform.
+With an addressable audience of 100 million devices, new capabilities like transactions
+and improved developer experience, we think this is an incredible opportunity for all of us.
+You know, the magic of the Assistant is enabled by Google's deep investments
+in AI and the cloud. And to tell you more about how you can use that directly,
+please welcome Fei Fei. Thank you. [MUSIC PLAYING] [APPLAUSE]
+FEI FEI LI: Hi. I'm Fei Fei Li.
+I'm chief scientist of AI and machine learning at Google Cloud. What an exciting day.
+I've been doing AI research for almost two decades, and I can honestly say these last few years have
+been the most exciting of my entire career. AI is transforming everything Google does.
+And as we speak, industries from finance to health care
+are augmenting human capabilities with machine insights.
+But building AI expertise is a significant investment,
+and we know that many of you simply haven't had the opportunity.
+I joined Google precisely for this reason, to ensure that everyone can leverage
+AI to stay competitive and solve the problems that matter most
+to them. In other words, we're meeting you where you are.
+We call this democratizing AI. And I'd like to share a few examples in action.
+First, we're democratizing the algorithms
+that make AI so powerful with a collection of high-level machine learning APIs
+that can help your applications understand the content of images, videos, audios, and natural language
+with minimal efforts. Whatever your level of expertise,
+these are tools you can put to use immediately and see results.
+At the same time, we're equally focused on developers
+ready to build their own models. In November 2015, Google open-sourced TensorFlow,
+a software framework for machine learning that is used extensively throughout Google.
+Today, we're continuing the evolution by bringing you high-level APIs in TensorFlow 1.2.
+That makes it easier for you to start training machine learning models on your data right away using the best
+hardware you have available. I encourage you to check out our TensorFlow sessions
+to learn more. Additionally, we also launched the Cloud machine
+learning engine to help you manage large-scale TensorFlow
+training and prediction jobs in the Cloud.
+Of course, there's no getting around the fact that AI requires enormous computational resources.
+And this represents one of the steepest barriers to entry for developers.
+To address this, Sundar announced this morning that Google has developed a second-generation TPU,
+or Tensor Processing Unit, that can train machine learning models, as well as run them.
+Our TPUs deliver a staggering 180 teraflops
+and are built for just the kind of number-crunching that drives machine learning today.
+To put this in perspective, our new large-scale translation model takes a full day to train on 32 of the world's best
+commercially-available GPUs. While only one eighth of a TPU pod
+can do this just in an afternoon. But TPU specs are only part of the story.
+The real breakthrough lies in how we're working to democratize computation as a whole.
+Google Cloud Platform allows us to make this incredible new hardware available to everyone.
+You'll soon be able to rent Cloud TPUs without any up-front capital expenses, the same way you can
+rent other infrastructures on Google Compute Engine, paying only for what you need.
+We strive to ensure consistent experiences and painless
+interoperability, whether you're running your cloud on CPUs, GPUs, TPUs, or whatever comes next.
+If you're interested in being one of the first developers to train machine learning models on Cloud TPUs,
+please sign up at this link to learn more about our Cloud TPU
+alpha programs. I see all the cell phones. [LAUGHTER] As an AI researcher myself, I can tell you
+that the research implications of TPUs are significant, as well, which is why I'm so excited also
+about the TensorFlow Research Cloud, a cluster of 1,000 Cloud TPUs that we're
+making available to top machine learning researchers for free.
+As an example, we shared the news about our cloud TPUs with Harvard Medical School and they're
+eager to use our TensorFlow Research Cloud to do research at the national scale.
+That just hasn't been possible until now. We're setting up a program to accept applications for access
+to the TensorFlow Research Cloud, and you can sign up to learn more about this.
+I especially encourage students and Kaggle users to apply.
+These are exciting times. Google has spent years developing
+some of the most advanced AI in the world. And the emergence of the Cloud means
+you can share it with everyone, from start-ups to enterprises,
+from health care to retail, and everything in between.
+We created the Cloud AI team to make AI democratic,
+to meet you where you are with Google's most powerful AI
+tools, and to share the journey as you put them to use.
+Whether you're building state of the art machine learning models from scratch or just want turnkey solutions
+for immediate results, we're here to support you at every step of the way.
+Now, to tell you more about how Google is improving development for the web, please welcome Tal.
+Thank you. [MUSIC PLAYING] [APPLAUSE]
+TAL OPPENHEIMER: Thanks, Fei Fei. Hi, everyone.
+I'm Tal from the Chrome team, and I'm excited to tell you about some of the great improvements we've made on the web over this last year.
+The web is big. With over 2 billion instances of Chrome, we know that the web has tremendous reach.
+But one of the real strengths of the web is that it's bigger than a single browser.
+Various estimates show that there are well over five billion actively-used devices,
+and regardless of whether that device is a smartphone or a laptop or a desktop or a tablet,
+they all have a browser. And that means that any web app is available on these billions of devices today.
+And we've seen this have a real impact on how many users web apps are reaching. We've all seen how quickly mobile has been growing,
+and native apps have been growing at a tremendous pace with it. But what's really remarkable is that, even with the web's
+large initial reach, we've seen the average monthly web audience growing even faster.
+And because of this growth, we're seeing the web expand into new areas, with experiences like web VR being
+built on the web platform. And the web continues to pop up in more and more places,
+even some we didn't really expect. A couple of weeks ago, McDonald's announced
+that they used the web and Polymer to build their new menu boards. So now, when you're looking at the menu at McDonald's, that's built on the web, as well.
+So with the web pretty much everywhere, we're constantly trying to push the boundaries on what it can do.
+If you look at all of our launches since last year's I/O, we've shipped 215 additional APIs
+that cover a range of capabilities for making it easier to integrate payments into your experience, to making it possible to build
+fully-capable off-line media experiences directly on the web. And with all of these new capabilities,
+we've seen a massive growth in experiences built on the web. Accelerated mobile pages, or AMP pages,
+make it really easy for publishers to easily create fast articles. And since launch, we've seen this
+grow to over 2 billion AMP pages from across 900,000 domains.
+And beyond AMP pages, the modern mobile web also allows developers to build deep, rich mobile experiences
+with something that we call Progressive Web Apps, or PWAs. PWAs are about helping web developers leverage
+the web's new capabilities to build high-class experiences that feel immersive.
+They can load quickly and work offline, and can even send notifications to users.
+And we've seen a number of amazing experiences taking advantage of these new capabilities. As just one example, there's Twitter who recently rebuilt
+their mobile web experience. Here, they have a polished, fast, immersive experience that
+works on any connection type. And it can send users notifications, and it's completely built on the mobile web
+so it's already accessible on billions of devices. And with an immersive experience like this,
+we also want to make sure that users can get back to it easily. Add to Home Screen has always allowed users
+to add any experience on the web directly to their Android home screen, but with our improved Add to Home Screen flow,
+when you add a PWA to your home screen, it's fully-integrated into the platform. So to users, it feels like any other app experience
+on their device. It will appear in the Android launcher alongside your Android apps, and it'll even appear
+in Android storage settings. But since it's a PWA, it's inherently smaller,
+with Twitter's Progressive Web App at under one megabyte. So users are getting a comparable experience
+that requires significantly less storage space. And the fact that it's so small doesn't just
+reduce its storage size, but also means that it loads almost instantly on any connection type.
+And this fast, integrated, improved Add to Home Screen flow is rolling out now.
+With all of these new capabilities, we've also been working to make sure it's really easy for web developers to build these experiences.
+We'll be going into a lot more detail on how to develop PWAs throughout the mobile web track over the next few days.
+But no matter how you're building your web app, Lighthouse is a tool that can show you how to improve your web experience.
+Lighthouse is a Chrome extension and command line tool that runs almost 100 audits on your site
+to identify how you can improve your app's performance, accessibility, and Progressive Web App-iness.
+And we're excited to announce that Lighthouse will be integrated directly into Dev Tools.
+So now you can quickly see how your website is doing and what to do next directly in Chrome.
+[CHEERING AND APPLAUSE] And with all of these tools, we've
+seen just how easy it can be for companies to take advantage of these new capabilities for their web experience.
+To give one example, there's wego, one of the biggest travel players in Southeast Asia and the Middle East,
+that built one of the most polished PWAs we've seen. Their experience works quickly whether you're
+online or offline. They link off to AMP pages to ensure that pages load quickly,
+as well, and they leverage some of the newest web APIs to make payments and identity really
+easy for their users. But what's really remarkable is that this core PWA experience
+was built in just over two months by a single engineer who was new to web development.
+And this is just one example of many. Leveraging the modern mobile web is now
+the norm around the world. We've seen companies everywhere building progressive web apps
+and seeing a tangible impact on their key metrics. With the modern mobile web, it's possible to easily build
+immersive, fully-capable experiences that can reach billions of people around the world today.
+And now, let's turn our focus to what we're doing to help make it easier to develop apps and grow your business.
+Please join me in welcoming Ben. [MUSIC PLAYING] [APPLAUSE]
+BEN GALBRAITH: Thanks, Tal. Hey, everyone.
+Last year at I/O, we introduced an expanded Firebase, a mobile development platform that helps you
+with things like storing data in the Cloud and synchronizing it across devices, pinpointing app crashes, sending targeted notifications to just
+the right users, serving ads in your apps, and more. All of this is bundled together in a single, easy-to-use,
+cross-platform SDK. Firebase also includes a powerful, free, and unlimited
+analytics tool purpose-built for the needs of native apps. And new this year, Analytics gives you real-time views
+into what's happening inside of your app, which opens up a live window into what's happening right now.
+Firebase is also integrated with the Google Cloud Platform, which means it scales with you as your needs grow.
+For example, Analytics connects seamlessly with BigQuery, which means you can execute fast SQL-like queries over your data at scale.
+Since last year's launch, over a million developers are using Firebase. We are so humbled that so many of you
+have taken this journey with us and have chosen to use us in your app. We are deeply committed to Firebase
+and we're doubling down on our efforts to simplify more everyday developer challenges.
+To that end, in January, the Fabric team joined Google. Since first launching Crashlytics in 2011,
+the Fabric team has been on a similar mission to ours and have built a remarkable set of products that have achieved
+widespread developer adoption. The Firebase and Fabric teams are hard at work integrating these two platforms together
+in a thoughtful way to bring you the best of both. We'll have more to share on this front in the coming months.
+Over the past year, we've been continuously improving and expanding Firebase, and today, I want to highlight a couple of the enhancements
+that we've made, starting with Cloud Functions. One of our goals with Firebase is freeing you
+from having to think about servers and infrastructure so that you can focus on creating great apps.
+But something's been missing for us to truly accomplish this goal, and it's a gap that we're now
+able to fill with Cloud Functions for Firebase, which we just recently released into beta.
+Cloud Functions gives you an easy way to deploy JavaScript code into the Cloud, and this deployed code is automatically mapped to a URL,
+but it can also integrate with Firebase events. And these functions are run in a managed, Node.js environment
+so you can easily tap in to the vast node package ecosystem. You can use these functions to do things
+like respond to a database update by sending a notification with Cloud Messaging, or you can resize images uploaded by your users
+before saving them with Cloud Storage. And today, we're opening up a new integration
+between functions and Firebase Hosting. Now, hosting lets you serve static content
+like HTML and CSS files that are automatically backed by a global caching network.
+By combining this with Cloud Functions, you can now generate dynamic web content that you can serve on your own domain with the static content
+and is both accelerated by this global caching network. So with Cloud Functions, you can deploy individual units of code
+as you need them, which gives you a really elegant way to factor code out from your apps
+and share them across your web and native apps as you need without having to worry about app servers or server site applications.
+And it enables true server list development. We are really excited about this.
+All right. I've got one more thing I want to share with you, and this has to do with your native apps quality.
+As developers, we spend a lot of time optimizing and testing our apps to get them to perform just right, but once we release them into the wild,
+it's really only our users who know how well they're performing. That's because it's pretty hard to know exactly how they're
+behaving across a huge array of devices and widely-variable network conditions across the world.
+And not having our apps perform well is frustrating for everyone. So today, I'm pleased to share that we're
+releasing a new product to help, called Firebase Performance Monitoring.
+After you add Firebase Performance-- [APPLAUSE] Thank you. After you add Firebase Performance to your app with one line of code, Firebase Performance automatically
+provides insights into two of the most critical aspects of app performance-- startup time and network
+responsiveness. You can then use its simple API-- [APPLAUSE] Thank you.
+You can use its simple API to measure virtually anything in your app. As you see on the slide, you just invoke a function at the beginning and then at the end,
+and Firebase Performance does the heavy-lifting of collecting all of the performance metrics for you across all of your app instances.
+And then you can filter these metrics by country, device type, OS, and app version
+to get a clear view of where you need to focus your efforts. The beta version of Firebase Performance is available today.
+[CHEERING AND APPLAUSE] Thank you.
+We hope this makes a big difference in your efforts to create high-performing native apps.
+We have a bunch of other Firebase announcements today at sessions here at I/O, including support for phone number authentication, and we're open-sourcing
+many of our Firebase SDKs. [CHEERS AND APPLAUSE]
+Thank you. Thanks to new enhancements, we've also made the Firebase
+Test Lab for Android, and our recently-released Unity and C++ SDKs, Firebase is great for games developers too.
+We want Firebase to be the best place for you to start your next app, freeing your energies
+to focus on making your app awesome, which is where you should be spending all your time. Thank you.
+Now I'd like to bring Jason back out. [APPLAUSE] [MUSIC PLAYING]
+JASON TITUS: Thanks, Ben.
+As you can see, at Google we have been working across a range of teams
+to make it easier to build products. During I/O, you'll have an opportunity
+to go deep into a number of these, with 14 content tracks and over 140 breakout sessions covering everything
+from Android, to the Cloud, to VR. We also have Sandboxes to help you get hands-on experience
+with our products, as well as over 70 code labs to get you up and running with our latest APIs today.
+In addition, the Googlers that built these products are here.
+So grab them for one-on-one consultations in office hours or at the Sandboxes. Not only can they help you understand our products,
+but more importantly, they can get your feedback on how we're doing.
+I do have one other announcement before we go out to breakout sessions. As you can tell, we're really excited about the future of AI,
+and particularly our Google Assistant platform. And so to get you ramped up, we're hosting our first-ever Actions on Google developer challenge.
+By building creative, useful, or simply fun apps for the Google Assistant, you can compete to win one of over 20 prizes.
+And for those of you here at Shoreline, we're giving you a Google Home device and $700 of Cloud credit
+to get you started. [CHEERING AND APPLAUSE]
+We cannot wait to see what you build.
+So Sundar talked about the technological shift to AI,
+as well as the power of open platforms. It's a really exciting time in computing.
+We hope you're as inspired as we are about the future. And remember, all of us here at Google
+are here to help you this week, so please take advantage of it. Let's build great things together.
+Thank you, and have fun. [CHEERING AND APPLAUSE] [MUSIC PLAYING]

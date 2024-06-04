@@ -1,0 +1,559 @@
+Introduction
+>>JEANINE BANKS: Welcome to the 16th Google I/O! [Cheers and Applause].
+Yeah! I want to thank our fantastic developer community, all millions of you around  the world for choosing to build with Google.
+Literally whatever you imagine, you can bring it to life. Only Google’s ecosystem gives you the potential to reach
+people on 3 billion Android devices and 2 billion Chrome and
+Chromium-based browsers. You have created millions of helpful apps with Firebase, Google Cloud, and generative AI
+models like Gemini and Gemma. [Applause].
+At Google, we’re on a mission to make generative AI accessible to every developer on the planet. It’s transforming the very
+fundamentals of software development, including new techniques for how you build and new inspiration for what you
+build. AI helps you be more productive by assisting you with many different development tasks, such as writing,
+debugging and testing your code, or generating  documentation and understanding your codebase.
+That’s why Gemini is available to you, all developers, to use in Android Studio, Chrome DevTools, project IDX,  Colab, VSCode, Intellij, and Firebase.
+[Cheers and Applause]. Gemini is even more helpful with context such as app settings, performance data, logs, and
+source code. This is just a glimpse of AI changing “how we build.” Now, let’s go to “what you
+build.” Today, people just assume that things will work great across any platform, any device that they use.
+literally, anywhere they are, whether they're on the go, at home or at work. In their local town or the other
+side of the world. At the same time, the tools you use need to make that possible,  and they're constantly evolving.
+It's great to see the latest technologies come out, but that means more complexity, especially with  so many different AI concepts to learn.
+We want to make your lives simpler. As code becomes content and coders become creators.
+Whether you're building an AI-powered mobile app,  a Web app, or an interactive experience that works
+across all platforms, we're providing you with  powerful, more integrated development tools both
+from Google and the open ecosystem, and it comes  with secure, easy access to Google's most capable
+AI models and global Cloud infrastructure. Ultimately, it's about helping you to stay
+focused on what you want to build. Amazing products and services, and not the plumbing. Which takes me to our agenda for
+today. Up next, you’ll hear more on how you can use the Gemini API in Google AI Studio to develop
+engaging and multimodal apps. Then we will take you through how Gemini helps you create a whole new category of AI-powered
+experiences on Android and the Web, with exceptional levels of productivity. We've also been hard
+at work creating the very best experience  for full-stack, multiplatform development.
+Our team will share what’s now possible with Project IDX, Flutter and Firebase, and we think that will  dramatically expand what you can build.
+Then, we will talk about how you can build and customize your own
+AI models, with Gemini. You’ll see how Colab, Keras, and JAX make it really easy.
+Finally, I'll be back up here to share  one more thing before we wrap it up.
+Are you ready to jump in? [Cheers and Applause].
+Okay, awesome! Jaclyn, come join us! [Applause].
+AI APIs
+>>JACLYN KONZELMANN: Our investment in our AI research and infrastructure allows us to put the power of AI directly
+into your hands. We make it easy to start building with an AI app with a simple API integration, so you
+can focus on building the best possible products for your users. Now, meeting many of you at
+hackathons and meetups, I’m blown away by how you are pushing the boundaries with our AI models, from new ideas using
+audio and video inputs to the creative use of longer context windows, it’s really inspiring to see!
+And like you heard about earlier today, selecting the right AI model for your needs requires a balance across quality, cost and speed.
+That’s why I’m thrilled that Gemini 1.5 Flash is officially open to all developers to start building with today.
+You can get started using the Gemini API in Google AI Studio, which is now available in more than 200 countries and
+territories. [Cheers and Applause].
+But what I'm seeing more and more these days is that it isn't just about selecting the right model, but also the right
+techniques to bring your ideas to life. Let’s say you want to personalize the responses you
+get. Now, one way to do that is by tuning the model. In fact, Google AI Studio lets you do that in minutes!
+And now with our 2 million token context window, you have another compelling option. Let me show you how in Google AI
+Studio. So here, I'm already signed in.
+We’ve made it easier for you to start prompting right away. Or, if you want to get straight to code,  you can quickly grab an API key here to use
+with one of our many SDKs. If you are looking for some inspiration, we also have a Gemini  API Cookbook, which is a great resource.
+But today, I want to take you through one of my own personal work flows, that has unlocked a new way of getting
+things done. Now, if you are anything like me, ideas always seem to strike when I'm away from the computer.
+So now when an idea comes to mind, I quickly grab my phone and capture a voice memo to myself.
+This could be at the park with my daughters or while I’m out walking. So let's actually jump into
+a saved prompt that I have right now. This is what I use to help me write new blog posts. As you can see, I've already
+added some system instructions, which tell  the model it's an experienced writer.
+I've also added a few of my previous blog posts so the output will better mirror my tone, style and word choice.
+Next, I'm going to add a bunch of voice memos  of some half-baked thoughts I've had recently for an upcoming post. So we'll click in here,
+go into my Drive and add these two voice memos. Now, while those are loading, I'm actually going
+to play you a clip of one of those just so you  have an idea of what I've sent into Gemini.
+>> Okay. So recently, I made the
+connection about two pretty, like, prominent moments in my
+career. >>JACLYN KONZELMANN: As you can hear, I was at the park with my  daughters pushing them on the swings.
+Now that these have loaded, I'm  going to add a simple prompt. Turn these into a blog post. I'll hit run.
+And what you're about to see is Gemini 1.5 Flash  take all of that doesn't, my previous blog posts,
+the system instructions, my voice  memos, along with that prompt, and turn it into what will hopefully be a  compelling first draft of my next blog post.
+From throw-away work to breakthroughs, embracing the power of right to think. Not bad for a working title.
+I think I can probably take it from there. [Applause].
+As context windows grow, we’re discovering new ways to interact with models to solve tasks. Huge context windows unlock a
+new set of AI applications, but they're also more computationally expensive. Which is why I’m excited to
+announce a new Context Caching feature, coming next month. So how does it work? Well, let’s say a large part of
+your prompt doesn’t change, you can cache that once, and easily call it on subsequent turns for a fraction of the price.
+So imagine I'm a journalist trying to  figure out what to write about next. To help me brainstorm ideas, I might want to gather all the
+content I’ve already created: previous articles, video clips, maybe some voice memos. Using Context Caching, I’ll send
+all this content at once, which, let's say, will cost me .20 cents for that first turn, along with the  regular input price for the rest of my prompt.
+Since I cached the content I’m referencing, each following turn will only cost me .10 cents, plus the cost of any new
+prompts. Of course, this concept is extensible to so many different
+applications that you might want to build. These could involve things like legal documents, research papers, school assignments or
+employee training materials. The sky is the limit!
+Gemini models are empowering developers worldwide to transform workflows, enhancing efficiency and also adding a
+touch of user delight. Take for example, front-end development. Locofy.ai takes a Figma design
+and uses their own AI models to generate code. But what’s really unique is how they’re pairing it with Gemini’s
+1 million token context window. You see, oftentimes, front-end designs contain hundreds of layers with non-descript  names such as rectangle 1 or group 76.
+Locofy sends this entire design to 1.5 Pro to generate meaningful names in the front-end code.
+Because Gemini understands the purpose behind “rectangle 1”, it Is actually able to rename it in code as  something more useful like header background.
+Another one that I love is how AI models are unlocking new abilities. Envision is empowering people
+with low vision to better understand their immediate environment through an app or smart glasses and ask specific
+questions. Because of the speed of 1.5 Flash, users will be able to get quick responses.
+Another developer, Zapier, is enabling anybody to seamlessly connect different apps and automate  repetitive tasks like podcast editing.
+They built a workflow to automatically remove speaker artifacts like ahs and ums from audio tracks that’s triggered
+as soon as a user uploads a file to Google Drive. As developers, the ideas you
+have and the code you write will help transform AI into practical applications for the world. We’re announcing our Gemini API
+Developer Competition for a chance to win the grand prize, a custom electric DeLorean. [Cheers and Applause].
+For those of you in the audience, be sure to check it out at the AI pavilion, maybe grab a picture,  and visit our Web site for more details.
+I’ll leave you now with my favorite developer to tell you a little bit more about it. [Applause].
+>> Hey! You may recognize me from my acting work, but my real passion is programming!
+When I'm in the zone, I'm unstoppable! I don't know if you know this about me, but I'm really excited
+about the future, and Google's Gemini models are tech that can get us there. You know I'm submitting to
+Google's new Gemini Developer Contest, which is so cool, it will blow your mind back to beta, a chance to win for the
+most creative, useful and remarkable apps. If you're a Dev or Dev T that wants to submit, great!
+But you'll have some catching up to do. I just drank three cups of nitro cold brew, and I'm ready to
+crank out some genius! [Bell ringing]. Time to go wormhole! >>MATTHEW McCULLOUGH: Jaclyn
+Mobile
+talked about how Gemini models benefit all developers. Now we'll look at examples of how AI unlocks excellent
+experiences on Android, the world’s most popular operating system. We're reimagining Android with
+AI at the core, enabling you to build a whole new class of apps on mobile. This unlocks experiences that
+were not even possible just a few years ago. So let’s dive into the ways that Gemini can power building the
+next generation of apps on Android. Using Google AI Studio, you can integrate the Gemini API
+directly into your app to leverage Gemini models. When using Google Cloud, you can also access the powerful
+capabilities of Gemini through Vertex AI. This is Google’s fully-managed development platform designed
+for building and deploying generative AI. Whether you simply need world class inference capabilities, or
+want to build end-to-end AI workflows with Vertex, the Gemini API is a great solution. Next, let's look at Gemini Nano,
+our most efficient model for on- device tasks. It runs directly on mobile, enabling low latency responses
+and data privacy. This helps you implement features like suggested replies in messaging apps, while knowing
+that the data won’t leave the device. Gemini Nano also guarantees AI model availability, even when
+there’s no cellular network coverage. Gemini Nano inference is made possible by AICore, a system
+service managing on-device foundation models. It removes the developer burden of packaging and distributing
+large language models. Gemini Nano and AICore are currently available on the Pixel 8 Pro and Samsung Galaxy S24
+series, and, as you heard earlier, we’ll be expanding their reach to additional devices later this year.
+Gemini Nano gives you the best path to running a generative AI model on-device. And yet, we know that being able
+to customize and work with open models is important too, so we
+also built MediaPipe LLM to give you a complete solution.
+Last year, we announced an Early Access Program for Gemini Nano, and we got an overwhelming amount of responses.
+We’re now working closely with a few early adopters to ensure we’re creating the best APIs that unlock the most innovative
+experiences. We’re now on the path to opening access even wider in the coming months.
+One of these trailblazers is Patreon. They’re building an experience that helps creators and fans
+rapidly catch up on unread messages in their community chats. And another example is
+Grammarly. Their team has been able to easily experiment with Gemini Nano, while building their smart
+suggestions feature. And yet, these amazing examples are just the beginning. We’re excited to see what you’ll
+build with Gemini. Next up, Maru will share a bit about developer productivity and how Android is making it faster
+and easier to build excellent experiences across form factors.
+[Applause]. >>MARU AHUES BOUZA:
+We know how much you all love Kotlin! It’s been so fun to see the growth and energy in the
+community. Today, I’m excited to announce that we’re taking a significant step forward to a future with
+first class tooling and library support for Kotlin Multiplatform
+on Android! [Applause].
+We’ve been adding Kotlin Multiplatform support to select JetPack libraries, like Datastore, and now we're
+expanding it to your favorite libraries like Room. At Google, we’ve been migrating the Google Docs app to use
+Kotlin multiple Platform to share business  logic across Android, iOS and Web.
+The Workspace team is excited to continue to invest in using Kotlin Multiplatform across the rest of their apps in the
+future. We’ve been learning a lot from our work with Google apps, and we’re collaborating with
+JetBrains and the Kotlin developer community to bring the benefits of KMP to all of you. Kotlin Multiplatform will boost
+your productivity by sharing business logic across platforms.
+On the UI layer, Compose helps you build excellent experiences,
+and today, 40% of the top 1,000 apps like Google Drive, Threads
+and Soundcloud are taking advantage of the benefits Compose brings. We’re continuing to invest in
+Compose with more performance improvements and easier ways to build beautiful UIs across form factors.
+Compose continues to be faster with each release, and combined with R8 and baseline profiles, can now significantly boost your
+app’s performance. For an even more delightful user experience, you can now use shared element transitions with
+Compose. [Cheers and Applause].
+We’ve built a simple and powerful system that helps you choreograph beautiful transitions across screens that
+share content. It handles size changes and animates text changes, and it works great with predictive
+back, right out of the box. Developers have seen significantly increased engagement on apps that look and
+feel great across the diverse range of Android devices. Rather than thinking about individual screen sizes, we want
+you to think adaptive. So write once and adapt across screen sizes and configurations. To make this journey easier,
+we've built a new set of Compose APIs for building adaptive layouts, using Material guidance.
+Early adopters are already integrating these layouts into their Compose projects, significantly reducing
+development time. We’ve also been making improvements to stylus, mouse and keyboard support for
+Compose, to make it easier to adapt to the input device in your user’s hand. Take advantage of the new stylus
+handwriting recognition which, using the power of AI, transforms handwriting into text when using Views or Compose.
+Widgets are another high user engagement surface. With JetPack Glance, you can now build widgets that seamlessly
+adapt to all screen sizes. and Android 15 brings support for generated previews to improve user  discoverability in the Widget Picker.
+Next, is testing. We’re working with Samsung and Pixel and other OEMS to connect their device labs into the new
+Android Device Streaming, powered by Firebase, now in Beta. So you can now validate your
+adaptive app on a wider array of real devices, including the latest foldables and tablets. We’re also continuing to invest
+in the Resizable Emulator, which helps you quickly test your app across different device types. As well as building a new
+Compose UI check mode, which helps you identify and provide solutions to adaptive and accessibility issues.
+Let’s hear from Soundcloud about how Compose accelerated their UI development to create excellent user experiences across devices.
+Then Jamal will join us to share more about how AI can supercharge your productivity. >> SoundCloud is a next
+generation music entertainment company powered by an ecosystem of artists, fans and curators. My name is Vitus Ortner.
+I'm super passionate about music and I'm doing Android development at SoundCloud, where I'm leading the adoption of
+JetPack Compose. We started using JetPack Compose when it was still an early preview.
+Our goal was to overcome the verbosity that's associated with manipulating some of this. We were able to save up to 45%
+of lines of code when migrating screens from XML views to Compose. We quickly realized how easy and
+natural it was to create reusable AI components. Now we've migrated around 50% of our design system to JetPack
+Compose. We're investing heavily in writing our base building blocks in Compose so that our engineers
+can write new features with it and make it their first choice. It's important for us to be available on any form factor so
+that people can listen to SoundCloud in any situation. Our team's mobile Compose skills transferred directly to other
+form factors, given that its concepts and most APIs are the same. We build our Wear and TV apps from the ground up in Compose in
+just four months, which would have been unimaginable with the old system. Some parts of our foldable and
+tablet layouts and the whole ongoing experience of our car are built in Compose. Being available across form
+factors has allowed us to reach new people and markets which ultimately increases our global reach.
+[Applause]. >>JAMAL EASON:
+It is so exciting to see how millions of developers create amazing experiences with Android APIs
+and Android Studio that ultimately touch billions of people and their devices. We care about incorporating AI
+to accelerate your productivity on Android to make things easier for you. Last year, we introduced Studio
+Bot as your AI coding companion for Android. Thanks to your feedback, we evolved our models, expanded to
+over 200 countries and territories, released it to Stable, and, brought it into the Gemini family of products last
+month. With the introduction of Gemini in Android Studio. And today, we will show you how
+the latest Gemini 1.5 Pro models can take your development to the next level. Our vision, is to responsibly
+use AI so you can spend more time on the aspects of development that you like, and make the harder tasks easier.
+So for example, the Crashlytics integration in Android Studio is
+even more helpful than ever before, because on top of showing crashes and errors in the context of your source code,
+we now use Gemini to analyze and provide recommendations on how
+to fix those issues. Now, as we venture into more AI features, you ultimately have control of what you share or
+don’t share, with AI privacy controls built right into Android Studio. So speaking of Android Studio,
+let’s jump into the IDE to see a few more examples of Gemini in action. So here I am in the Jet Snack
+app, one of our open source compose samples, just wrapping up that cool shared element API integration that Maru shared
+with us earlier. One of the cool things that Gemini enables is
+that it makes it easier to optimize my code. So, for example, here I have a
+conditional statement that could be a bit more efficient and idiomatic to Kotlin. To fix this, I can actually use
+Gemini to optimize this code so that it is easier to understand and maintain. So all I have to do is right
+click on my selected code, go to Gemini, and click on Transform.
+And let me simply input, simplify and make  idiomatic with this quick action and press enter.
+And what's happening is that I'm sending the code  snippet to the model and getting a result back.
+So here I have a more optimized code snippet going from an "if/ else” structure to a more efficient “when” structure in
+Kotlin. What is also great, is that I can do additional modifications to this result.
+So, for instance, it’s good practice to add documentation to -- right? So let me use Gemini to help with that.
+All I need to do is click on the Refine button, and let's say add
+some documentation. And press enter. And now I have augmented -- [Applause].
+-- a code change with the help of Gemini. So let me accept these changes. And there we go. I've optimized the
+code for readability and even added some code  documentation, all with the help of Gemini.
+Nice. Now, Gemini can do pretty cool
+things on code itself, but it also does some amazing things that are perfect for Android app development.
+So for example, we have this screen here that needs a little bit of translation. So looking at my strings
+resource file, my colleague left me  a to do to translate to Spanish.
+But I don’t know Spanish that well. But Gemini does. So let me highlight a few strings here.
+I can navigate -- right click  and navigate to Gemini. Click on transform. In this case, let me
+type in, translate to Spanish. And let me send this question and strings to the model. I get a response back.
+Looks pretty good. And note, Gemini kept my app name in English.
+Nice. And So let me do one more section for completeness. Again, I highlight the strings,
+right click, go to Gemini, then transform. Translate that to Spanish with this quick action.
+Results look pretty good. Let me accept those. Okay. But to confirm,
+I can simply refresh my app screen on the  left-hand side, which is mostly English. So let me refresh. Of course.
+There we go. And there we go! [Applause].
+So I've translated my app screen into  Spanish with the help of Gemini. All right. So far, we looked at code
+changes, did some translations. But what happens when I want to think about a brand new app. When I need a brand new idea to
+get started. So in front of me I have a brand new project, and let me open up the Gemini chat window.
+Now, sometimes, you might get a mock-up from a designer as a hand-off resource to get started.
+So in this case, I have a wireframe mockup of a login in screen for an Android app. So let me select that file.
+Let me enter in a quick prompt  here and let me get this started. Now, what's happening here is I'm using the large  context window of Gemini 1.5 Pro that's coming
+later this year for Android developers. This allowed you to do higher-quality, multimodal input. Again, what I did here is upload
+a wire frame to app and give it a prompt, which  reads, from the image provided use Jetpack Compose
+to build a screen so that the compose preview is  as close as possible to this image and also make
+sure to include imports and use material 3. To always put together, we get a multimodal response back in Gemini model. Okay.
+So here it is. All right. So a main activity here, using a material 3. All right.
+Let's copy that to my clipboard. Go to file.
+Close this. Open up the preview here. Make this interactive. And there we go!
+[Applause]. We went from wireframe image to Working Android code all using Gemini.
+As you can see, Gemini in Android Studio continues to evolve with features like code refinement and transformations
+that you can try today in Android Studio Koala preview. And you can try multi-modal inputs using Gemini 1.5 Pro
+later this year. With that, I would like to invite Jon to talk about how AI is enhancing web development.
+Web
+[Applause]. >>JON DAHLKE: The web turns 35 years old this August. Since 1989, generations of
+developers like you have shaped this incredible technology and brought countless innovations to our lives.
+It's the dawn of a new generation  with shift in computing with AI. Today, I’ll show you how we are using AI to supercharge the web
+and bring you new capabilities in tooling. It’s your path to better development. It's a more powerful web made easier.
+As you heard earlier, Google is unique in its ability to deliver AI solutions that span all types of customers,  model sizes, platforms and environments.
+The web is vital to achieving global reach, and on-device execution is vital to serving that audience with new AI
+features. On-device is an ideal complement to serving AI models from the cloud, and enables you to
+deliver AI solutions at lower cost,  with fewer capacity challenges and, with better data privacy. No matter what AI model you
+build your features with, WebGPU and Web Assembly are the backbone technologies that enable on-device AI on the Web.
+This year we have invested heavily to ensure that models run quickly and efficiently on WebGPU and WASM.
+Improvements like 16-bit floating point values in WebGPU, and Memory64 and JavaScript promise Integration
+in WASM are making AI run faster on a wider set of hardware. So, whether you are using TensorFlow.js, ONNX Runtime,
+Transformers.js, MediaPipe, or any other AI library, WASM and WebGPU enable you to run your models at scale across the vast
+majority of devices on the planet. Companies are already seeing the benefits of running AI and ML
+models on device. Bilibili used WASM and the image recognition technology in MediaPipe to move the text
+behind the speaker. This simple change improved session duration by 30% and click-through rate by 19%.
+This commitment to on-device isn’t just theoretical for us. Starting in Chrome 126, Gemini Nano will be built into the
+Chrome Desktop client itself! [Applause].
+We use Gemini to enable Chrome’s features, including “help me write”, which uses on-device AI to help users write short form
+content like product reviews, social media posts, and customer feedback forms. To deliver this feature, we
+fine-tuned our most efficient version of Gemini and optimized Chrome to load the model quickly.
+Now we want to give you access to Gemini models in Chrome. Our vision is that you will be able to deliver powerful AI
+features to Chrome’s billions of users without having to worry about prompt engineering, fine-tuning, capacity and cost. All you have to do is call a few
+high-level APIs, like translate, caption, or transcribe.
+This is a big shift for the web, so we want to get it right. We have started to engage with other browsers and we want to
+work with you, too. So help us shape the future of the web by signing up for our early preview program.
+With webGPU, WASM, and Gemini built into Chrome, the web is AI
+ready. Let's take a quick look at how AI made it easier for companies like Adobe and CyberAgent to
+build powerful experiences on the web.
+>> Let's go. Right
+here right now. We'll show you how. Right here right now. Right here, right here right
+now. Now. Hey. [Applause]. >>JON DAHLKE: AI features are only as good as the UI that you build around them. So we’re delivering powerful new
+capabilities for you to create  app-like experiences on the Web. When people think about websites, they often picture
+clicking on a blue link, waiting for the page to load, maybe things shift around a little bit, and then finally  you can start exploring the content.
+But that’s not the web we envision. Our vision is one where the website is a single holistic
+experience, where you seamlessly transition from one part of the site to the next, and your context moves with you.
+To achieve this, we first need to get rid of those tiresome page loads. Our new Speculation Rules API will enable truly instant
+navigation. Speculation Rules will dramatically speed up browsing within a site by pre-fetching
+and pre-rendering pages in the background. This allows pages to load literally in milliseconds.
+And best of all -- [Applause].
+And best of all, the API requires only a few lines of code to get started. NitroPack was able to improve
+their Core Web Vitals loading scores  by 75% with speculation rules.
+And by using AI to identify the sites that their users were most likely to visit, they optimized by another 20% and increased the
+efficiency of pre-fetched and pre-rendered sites. Next, we need to make the transition experience seamless.
+To achieve this, we launched the View Transitions API for single-page apps, and we’ve been amazed by the response.
+Developers across the world are already using View Transitions to build better experiences. Using this API, Airbnb has
+created smooth and seamless navigations from the listing editor sidebar right into editing photos and adding
+amenities, all within a fluid user flow. But not everyone wants a single page app like Airbnb, and you
+shouldn’t have to choose one architecture over another just to create a great user experience.
+So available today in Chrome Canary 126, View Transitions API can now be used for multi-page apps.
+[Cheers and Applause]. Now you can create fluid navigation regardless of your site’s architecture. And when you combine View Transitions with Speculation
+Rules and AI, page transitions can be truly seamless.
+With these new interaction possibilities available to every developer, you can redefine what we think of as a web app.
+As you build these new experiences, Chrome DevTools is one of the most popular ways to debug and tune your app.
+Let me show you a new way that we are using AI to make Chrome DevTools easier than ever. DevTools is great at giving you
+warnings and errors when your site isn’t going to work correctly. However, those errors aren’t
+always the easiest to interpret. Gemini will now generate insights right in your Chrome DevTools Console.
+It will help you understand what the problem is and how to fix it! [Applause].
+Let's take a quick look at how this works with a simple web app built using Angular. A lot of my friends love Boba
+tea. Believe it or not, I’ve never had it. So, I thought I would do some research on which I should try first. Let's do a quick search of the different types.
+Hmmm, this isn’t working. Let’s see if we can figure out what’s wrong. I’m going to open Chrome DevTools, and when I look at the  first error, it looks like my URL
+has been blocked by the CORS policy. I don't really know what that is or how to fix it. So I'm going to go over
+this light bulb icon next to the error, and when  I hover over it it says, understand this error. I'm going to click on that, then I'm going  to hit continue to consent to having my
+data be sent up to Gemini. And just like that, Gemini
+instantly generates a personalized explanation of the error, and a potential solution. That’s cool!
+And from reading this description,  it looks like my issue is caused by the New York response header. So let me copy this code that Gemini gives me.
+And I'm going to navigate over to the  network panel and reproduce the error. Here's the URL that's causing the problem. So I'm going to click on that.
+I'm going to scroll down to the response  header section and click, add header.
+Then, I'm going to override the network  response header by copying and pasting the code that Gemini gave me. Let's see if that works.
+And just like that, the error is gone! [Applause]. AI can speed up Web
+development by taking away so much of the debugging pain, so you can focus on what you care about most.
+Console insights in Chrome DevTools is available today as an experimental feature in the US. And will be rolling out to more countries soon. [Applause].
+Thank you for taking this journey with us as we make the Web more powerful and easier than ever, together. And we know in today’s world,
+your users expect a seamless experience no matter where they’re engaging with your apps. So now here’s Erin to talk about
+how we’re helping you serve your customers across platforms.
+Cross-platform
+[Applause]. >>ERIN KIDWELL: All right! All right! Google is committed to helping you build, test
+and ship AI-powered apps that run well on Android,  Web and across all the platforms your users need.
+You told us how big a deal this is, and, you told us how hard it can be, so we embarked on a mission to create an integrated
+developer workspace. Imagine if we could bring together a collection of Google products and tools, with full
+extensibility to bring in any of the other services you need for full-stack, AI-powered, multi-platform development. And that is how Project IDX was born.
+We were overwhelmed by your response. Hundreds of thousands of you signed up to try it.
+And we'd like everyone to be able  to experience it for themselves. So, today IDX is open to public beta with no waitlist.
+[Cheers and Applause]. All right. Let's dive in to see what you can do. To start, IDX makes it so easy
+to get to work quickly with over a dozen pre-loaded templates with the basic files and packages you need,  or by importing your existing GitHub repo
+and its dependencies, or even starting with a blank slate. You have all the tools you need at your fingertips, and many are
+already configured in the IDX workspace, like Go, Gemini and others. And now there are three new
+integrations to help improve your velocity. First, the Google Maps Platform easily adds geo functionality to
+your apps. You can also debug issues with Chrome Web apps using DevTools and lighthouse. And when you are ready, enable multi-region
+deployment with Cloud Run. And as an early announcement, coming soon to IDX is a new way to simplify your app privacy and
+compliance workflow with Checks, Google's AI compliance platform.
+[Applause]. Checks Code Compliance monitors
+and detects compliance issues as you’re writing code, helping to ensure the safety and quality of your applications.
+IOS and Android developers can access Checks today via the Checks website. All right.
+Switching gears from what’s new and coming soon to IDX, let’s touch on the latest advancements with some of our most popular
+products that IDX integrates with, Flutter and Firebase.
+[Cheers and Applause]. All right! Flutter is the world’s most popular open source framework
+for building beautiful cross- platform apps and games.
+[Cheers and Applause]. It is one of the fastest ways to bring your apps to life across  platforms with native performance.
+And Flutter’s single codebase helps you ship AI features, like
+text generation, summarization and chat, across platforms quickly and easily. Take, for example, Brickit, an
+app that uses Google’s on-device AI tools to help you rediscover the potential of your existing play bricks.
+The app quickly recognizes and classifies bricks in a pile and helps you reimagine what you could build.
+The team initially only shipped an iOS app, but by switching to Flutter they expanded their reach to Android, more than
+doubling their users! And after just a few months later, they're a global hit! So Brickit is a great example of
+Flutter empowering a team to ship across iOS and Android. But what if they wanted to bring that same experience to an even
+wider audience? That is where the Web comes in. And we're excited to share that WASM support for  Flutter Web apps is available today in the stable
+channel as part of Flutter 3.22 and Dart 3.4. [Cheers and Applause].
+Our benchmarks show that compiling Flutter web apps to WASM offers up to 2X improvement in frame time when compared to
+Flutter web apps compiled to JavaScript. So this means that teams like Brickit can offer  the same smooth UI and powerful on-device features
+directly to users on the Web. Run ‘flutter upgrade’ and try WASM support today. All right.
+You’ve got your frontend up and running across platforms, and now you need to seamlessly connect to backend services.
+Of course, that’s where Firebase comes in. [Cheers and Applause]. And here's David to tell you about
+updates we're shipping for Firebase. [Cheers and Applause].
+>>DAVID EAST: Thanks, Erin. Over the years, millions of you have relied on Firebase to accelerate your app development
+and run your apps with confidence, which, for me, is amazing because when I started working on Firebase over 10
+years ago, it was only a database. Then in 2016, we transformed Firebase into a full app
+platform. Well, today, we're evolving Firebase again.
+[Applause]. We want to enable you to rapidly
+build and run AI-powered experiences in your apps across platforms. And with this new logo comes a
+few new prizes. Let's start with databases, and more specifically, SQL databases. For years, many of you have
+asked us, how do I use Firebase with SQL. Well, today, we're unveiling
+Firebase Data Connect with Google Cloud SQL in preview.
+[Cheers and Applause]. And Data Connect is more than just SQL. It's an entirely new way to build  secure and typesafe apps with Firebase.
+We designed Data Connect so you'll be writing far less app code than before. Your queries are generated into
+typesafe client-side code, keeping your app code in sync with your data structure. And Data Connect is built for AI
+development. With vector and function calling support, you can build AI agent-like flows and search for
+similarities using your stored embeddings. If you're excited to try out Data Connect, sign up for the
+preview and check out our one-click template in IDX.
+Next up, let's talk Hosting. So many of you are building with JavaScript frameworks like Angular and Next.js.
+We wanted to reimagine Firebase to help you ship these modern web apps at global scale. So, we're introducing Firebase
+App Hosting, our next-generation serverless hosting product in preview. [Cheers and Applause].
+App Hosting automatically pulls the source code from your GitHub repository, runs the framework build, and orchestrates the
+Google Cloud infrastructure you need, so you can ship faster than ever before. Oh, and we're not done yet.
+Since the early days of Firebase We have obsessed over the getting started experience. When we released the Realtime
+Database, we made it so you just needed a script tag and some JavaScript to sync data in milliseconds across devices.
+We want to bring that same level of ease and familiarity to Gen AI development. Well, I'm excited to announce
+Firebase Genkit, a new AI integration framework for app developers, in beta now for Node.js and with Go support
+coming soon. [Applause].
+Genkit gives you a consistent API across LLMs. With Genkit, trying a new model is just as easy as changing a single argument.
+Genkit also works with Zod schemas to generate structured typescript output from LLM responses.
+And because this is Firebase, we wanted to make debugging and testing easy so Genkit comes with a local development UI you
+can use to inspect every trace and run your flows locally to tweak and improve output. Firebase Genkit works
+out-of-the-box with Gemini and Gemma models hosted in your environment. And to improve performance,
+Google also collaborated with Nvidia to optimize your inference performance with our Gemma models.
+You can run Genkit locally on your RTX GPU with Ollama and Gemma. When you're ready to get to
+production, Genkit can easily deploy your code as an authenticated API right to Firebase or Google Cloud.
+We’ll continue to invest in creating a more integrated developer experience to help you bring your AI applications to
+market faster and safely across platforms. Now I’d like to welcome Sharbani onstage to talk about our ML
+models. [Applause].
+AI Models
+>>SHARBANI ROY: What is the hardest problem you are working on? No, really, what's the hardest problem you're working on? I invite you to dream big while
+we chat about our open models, unpack our underlying frameworks and tooling, and dig into a quick demo as to how you can
+join together these underlying nuts and bolts to make something magical. Building with generative AI
+models can be as easy as using our Gemini API, as my friend Jaclyn talked about earlier, where we handle the  heavy lifting of training and maintaining complex
+models so you can focus on building AI features. But what about when you need a little more
+flexibility and control to be able  to fine-tune, augment and ground a model for your specific-use cases? That's why we released our Gemma
+family of open models! Built on the same cutting edge infrastructure and tooling as our Gemini models, we wanted to
+make the most useful and responsible set of open models. Just last month, we released CodeGemma to better support
+coding tasks across languages. And RecurrentGemma, that leverages recurrent neural networks and local attention to
+improve memory efficiency and faster inference. And, as Josh announced earlier this morning, we’re adding
+PaliGemma, for multimodal image-to-text, and previewed our next generation, Gemma 2 with new architecture that achieves
+stellar performance AND fits onto a single TPU v5e!
+With new models and a blistering pace of innovation, does it feel challenging to keep up? Yeah, of course it does!
+To make things easier, we’ve invested in providing more optionality at every layer of our training stack to better
+meet you where you are, helping you leverage as much of your existing skills and tools as possible.
+Starting from the ground up, with state-of-the art hardware, GPUs and TPUs, including our new sixth generation Trillium TPU
+announced earlier by Sundar, both of which can be optimized for AI workloads by using the cutting-edge ML Compiler
+OpenXLA, which supports multiple frameworks, including TensorFlow
+and JAX, and their surrounding ML ecosystem. To Keras 3, our easy-to-use Pythonic libraries that let you
+use TensorFlow, JAX or Pytorch on the backend. All embraced by millions of developers.
+Now, let's dig a little deeper, and  let me bring my colleague Laurence on stage for a quick Colab. >>LAURENCE MORONEY: Thank you!
+Colab. Google Colab, it's a great place for developers and researchers to get started with  that entire stack that Sharbani just mentioned,
+from software like Keras being pre-installed to  GPUs and TPUs being available free of charge,
+it does make it really easy for you to  have best of breed AI development at your fingertips in the browser for free. >>SHARBANI ROY: And for current and
+recovering data scientists, right? You know we love to data science the kittens out of problems to get new solutions. >>LAURENCE MORONEY: Wait.
+Well, actually for that, there's a cool new  thing available in Colab starting today. Rapids CuDF. Without changing your
+PANDAs code, you can run it much, much faster. I've personally seen a 50X acceleration on GPUs
+when doing those data sciency bits. >>SHARBANI ROY: Nice. Now, how about we share with our friends  the side project we've been working on
+and give them a glimpse into a day in the  life of what it's like working in API. >> Well, everybody, don't tell Sundar,  but we spend way too much time experiment
+app ideas over way too much coffee. >> One of those ideas was an artificially
+intelligent app that could find a new book for  my family book club based on what we've already read and enjoyed and since it will include  information about my family, I'll want it
+to work on-device to keep things private. >>LAURENCE MORONEY: So challenge accepted. But I'll let you all in on a little secret.
+Those same code and those same skills  that you've invested in and grown have
+gone beyond creating their own models and they  actually make it really easy for you to get into the world of generative AI and fine-tune  for industry standard low-rank adaption,
+also known as LoRA, all from within Colab. Now, models like Gemma are really terrific
+at general reasoning but for specific tasks  like our book idea, it is much better for
+you to tune them on your own data. >>SHARBANI ROY: Now, we're just using a single GPU in Colab but sometimes you might  be dealing with more data or a bigger model in
+the cloud, meaning you'll need to span multiple  accelerators, and that where the distribution strategy API is your friend. >>LAURENCE MORONEY: Absolutely.
+The quicker you train, the quicker you  iterate, and the better your solution. I could geek out about this all day. >>SHARBANI ROY: Yes, yes, you could.
+Now, all we need is data. Let's use the Gemini API to help create some synthetic data to quick start the process. >>LAURENCE MORONEY: So a quick trip into API
+studio with a simple prompt and we now  have a generated CSV with lots of books,
+including title, genre and even a little  summary, but to instruction tune a model, your data does have to be in a specific format. So to take that CSV from Gemini and work on it,
+we're just going to go back  into Colab and using Python, we can see it's actually a pretty easy task,  and here you're now going to see that I'm use
+Keras with a JAX back end for top performance. Now, you might recognize we're doing a good, old-fashioned model.fit and now, Gemma can  artificially understand and intelligently
+reason across a diverse range of books. Let's start training this and we'll hope
+that these learning leprechauns  are with us, but now I need to think how I'm going to run this on a mobile. >>SHARBANI ROY: You did write the book on it.
+Speaking of mobile, we're making it  easier for you with Google AI Edge.
+This brings easy access to all the  best models, including generative, along with a suite of tools to run  inference on the edge, and today,
+we've expanded support for TensorFlow light  so you can run your Pytorch models, too.
+[Applause]. Now, you saw earlier that my friend Matthew spoke about how MediaPipe helps  you bring generative AI models to your device.
+Let's use that. >>LAURENCE MORONEY: Yep. Absolutely. And here it is. You can see it in Android studio. All I'm doing is loading the MediaPipe
+API with an entry in my build.gradle and now I  have libraries that will help me load the models.
+Now, with a lot of data it takes a little  bit more time than we have on stage here.
+It's about 20 minutes on a GPU. >>SHARBANI ROY: Not too bad. >>LAURENCE MORONEY: It's not too  bad, but even so I'm going to use one that I built a little earlier. >>SHARBANI ROY: Well, I think we can
+do a little more to personalize it. How about we take the notes that I've made about what my family likes and we  use that to augment prompts to the model
+to get better answers and remember, keeping on  device is great because I want to make sure my
+details don't get shared with anyone. >>LAURENCE MORONEY: I've read your mind, mind meld, and here's a simple rag  and I've used media pipes on device
+to augment my prompt to our Gemma. Now, Sharbani you were wondering if your family would enjoy "A Time Traveling  Caticorn", well, that's quite the endorsement
+that it gave and you know what, maybe  I'll just read that book myself. >>SHARBANI ROY: To learn more about  the AI models, frameworks and tools
+that we covered today, check out ai.google.dev. And while this is a quick demo, it shows useful
+steps that you can take to use Gemini and API to  kick start an idea, fine-tune Gemma on this data
+with LoRA to create a deeper experience on books,  implement RAGS and keep everything on device
+thanks to Google AI edge. [Applause].
+Now, before we go, how about we show you  just one more of our coffee chat ideas.
+>>LAURENCE MORONEY: Do we have to go? Oh, okay. Well, our coffee chats, they're really  -- they're not just for the fun stuff.
+We also try to solve those hard problems. And you might remember last year, we spoke about Project Game Face, open-sourced  and using Google AI Edge to allow you
+to use your facial gestures as a controller. Well, this solution has grown into something even more inspirational. Let's take a look.
+>> Project Game Face has had quite the journey. It unlocked a new way for users to engage with
+their favorite games, thinking  outside the controller, faces became the new command center. >> With Project Game Face we realized we
+had the opportunity to use Google AI to  make digital devices more accessible. We're excited to launch Project Game Face for  Android, which allows users to control a novel
+cursor on their Android devices just by using  their head movement and facial expression.
+Google is working closely with a social  enterprise that works with organizations to
+understand accessibility needs, nuances of how  persons with disabilities use Android devices,
+and how Project Game Face can be a  general partner in their life. >> I'm ready with the face feature  to see which facial gesture
+I can use most effectively. >> With the power of media type
+and Android accessibility service, we're excited  to see how developers will build new applications
+and solve nuance cases with this product. >> Project Game Face is breaking barriers,
+widening access to technology and re-defining possible. [Cheers and Applause].
+Closing
+This morning, Sundar talked about how we're imagining ways for humans and AI agents to work together to tackle complex tasks step by
+step. Let me show you one more thing, an AI Agent that's going to make you data scientists out there
+really excited. Here is an early concept of a data Science Agent. Under the hood, it uses Gemini 1.5
+Pro and takes advantage of long context. I can simply ask a question in
+plain language about a dataset that I’ve uploaded. And this is not just the  model completing the code.
+It's the model coming up with  an entire plan and running it.
+And not only do I get an answer to my initial question about but the AI agent also produces a  fully functional Colab notebook
+based on your instructions. And you can share it with others, allowing for real-time collaboration on code,  new visualizations and all of the results.
+It’s available today at labs.google/code. Let us know what you think about it.
+[Cheers and Applause]. Now you see why I've been so excited all day? You see?
+We're committed to empowering you to build with generative AI—boldly and responsibly. From Gemini powered assistance
+in your favorite IDEs, to easy access to our most powerful Gemini models, and it comes with  flexibility to use Gemma open model.
+You have an opportunity to reach anyone, anywhere through Google’s ecosystem of devices, app experiences, and platforms.
+We continue to invest in resources,  too, to give your projects a boost. Google Accelerators and the Google Developer Profile are a
+couple of great examples. Our Accelerators have guided over 1300 startups in 84 countries, with countless
+success stories. And that includes 20 startups that have grown to become unicorns. Eugenie.ai,
+founded by Dr. Soudip Roy Chowdhury, is a recent graduate of our Climate Change Accelerator.
+Eugenie was born out of Dr. Chowdhury’s desire to use AI for good. His team helps manufacturing
+companies dramatically reduce their carbon emissions. Eugenie’s algorithms apply Google DeepMind research which
+has helped optimize energy use in Google's own data centers.
+Eugenie was able to streamline their model  development and their analytics with accurate
+emissions data through Google Earth Engine. We love working alongside
+startups to tackle big problems, and invite all of you to apply to an
+upcoming accelerator soon. [Applause].
+If you have one of the 15 million Google developer profiles, you enjoy invitations for early access programs,
+a chance to participate in research, and  opportunities to attend special events.
+Beginning today, your profile is evolving into something even better. Introducing the Google Developer
+Program. Members of the program can now access new benefits at no cost. And I'm going to take you through them.
+First, you can access Gemini for learning, searching, and chatting with documentation. Second, for IDX users, we’re now
+enabling you to go from two work stations, up to five.
+And third, if you're in the Google Cloud Innovators community, you get credits for interactive  labs on Google Cloud Skills Boost.
+[Cheers and Applause]. Sign up for the Google Developer Program today, or if you already have an existing Profile, you're
+all set. More benefits are coming soon. So be on the lookout.
+That brings us to the close of today's  developer keynote, but we're not quite done.
+There's a lot more to Google  I/O than just the key notes. If you're with us here in person,
+attend sessions, workshops, and demos, both today and tomorrow.
+If you're online, you'll find all the sessions available on io.Google starting this Thursday morning, in Mountain View time.
+Last year, we kicked off a series of I/O connect  events to bring the in-person experience from
+shoreline to more places that are closer to you. We heard how much you loved
+them, so we’ve got three of them lined up this year, starting in Berlin on June 27th, with Bengaluru in July and Beijing in
+August. [Cheers and Applause].
+And I'll mention, I'll be at all of  them, so I hope to see you there, too.
+If you can't join us at IO Connect, come to one of the many community-led IO Extended events happening in your local area.
+Now, I'd like to share  something really cool with you. We had Project Astra watch the  keynote this morning... yes.
+Let's see what it says! Snoop hey.
+My name is Michael Chang, and we're watching  the Google I/O keynote while it's happening
+with Project Astra. Let's take a look.
+Hey, Gemini. I'm currently watching Google I/O keynote right now. You want to watch it with me?
+>> Sure. I'd love to watch it with you. What's happening in the keynote? >> Well, what does it look like?
+What does it look like they're  announcing right now? >> It looks like they're  announcing Gemini 1.5 Flash.
+The speaker is talking about its speed and  efficiency in comparison to the Pro model. >> What are the other features? >> It looks like Gemini 1.5 Flash is
+optimized for tasks where low latency  and high efficiency matter most. >> Cool. >> The screen also showed --
+>> Oh, yeah, sorry. I interrupted you. Keep going. >> That's all right.
+What were we talking about? >> Well, we were talking about the capabilities of 1.5 Flash. Do you remember?
+>> Yes. We were discussing the new Gemini model and its efficiency and speed. The presentation seems to have moved on, though.
+What would you like to talk about now? >> Well, I'm curious about what he's going
+to talk about next. >>
+He seems to be moving on to the topic  of model training and feedback. Perhaps they will talk about how  user input helps train the models.
+>> It looks like he just announced a new project. What is that project called?
+>> They are calling that project Project Astra. It looks to focus on the future of
+AI assistance. >> What do you think Project Astra will be helpful for? >> It sounds like a very ambitious project.
+It will be interesting to see what  kind of AI assistant they create and how it integrates with our daily lives. >> They seem to say it's a universal agent.
+What would you use a universal agent for? >> A universal agent that can help with
+everyday tasks would, indeed, be helpful. It could potentially be useful for things
+like scheduling, finding information or  even controlling smart home devices. >> Oh, that would be super cool. >> I agree.
+It sounds amazing. Having a seamless and intuitive AI agent could
+revolutionize how we interact with technology. >> Yeah. Can you summarize what he showed so far? >> The speaker introduced Project Astra,
+an AI-powered universal agent for everyday  tasks that is still under development.
+They discussed the challenges of building this  technology and how their team is working towards making Astra helpful and intuitive for users. >> Wow.
+Amazing! And what did he talk about before Project Astra? >> He was discussing the Gemini 1.5 model,
+particularly Gemini 1.5 Flash, which  focuses on efficiency and speed.
+>> Ah. >> The presentation was focused on the future direction of AI models and  user feedback's role in training those models.
+>> It looks like they're now  doing a demo of Project Astra. What does it look like  they're doing right now?
+>> In the video, someone is holding  a phone and panning across a table.
+The phone is running Project Astra, which can  identify a speaker and a cup of crayons.
+>> And what is it doing now? >> It appears to be scanning a
+computer screen displaying code. Astra then explains what the highlighted section of the code is doing. >> Wow.
+That's super cool. Thanks for explaining all of these things to me, Gemini. >> You're very welcome.
+Is there anything else I can  explain about the presentation? >> Let's just keep on watching. What's currently happening?
+>> In the video, Astra is identifying  the Kings Cross neighborhood of
+London using the phone's camera view. It's also providing some facts about the area.
+>> Wow. I can't believe this is -- this technology exists right now. >> It does look quite impressive.
+Astra seems very advanced at interpreting what  it sees and providing relevant information.
+[Applause]. >>JEANINE BANKS: That was a lot of fun to watch. I'm looking forward to Project Astra,  as I'm sure all of you are, too.
+Thank you for being here. Thank you for tuning in. Let's go build something amazing! [Applause].

@@ -1,0 +1,443 @@
+Intro
+[Music]
+hello everyone good morning man 1,700
+people have I seen this many people
+before in one room well maybe but never kalenkov thank you all for coming
+it's very exciting to be here today we'll talk about Kotlin and I hope it
+will be an inspiring opening for the next few days so watch I will start with
+numbers I've been showing the usage numbers Oh
+in average keynote because this is something that helps me get the feeling
+of who we are and how we're doing so we go back a few years
+we released 1.0 back in 2016 and that
+release was used by about 200,000 people which is an amazing number it's like much more than in this room
+right so it's a lot of people and this this was only a start so by by the way
+when I say he's been used by this many people it means people who actually opened a file in an editor and change
+something so maybe they haven't put it in production but they did something with Kotlin code then 1.1 got half a
+million users and 1.2 over 2 million and 1.3 which is the current version is over
+4 million now which is pretty impressive number but what is possibly more
+impressive to me there's only been almost four years 2016 February released
+1.0 today it's over 4 million users in the last year I'm really impressed and
+this is something that inspires me a lot but why should we care about usage
+numbers at all right so this is kind of a metric which is just you know a dull
+number what I care about is making Kotlin a great product making it a tool that everybody loves that
+helps people someone supportive so why should I care about the number well
+actually it's just some sort of validation for me I believe that if
+people love the product if they find language useful if they want to solve their problems with it
+then it's good and this many people being interested in Kotlin means we're
+doing a good job we I mean all of us everybody in the Kotlin community so if I
+Kotlin Releases
+look back at our previous releases we started while relatively small right
+so we initially intended Kotlin as a new JDM language as something that would was
+intended to modernize the jvm ecosystem and 1.0 was JVM and Android plus a
+little bit experimental JavaScript then we stabilized the javascript and introduced external or teams then we
+added multi-platform as an experimental feature as well that was stabilized coroutines and Kotlin native was already
+going and reached beta at 1.3 and now we're looking at 1.4 so you can see the
+progression we're widening the scope we're covering more and more use cases and this is basically what makes me feel
+that Kotlin has momentum in terms of scale in terms of relevance in terms of interest from the users so Kotlin is
+becoming not a language not a toolset not a word it's an ecosystem and we want
+it to be an open ecosystem meaning that it's welcoming to everybody it is open
+to you it is open to anyone who wants to extend Kotlin to won't who wants to build on top of Catlin and an ecosystem is
+more than just one thing you know of course it's first of all people so Kotlin
+is not a piece of software it's people its people united by ideas by how I
+think how we make code work so on so forth and of course on top that it is software this is how I think
+about what cousin is and the ecosystem is quite complex like here at the bottom
+Kotlin Ecosystem
+of the slide you can see a lot of boxes and these are the convent platform this
+is what we the core team at jetbrains are contributing to we are making the
+compiler the runtime all the code generators for different platforms libraries and tools IDE we have our
+github repo up out there for everybody to contribute so on so forth and this is kind of the basic level of it but then
+everybody else is building on top of that right so a lot of people make their
+own learning materials make plug-ins for the compiler in the tool chain make
+their own libraries pre pull requests on github write us bugs and feature
+requests and everything goes to extend the platform right so here I want to
+thank our contributors very many people are actually putting code into Kotlin
+through github pull requests and it's now not only the core team at JetBrains
+but also a team of google helping with a compiler and thank you very much for doing this for us and also very many
+more people in the community doing the same thing but this is only one type of contribution right just code and
+libraries are code too of course but on top of that there are many more things everybody who shares a case study
+on the internet who asks questions gives answers shares news comments on the
+social media even pushes the like button somewhere everyone is bringing value to
+the community and even if you don't have time to do that you know some of us are really busy doing their code it's all in
+their business problems even then if you just report the usage stats you can passively help the community so
+I thank everyone who is helping us making cotton making Kotlin better
+let's think for a second about what we want Carlin to become in the future I think of it as a metaphor of a default
+language or a default tool you know it's something I'm reaching for when I have a task to complete right so a default
+language is more than just something I know well it's something I can use anywhere
+something that will address any problem I have and something that will scale if
+the project takes off right so to make kadhalan your default language we need
+to make it work at any scale on any platform in any application area and of
+course we understand that we need to make it accessible so it's relevant on any level of experience because not
+everybody is already professional right so we want it to be default for all people and the idea is if I have
+something to work on and I know counseling already April work for me I can use it as my default tool so how we
+do this to accomplish this mission of being your default language it's not an
+easy task you need to be you know quite good and the way I think about making
+calendars good is lowering barriers so to be this kind of default language we
+need to lower barriers between platforms so that it can transfer your knowledge from one platform to another lower
+barriers between people so people can share their expertise in their code and of course ultimately I want to show ur
+the barrier between humans and working software so that if you have an idea
+there is a tool that is the medium for expressing the idea and not the obstacle in the way this is how I think about it
+and of course you noticed me talking a lot about platforms right what you
+should work on any platform we lower barriers between platforms and this is one of the very important piece of our
+strategy so let's look at all those platforms Kotlin is working on now and I'll open with a server-side development
+again very long ago back in 2010 we when we started Cullen we're thinking about
+the Java ecosystem and Java is huge and on the server so it was one of the primary use cases were thinking about
+back then and now color is pretty strong on the server side when you look through
+calling job openings on the internet there are really many server side jobs so it's back-end programming of all
+sorts and all kinds of businesses and well it makes sense right
+kadhalan is created for large-scale projects to make things or bust sounds a
+fourth and it's working there there are very many interesting solutions for a server-side programming kosslyn and more
+and more are emerging but I would like to highlight a few you probably know
+spring
+that we've been friends with spring for a long time the Spring Framework is one of the most popular web frameworks in the world and
+it's dominating the java world and the official support for comment was added to spring back in 2017 and it's being
+expanded so now it's not only spring but-- but also when we see having even the docs examples in Kotlin as well as
+java and there's web flux which is great friends with coroutines making asynchronous requests just a
+breeze so I think it's a very productive collaboration and many many people are using this I'm really happy to see this
+our friends from pivot oh well give great talks here calling conf about spring so if you're
+interested in the server-side development make sure you go there also
+we at Jeb brains are making our own connected applications framework are
+called Couture and it's used in our mission critical software we develop a job reins actually I think Jeb reigns
+what one this is one of the big server-side users from the very beginning because we started putting
+common code introduction on the server before we released 1.0 and now Kedar is pretty strong and we make more products
+visit so Kotlin is really a strategic investment for Jeb brains and we're really committed to it but it's not only
+us many more people are hearing their case studies and here Kotlin Cowie see talks about many interesting cases
+and our friends from Expedia and into it and even the Norway tax office are using
+kosslyn on their servers you know this is kind of an interesting transition first we're watching for early adopters
+and like we're duct footing Kotlin Jeffries then we saw startups and big
+companies and finance firms start using it and now it's government's you know I
+wonder who's next like I don't know we'll see you next year okay so this is where we are on the
+server and now of course there's many more platforms and Android is very
+strong so Android has gone Kotlin first this year and we can see that the
+ecosystem is really growing with mobile development so over 50 percent of professional developers working on the
+Android platform or using Kotlin now and 60 percent of the top thousand apps in
+the Play Store which means like a huge number of users like millions and millions of users if I don't know maybe
+billions these apps are easing Kotlin and the awesome team at Google is making
+great light breeze with Kotlin and is helping us improve the ecosystem I thank
+my colleagues at Google again it's been great working together and to kind of reinforce this his a number of
+applications that Google makes and puts out for everybody I have a few of them
+in my pocket so these are all using kadhalan and I think it's pretty
+exciting to see how many interesting cases Colleen is helping nowadays but
+this story doesn't stop with Android because you know mobile is wider there
+Mobile Multiplatform
+are two major platforms and in common we're trying to make things work well
+for all platforms and this is why we're investing in what we call mobile multi-platform we're gonna share code
+between Android and iOS and here's a list of apps many of them we'll have their case study talks here
+at Kotlin cough all these apps are using common multi-platform their share
+business logic between iOS and Android and I'm kinda really thrilled by people
+having this running in production today you know it's pretty cool it's many people you can see and there are very
+well-known names and like entire solutions like the recent announcement
+by VMware they're doing their workspace one solution which is a number of
+application for enterprise mobility and they were using their business logic everywhere on both iOS and Android or
+there is planned raid by Autodesk with a lot of construction projects involved you can see the numbers are like
+millions and millions and millions in every app so I would also like to
+highlight Quizlet here because they're going even further they have two clients iOS and Android but they also have a web
+client where they also use Kotlin and share code and this is what we want
+Kotlin to become in the future like the universal solution for every platform
+yeah I think you'll enjoy all the talks about this interesting use cases here
+and I hope you'll draw some interesting conclusions from these talks
+so speaking of this Universal picture of having Kotlin everywhere in every platform this is what it might look like
+right so we're strongly the server a strong mobile we're strong in the browser you can make a desktop client as
+well and of course if your jetbrains you're doing IDs and it can make an ID plugin so this is a full stack
+experience you have one tool you sell your problems on every platform with it
+and this is exactly what we're doing at JetBrains you've probably heard that we're going to announce a new team
+New Team Product by JetBrains
+product here Akaka Kotlikoff later today and i'm not telling you what it is it's
+something for teams that's it but I gotta tell you that this is how it works
+and it runs Kotlin in every note the house coloring server on iOS and Android
+Desktop in the ID and and in the browser it's all there and there will be I'll
+show the talks a little later yeah so this is what they share everything in this slide is shared so it's a data
+model it's validation procedures RPC even the view model so you get like really close to the UI it's a lot of
+shared stuff and my colleagues well tell you more about it max sheriff will be
+announcing the product later today and max Mazen I can't even announce the title of his
+talk but it will be the talk about how it all works with a lot of code and you
+know exciting details about this product I hope we have suspense enough for this
+announcement all right so a short
+intermediate summary we are we are with carlines day all the platforms server
+Android shared code on mobile devices web desktop altogether this means full
+stack this is where we are heading and we keep investing into this story I
+guess it's been 23 minutes into the keynote it's time to talk about some
+announcements again I have to apologize call as an open source project you know everything if you care about looking at
+github well still walk you through things that are going there also we're
+not releasing anything today you know I quit releasing at conferences because
+you know why a conference is something you need to prepare for then a release
+is something you need to prepare for and there's only want me and there is only one team and we're not doing this so
+we're just giving you a heads up that release is coming some sometime in spring this year and I hope it will be
+great and today I'll just walk you through a few things that are going to be there so our main focus in this
+release our quality and we've been adding many many features in the past and this time we wanted to just
+you know slow down a little bit and polish things polish things a lot it doesn't mean there won't be features of
+course we're developers too you know we love doing features but there is a lot of quality where - so one thing just
+just check this out it's a video I hope it works right so here are two developers they're working their IDs
+with different versions of problem and you can see that the person at the top
+is faster you know why can't guess what happened like you see they're really
+faster they're like the whole line ahead you know what happened there it's a co completion it's got really
+fast for like three times as fast as it used to be and it's been great we're
+done by our IT team and we'll keep working on it now we have about 93% of
+our users get completion results in under 500 milliseconds we can improve this - and we're gonna definitely work
+on those seven percents represent that aren't there yet but so it's a good improvement already also when you work
+IDE Gradle import
+in a common ID using Gradle you know there is this pain point called import right you change something in a Gradle
+file and yeah so now it's gonna be a lot
+less of because you can see the numbers right so it got a lot faster it's like
+two and a half times faster on the important and it will improve it further and it takes a lot less memory like four
+times less memory which you know he is a game changer for many people so in by
+the way it's released already so I'm talking about 1.4 is a big release cycle but it's some of these things are
+shipped because we want you to use them as soon as possible in other news Cullen
+Kotlin/Native compilation
+native compilation is being improved as well so in development mode we're now
+caching code and can reuse the binaries from previous compilations so you can get like significant speed ups already
+and we'll keep working on this and make it even faster but we understand that the biggest pain
+in the common community is the build speed and one of the issues here is that you keep writing code you know see
+you're right like we improve the compiler and the tool chain and everything would you write more code and
+like the bigger the project is what were the built this is how it works so we while we're working on those
+incremental improvements we understand that there is a more radical measure
+needed and this is why I have to confess we're working on a new compiler okay all
+right so we we are and we want the new compiler to be fast and to be uniform
+and to be pluggable so by fast I mean we really want to speed up your builds not by percents but by a factor of I'll show
+you how many but also we wanted to be uniform so it's working the same way in all platforms and thus it can be
+pluggable that so that we can create a plug-in that works in all platforms as well some of the parts in the compiler
+are coming in 1.4 some will come later so I'll try to point out these details
+during this talk and it's gonna be a lot of work but it's pretty interesting so
+New compiler
+the most exciting thing about the new compiler I guess is the speed and the
+biggest bottleneck currently is what what's called the front end of the compiler is the part that looks at your code understands it analyzes the types
+so on so forth so before any code generation you get this front-end and
+this is something that we started working on it's not ready it's not gonna hit a ship in 1.4 but it's already about
+4.5 times faster than the old one which means like if you have your long build
+it's gonna be quite a bit shorter so
+this is not finished so the measurements are not like perfect because we'll be
+adding functionality to this subsystem and it can't get slower but we will be also optimizing it so we're actually
+aiming at the factor of five or something but it's you know hand waving at the moment what we have now does the bulk of
+the work so we are pretty sure it can be really fast now one thing from within
+the front end of the GNU Compiler is the new type inference and the new type of
+inference engine well chef in 1.4 and this is not about performance this is
+mostly about the nasty bugs that we couldn't really fix in the previous implementation because it wasn't
+flexible enough so well ship with fixing a lot of bugs it enables new language
+features I'll highlight one of them later in this talk and of course it can be evolved and extended later so it will
+enable even more language features in the future another part of the new
+compiler is the unified back-end you know makalah has three backends the JVM
+and Jas and come native and although all of them are doing the same job they are
+converting the front-end representation into a binary for whatever platform so
+historically the JVM and Jas backends were reading completely separately so
+they didn't share much code and when we started calling native we started building this infrastructure that would
+unify everything which is based on an internal presentation we call it back end I R so now we are migrating JVM and
+GS onto this new infrastructure so all the three backends will be similar and they will be sharing a lot of code so if
+I want to introduce a language feature I don't do it three times but only one and if I fix a bug I fix it everywhere at
+once this is coming 1.4 we won't be switching all the users right away so
+there will be an experimental period but still this is already around the corner
+an interesting thing that's enabled by this new unified back-end is the
+possibility of compiler plugins where it can you know write something to enhance
+or extend the functionality of carlin and while we are shipping no API in 1.4
+as usual there are already people relying on that API and well of course
+they're friends so we're helping them but yeah so folks over at Google or
+working on something called jetpack compose which is an awesome UI framework and they are making a back-end plugin
+this is the heart of the jetpack compose technology and also our friends at
+Facebook are doing something very interesting they're making Kotlin a great language for machine learning and AI so
+they are implementing language extensions called automated differentiation so on so forth and so
+Leland and Eric will give their talks about these very interesting initiatives here at Cal akov if you're into the
+cutting edge stuff in the Catalan ecosystem I really advise you to attend those talks I'd love to take questions
+at this point but I won't okay another bit for the new compiler is the portable
+format so now we are available in many platforms we need to unify our
+distributable format for libraries so caleb is the name for the new format it
+will unify all the platforms it contains a high-level representation of a column program kind of like the like Java
+bytecode or whatever else or whatever biko do you know and this means that
+this representation can be looked at you can analyze it you can transform it so it's it's a properly start analyzable
+representation of a compiled column program well start experimenting with it at one point four and well hopefully
+stabilize it over time okay so this is the new compiler now let's
+look at other areas and I've been talking a lot about multi-platform right because this is something very
+interesting about column we want people to be able to share code and skills
+across platforms so if you wrote something in Catalan you can use this code elsewhere and if you acquired some
+expertise some skills in coddling you can use them on another platform but
+whenever you want to do something platform-specific that cannot be easily done in another
+platform something really cool that only this platform can do you can always resort to the platform intro so it's
+code sharing skill sharing plus 100% access to the platform this is how we're
+trying to make it and this is the diagram of how cottonmouths platform
+works so at the core there is common Kotlin which is the language the core libraries and the basic tool chain so
+there you write code in just Kotlin and it works everywhere whenever you want to
+interact with the platform you go to a platform specific versions of Kotlin extensions to the language specific
+libraries so on so forth so Kotlin JVM chrome angeas and the LLVM based back-end for catalan native are all
+giving you the power to interrupt with a platform and through these extensions
+you can talk to the platform native code so there is JVM code out there it can access it there is Jas code out there
+you can access it and any kind of native code you can access as well which means that if there are like a lot of
+platforms you can talk to write this it's anything Java it's the browser it's
+no js' it's Android of course and all the native platforms like Windows Linux
+Mac microcontrollers your name it so this is the technology we're making and
+a few interesting news about it first of
+Multiplatform Core ibraries
+all we are extending the set of the core libraries there is of course the common
+standard library for everywhere we have strings we have collections and and all
+the necessary stuff is there now have durations tool and for teens for jeans
+are awesome you know and they work on every platform as well civilization is going to stabilize in color 1.4 I hope
+and i/o and HTTP client are also there on all platforms we are definitely adding date time
+because you know that everybody needs it so in the news for the libraries there
+will be two very interesting talks from my teammate Lenin will talk about the design of the
+column serialization which is actually it's kind of a border line between the library and a language feature so it's
+pretty cool and Roman will talk about something called flow which is the color
+implementation of reactive streams which helps you manipulate the streams of data
+using coroutines and it's pretty interesting because if you look at some of the benchmarks Kotlin
+flow is not only very convenient it's also much faster than some of the existing implementations of reactive
+streams so you don't only get like economics the nicer code but you also
+get faster by adopting I hope you enjoy it then libraries you know libraries are
+maybe the bulk of the common ecosystem so we really need to care about those
+people who are writing the libraries and this is why we are adding a few tools to
+help people so there is gonna be a library authors mode that will help you
+with a few checks to make your api's really robust and stable over time
+whereas demanding explicit visibility and explicit public types were required we're also working on daca which is the
+documentation generation tool and this is the sketch of the design of how the
+docs will look and note that there in the top right corner there are many
+platforms so dhankor works with multi-platform libraries as well as single platform ones talking about multi
+platform of course we are investing in the mobile case I've been talking about
+it iOS and Android and there will be an exciting talk about how stuff works there and they've been very interesting
+Multiplatform Removing limitations
+improvements I it's really a pity that I can't talk about them in the keynote because it's so exciting
+but mitri and Leah will talk about them in their talk one announcement I would
+Multiplatform Mobile
+like to make around multiply for mobile we are going to give you an opportunity
+to debug and test your iOS culling apps from android studio it will be done
+through a separate plugin a closed source plugin because it uses the in
+proprietary parts of IntelliJ but still you'll be able to open your common code
+written for iOS in Android studio and run on device running a simulator debug
+test so and so forth this is coming next year and just to set the expectations right this is not gonna replace Xcode
+for quite a few things you'll still need to enter Xcode but your normal
+development cycle will be just one IDE plus we're not trying to add all the
+languages to one IDE so far it's an interesting project this is a separate one and here I'm talking alacazam there
+will be no language support for objective-c or Swift but you can still do everything in common you know that
+right so I hope you'll enjoy this and to
+Kotlin/Native Runtime Performance
+accompany it we are working of course on the common native runtime which is what
+running Kotlin on iOS runtime performance is being improved gradually so this is
+the current result actually common apps are fast enough on iOS already but we're
+improving them over time another piece
+of news is that now it's not only iOS it's TV OS and watch OS alight so you
+can write your app and ship it across all kinds of devices now and to kind of
+playfully demonstrate that here's an app that you can play here a Kotlin conf
+it's called Kotlin locator just go to a store either Android or App Store and
+find it or come to the JetBrains booth there in the exhibition room so with
+this app you can play an interesting game which is called calling locator you'll be treasure hunting around the
+venue and as you see it can even run on a watch
+it's darn Kotlin all of it so you can
+see like how many things you can do with Kotlin today and of course working on
+Multiplatform Community
+such a huge thing as making mobile development enter a new era we can't do
+this without the help from the larger community so here I highlight two docks there there actually are many more
+multi-platform talks here come on cough but these two are I really want to highlight here so Alexander will talk
+about color multi platform in action and there will be a preview of very interesting library that allows you to
+share UI across Android and iOS and also Kevin will give you an insight into a
+concurrency model for Kotlin on iOS which is a very exciting topic if you're into
+really relevant hardware stuff please attend but multi-platform is not only
+mobile right multi-platform is everywhere and of course web is one of
+the biggest use cases the world runs on the web and here is one bit that we're
+adding for Kotlin is in the browser we now have the quicker load experience
+that you probably know from other JavaScript Wells right so you can just
+change some code and tree loads in the browser almost instantly will be improving this
+experience but I hope this will be like even a nice game to play you just change
+it from hey Kotlin - hey Kotlin cough - hey world so on so forth ant reloads and reloads and for those
+it's pretty cool also the jf compiler is improving so the
+new back-end can generate much smaller binaries so now we go from you know like
+700k to 400k which makes it like smaller and smaller and the optimized app can be
+really really small this is the benchmark of Kotlin axe coroutines which is a substantial library so it's a lot
+of code and can be compressed down to 45 kilobytes also we're working on the
+JavaScript Interop and they're you know the the well if javascript is huge we're adding things
+one by one and the new GS ecosystem will support es modules which is why the new
+standards also we're introducing to cut which connects the Cullen types with
+typescript types so by using Dukat you can just attach an NPM dependency to
+your current GS code and it will pick up the DTS files and convert them to Kotlin
+so you have seamless access to typescript types through the Kotlin type system Sebastian will give you more
+details on this here at Golikov and one other thing I would like to talk about
+regarding the web who knows webassembly
+okay folks you should learn about it who runs code and grab assembly okay okay so
+I can tell you this maybe in the future so actually what about assembly is it's
+a new web standard supported by all the major browsers or rent vendors where they're basically exposing a virtual
+machine to the users of the browser so it's not only the JavaScript source but also a special virtual machine that you
+can compile to and run any kind of code and of course Kotlin would like to run
+there and we actually have a working prototype for what assembly and we
+showed it I think maybe two years ago but there is a trick so the current web
+assembly that exists and every browser out there is an unmanaged runtime which
+means you have to manage your memory manually there is no garbage collection and it's kind of interesting so you have
+what you can do is compile column with Kotlin native it adds garbage collection so now you're running your own garbage
+collection in a an isolated runtime inside a browser with a lot of garbage
+collection around it you know it's not the best case so the current web assembly works best with languages like
+C++ or rust where you can manage your memory manually and this is how it works but the web assembler community is
+looking into actually adding the proper GC to the
+webassembly runtime and their languages like Kotlin should really shine so we
+are talking to the developers of webassembly to make sure that Kotlin will be really welcome in this ecosystem this
+is very early work like we have very very small prototypes but still it's pretty exciting okay I guess I'm done
+talking about multi-platform but it's not all one more thing is even beyond
+the world of software development as such right not everybody is a programmer
+but many more people than just software developers write code for example many
+many people nowadays do code for data science and here's a screenshot of
+carven running in a Jupiter notebook over spark and plotting the results with
+lat slot this is pretty cool because this means that the essentials of the
+standard data science toolset are available for Godman and Roman will give
+you more details on this project later so this is something that's happening inside jetbrains all right I guess I'm
+sort of done with the tooling announcements and now let's talk about the language well again we're trying to
+focus more on the quality and performance and stuff like this so no
+big feature announcements no ternary operator
+well ternary operator is really nasty I should say I was I was almost sure we
+can make it make it work but it's like it resists very hard yeah but still we
+are ending a few nice things I'll highlight only one here and you can get the information about the rest in our
+announcements on the web so who knows what Katie 777 Oh is how few people do
+okay there was a small bet inside the J brains team like what people come with Mt
+George saying Katy seven seven seven oh not really okay nice yeah so so this is
+this is just a feature request an hour you should track her filed back in 2015 so it's not that old some are filed back
+in 2010 for example but still so this is a feature we're adding now it's mostly
+about you know convenience and Java in drop I'm talking about function
+Function Interfaces
+interfaces you're probably now that Java eight along with lambdas added this idea
+of Sam's you know single abstract method types which kind of addresses the lack
+of function types in Java common had function types from the very beginning so we were kind of do we really need
+this feature not sure so we were postponing it but over time we saw that
+it's actually very convenient to not only have a function type but give it a name and not as a type alias but it's a
+proper separate type and this is what we're adding so calling is about fun right we're adding a bit more fun to
+come and you can now say that you have some fun interfaces so they are boring interfaces and fun interfaces yeah so
+it's a fun interface it's of course sense for a function interface is
+something with only one abstract method you can basically use it as a function type so you can pass a lambda where this
+interface is expected this helps you with with your type tendler's for lots
+of stuff and also helps with a java range Rob because you can now migrate an entire Java eight library along with the
+interfaces without breaking any client code so this is one feature I wanted to
+highlight there are a few more like stuff around commas for example you maybe find interesting so there are
+really really many small improvements so most of them are not actually features
+there are kind of bug fixes or inconsistency fixes and stuff like that and this is like this actually takes a
+lot of time to adjust things in the language this way because if you just randomly touch something or language
+something breaks and something breaks not on your machine but like on your machines and this is a lot of
+responsibility but we really need to do this because we
+Language Evolution
+want Kotlin to be modern even 20 years from now so here are the three driving
+principles of language evolution that we are trying to follow so keeping the language more turn means that if any
+kind of idea gets old and irrelevant when you face it out so all things
+should go we do not want to accumulate legacy but on the other hand if we just
+remove stuff the world breaks right and and you hate us and also I don't want to
+follow the example of some other language ecosystems that I'm not naming here that we're introducing new versions
+nobody is really eager to adopt because there are breaking changes so there is a
+conflicting principle of comfortable updates like every time you update your new version of carlin it should be easy
+for you you shouldn't be broken by it sounds a fourth and these two you know
+are pretty hard to keep in balance but we're trying and the main tool we're using here is a feedback loop so we need
+to be in the loop with you folks do you give you a heads up like okay now we're duplicating this thing like in two years
+it goes away so we need to make sure that everybody migrates and we need to
+provide tools for you to migrate so we need to stay in touch to make sure all
+the information gets around and here I really advise you to actively stay in
+Stay In the loop
+the loop with us you'll help us improve the ecosystem so if you're not already there enter the EAP program so early
+access builds are as good as production okay
+okay I'm joking they are almost as good as production but you can give us early
+feedback and it's pretty important also we issue surveys sometimes and ask you
+questions please answer it can help us improve Kotlin and even if you don't have energy for any of that just enable usage
+stats in the idea so one thing you can do without like any effort just go to
+your ID open settings and if you have it this way make it this way it's anonymous
+data gonna spy on you what I care about is am I gonna break your code because I don't
+want you but you know if I don't like somebody really really a lot I still
+can't because it's anonymized sorry okay so yeah this way you can say in the loop
+it it doesn't take any effort like you don't even need to report an exception to us just just send stats will help you
+like this example with completion for example right somebody gets their completion really slow but how do you
+report that but if you get on the radar will see like something some of your environment and we'll try to look into
+it it's already better than nothing okay it's time to conclude and the three main
+takeaways from this talk or here so Kotlin is about people ideas and software
+it's an ecosystem that brings people together to work in the common way and
+many common values we are constantly improving by staying in the feedback
+loop so we really care about what do you think come and tell us even passively through stats or something else also the
+community is about participation anything you do from code you write to
+tutorials experience reports even just a like or e tweet this is all value you
+bring to the community thank you for your participation you'll have a very
+interesting two days so it's talks it's networking it's very interesting
+conversation a party a surprise announcement like everything is gonna happen here I wish you great time and
+have a nice Kotlin cough thank you [Applause]
+

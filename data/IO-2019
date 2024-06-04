@@ -1,0 +1,879 @@
+[MUSIC PLAYING] [APPLAUSE]
+SUNDAR PICHAI: Good morning. Good morning. Wonderful to be back here at Shoreline with all of you.
+It's been a really busy few months for us at Google. We just wrapped up Cloud Next in San Francisco with over 30,000
+attendees, as well as YouTube Brandcast last week in New York.
+Of course, today's about you all, our developer community. And thank you all for joining us in person,
+and to the millions around the world watching on livestream. I would love to say welcome in all our languages
+our viewers speak, but we are going to keep the keynote under two hours, especially since Barcelona kicks off against Liverpool at noon.
+[CHEERING] That should be an amazing game.
+Every year at I/O, we learn and try to make things a little bit better. That's why we have lots of sunscreen--
+hope the sun comes out-- plenty of water and shade. But this year, we want to make it easier
+for you to get around. So we are using AR to help. To get started, open your I/O app and choose Explore I/O.
+And then you can just point your phone where you want to go. We really hope this helps you get around
+and answers the number one question people have-- where the sessions are.
+Actually, it's not that. They want to know where the food is. And we have plenty of it around.
+We also have a couple of Easter eggs, and we hope you enjoy them as well. This is a pretty compelling use case.
+And we actually want to generalize this approach so that you can explore and navigate the whole world that way.
+There's a lot of hard work ahead. And it's a hard computer science problem.
+But it's the type of challenge we love. Tackling these kinds of problems is what has kept us going for the past 21 years.
+And it all begins with our mission to organize the world's information and make it universally accessible and useful.
+And today, our mission feels as relevant as ever. But the way we approach it is constantly evolving.
+We are moving from a company that helps your find answers to a company that
+helps you get things done. This morning, we'll introduce you to many products built on a foundation of user trust
+and privacy. And I'll talk more about that later. We want our products to work harder
+for you, in the context of your job, your home, and your life.
+And they all share a single goal-- to be helpful, so we can be there for you
+in moments big and small over the course of your day-- for example, helping you write your emails faster
+with automatic solutions from Smart Reply, and giving you the chance to take them back
+if you didn't get it right the first time, helping you find the fastest route
+home at the end of a long day, and when you get there, removing distractions so that you can spend time
+with the people most important to you, and when you capture those perfect moments,
+backing them up automatically so you never lose them.
+Simply put, our goal is to build a more helpful Google for everyone.
+And when we say "helpful," we mean giving you the tools to increase your knowledge, success,
+health, and happiness. We feel so privileged to be developing products
+for billions of users. And with that scale comes a deep sense of responsibility
+to create things that improve people's lives. By focusing on these fundamental attributes,
+we can empower individuals and benefit society as a whole.
+Of course, building a more helpful Google for us always starts with search and the billions of questions users
+trust Google with everyday. But there is so much more we can do to help our users.
+Last year, we launched a new feature in Google News called Full Coverage.
+And we have gotten great feedback on it from our users. We'll be bringing Full Coverage directly
+to search to better organize results for news-related topics.
+Let's take an example. If you search for "black hole," we'll surface the relevant top news.
+It was in the news recently. We use machine learning to identify different types of stories and give you
+a complete picture of how a story is being reported from a wide variety of sources.
+You can click into Full Coverage. It serves as a breadth of content, but allows you to drill down into what interests you.
+You can check out different aspects of the story, like how the black hole got its name.
+You can even now see a timeline of events. And we'll be bringing this to search later this year.
+Podcasts are another important source of information. And we'll be bringing them directly to search as well.
+By indexing podcasts, we can surface relevant episodes based on their content, not just the title.
+And you can tap to listen right in search results, or you can save an episode for listening later
+on your commute or your Google Home. These are all examples of how we are making search even more
+helpful for our users, surfacing the right information in the right context.
+And sometimes, what's most helpful in understanding the world is being able to see it visually.
+To show you how we are bringing you visual information directly in search, here's Aparna.
+[MUSIC PLAYING] [APPLAUSE]
+APARNA CHENNAPRAGADA: Whether you're learning about the solar system or trying to choose a color scheme for your home,
+seeing is often understanding. With computer vision and augmented reality,
+that camera in our hands is turning into a powerful visual tool to help you understand
+the world around you. So today, we are excited to bring the camera
+to Google search, adding a new dimension to your search results-- well, actually three dimensions, to be precise.
+So let's take a look. Say you're a student studying human anatomy.
+Now, when you search for something like muscle flexion, you can view a 3D model built by Visible Body
+right from the search results. Pretty cool.
+Not only that, you can also place it in your own space. [APPLAUSE]
+Look, it's one thing to read about flexion or extension, but seeing it in action right in front of you
+while you're studying the concept, very handy. OK, let's take another example.
+Say, instead of studying, you're shopping for a new pair of shoes. That happens.
+With New Balance, you can look at shoes up close from different angles, again, directly from search.
+That way, you get a much better sense for things like, what does the grip look like on the sole,
+or how they match with the rest of your clothes. [APPLAUSE]
+OK, this last example is a really fun one. So you may have all seen a great white shark in the movies.
+"Jaws," anyone? But what does it actually look like up close?
+Let's find out, shall we? OK. I have Arjuna here with me to help with the demo.
+So let's go ahead and search for "great white shark" on Google. As you scroll through, you get information
+on the knowledge panel facts, but also see the shark in 3D
+directly from the knowledge panel. Why don't we go one step further?
+Why don't we invite the shark to the stage? Whoa! [APPLAUSE]
+There it is. It's one thing to read a fact like "a great white can
+be anywhere between 17 feet to 21 feet long," but to see it in front of you at scale,
+filling up the Shoreline stage like a rock star, that is truly understanding its scale.
+OK, let's take a closer look. It's an AR shark. It won't bite.
+Ooh. Look at those layers of teeth. You know, I don't know about you all, but I'd much rather see these teeth up close in AR
+than in real life. Thank you, Arjuna. [APPLAUSE]
+Really excited about bringing the camera and AR capabilities to Google search.
+Now, sometimes, though, the things that you're interested in, they're difficult to describe in a search box.
+So that's why we created Google Lens, to help you search and do more with what you see
+by simply pointing your camera. The built lens has a capability across products.
+So you can access it directly from the Google Assistant. But we've also built it into Google Photos and the Camera
+app on many Android devices. People have already used Lens more than a billion times so
+far. And they've used it to ask questions about what they see, like what kind of flower that is,
+or where to get a lamp like that, or just who the artist is.
+One way we've been thinking about it is, with Lens, we're indexing the physical world, billions
+of places and products and so on, much like search indexes the billions of pages on the web.
+OK, today, let me show you some new ways that we're making Lens more helpful to you.
+Say you're at a restaurant trying to figure out what to order. Instead of going from the menu to different apps on the phone
+and back to the menu and so on, you can simply point your camera.
+Lens automatically highlights the popular dishes at this restaurant right on the menu.
+[APPLAUSE]
+And of course, if you want to know more, you can tap on any dish on the menu, and you can see what it looks like, again,
+at the restaurant-- [APPLAUSE] --and, of course, check out what other people are
+saying about it on Google Maps. By the way, when you're done eating,
+Lens can help pay for your meal. Not so fast. It's not picking up your tab.
+But it can calculate the tip and even split the total--
+again, just by pointing your camera at the receipt.
+And voila. [APPLAUSE]
+So you saw how we connected the menu with information from Google Maps.
+But we're starting to think of other ways that we can connect helpful digital information
+with the things in the physical world. So I'm going to give you just one example. So you're flipping through a "Bon Appetit" magazine
+and you see a recipe you like. Soon, you can point your camera at the recipe
+and see the page come alive, showing you how to make the dish.
+We're starting to work with more partners, like museums, magazine publishers, and retailers,
+to bring unique visual experiences like this.
+There's one final area where we think that the camera can be particularly helpful to people.
+Around the world, there are more than 800 million adults who are struggling to read the words that they come across
+in their daily lives-- bus schedules, bank forms, et cetera.
+And many of them are coming online for the first time with a smartphone. So to help with that, we've integrated a new camera
+capability into Google Go. This is our search app for entry level devices.
+Take this sign in English next to an ATM. Now, for someone who does not understand the language
+and cannot read the words, this is important information that they're not getting access to.
+And we think that the camera can help here. So let me show you how. So directly from the Google search bar,
+you can use Lens, open it, point it at the sign to hear the text read out aloud to you.
+ASSISTANT: Information for card holders-- all customers using old proprietary magnetic stripe
+cards should be advised. APARNA CHENNAPRAGADA: What is nice here is that it is highlighting the words as they're spoken.
+That way, even if you can't read the language well, you can follow along, and you understand the full context
+of what you see. You can also translate it into your own language, like this.
+[APPLAUSE]
+Notice that the translated text is overlaid right on top of the original sign.
+It almost feels like the sign was written in your own language to start with.
+And again, you can hit Listen and hear the words read out loud, this time in your own language.
+ASSISTANT: [SPEAKING SPANISH] [APPLAUSE]
+APARNA CHENNAPRAGADA: What you're seeing here is text-to-speech, computer vision, the power of translate,
+and 20 years of language understanding from search all coming together.
+Now, our teams in India have been working with some early testers and getting a lot of feedback
+to make the product better. And I want to now show you how one of them is using it in her daily life.
+Take a look.
+[MUSIC PLAYING]
+[APPLAUSE]
+APARNA CHENNAPRAGADA: Thank you, Urmila, for testing it and giving us a lot of feedback for the team
+to make the product better. The power to read is the power to buy a train ticket,
+to shop in a store, to follow the news. It's the power to get things done.
+So we want to make this feature accessible to as many people as possible. So it already works in more than a dozen languages.
+And the teams worked incredibly hard to compress all of this tech to just over 100 kilobytes.
+[APPLAUSE]
+APARNA CHENNAPRAGADA: That way, it can work on phones that cost as little as $35.
+So we're super excited about this and all the other features across search and Lens to help you throughout the day.
+You'll start to see these updates roll out later this month. Thank you. [APPLAUSE]
+[MUSIC PLAYING]
+SUNDAR PICHAI: Thanks Aparna. Helpfulness is also about saving time and making
+your day a little bit easier. That's why, last year, at I/O, we gave you a first look at our Duplex technology.
+Duplex enables Google Assistant to make restaurant reservations on your behalf by actually placing a call.
+It's now available in 44 states across the US. And we've gotten great feedback not only from our users,
+but from businesses as well. For us Duplex is the approach by which
+we train AI on simple but familiar tasks to accomplish them and save you time.
+Duplex was launched with restaurant reservations on the phone. But now, we are moving beyond voice
+and extending Duplex to tasks on the web. We again want to focus on narrow use cases to start.
+So we are looking at rental car bookings as well as movie ticketing. Today, when you make a new reservation online,
+you have to navigate a number of pages and steps, filling out information and making
+selections along the way. I'm sure you're all familiar with this experience. It's time consuming.
+And if users leave during the workflow, businesses lose out as well. We want to make this experience better for both users
+and businesses. So let me show you how that system can do it better.
+Say you get a calendar reminder about an upcoming trip. And you want to book a rental car.
+You can just ask Google, book a National car rental for my next trip.
+The Assistant opens the National website and automatically starts filling out your information
+on your behalf-- [APPLAUSE] --including the dates of the trip. You can confirm the details with just a tap.
+And then the Assistant continues to navigate the site. It even selects which car you like.
+It's acting on your behalf and helping you save time, but you're always in control of the flow.
+Let's go ahead and add a car seat. And once all the details are in, you
+can check everything one last time and just tap to finalize the reservation.
+You'll immediately get a booking confirmation. It's amazing to see the Assistant complete
+a task online on your behalf in a personalized way.
+It understands the dates of your trip and your car preferences based on trip confirmations
+and Gmail. And I also want to point out that this was not a custom integration.
+This required no action on part of the business to implement. What you just saw is an early preview
+of what we are calling Duplex on the Web. We're going to be thoughtful and get feedback
+from both users and businesses to improve the experience. And we'll have more details to share later this year.
+[APPLAUSE]
+The Google Assistant helps people around the world with all kinds of tasks, whether they are at home or on the go.
+But we want to build an even more helpful assistant. In order to process speech today, we
+rely on complex algorithms that include multiple machine learning models.
+One model maps incoming sound bites into phonetic units.
+Another one takes and assembles these phonetic units into words. And then a third model predicts the likelihood
+of these words in a sequence. They are so complex that they require 100 gigabytes of storage and a network connection.
+Bringing these models to your phone-- think of it as putting the power of a Google data center in your pocket--
+is an incredibly challenging computer science problem. I'm excited to share we have reached
+a significant milestone. Further advances in deep learning have allowed us to combine and shrink the 100-gigabyte models
+down to half a gigabyte, small enough to bring it onto mobile devices.
+This eliminates network latency and makes the Assistant so much faster--
+so fast that tapping to use your phone would seem slow.
+I think this is going to transform the future of the Assistant. And I'm thrilled to bring Scott to tell you
+more about our next generation Assistant. [MUSIC PLAYING] [APPLAUSE]
+SCOTT HUFFMAN: Thanks, Sundar. Well, what if we could bring the AI that powers the Assistant
+right onto your phone? What if the Assistant was so fast at processing your voice
+that tapping to operate your phone would almost seem slow? It opens up many new use cases.
+And we want to show you how fast it is. Now, internally, we've been calling this the next generation Assistant.
+Running on device, it can process and understand requests in real time, and deliver the answers up
+to 10 times faster. Now, Maggie's here. And she's going to help us test it out,
+starting with some back-to-back commands to demonstrate its speed. Now this demo is hot off the press.
+So please send your positive energy over in Maggie's direction. [APPLAUSE]
+MAGGIE: Hey, Google, open Calendar. Open Calculator.
+Open Photos. Set a timer for 10 minutes.
+What's the weather today? What about tomorrow?
+Show me John Legend on Twitter. Get a Lyft ride to my hotel.
+Turn the flashlight on. Turn it off. Take a selfie.
+[APPLAUSE]
+SCOTT HUFFMAN: All right. Now as you can see-- [APPLAUSE] Yeah.
+That was awesome. Maggie was able to open and navigate apps instantly.
+Now you might have also noticed that, with continued conversation, she was able to make several requests in a row
+without having to say "hey Google" each time. Now, beyond an effortless way to operate your phone,
+you can start to imagine how the Assistant fused into the device could orchestrate tasks across apps.
+Let's look at another demo where Maggie's chatting with a friend. He's going to ask her about a recent trip.
+Notice how easy it is for her to respond with her voice and even share a photo.
+MAGGIE: Reply. Had a great time with my family, and it was so beautiful.
+Show me my photos from Yellowstone. The ones with animals.
+Send it to Justin.
+SCOTT HUFFMAN: All right. [APPLAUSE] Yeah.
+Now another example is when a friend asks you a question and you need to look up the information to respond.
+Justin wanted to know when Maggie's flight arrives. MAGGIE: When's my flight?
+When's my flight?
+Reply. I should get in around 1:00 PM. SCOTT HUFFMAN: All right.
+So notice how it helped Maggie multitask more easily across different apps,
+saving her a lot of back-and-forth. Now you can even imagine this next generation assistant
+handling more complex speech scenarios, like composing and sending an email.
+MAGGIE: Hey, Google, send an email to Jessica.
+Hi, Jessica. I just got back from Yellowstone and completely fell in love
+with it. Set subject to "Yellowstone Adventures."
+Let me know if next weekend works for dinner so I can tell you all about it.
+Send it. SCOTT HUFFMAN: Whoa. [APPLAUSE]
+All right. Now, as you can see, this required the Assistant
+to understand when Maggie was dictating part of the message versus when she was asking it to complete an action.
+Thanks, Maggie. MAGGIE: Thanks, Scott. [APPLAUSE]
+SCOTT HUFFMAN: By moving these powerful AI models right onto your phone, we're envisioning a paradigm shift.
+This next generation assistant will let you instantly operate your phone with your voice, multitask across apps,
+and complete complex actions, all with nearly zero latency. And actions like turning on the flashlight,
+opening Gmail, or checking your calendar will even work offline. Now, it's a very hard problem we've been solving.
+And I'm really excited to share, the realization of this vision is not far off. In fact, this next generation assistant
+is coming to the new Pixel phones later this year. [APPLAUSE]
+All right. Now our mission is to make the Assistant the best way to get things done.
+You just saw how we're making it much faster. But it also has to be personal enough to really help you.
+Now, personalized help is especially important in areas where people's preferences completely differ, like choosing what to listen to,
+what to do on the weekend, or even what to eat. So let's look at a recipe example. Hey, Google, what should I cook for dinner?
+ASSISTANT: Here are some recipe picks for you. SCOTT HUFFMAN: Now as you can see, the Assistant picked recipes tailored to me.
+For example, it suggested a bourbon chicken recipe, because it's helped me with barbecue recipes in the past.
+Now what I really love is that different people get completely different results.
+We call this feature Picks for You. And it will be launching on smart displays later this summer, starting with recipes, podcasts, and events.
+Now, beyond your preferences, becoming more personal means the Assistant will better understand the people, places,
+and events that are important to you. Now, one important person in my life is my mom, who I'm going to visit right after I/O.
+So let's say I asked my Assistant, how's the traffic to Mom's house? Now, we all understand what I mean by Mom's house, right?
+Well, if I'm in Toledo, Mom's House might have meant this place, a nonprofit childcare center.
+In other cities, Mom's House can be a restaurant or a grocery store. In fact, there's lots of things in the world called
+Mom's House. Now, in linguistics, the process of figuring out which thing a phrase refers to is called reference resolution.
+And it's fundamental to understanding human language. At Google, we approached this problem using our knowledge graph of things
+in the world and their relationships. It's what allows us to understand something like the Starbucks near the Golden Gate Bridge.
+Today, we're expanding the Assistant's ability to understand you better by applying those same techniques
+to the things in your world. We call it Personal References. So if I shared my mom's contact info with the Assistant,
+I can ask, hey, Google, what's the weather like at Mom's house this weekend? ASSISTANT: Friday and Saturday in Carmichael
+will be partly cloudy. SCOTT HUFFMAN: How long will it take to get there? ASSISTANT: With light traffic, it
+will take you two hours and 14 minutes to get to 123 Main Street by car. SCOTT HUFFMAN: Remind me to order flowers
+a week before Mom's birthday. ASSISTANT: All right. I'll remind you on July 3. SCOTT HUFFMAN: And it goes beyond Mom.
+If you've shared important people, places, and events with the Assistant, you'll be able to ask for things more
+naturally. Like, show me photos of my son, or directions to the restaurant reservation, or reminding me to pick up
+chocolates on my anniversary. And rest assured, you're always in control.
+You can edit or delete this information at any time in the updated You tab in Assistant settings.
+Now, one place where the Assistant can be especially helpful is in the car, offering a safer hands-free way to get everything you
+need while you're on the road. Now, we've been focused on the main things that we all want when we're driving--
+to get where we're going safely, to catch up with friends, and listen to something interesting along the way.
+Last year, we brought the Assistant to Android Auto. And earlier this year, we added it to Navigation
+in Google Maps. I'm happy to share, the Assistant is also coming to Waze in the next few weeks.
+Now, I'd like to show you the future of how we're improving your mobile driving experience even more.
+Introducing the Assistant's new driving mode. Just put your phone in the car and say,
+hey, Google, let's drive. Driving mode has a thoughtfully designed dashboard
+that brings your most relevant activities front and center while you're driving, and includes suggestions
+personalized for you. For example, if you have a dinner reservation on your calendar, you'll see a convenient shortcut
+to navigate to the restaurant. Or if you started a podcast at home in the morning,
+once you get in your car, it will display a shortcut to resume the episode right where you left off.
+Now it also highlights top contacts, making it easy to call them or message them, and recommendations for other things to listen to.
+Now, once you're navigating, phone calls and music appear in a low profile way, so you
+can get things done without leaving your navigation screen. Hey, Google, play some jazz.
+ASSISTANT: Sure. Check out this jazz music station on YouTube Music. [JAZZ MUSIC PLAYING]
+SCOTT HUFFMAN: Now, everything is voice-enabled. So if a call comes in, the Assistant will tell you who's calling and ask
+if you want to answer without having to take your eyes off the road. [PHONE RINGING] ASSISTANT: Call from Mom.
+Do you want to pick it up? SCOTT HUFFMAN: No thanks. But thanks for your help with the demo, Mom.
+All right, so best of all, with the Assistant already on your phone, there's no need to download an app.
+Just start driving. Driving mode will be available this summer on any Android phone with the Assistant.
+[APPLAUSE] Now, today, the Google Assistant is
+available on over 1 billion devices in over 30 languages across 80 countries.
+And with Duplex on the Web, the next generation Assistant, personalized help, and assistance in the car,
+we're continuing to build on our mission to be the fastest, most personal way to help
+you get things done. Now, before I go, I want to share a little something that a lot of you have been asking for.
+Check this out. [ALARM SOUNDING] Stop.
+[ALARM STOPS] [APPLAUSE]
+Now you can stop your timers and alarms just by saying stop. No "hey, Google" needed.
+And it's rolling out on smart displays and Google Homes in English-speaking locales starting today.
+Thanks very much. [APPLAUSE]
+[MUSIC PLAYING]
+SPEAKER 1: Hey, Google, open the pod bay doors. SPEAKER 2: Hey, Google. SPEAKER 3: Hey, Google. SPEAKER 4: Hey, Google.
+Turn on the lights. SPEAKER 5: Turn on two mode. SPEAKER 6: I love that. SPEAKER 7: Hey, Google.
+[HORN HONKING] SPEAKER 8: Call Mom. [SCREAMING] ASSISTANT: I found a few restaurants near you.
+SPEAKER 9: Order my usual from Starbucks. ASSISTANT: Ordering you a grande vanilla latte from Starbucks. SPEAKER 9: I love you.
+I love you! SPEAKER 10: OK, Google. ASSISTANT: This is a cat. [MEOWING] SPEAKER 11: The forecast is 72 and sunny.
+SPEAKER 12: Take a selfie. [ANIMAL BARKS] SPEAKER 13: Hey, Google. SPEAKER 14: What's on my calendar for today?
+SPEAKER 15: Make me laugh. SPEAKER 16: How do I slice a mango? SPEAKER 17: Turn on the Christmas spirit. MACAULAY CULKIN: Begin Operation Kevin.
+ASSISTANT: Operation Kevin underway. SPEAKER 18: Show me how to make an octopus costume on YouTube.
+[APPLAUSE]
+SUNDAR PICHAI: Thanks, Scott. It's great to see the momentum of Google Assistant and how it's able to help users get things done.
+So far, we've talked about building a more helpful Google. It's equally important to us that we do this for everyone.
+"For everyone" is a core philosophy for us at Google. That's why, from the earliest days,
+search was the same, whether you you were a professor at Stanford or a student in rural Indonesia.
+It's why we build affordable laptops for classrooms everywhere.
+And it's why we care about the experience on low cost phones in countries where users are just
+starting to come online with the same passion as we do with premium phones.
+And it goes beyond our products and services. It's why we offer free training and tools
+through Grow with Google, helping people grow their skills, find jobs, and build
+their businesses. And it's how we develop our technology, ensuring the responsible development of AI, privacy
+and security that works for everyone, and products that are accessible at their core.
+Let's start with building AI for everyone. Bias has been a concern in science
+long before machine learning came along. But the stakes are clearly higher with AI.
+It's not enough to know if a model works. We need to know how it works.
+We want to ensure that our AI models don't reinforce bias
+that exists in the real world. It's a hard problem, which is why we are doing fundamental computer science
+research to improve the transparency of machine learning models and reduce bias.
+Let me show you what I mean. When computer scientists deploy machine learning models,
+it can sometimes be difficult to understand why they make a certain prediction.
+That's because most machine learning models appear to operate on low level features--
+edges and lines in a picture, color of a single pixel. That's very different than the higher
+level concepts more familiar to humans, like stripes on a zebra.
+To tackle this problem, Google AI researchers are working on a new methodology called TCAV,
+or testing with concept activation vectors. Let me give you an example.
+If it's a machine learning model, trained to detect zebras, you would want to know which variables
+were being used to decide if the image contained a zebra or not. TCAV can help you understand if the concept of stripes
+was important to the model's prediction. In this particular case, it makes sense.
+Stripes are an important predictor for the model. Now suppose a classifier was trained on pictures of doctors.
+If the training data was mostly males wearing coats and stethoscopes, then the model
+could inaccurately assume that being male was an important prediction factor.
+There are other important examples as well. Now imagine an AI system that could help
+with detecting skin cancer. To be effective, it would need to recognize
+a wide variety of skin tones representative of the entire population.
+There's a lot more to do, but we are committed to building AI in a way that's fair and works for everyone,
+including identifying and addressing bias in our own ML models and sharing tools and open data
+sets to help you as well. Another way we build for everyone
+is by ensuring that our products are safe and private, and that people have clear, meaningful choices
+around their data. We strongly believe that privacy and security are
+for everyone, not just a few. This is why powerful privacy features and controls
+have always been built into Google services. We launched incognito mode in Chrome over a decade ago.
+We pioneered Google Takeout, which gives you easy controls to export your data, from email, contacts, photos--
+all of our products-- any time you choose to. But we know our work on privacy and security is never done.
+And we want to do more to stay ahead of constantly evolving user expectations.
+We have been working on a significant set of enhancements. And I want to talk you through a few.
+Today, you can already find all your privacy and security settings in one place in your Google account.
+To make sure your Google account is always at your fingertips, we are making it easily accessible from your profile
+photo. If you're in search, you can tap on your photo,
+and you can quickly access the most relevant privacy controls for search, in the case of your data in search.
+Here, you can view and manage your recent activity. And you can easily change your privacy settings.
+Last week, we announced auto-delete controls, which you'll also be able to access right from the app.
+Data helps make search work better for you. And with auto-delete, you can choose how long you want it
+to be saved-- for example, three or 18 months, after which any old data will
+be automatically and continuously deleted from your account. This is launching today for web and app activity.
+We'll be rolling it out to location history in the coming weeks. And we'll continue to bring features such as this
+to more controls over time. In addition, one-tap access to your Google account
+will be coming to our major products, including Chrome, search, Assistant, YouTube,
+Google News, and Maps. And speaking of Maps, if you tap on your profile photo,
+in addition to finding easy access to your privacy controls, you'll find a new feature, incognito
+mode. Incognito mode has been a popular feature in Chrome since it launched.
+And we are bringing this to Maps. While in Incognito in Maps, your activity,
+like the places you search and navigate to, won't be linked to your account. We want to make it easy to enter in and out of Incognito.
+And maps Will soon join Chrome and YouTube with support for Incognito.
+And we'll be bringing it to search as well this year. [APPLAUSE]
+Another way we ensure your privacy is by working hard to keep your data secure,
+from Safe Browsing, which now protects over 4 billion devices everyday, to using TensorFlow to significantly reduce
+phishing attacks in Gmail, we also encourage users to use two-step verification,
+because an additional layer of protection is always helpful. Today, we are making two-step verification
+even more convenient for everyone by bringing the protection of security keys
+directly into your Android phone. So now, you can confirm a sign-in with just a tap.
+And today, it will be available to over 1 billion compatible devices.
+[APPLAUSE] We always want to do more for users,
+but do it with less data over time. So we are applying the same cutting edge AI
+research that makes our products better and applying it to enhance user privacy.
+Federated Learning-- this is a new approach to machine learning developed by Google--
+is one example. It allows Google's AI products to work better for you
+and work better for everyone without collecting raw data from your devices.
+Instead of sending data to the cloud, we flipped the model. We ship machine learning models directly to your device.
+Each phone computes an update to the global model. And only those updates, not the data,
+is securely uploaded and aggregated in large batches to improve the global model.
+And then the updated global model is sent back to everyone's device. Let me explain it with a concrete example.
+Take Gboard, Google's keyboard. Using on-device learning alone, when new words become popular,
+Gboard would not be able to suggest them until you've typed them many times. Federated Learning, however, allows
+Gboard to learn new words like BTS or YOLO
+after thousands of people start using them without Google ever seeing anything you type.
+Actually, with BTS, it's probably millions of people. This is not just research.
+In fact, Gboard is already using Federated Learning to improve next word prediction, as well as emoji prediction,
+across tens of millions of devices. It's still very early, but we are excited about the progress and the potential of Federated
+Learning across many more of our products. [APPLAUSE]
+Privacy and security are the foundation for all the work we do. And we'll continue to push the boundaries of technology
+to make it even better for our users. Building for everyone also means ensuring that everyone
+can access our products. The World Health Organization estimates that 15%
+of the world's population-- over 1 billion people-- has a disability.
+We believe technology can help us be more inclusive. And AI is providing us with new tools
+to dramatically improve experience for people with disabilities. For example, there are almost 500 million people
+in the world who are deaf or hard of hearing. Think of how many conversations are challenging,
+from in-person discussions and phone calls, to even experiencing videos online.
+A few months ago we launched Live Transcribe, powered by Google's Cloud Speech API,
+to caption conversations in real time. You can leave your phone open with the app.
+And when someone speaks to you, it transcribes their speech into text. Those who cannot-- or prefer not to-- speak can also respond
+by typing. I was really inspired by how the product came about. Two of our Google researchers, Dimitri and Chet,
+saw an opportunity to help people and collaborated to develop the app. Together, with a small team of engineers and people
+who volunteered their 20% time, they built Live Transcribe. And it is now available in over 70 languages and dialects
+on Android devices. [APPLAUSE]
+Today, we are going further in extending this technology. We are announcing a new feature called Live Caption.
+Live Caption makes all content, no matter its origin, more accessible to everyone.
+The incredible thing is that it works completely on device. So there's no delay.
+With one click, you can turn on captions for a web video, podcast, or even
+on a moment you capture at home. SPEAKER 19: You like the blueberries? Blueberries.
+Delicious? Here comes more. Yum! Show Daddy.
+Ah. [APPLAUSE]
+It's only possible due to our recent breakthroughs in speech recognition technology.
+We recently tested Live Caption with some users. Let's take a look.
+[APPLAUSE]
+You can imagine all the use cases for the broader community too-- for example, the ability to watch any video if you're
+in a meeting or on the subway without disturbing the people around you. The Android team is going to talk a little bit later today
+about what made Live Caption possible. We're also exploring how this technology
+can caption phone calls. But we want to go one step further and actually allow
+more people to respond and accomplish tasks over their phones.
+As you'll see in this example, Nicole, who's deaf and prefers not to speak, can receive a call from her hairstylist.
+With Smart Compose and Smart Reply, she can answer the call and interact.
+Let's take a look. [PHONE RINGING]
+ASSISTANT: Hi. This is Nicole's Assistive Chat. She'll see what you say, and her responses will be read back to you, starting now.
+JAMIE: Hi, Nicole. It's Jamie. How are you?
+ASSISTANT: Hey, Jamie. I'm good. And you? JAMIE: Great. Are we still on for your 1:00 PM haircut tomorrow?
+ASSISTANT: Sorry, can you do 3:00 PM? JAMIE: Yes, I can do 3:00 PM.
+We have a lot to catch up on. I want to hear all about your trip. ASSISTANT: Perfect.
+Thumbs up. JAMIE: Great. See you tomorrow. Bye.
+SUNDAR PICHAI: Thumbs up indeed. [APPLAUSE]
+We call this new technology Live Relay. While there's still more work to do,
+we are excited to see how it can help people like Nicole get things done more easily.
+Just like with Live Caption, this runs completely on device, and these conversations remain private to you.
+We also want to help those with speech disorders, or people whose speech has been affected by a stroke or ALS.
+Researchers from Google AI are exploring the idea of personalized communication models that can better
+understand different types of speech, as well as how AI can help even those who cannot speak
+to communicate. We call this research Project Euphonia. Let's take a look.
+[MUSIC PLAYING]
+[APPLAUSE]
+SUNDAR PICHAI: We are working hard to provide these voice recognition models through the Google Assistant in the future.
+But as you saw in Dimitri's case, this will only be possible with many more speech samples
+to train our models on. If you or someone you know has slurred
+or hard to understand speech, we'd like to invite you to submit voice samples
+to help accelerate this effort. Fundamentally AI research which enables new products
+for people with disabilities is an important way we drive our mission forward.
+Live Transcribe, Live Caption, Live Relay, and Project Euphonia will ultimately result in products
+that work better for all of us. It's a perfect example of what we mean by building a more helpful Google for everyone.
+One of the most powerful ways we deliver help to our users is through our open source platforms like Android.
+To tell you more, I'd like to invite Steph onto the stage. [MUSIC PLAYING]
+[APPLAUSE]
+STEPHANIE CUTHBERTSON: It's amazing we're here to talk about Android's version 10. [APPLAUSE]
+And we get to celebrate a milestone together. Today, there are over 2.5 billion active Android devices.
+[APPLAUSE] And today, we want to walk you through what's
+coming next in the Android Q. Innovation, security,
+and privacy-- the central theme of the Q release, and digital well-being.
+A lot has changed since 1.0. Smartphones have evolved from an early vision to this integral tool in our lives.
+And they are incredibly helpful. Looking ahead, we see another big wave of innovation coming to make them even more helpful.
+Q shows Android shaping the leading edge of mobile innovation, with over 180 device
+makers around the world. Driven by this powerful ecosystem, many innovations have been first on Android, from large screens
+to the first OLED display. And this year, display technology will take an even bigger leap with foldables coming
+from multiple Android OEMs. These devices open up a completely new category,
+which, though early, just might change the future of mobile computing. Foldables take advantage of completely new display
+technology. They literally bend and fold from phone to tablet-sized screen. And Q maximizes what's possible on these screens.
+For instance, foldables are great for multitasking. So I can watch some funny videos my sister sent me
+while we chat about what we're going to do for my mom on Mother's Day.
+But the feature I'm most excited about is screen continuity. So let's say we finish chatting.
+It's time to head out. And I'm standing around, waiting for my ride. So I start playing a game on the folded smaller screen.
+When I sit down and unfold, the game seamlessly transfers to the larger screen.
+It is so cool. And I can pick up exactly where I was playing. Now, multiple OEMs will launch foldables this year,
+all running Android. [APPLAUSE]
+Another exciting innovation is 5G. 5G networks mean consistently faster speeds
+with lower latency. So apps and especially games can target rich, immersive experiences to these 5G-connected phones.
+And Android Q supports 5G natively. This year, more than 20 carriers will launch networks.
+And our OEMs have over a dozen 5G-ready phones all launching this year.
+And they'll all be running Android. Now, in addition to hardware innovation,
+we're also seeing huge firsts in software, driven by advances in on-device machine learning.
+Sundar showed Live Caption. Now, I would really like you to see it in action and then take you under the hood.
+Please welcome Tristan. [APPLAUSE]
+TRISTAN: Like many people, I watch videos without sound when I'm on the go. With captions, I can still keep up,
+even if I'm in a crowded space or I'm sitting in a meeting. So for me, they're super helpful.
+But for almost 500 million people who are deaf or hard of hearing, captions are critical.
+Today, loads of mobile content embeds audio, from video to voice messages and everything in between.
+Without captions, this content is nowhere near as accessible. Live Caption in Q takes audio and instantly turns it
+into text. Let's take a look at this video my friend Heather sent me yesterday. To turn it on, I open the volume rocker and tap
+the Live Caption button. HEATHER: Hey, cutie. Do you want to give your puppy a hug?
+Oh. Oh, I guess not. Puppy is walking away.
+TRISTAN: So as you can see, these captions appear in real time, over a video that would normally
+never have captions. You can expand them, contract them, move them up and down.
+It's a lot of fun. But what makes this feature so incredible is that it's entirely done on device.
+In fact, it doesn't need to be connected to the internet at all. If we take a look, this entire demo I've
+done in airplane mode. [APPLAUSE] Thank you. STEPHANIE CUTHBERTSON: Thank you, Tristan.
+OK. So how is this possible? It's because of a huge breakthrough in speech recognition that we made earlier this year.
+This once required streaming audio to the cloud to run a two-gigabyte model for processing.
+Now we can do that same processing on device, using a recurrent neural net, in just 80 megabytes.
+The live speech model is running on the phone. And no audio stream ever leaves it.
+All this protects user privacy. And this is OS-wide, which means you get those captions in all your apps and in web content too.
+Now, the same on-device machine learning powers another useful Q feature, which is Smart Reply.
+With Smart Reply, the OS helpfully suggests what you'll type next. It'll predict the text you'll type--
+even emoji. And it's a huge time-saver. What's really cool is, this works now for all messaging apps in Android.
+Like in Signal, you can see the OS providing these helpful suggestions. And Smart Reply can now even predict the actions
+that you'll take. So say a friend sends you an address. And normally, you copy and paste that into Maps.
+That's kind of a hassle. With Smart Reply, you just tap and it will open for you. Now, all this is saving you time.
+On-device machine learning powers everything from these incredible breakthroughs like Live Caption to helpful everyday features like Smart Reply.
+And it does this with no user input ever leaving the phone, all of which protects user privacy.
+Now there's one more addition to Android Q that's small, but you've been asking us about for a while, and that is dark theme.
+And we're launching it in Q. [APPLAUSE]
+So you can activate it by using the quick tile or by turning on Battery Saver. And in fact, it will help you save battery.
+Your OLED display is one of the most power-hungry components in your phone. So by lighting up less pixels, it will save you battery.
+So that's innovation. But we feel all innovation must happen within a frame of security and privacy.
+People now carry phones constantly. And we trust them with a lot of personal information.
+You should always be in control of what you share and who you share it with.
+And that's why the second area we'll cover in the central focus of the release is security and privacy.
+Now, over the years, Android's built out a huge set of protections already-- file-based encryption, SSL by default,
+secure DNS, work profiles. And many of these were first on Android.
+Android has the most widely deployed security and anti-malware service of any OS, with Google Play Protect.
+It runs on every device. And it scans over 50 billion apps a day.
+In fact, in Gartner's 2019 security report, which was published this week, Android
+scored the highest possible rating in 26 out of 30 categories.
+It's ahead on multiple points, from authentication, to network security, to malware protection, and more.
+At the same time, we wanted to go much further. And that's why Android Q includes almost 50 features
+focused on security and privacy, all providing more protection, transparency, and control.
+So first, in Q, we brought privacy to the top level in settings. And there, you'll find a number of important controls
+all in one place-- activity data, location history, ad settings. And you decide what's on or off.
+Now, location is another place we've created tools for more transparency and control.
+Now, location can be really helpful, especially when you're lost in a new place. But it's also some of your most personal information.
+And you should, again, always be in control of who you share it with and how they can use it.
+So first, if you're wondering which apps can be accessing your location, we make it easy for you to know.
+With Q, your device will give you helpful reminders whenever an app accesses location when you're not actively using that app.
+So you can review and decide, do you want to continue sharing or not?
+Second, Q will give you more control over how you share location data with apps.
+For example, say you want to get pizza delivered. You can choose to share your location only while the app is in use.
+And as soon as you close, you'll stop sharing location. Finally, what if you're wondering,
+what kind of location do all my apps have? In Q, we've brought location controls to the forefront in settings.
+So you can quickly review every app and change location access with simple controls.
+Now, there are many, many more enhancements to security and privacy throughout the OS, like TLC v3,
+encryption for low-end devices, randomizing your Mac address by default, and many more.
+And you can read about all of these in our blog post this week. But there's one more really big thing for security.
+Now, your Android device gets regular security updates already. But you still have to wait for the release.
+And you have to reboot when they come. We want you to get these faster-- even faster.
+And that's why, in Q, we're making a set of OS modules updatable, directly over the air.
+So now, these can be updated individually as soon as they are available, and without a reboot of the device.
+[APPLAUSE]
+Now, this was a huge technical challenge. We're updating these in the background the same way we're updating Google Apps.
+It's easier for our partners, with whom we're working closely. But more importantly, it's much better for you.
+You can learn more about this at the session "What's New in Android?" Now, there's one more thing that's changed since the early days of Android.
+Now, people carry smartphones everywhere, because they're really helpful. But we're also spending a lot of time on phones.
+And people tell us sometimes they wish they'd spent more time on other things.
+We want to help people find balance and digital well-being. And yes, sometimes, this means making it easier
+to put your device away entirely and focus on the times that really matter.
+That's why, last year, we launched digital well-being tools with dashboards, app timers, Flip to Shush,
+and Wind Down to help you set the phone down and get to sleep at night. And these tools are really helping.
+App timers help users stick to their goals over 90% of the time. And users of Wind Down had a 27% drop in nighttime usage.
+If you're not using these already, I would really recommend them. But this year, we want to help even more with distraction.
+A lot of times, I just want to sit down and focus to get something done. And when I'm trying to do this-- like, working.
+Maybe it's studying for you-- I don't want email or anything else to distract me. And that's why we've created a new mode for Android.
+It's called Focus mode. When I enter Focus mode, I can select the apps that I find distracting.
+For me, that's email, news. So now they're turned off and I can really get to work.
+Those apps that distract me are disabled. But I can still keep text. Because it's important to me that my family can always
+get a hold of me, until I come out of Focus mode. And then everything is back. Focus mode is coming to devices on P and Q this fall.
+[APPLAUSE]
+Now, finally, I want to talk about families. For 84% of us parents, technology use by our kids
+is a top concern. In the US, the average age of kids getting phones is now eight.
+In Q, Family Link parental controls will be built right into the settings of the device.
+So when you set up a device for someone in your family, Family Link will help connect it to a parent.
+And you can review any apps that your child wants to install. After that, you can set daily screen time limits.
+You can check, where are the apps where my kids are spending time? And you can set a device bedtime so your kids can
+disconnect and get to sleep. And now on Android Q, you can set time limits
+on specific apps. And when your child hits that device bedtime, if you want to give them just five more minutes,
+now we have bonus time. [APPLAUSE]
+Now, there's a ton more in Q that we don't have time to cover-- a ton-- everything from streaming media, to hearing aids, to better connectivity,
+to new gesture UI, and more. So today, I'm excited to announce that Q Beta
+3 is available on 21 devices. That is 12 OEMS plus all Pixels.
+[APPLAUSE] And that is more than double last year. We hope you head over to the link to get it on your phone,
+because we would love to have you try it out. And now I will hand it over to Rick. Thank you very much. [MUSIC PLAYING]
+[APPLAUSE] RICK OSTERLOH: Thanks, Steph.
+Well, we've heard about some terrific innovations today in Android, AI, and the Assistant,
+and real breakthroughs in how we're able to help our users. I'd like to spend a few minutes and talk
+about how some of those come to life in our made by Google products. Now, we continue to believe that the biggest breakthroughs are
+happening at the intersection of AI, software, and hardware, whether that's a tensor processing unit, an entire data
+center, the phone in your hand, or a helpful smart display in your home.
+Let's start there. The smart home of today is fragmented and frustrating.
+To deliver real help in the home, you can't start with technology. You have to start with people.
+And we've always worked to put people first and build technology around their needs.
+There's no more important place to get this right than in the home. Let's take a look.
+[MUSIC - PHILLIP PHILLIPS, "HOME"]
+SPEAKER 20: No, no, no, sweetie.
+[DOORBELL RINGS] SPEAKER 21: It's [INAUDIBLE] me and Daddy. [GIGGLES]
+[BABY CRYING]
+[LAUGHTER] [CHEERING]
+[BABY CRYING]
+[APPLAUSE] RICK OSTERLOH: Your home is the most special place
+in your life. So we need to be thoughtful about the technology we create for it. By putting people first, we're going
+beyond the idea of a smart home to create a truly helpful home.
+Over the past year, we've brought the Nest and Google teams together to deliver on our vision of the helpful home.
+And today, we're further simplifying things, bringing all of these products together under the Nest name.
+As a single team and a single product family, we're following a set of guiding principles that
+reflect our commitment to putting people first. Now, to start, we believe technology
+should be easy for everyone in the home to use, whether they're five or 95.
+The helpful home should also be personal for everyone. With Google Assistant at the core,
+we can provide a personalized experience for the entire household, even in communal spaces.
+And the tech in your home should work together for a single seamless experience across rooms and devices.
+Most importantly, the helpful home needs to respect your privacy. And today, we're publishing privacy commitments
+for our home products that clearly explain how they work, the data we're storing,
+and how it's used. [APPLAUSE]
+Our vision for the helpful home is anchored in the Assistant. And as you heard from Scott, we're continuing to get more helpful over time.
+We want to make sure that you can get the help you need where you need it. Google Home Hub, which we're renaming Nest Hub,
+was designed specifically to bring the helpfulness of the Assistant to any room in your house.
+Now, we've also been working on a new display that builds on the things that people love about Hub,
+but is designed for communal spaces in the home where the family gathers. Introducing Nest Hub Max.
+[APPLAUSE] It's a new product that has a camera and a larger
+10-inch display, which is perfect for the center of your helpful home. Hub Max pulls together your connected devices
+into a home view dashboard, where you can see your Nest cams, you can switch on lights, control your music,
+and adjust your thermostat. Hub Max also supports Thread.
+So just like Nest Connect, it communicates directly with Thread-supported devices that
+need a low power connection, like door locks or motion sensors. And we've designed Hub Max width an incredibly helpful camera.
+If you want to know what's going on in your home, you can choose to use it like a Nest Cam.
+You can turn it on when you're away from home. You can check on things right from the Nest app in your phone.
+And just like a Nest Cam, it's easy to see your event history, enable home and away assist, and you also get a notification
+if the camera detects any motion or sees someone it doesn't recognize in your home.
+Now, video calling is easy too with Google Duo. The camera has a wide angle lens.
+And it automatically adjusts to keep you centered in the frame. You can chat with any iOS or Android device,
+or a PC with a Chrome browser. You can also use Duo to leave video messages
+for members of your household. Hub Max is designed to give you full control over the camera.
+Nothing is streamed or recorded unless you intentionally enable it. And you'll always know when the camera is on,
+with a green indicator light. You have multiple controls to disable camera features.
+And a physical switch on the back electrically disconnects the camera and the microphones.
+And you can see all these controls clearly on the display.
+[APPLAUSE] Thank you.
+Hub Max is designed to be used by multiple people in your home and provide everyone with the help they
+need in a personalized way. Now to help with that, we've offered users the choice
+to enable voice match, so the Assistant can recognize your voice and respond directly to you.
+But today, we're also extending the options to personalize using the camera, with a feature we call Face Match.
+For each person in your family that chooses to turn it on, the Assistant guides you through a process of creating a face model, which is then encrypted and stored
+on the device. Then, whenever you walk in front of the camera, Hub Max recognizes you and shows just your information and not
+anyone else's. Face Match's facial recognition technology
+is processed locally on the device using on-device machine learning, so the camera data never leaves the device.
+And in the morning, I can walk into the kitchen and the Assistant knows to greet me with my calendar, my commuting details, the weather,
+and any other information I need to start my day. And when I get home, Hub Max welcomes me
+home with any reminders that might be waiting for me. And the Assistant offers personalized recommendations
+for music and TV shows. And I can even see if anyone's left me a video message.
+One of my favorite things about Hub Max is that it's a great digital photo frame.
+No matter what kind of day I'm having, nothing makes me feel better than seeing some of my favorite memories on this beautiful screen.
+And the Google Photos integration makes this whole process really simple. I can select my family and friends.
+And Hub Max displays the best photos of them from years ago or from earlier today.
+And now, with a simple voice command, sharing my favorite shots is easier than ever.
+The big screen also makes Hub Max the kitchen TV you've always wanted to.
+Tell it what you want to watch. Or if you need help deciding, just ask the Assistant to pull up our new onscreen guide.
+Hub Max can stream your favorite live shows and sports on YouTube TV.
+But unlike your kitchen TV, it can also teach you how to cook, see who's at the front door,
+and play your music. You're also getting full stereo sound-- [MUSIC PLAYING]
+--with a powerful rear-facing woofer. And now, when the volume's up, instead of yelling at the Assistant to turn it down or pause the game,
+with the camera, it's as simple as a gesture. [PHONE RINGING] You just raise your hand.
+[APPLAUSE]
+And Hub Max uses on-device machine learning to instantly identify your gesture
+and pause your media. Hub Max is a Google Assistant smart display
+that's also a smart home controller, a TV for your kitchen, a great digital photo
+frame, an indoor camera, and it's perfect for video calling.
+All this will be available on Nest Hub Max later this summer for just $229.
+[APPLAUSE]
+And today, we're lowering the price of the original Nest Hub from $149 to $129.
+[APPLAUSE] And we're expanding its availability to 12 new markets
+and supporting nine new languages.
+So whether you prefer a Hub with a camera or without one, we have a device that'll help you in your home.
+As I said earlier, there is a fundamental difference between a smart home and a helpful home.
+And we're excited to unify all our products under the Nest brand to make the helpful home more real for more people.
+All right. Next, I want to talk about Pixel. [APPLAUSE] Yeah, thank you.
+And I love talking about Pixel. I want to talk about our work to bring a more hopeful smartphone
+experience to more people. A core element of Google's mission is to make technology more available and accessible
+for everyone. And Sundar said it earlier. We need to ensure that technology benefits
+the many, not just the few. But there's been a really troubling trend in the smartphone industry.
+To support the latest technologies, everyone's high-end phones are getting more and more expensive.
+So we challenged ourselves to see if we could optimize our software and AI to work great on more affordable hardware,
+so we can deliver these high-end experiences at a more accessible price point.
+I want to introduce you to the newest members of the Pixel family, Google Pixel 3a and 3a XL,
+designed to deliver premium features at a price people will love. [APPLAUSE]
+We didn't compromise on the capabilities and performance you'd expect from a premium device, which is why we branded them Pixel.
+They start at just $399. [APPLAUSE]
+That's about half the price-- half the price of typical flagship phones.
+And I want to introduce Sabrina to tell you more about how we did it. [MUSIC PLAYING]
+[APPLAUSE] SABRINA ELLIS: Thanks, Rick.
+Delivering premium features with high performance on a phone at this price point--
+it's been a huge engineering challenge. And I'm really proud of what our team has
+been able to accomplish with Pixel 3a. So let's start with the design.
+Pixel 3a follows the design language of the Pixel family-- the familiar two-tone look, smooth finish,
+and ergonomic unibody design. It feels good in your hand and it looks beautiful.
+Pixel 3a comes in three colors, Just Black, Clearly White, and a new color, Purple-ish.
+Everything looks amazing on the vibrant OLED display. And your music, your podcasts, they sound great
+in premium stereo sound. Pixel 3a supports Bluetooth 5.0 and USB-C digital audio.
+And we've also included a 3.5-millimeter audio jack.
+[APPLAUSE] Because we've heard some people want more headphone options.
+But what Pixel is really known for is its incredible camera.
+And with software optimizations, we found a way to bring our exclusive camera features and our industry-leading image quality
+into Pixel 3a, so photos look stunning in any light.
+What other smartphone cameras try to do with expensive hardware, we
+can deliver with software and AI, including high-end computational photography.
+So here's what that means. Pixel 3a can take amazing photos in low lights--
+[APPLAUSE] --with Night Sight.
+It's one of Pixel's most popular features. We've also enabled Pixel's portrait mode
+on both the front and rear cameras. And our Super Res Zoom applies computational photography,
+so you can get closer to your subject while still maintaining a high degree of resolution.
+And all of your beautiful photos are backed up for free in high quality with Google Photos.
+[APPLAUSE] Pixel 3a also has the helpful features
+you'd expect in a Pixel. Just squeeze the sides of your phone to bring up the Google Assistant.
+We're using the AI in Pixel 3a to help manage your phone calls too. I'm pretty sure we all hate getting robocalls.
+And Call Screen uses Google speech recognition and natural language processing to help you filter out
+those unwanted calls. It's already screening millions of them.
+Now, you might remember, last year, we shared our vision for using AR in Google Maps.
+Starting today on Pixel phones, when you use walking directions, instead of
+staring at that blue dot on your phone, you're going to see arrows in the real world
+to tell you where to turn next. [APPLAUSE]
+We're just beginning our journey with AR and Maps. And we're really excited for Pixel users
+to experience this early preview. Battery life-- it's one of the most important features
+on a smartphone. It makes sense. People need to know that their phone won't quit on them before the end of their day.
+Pixel 3a has adaptive battery. It uses machine learning to optimize based on how you use your phone, so you can get up
+to 30 hours on a single charge. [APPLAUSE] And with the included 18-watt charger,
+you'll get up to seven hours of battery life with just 15 minutes of charging.
+Pixel 3a doesn't compromise on security either. It's got the same comprehensive approach as Pixel 3.
+On the hardware side, our Titan M security chip protects your sensitive data on the device, like login
+credentials, disk encryption, app data, and OS integrity. On the software side, you get the latest Google security
+patches and updates for three years, including Android Q this summer.
+So instead of getting slower and less secure over time, your Pixel gets better with every update.
+We think this hybrid approach provides the strongest data protection. And in a recent Gartner report, Pixel
+scored the highest for built-in security among smartphones. [APPLAUSE]
+Pixel 3a offers the complete Pixel experience. And we're proud to make it available and affordable
+to more people around the world. Verizon's been a great partner over the past two and a half
+years in the US. And we're excited to be partnering with them again for the launch of Pixel 3a.
+And for the first time, we're expanding our US carrier partnerships.
+So the entire Pixel family is now available for sale at T-Mobile, Sprint, and US Cellular.
+[APPLAUSE] You can also get Pixel 3a from the Google Store
+and use it on any US carrier, including Google Fi and AT&T.
+Pixel 3a and 3a XL are available in 13 markets, starting today.
+[APPLAUSE] You can find more details online at the Google Store.
+We're really excited to have you try it out. Next, Jeff will tell you about our efforts in Google AI.
+But first, here's a quick look at our new Pixel.
+[MUSIC PLAYING]
+SPEAKER 22: Hey, Google, show me donut shops nearby.
+[APPLAUSE] [MUSIC PLAYING]
+JEFF DEAN: Hi, everyone. [APPLAUSE]
+Everything from building a low cost premium device like the one you just saw without compromising on capabilities to developing a truly helpful Assistant
+were all built on a tremendous amount of research and innovation under the covers. And they're examples of what we do at Google AI.
+Google AI is a collection of teams focused on making progress in artificial intelligence research across a wide range of different domains.
+We focus on solving fundamental computer science challenges in order to solve problems for people.
+That includes things like improving speech recognition models to answer questions faster and let you interact with your device quickly,
+or pushing the boundaries of computer vision to help people interact with their world in new ways, as you've seen today.
+We publish papers, , release open source software, and apply our research to Google products.
+The goal is really to solve problems everyday that touch billions of people.
+One of the things I'm most excited about is progress in language understanding. As Scott mentioned earlier, so much of our daily life
+depends on actually understanding language-- reading traffic signs and shopping lists,
+writing emails, communicating with the people around us. We'd really want computers to have the same fluency
+with language that we do-- not just understand surface forms of the words,
+but actually understand what sentences mean. Unlocking that would get us closer
+to our mission of organizing the world's information and making it universally accessible and useful.
+In the past few years, we've made major strides. Take teaching a machine to answer questions
+like this one about Carlsbad Caverns, a national park in New Mexico.
+Only recently, the state-of-the-art architecture for language understanding was something called a recurrent
+neural network, or RNN. RNNs process words sequentially, one after another.
+They work well for modeling short sequences, like sentences, but they struggle to make abstract associations, like knowing
+that stalactites and stalagmites are natural formations, and that cement pathways, for example, are not.
+In 2017, we made a leap forward with our research on transformers, models that process words in parallel.
+One year later, we used it as the foundation for a technique we called bi-directional encoder
+representations from transformers. It's a bit of a mouthful, so we just call it BERT.
+BERT models can consider the full context of a word by looking at the words that come before and after it.
+They're pre-trained using plain text from the web and other textual sources.
+To do that, we use a process to train it that's a little like the word game of Mad Libs.
+We hired about 20% of the input words. And we train the model to guess those missing words.
+You can actually try this at home with a bit of text that you have. Hide a few words and see if you can guess what they are.
+That's effectively what we're doing. This approach is much more effective for understanding language.
+When we published the research, BERT obtained state-of-the-art results on 11 different language processing tasks.
+Fast forward to today. And we're excited to see how BERT can help us answer more complex questions that
+are relevant to you, whether that's getting the flight time from Indiana to Honolulu,
+learning a new weightlifting exercise, or translating between languages.
+Research like this gets us closer to technology that can truly understand language.
+We're now working with product teams all across Google to see how we can use BERT to solve more problems in more
+places. We're excited to bring this to people around the world to help them get the information they need everyday.
+All this machine learning momentum, though, wouldn't be possible without platform innovation.
+TensorFlow is the software infrastructure that underlies our work in machine learning and artificial intelligence.
+When we developed TensorFlow, we wanted everyone to be able to use machine learning, so we made it an open source platform.
+And while it's been essential to our work, we've been amazed to see what other people outside of Google
+have used it for-- all kinds of different things. We've seen engineers at Roma Tre University in Italy
+parsing handwritten medieval manuscripts. We've seen coders in France colorizing
+black and white photography. We've even seen companies developing fitness centers
+for cows. The work that people are doing is really inspiring to us.
+It pushes us to keep asking ourselves, how can machine learning crack open previously unsolvable problems in order to help more people?
+One example is our work in the field of health care. We're really optimistic that our research can create real world
+impact in medicine by improving solutions and establishing new diagnostic procedures.
+To share more, here's Dr. Lily Peng from the Google AI health care team. [MUSIC PLAYING]
+[APPLAUSE]
+LILY PENG: Thanks, Jeff. So as a doctor, what I care about most is improving patients' lives.
+And that means good care and accurate diagnoses. That's why I was so excited two years ago at I/O
+when we shared our work in diabetic retinopathy. This is a complication of diabetes
+that puts over 400 million people around the world at risk for vision loss.
+Since then, we've been piloting this work with patients in clinical settings.
+Our partners have fairly recently received European regulatory approval for the machine learning model.
+And we have clinical deployments in Thailand and in India that are already screening thousands of patients.
+In addition to diabetes, one of the other areas we think AI can help doctors is in oncology.
+Today, we'd like to share our work on another project in cancer screening where AI can help catch lung cancer earlier.
+So lung cancer causes more deaths than any cancer. It's actually the most common cause of death
+globally, accounting for 3% of annual mortality. We know that, when cases are diagnosed early,
+patients have a higher chance of survival. But unfortunately, over 80% of lung cancers
+are not caught early. Randomized control trials have shown that screening with low dose CTs can help reduce mortality.
+But there's opportunity to make them more accurate. So in a paper we are about to publish in "Nature Medicine,"
+we describe a deep learning model that can analyze CT scans and predict lung malignancies.
+To do it, we trained a neural network with de-identified lung cancer scans from our partners at the NCI--
+the National Cancer Institute-- and Northwestern University. By looking at many examples, the model
+learns to detect malignancy with performance that meets or exceeds that of trained radiologists.
+So concretely, how might this help? Very early stage cancer is minuscule,
+and can be hard to see, even for seasoned radiologists, which means that many patients with late stage lung cancer
+have subtle signs on earlier scans. So take this case, where an asymptomatic patient
+with no history of cancer had a CT scan for screening. This scan was interpreted as normal.
+One year later, that same patient had another scan. It picked up a late stage cancer, one
+that's much harder to treat. So we used our AI system to review that initial scan.
+So let's be clear. This is a tough case. We showed this initial scan to other radiologists,
+and five out of six missed this cancer. But our model was able to detect these early signs one year
+before the patient was actually diagnosed-- one year. And that year could translate to an increased survival rate
+of 40% for patients like this. [APPLAUSE]
+So clearly, this is a promising but early result. And we're very much looking forward
+to partnering with the medical community to use technology like this to help improve outcomes for patients.
+Now I'll hand it back to Jeff. [APPLAUSE]
+JEFF DEAN: Thanks, Lily. The same technologies that you just saw driving health care
+innovation have applications across almost every field imaginable.
+Our AI for Social Good program brings together our efforts to use AI to explore and address some of the world's
+most challenging problems. Last year, we announced the program and its two pillars--
+research and engineering, and building the external ecosystem. Let's talk first about research and engineering.
+One project we're working that's already creating impact is our work on flood forecasting.
+Floods are the most common, deadliest natural disasters on the planet. Every year, they affect up to 230 million people
+across the world, more than storms and earthquakes combined. 20% of flood fatalities happen in India alone.
+This is a problem that we're even seeing this week with the impact from Cyclone Fani.
+Floods prevent kids from being able to play in their neighborhoods or parents from protecting and providing for their families,
+often because they don't have enough advance warning. And without consistent accurate warning systems,
+people are prone to ignore warnings and be unprepared. That's especially detrimental in areas hit with annual monsoons.
+That's why, last fall, we shared our work on flood forecasting models that can more accurately predict
+flood timing, location, and severity.
+Through a partnership with India's Central Water Commission, we began sending early flood warnings to the phones of users who might be affected.
+Today, we're thrilled to announce the expansion of our detection and alerting system for the upcoming monsoon season.
+The expanded area will cover millions of people living along the Ganges and Brahmaputra River areas.
+Not only are we increasing the area of coverage, but we're also better forecasting where the floods will hit hardest.
+Through a new version of our public alerts, people can better understand whether they'll be affected,
+so they can protect themselves and their families. Our model simulates water behavior
+across the flood plain, showing the exact areas that will be affected. We combine thousands of satellite images
+to create high resolution elevation maps, using a process similar to stereographic imaging,
+to figure out the height of the ground. We then use neural networks to correct the terrain, so it's even more accurate.
+And then we use physics to simulate how flooding will happen. We also collaborate with the government
+to receive up-to-date stream gauge measurements and send forecasts in real time.
+We're excited to continue working with partners to increase the accuracy and precision of these models,
+which we hope will make people safer from flooding all around the world. Research like this is critical.
+But we also know that AI will have the biggest impact when people from many different backgrounds
+all come together to develop new solutions to problems they see.
+That's why the second pillar of our AI for Social Good program is to build the external ecosystem.
+We want to empower everyone to use AI to solve problems they see in their communities.
+Last year, we partnered with Google.org to launch the Google AI Impact Challenge.
+It was a call for nonprofits, social enterprises, and universities to share their ideas for using AI
+to address societal challenges. We received applications from 119 countries
+across six continents, representing all kinds of sizes and types of organizations.
+Today, we're really excited to announce the 20 selected. We even have a few of them with us today.
+Let's give them a warm welcome. [APPLAUSE]
+Here's the list of organizations. These organizations are working on some of the world's most meaningful issues.
+La Fondation Medicins sans Frontieres is using image recognition to help medical staff analyze
+anti-microbial images in order to prescribe the right antibiotics for bacterial infections.
+New York University in partnership with the Fire Department of New York City is building a model to help speed up emergency response
+times. This could really improve public health and safety. And Makerere University in Uganda
+will use AI to create a high resolution monitoring network to shape public policies for improving air quality.
+We'll be supporting our 20 grantees and bringing these ideas to life. We're providing $25 million in funding from Google.org,
+as well as coaching and resources from teams all across Google. Congratulations to all our grantees.
+[APPLAUSE]
+As we head into the next decade, I'm really excited about what's to come. There are so many promising avenues
+for fundamental research. For instance, machine learning models today,
+typically, we can get them to be good at solving individual tasks. But what if they could generalize
+across thousands of tasks, solving new problems faster, and with just a few examples to learn from?
+The keys to progress on these kinds of research problems are those most human characteristics, perseverance
+and ingenuity. As you heard Sundar mention at the start of the day,
+we're moving from a company that helps you find answers to a company that also helps you get things done.
+And all the products we showed you today share a single goal-- to be helpful.
+At the same time, we want to ensure that the benefits of technology are felt everywhere,
+continue to uphold our foundation of user trust, and build a more helpful Google for everyone.
+To everyone joining us on the livestream, thank you for tuning in. And to everyone here with us in the audience today,
+welcome to Google I/O 2019. Thank you. And enjoy the rest of I/O.
+[MUSIC PLAYING]

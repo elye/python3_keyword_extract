@@ -1,0 +1,1047 @@
+Opening Film
+[VIDEO PLAYBACK] - It began with a problem, and it was kind of a big one.
+- There was so much information in the world, and yet it was so difficult to find.
+- So we tried to solve that problem. But along the way, we found new ones,
+like how to reply to all those emails?
+What's the best way to get from A to B? How do I get that look?
+Or how do I get rid of that? Or this? - My computer just crashed.
+- We built that. From that, came this.
+To stop this, we made that. The more we look, the more we find.
+Find a problem. Build a solution. - A climate crisis. - Our goal is to make the sustainable choice an easier
+choice. - There's someone that can't see, can't hear, really make it accessible to as broad a set of people as possible.
+- Take a selfie. - OK. Get ready. - We know that the starting point is uneven,
+but we can generate equitable outcomes and give everybody a level playing field.
+- I can actually just be inspired by the world around us. - Technology has the power to make everyone's lives better.
+It just has to be built.
+[MUSIC PLAYING]
+[END PLAYBACK]
+Introduction, Sundar Pichai
+SUNDAR PICHAI: Thank you. Thank you. All right.
+Mic check, one, two, three. Can you guys hear me?
+AUDIENCE: [INAUDIBLE] SUNDAR PICHAI: It's on. After two years of starting many meetings on mute,
+I thought I should double check. All right. Good morning, everyone, and welcome.
+Let's actually make that welcome back. It's so great to be back in Shoreline Amphitheatre after three years away.
+To the-- [APPLAUSE]
+Well, thank you for joining us, and to the thousands of developers, partners, and Googlers here with us, it's great to see all of you.
+And to the millions more joining us around the world on live stream, we are so happy you're here, too.
+Last year, we shared how new breakthroughs in some of the most technically challenging areas of computer
+science are making Google products more helpful in the moments that matter.
+All of this work is in service of a timeless mission-- to organize the world's information
+and make it universally accessible and useful. I'm excited to show you how we are driving that mission
+forward in two key ways-- by deepening our understanding of information so that we can turn it into knowledge
+and advancing the state of computing so that knowledge is easier to access, no matter who or where
+you are. Today, you will see how progress on these two parts of our mission ensures Google products are
+built to help, and I'll start with a few quick examples. Throughout the pandemic, Google has
+focused on delivering accurate information to help people stay healthy. Over the last year, people used Google Search and Maps
+to find where they could get a COVID vaccine nearly two billion times.
+We've also expanded our flood forecasting technology to help people stay safe in the face of natural disasters.
+During last year's monsoon season, our flood alerts notified more than 23 million people
+in India and Bangladesh, and we estimate the support of the timely evacuation of hundreds of thousands of people.
+In Ukraine, we worked with the government to rapidly deploy air raid alerts. To date, we have delivered hundreds of millions of alerts.
+In March, I was in Poland, where millions of Ukrainians have sought refuge. Warsaw's population has increased by nearly 20%
+as families host refugees in their homes and schools welcome thousands of new students.
+Nearly every Google employee I spoke with was hosting someone. In countries around the world, Google Translate
+has been a crucial tool for newcomers and residents trying to communicate with one another.
+We are proud of how it's helping Ukrainians find a bit of hope and connection until they are able to return home again.
+Real time translation is a testament to how knowledge and computing come together to make people's lives better.
+More people are using Google Translate than ever before, but we still have work to do to make it universally accessible.
+There is a long tail of languages that are underrepresented on the web today, and translating them
+is a hard technical problem. That's because translation models are usually trained with bilingual texts.
+For example, the same phrase in both English and Spanish.
+However, there's not enough publicly available bilingual texts for every language.
+So with advances in machine learning, we have developed a monolingual approach, where the model learns to translate
+a new language without ever seeing a direct translation of it. By collaborating with native speakers and institutions,
+we found these translations were of sufficient quality to be useful. Today, I'm excited to announce that we
+are adding 24 new languages to Google Translate. [APPLAUSE]
+This includes the first Indigenous language
+of the Americas. And together, these languages are spoken by more than 300 million people.
+Breakthroughs like this are powering a radical shift in how we access knowledge and use computers,
+Knowledge
+yet so much of what's knowable about our world goes beyond language. It's in the physical and geospatial information
+around us. For more than 15 years, Google Maps has worked to create rich and useful representations
+of this information to help us navigate. Advances in AI are taking this work to the next level,
+whether it's expanding our coverage to remote areas, reimagining how to explore the world in more intuitive ways.
+Around the world, we've mapped around 1.6 billion buildings and over 60 million kilometers of roads to date.
+Some remote and rural areas have previously been difficult to map due to scarcity of high quality imagery and distinct building
+types and terrain. To address this, we are using computer vision to detect buildings at scale from satellite images.
+As a result, we have increased the number of buildings on Google Maps in Africa by five times since July 2020, from 16 million
+to nearly 300 million. [APPLAUSE]
+We have also doubled the number of buildings mapped in India and Indonesia this year, and globally, over 20%
+of buildings on Google Maps have been detected using these new techniques.
+We've gone a step further and made the data set of buildings in Africa publicly available. International organizations like the United Nations
+and the World Bank are already using it to better understand population density and to provide support and emergency assistance.
+We're also bringing new capabilities into Maps. Using advances in 3D mapping and machine learning,
+we are fusing billions of aerial and street level images to create a new high fidelity representation of a place.
+These breakthrough technologies are coming together to power a new experience in Maps called immersive view.
+It allows you to explore a place like never before. Let's go to London and take a look. What a beautiful city.
+Say you're planning to visit Westminster with your family. You can get into this immersive view
+straight from Maps on your phone, and you can pan around the sides. Here's Westminster Abbey.
+And if you're thinking of heading to see Big Ben, you can check if there is traffic, how busy it is, and even see the weather forecast.
+It's London, so I'm guessing it's rain. Now, if you're looking to grab a bite during your visit,
+you can check out restaurants nearby and get a glimpse inside. [APPLAUSE]
+What's amazing is that this isn't a drone flying in the restaurant. We use neural rendering to create the experience
+from images alone. And Google Cloud Immersive Stream allows this experience to run on any smartphone.
+This feature will start rolling out in Google Maps for select cities globally this year.
+Another big improvement to Maps is eco-friendly routing. Launched last year, it shows you the most fuel efficient route,
+giving you the choice to save money on gas and reduce carbon emissions. Eco-friendly routes have already rolled out
+in the US and Canada, and people have used them to travel 86 billion miles, helping
+save an estimated half million metric tons of carbon emissions, the equivalent of taking
+100,000 cars off the road. I'm happy to share that we are expanding this feature to more places, including
+Europe later this year. In this Berlin example, you could reduce your fuel
+consumption by 18% taking a route that is just three minutes slower.
+These small decisions have a big impact at scale. With expansion into Europe and beyond,
+we estimate carbon emissions savings will double by the end of the year. [APPLAUSE]
+And we've added a similar feature to Google Flights.
+When you search for flights between two cities, we also show you carbon emission estimates,
+alongside other information, like price and schedule, making it easy to choose a greener option.
+These eco-friendly features in Maps and Flights are part of our goal to empower one billion people to make
+more sustainable choices through our products, and we are excited about the progress here.
+Beyond Maps, video is becoming an even more fundamental part of how we share information, communicate, and learn.
+Often, when you come to YouTube, you're looking for a specific moment in the video,
+and we want to help you get there faster. Last year, we launched auto generated chapters
+to make it easier to jump to the part you're most interested in. The results are great for creators,
+because it saves them time making chapters. We are now applying multimodal technology from DeepMind.
+It simultaneously uses text, audio, and video to auto generate chapters with greater accuracy and speed.
+With this, we now have a goal to 10x the number of videos with auto generated chapters from eight million today to 80 million over the next year.
+Often, the fastest way to get a sense of a video's content is to read its transcript, so we are also
+using speech recognition models to transcribe videos. Video transcripts are now available to all Android
+and iOS users. Next up, we are bringing auto translated captions on YouTube
+to mobile, which means viewers can now auto translate video captions in 16 languages, and creators
+can grow their global audience. We'll also be expanding auto translated captions
+to Ukrainian YouTube content next month, part of our larger effort to increase access to accurate
+information about the war. [APPLAUSE]
+Just as we are using AI to improve features in YouTube,
+we are building it into our workspace products to help people be more efficient. Whether you work for a small business
+or a large institution, chances are you spend a lot of time reading documents. Maybe you felt that wave of panic
+when you realized you have a 25 page document to read ahead of a meeting that starts in 5 minutes.
+Google, whenever I get a long document or email, I look for a TLDR at the top. TLDR is short for too long, didn't read.
+And it got us thinking, wouldn't life be better if more things had a TLDR? That's why we have introduced automated summarization
+for Google Docs. [APPLAUSE]
+Using one of the machine learning models, Google Docs will automatically parse and pull out the main points.
+This marks a big leap forward for natural language processing. It requires understanding of long passages,
+information compression, and language generation, which used to be outside of the capabilities of even the best
+machine learning models. And Docs are only the beginning. We are launching summarization for other products
+in Workspace. It will come to Google Chat in the next few months, providing a helpful digest of chat conversations,
+so you can jump right back into a group chat and look back at the key highlights.
+What's for lunch? [APPLAUSE]
+What's for lunch is definitely a highlight, in my opinion. We are working to bring transcription and summarization
+to Google Meet, as well. So you can catch up on some of the most important meetings
+you missed. Of course, there are many moments where you really want to be in a virtual room with someone,
+and that's why we continue to improve audio and video quality, inspired by Project Starline,
+which we introduced at I/O last year. We have been testing it across Google offices to get feedback and improve the technology for the future,
+and in the process, we've learned some things that we can apply right now to Google Meet. Starline inspired machine learning powered image
+processing to automatically improve your image quality on Google Meet. And it works on all types of devices,
+so you look your best wherever you are. [APPLAUSE]
+We're also bringing studio quality virtual lighting to Meet. You can adjust the light position and brightness
+so you'll still be visible in a dark room or sitting in front of a window. We are testing this feature to ensure everyone looks
+like their true selves, continuing the work we have done with Real Tone on the Pixel phones on the Monk Scale, which we will tell you
+about in just a moment. These are just some of the ways AI is improving our products,
+making them more helpful, more accessible, and delivering innovative new features for everyone.
+Now, I'll turn it over to Prabhakar to share the progress we are making on our original and most important
+product, Google Search. [APPLAUSE]
+Knowledge & Search
+PRABHAKAR RAGHAVAN: Thanks, Sundar. People's quest for knowledge often starts with a search.
+And over time, we've worked hard to understand the trillions of questions that people ask us
+every year to deliver the most helpful information possible.
+But the way people search for information shouldn't be constrained to typing keywords in the search box.
+It's human nature to gain knowledge through multiple senses and inputs as we go about our day.
+For instance, if I hear a bird chirping outside the window, I might point to it and ask my wife, what kind of bird
+is that? And while it's a huge challenge for computers to understand information the way we do,
+advances in technology are helping bridge the gap. With AI technologies like natural language understanding
+and computer vision, we're transforming search to be far more natural and helpful than ever before.
+Imagine the future. We can search any way and anywhere
+and find helpful information about what you see, hear, and experience in whatever way is most intuitive to you.
+This is our vision for the future of search, and it's one we've already taken steps towards.
+When Google started, our breakthrough
+was in understanding text based queries. Over time, people have asked us more complex
+and nuanced questions, and our investment in natural language understanding has significantly improved our ability
+to answer these, even when the query feels like a brain teaser.
+I don't know this one either. It's "Hachi-- A Dog's Story." That's the answer.
+But for many questions, it can be easier to speak than type, which is why, over a decade ago,
+we introduced voice search. We now get hundreds of millions of voice queries every day,
+and adoption is even higher amongst new internet users.
+In India, for example, nearly 30% of Hindi queries are spoken.
+But often, seeing is understanding, so we re-imagined Google Search yet again with Google Lens
+to help you search what you see using your camera right from your search bar.
+Lens is now used over eight billion times a month, which is nearly triple last year.
+Now, we are re-defining Google Search yet again.
+We're combining our understanding of information across multiple modes to help you express your needs more
+naturally than ever before. Just last month, we launched multisearch, one of our most
+significant updates to search. On the Google app, you can now search by taking a photo
+and asking a question at the same time. You can snap a pic of a spill proof water bottle
+and ask for one with rainbows on it to brighten your kids day. Or in my case, I was able to take a photo of my leaky faucet
+and order the part to fix it. The funny thing is, I still don't know what the part is called.
+[LAUGHTER] But this is just the beginning of what we can do with Multisearch.
+Later this year, we'll add a new way to search for local information with Multisearch Near Me.
+Just take a picture or long press one you see online and add "near me" to find what you
+need from the millions of local businesses we serve on Google. Near Me will work for a multisearch for everything
+from apparel to home goods, to my personal favorite, food and local restaurants.
+So let's say I spot a tasty looking dish online. I don't know what's in it or what it's called,
+but it's making me hungry. With this new capability, I can quickly
+identify that it's japchae, a Korean dish, find nearby restaurants that serve it, and enjoy it no time.
+[APPLAUSE]
+While this all seems simple enough, here's what's happening under the hood.
+Google's multimodal understanding recognizes the visual intricacies of the dish and combines it with an understanding of my intent,
+that I'm looking for local restaurants that serve japchae. It then scans millions of images and reviews posted on web pages
+and from our active community of Maps contributors to find results about nearby spots.
+Multisearch Near Me will be available globally later this year in English and will come
+to more languages over time. [APPLAUSE]
+Today, this technology recognizes objects captured within a single frame, but sometimes you
+might want information about a whole scene in front of you. In the future, with an advancement
+we're calling scene exploration, you'll be able to use Multisearch to pan your camera, and ask a question, and instantly glean
+insights about multiple objects in a wider scene. Let me give you an example.
+Let's say you're trying to pick out the perfect candy bar for your friend, who's a bit of a chocolate connoisseur.
+You know they like dark chocolate and have an aversion to nuts. And of course, you want to get them something good.
+If you went to the store today to find the best nut-free dark chocolate, you'd be standing in the aisle for a while.
+You'd look at each bar, figure out which type of chocolate it is, whether it's nut-free, compare and contrast
+the options, and maybe even look up reviews online. But thanks to Scene Exploration, you'll
+be able to scan the entire shelf with your camera and see helpful insights overlaid in front of you.
+[APPLAUSE]
+Yeah, insights overlaid, so you can find precisely what you're looking for.
+Try doing that with just keywords. Here's how it works.
+Scene Exploration uses computer vision to instantly connect the multiple frames that
+make up the scene and identify all the objects within it. Simultaneously, it taps into the richness
+of the web and Google's Knowledge Graph to surface the most helpful results.
+In this case, which bars are nut-free, dark chocolate, and highly rated.
+Scene exploration is a powerful breakthrough in our device's ability to understand the world the way
+we do. And it gives us a superpower-- the ability to see relevant information
+overlaid in the context of the world around us. You could imagine using this in a pharmacy
+to find a scent-free moisturizer or at your local corner store to find a Black-owned wine label to support.
+AUDIENCE: That's right. [APPLAUSE]
+PRABHAKAR RAGHAVAN: This is like having a supercharged Control-F for the world around you.
+Looking further out, this technology could be used beyond everyday needs to help address societal challenges,
+like supporting conservationists in identifying plant species that need protection
+or helping disaster relief workers quickly sort through donations in times of need.
+From Multisearch Near Me to Scene Exploration, the advancements we've talked about today
+are in service of a broader vision to make Search even more natural and helpful.
+So you can search your whole world, asking questions in any way and anywhere.
+To deliver on this promise, Google needs to serve billions of people's diverse information
+needs. And it's critical that they see themselves reflected in our products.
+Building for everyone is a core value at Google. You might recall, at I/O last year,
+we announced Real Tone, a multiyear initiative to build more equitable camera and imagery
+experiences on Pixel 6. [APPLAUSE]
+We are now expanding our commitment
+to skin tone equity across Google products. We partnered with Harvard professor Dr. Ellis
+Monk, who spent the past decade researching the impact of race, ethnicity, and skin tone
+in social inequality. And his research and expertise are shaping how we approach inclusivity in our products.
+[APPLAUSE]
+Before I hand it over to my colleague, Annie, to tell you more about the work we're doing in the space, let's hear from Dr. Monk himself.
+[VIDEO PLAYBACK] - Oftentimes, when it comes down to representation, I'm amongst the darkest that you would
+find in media, when I know that there are much darker folks, even of different races.
+- Color biases and colorism are really a global phenomena. The reality is life chances, opportunities--
+all of these things are very much tied to your phenotypical makeup. - It's facts.
+I feel like ever since I was a kid, if you were a dark, you were not considered pretty. - From a really young age, I did feel a really strong sense
+of responsibility to dig more deeply into issues of colorism. So for the last 10 years, I've been working
+on issues of racial inequality. And I developed a 10-point skin tone scale with the goal of making sure that everyone across the skin
+tone continuum feels represented. - Do you feel like right now it's easy to find your skin tone?
+- When we type "beauty tutorial," if we only see white women, it just ties into the bigger picture of not being represented.
+- We can weed out these biases in our technology from a really early stage and make sure that the technologies
+that we have work equally well across all skin tones. I think this is just a huge step forward.
+- Being represented is a right. If the internet truly is for everyone, then everyone should be represented.
+- There is great potential for the tech industry to adopt the scale, because the world
+is a better place when technology works equally well for everyone. [END PLAYBACK] [MUSIC PLAYING]
+Skin Tone Equity
+ANNIE JEAN-BAPTISTE: At Google, we build products for the world. Billions of people with varied backgrounds and experiences
+rely on our products every day. As Dr. Monk mentioned, skin tone is
+one of many important dimensions that shapes people's identity and experiences. And we all deserve to feel seen and validated.
+Today, we're excited to share how we're starting to use the Monk Skin Tone Scale to build more inclusive products across Google.
+Developed by Dr. Monk, the scale adds a critical step to our product development and testing
+to ensure the technology powering our futures works well for everyone.
+Our research has shown that more people in the US find the Monk Scale to more accurately reflect their skin
+tone, compared to the current industry standard. This was especially true for people with darker skin tones.
+We're testing the scale globally and in different product, settings and will continue to improve it to reflect people
+everywhere. At Google, we've started using the Monk Scale to help improve how we understand and represent skin tone in products
+like Photos and Search. Every day, millions of people search the web
+expecting to see images that match the diversity of the world around them.
+We've started to roll out improvements to images in Google Search to show a range of skin tone
+diversity so that people from all kinds of backgrounds can find more relevant results.
+And for makeup queries, like everyday eye shadow and bridal makeup looks, users will have a new way
+to filter by relevant skin tones to find more helpful results. I can't tell you the number of times
+that complimentary shades-- [APPLAUSE]
+I can't tell you the number of times complimentary shades from my skin tone haven't been available.
+And so I'm personally thrilled to be able to easily filter for images that I can relate to.
+Building on our work with Real Tone, we're also using the Monk Scale to improve imagery experiences
+in products like Google Photos. And later this month, we'll be launching new Real Tone filters
+that were designed to work well across skin tones and evaluated using the Monk Scale.
+These filters were crafted by a diverse range of renowned image makers, who are celebrated for beautiful and accurate
+depictions of their subjects. With Real Tone filters, you can apply the beauty and authenticity of professional editing
+to your own photos with just a few taps. [APPLAUSE]
+Building more inclusive experiences
+is a long-term commitment, one that involves close collaboration with brands, publishers,
+and researchers. And that's why we're pleased to announce that today we
+are open sourcing the Monk Skin Tone Scale so anyone can use it as a more representative skin tone
+guide-- [APPLAUSE]
+--in research and in product development. By open sourcing the scale, our goal
+is to improve it over time in partnership with the industry. In the coming months, we'll also be developing
+a standardized way to label content for images on Google Search. Creators, brands, and publishers will
+be able to use an inclusive schema to label images with attributes like skin tone, hair color, and hair texture.
+All of this is part of our ongoing commitment to ensuring that the web is as representative as our world.
+And now, let's check in with our watch party in Sao Paulo.
+[MUSIC PLAYING]
+Computing
+SUNDAR PICHAI: Thanks, Annie and team, for such inspiring work. And olá, Sao Paulo.
+So far today, we have talked about how we are advancing access to knowledge as part of our mission from better language translation
+to improved search experiences across images and video to richer explorations of the world using Maps.
+Now we are going to focus on how we make that knowledge even more accessible through computing.
+The journey we have been on with computing is an exciting one. Every shift from desktop to the web,
+to mobile, to wearables, and ambient computing has made knowledge more useful in our daily lives.
+As helpful as our devices are, we have had to work pretty hard to adapt to them.
+I've always thought computers should be adapting to people, not the other way around. So we continue to push ourselves to make progress here.
+To share more about how we are making computing more natural and intuitive with the Google Assistant, here's Sissie.
+Assistant
+SISSIE HSIAO: Thanks, Sundar. It's amazing how quickly voice is becoming such a common way
+to access computing. Every month, over $700 million people around the world
+get everyday tasks done with their Assistant. They can just say, hey Google, to get help on the go,
+in their homes, and even in the car. But these interactions are still not
+as natural as they could be. First, you should be able to easily initiate conversations
+with your Assistant. So today, we're introducing two new options so you don't have
+to say, hey Google, every time. [APPLAUSE]
+First is a new feature for Nest Hub
+Max called Look and Talk, which is beginning to roll out today.
+You can simply look directly at your device and ask for what you need, like when
+you make eye contact to start a conversation with another person. Once you opt in, Look and Talk is
+designed to activate when both Face Match and Voice Match recognize it's you.
+And video from these interactions is processed entirely on device, so it isn't shared
+with Google or anyone else. [APPLAUSE]
+Let me turn the camera back on and show you how it works.
+GOOGLE ASSISTANT: The mic and camera are back on. SISSIE HSIAO: Walking into the kitchen to start a weekend with my family,
+I can simply look over and ask, show
+me some beaches in Santa Cruz.
+GOOGLE ASSISTANT: I found a few beaches near Santa Cruz. [APPLAUSE]
+SISSIE HSIAO: Pretty cool, right?
+How long does it take to get to that first one?
+GOOGLE ASSISTANT: By car, the trip to Natural Bridges State Beach is 51 minutes. [APPLAUSE]
+SISSIE HSIAO: That's so much easier than saying the hotword over and over.
+The ability to distinguish intentional eye contact
+from a passing glance requires six machine learning models that are processing over 100 signals, like proximity, head
+orientation, and gaze direction, to evaluate the user's intent all in real time.
+We've also tested and refined Look and Talk to work across a range of different skin tones
+using some of the same principles of inclusion behind Real Tone on Pixel 6 camera and Monk Scale.
+[APPLAUSE]
+We're also excited to expand Quick Phrases on Nest Hub Max. Quick Phrases already let's you skip the hotword for things
+like answering calls on Pixel 6 and stopping timers on Nest devices.
+And in the next few months, you'll be able to ask your Assistant for many common requests,
+like setting alarms, asking for the time, and controlling lights from your Nest Hub Max,
+all without saying the hotword. [APPLAUSE]
+All right, check this out. Turn off the living room light.
+That was so easy. I just said what I wanted. Designed with privacy in mind, you
+choose which Quick Phrases are enabled for your Nest Hub Max. So those are two ways that it's getting easier
+to start talking to the Assistant. We're also improving how the Assistant understands you
+by being more responsive as you just speak naturally. If you listen closely, people's conversations
+are full of ums, pauses, and corrections. But that doesn't get in the way of understanding each other.
+And that's because people are active listeners and can react to conversational cues in under 200 milliseconds.
+Humans handle this so naturally, but doing this for open-ended conversations
+across the Assistant is a really hard problem. Moving our speech models to run on the device
+made things faster, but we wanted to push the envelope even more. The breakthrough comes by creating
+more comprehensive neural networks that run on the Google Tensor chip, which
+was built to handle on-device machine learning tasks super fast. Let me show you a preview of how this will all come together.
+For example, I might tap and hold on my Pixel Buds and say, play the new song from--
+GOOGLE ASSISTANT: Mhm.
+SISSIE HSIAO: Florence and the something. GOOGLE ASSISTANT: Got it.
+Playing "Free" from Florence and the Machine on Spotify. [MUSIC PLAYING]
+SISSIE HSIAO: You heard how I stumbled at the beginning. But my Assistant gently encouraged me to complete my thought.
+And then even when I messed up the artist name,
+Google Assistant correctly figured out the song I wanted. It's amazing how these improvements
+change the way it feels to talk to your Assistant. You can stop worrying about the right way to ask for something
+and just relax and talk naturally. This is how we're pushing computing forward
+with natural conversation, letting you easily initiate conversation and making it
+so you can just speak naturally, all so you can be truly understood.
+I'm excited to see how our voices will become a faster, hands-free way to get things done
+across many types of devices, including a growing Android ecosystem that you'll hear about in a few minutes.
+Thanks and back to you, Sundar. [APPLAUSE]
+SUNDAR PICHAI: Thanks, Sissie.
+We are continually working to advance our conversational capabilities. Conversation and natural language processing
+are powerful ways to make computers more accessible to everyone. And large language models are key to this.
+Last year, we introduced LaMDA, our generative language model for dialogue applications that can converse on any topic.
+Today, we are excited to announce LaMDA 2, our most advanced conversational AI yet.
+We are at the beginning of a journey to make models like these useful to people. And we feel a deep responsibility to get it right.
+And to make progress, we need people to experience the technology and provide feedback.
+We opened LaMDA up to thousands of Googlers, who enjoyed testing it and seeing what it was capable of.
+This yielded significant quality improvements and led to a reduction in inaccurate or offensive
+responses. That's why we have made AI Test Kitchen. It's a new way to explore AI features with a broader
+audience. Inside the AI Test Kitchen, there are a few different experiences.
+Each is meant to give you a sense of what it might be like to have LaMDA in your hands and use it for things you care about.
+The first is called Imagine It. This demo tests if the model can take a creative idea you give it and generate
+imaginative and relevant descriptions. These are not products. They are quick sketches that allow us to explore
+what LaMDA can do with you. As you see, the user interfaces are very simple.
+Say you're writing a story and you need some inspirational ideas. Maybe one of your characters is exploring the deep ocean.
+You can ask what that might feel like. Here, LaMDA describes the scene in the Mariana Trench.
+It even generates follow-up questions for you on the fly. You can ask LaMDA to imagine what kind of creatures
+might live there. Remember, we didn't hand program the model for specific topics like submarines or bioluminescence.
+It's synthesized these concepts from its training data. That's why you can ask about almost any topic--
+Saturn's rings or even imagine being on a planet made of ice cream.
+Staying on topic is a challenge for language models. Say you're building a learning experience.
+You want it to be open ended enough to allow people to explore where curiosity takes them but stay safely on topic.
+Our second demo tests how LaMDA does with that. In this demo, we have primed the model
+to focus on the topic of dogs. It again starts by generating a question to spark conversation.
+Have you ever wondered why dogs love to play fetch so much? And if you ask a follow-up question,
+you get an answer with some relevant details. It's interesting. It thinks it might have something
+to do with the sense of smell and treasure hunting. You can take the conversation any way you want.
+Maybe you are curious about how smell works, and you just want to dive deeper. You'll get a unique response for that, too.
+No matter what you ask, it'll try to keep the conversation on the topic of dogs.
+If I start asking about cricket, which I probably would, the model brings the topic back to dogs in a fun way.
+I do think dogs would make-- [LAUGHTER] Now, the challenge of staying on topic is a tricky one.
+It's an important area of research for building useful applications with language models.
+And this last demo is my favorite, so we are going to do it live. Let me turn it over to Josh.
+Computing: AI Test Kitchen
+[APPLAUSE]
+JOSH WOODWARD: Thanks, Sundar. As a team, we've learned a lot on this project. And this will be the first ever live demo of LaMDA from stage.
+Are you all ready to see how it works? [APPLAUSE] All right.
+Here I am in the AI Test Kitchen app. I'm going to open up this demo called List It.
+Now, List It it explores if LaMDA can take a complex goal or topic and break it down
+into relevant subtasks. It can help me figure out what I'm trying to do and generate useful ideas I might not
+have thought of. If you love to-do lists like I do, this is a dream come true.
+I'm going to tap Start. And this is a project I've been thinking a lot about lately-- plant a vegetable garden.
+I'll send this off to LaMDA. And there it is. On the fly, it's come up with these different steps
+and broken it down into this list of subtasks. I can see things like make a list of what I want to grow,
+the location. I can also regenerate a list on the fly to get even more ideas.
+Now, what's interesting about these is I can quickly drop into one of them. Let's say this one, like what might grow in the area.
+And you can see it will give me further suggestions. I can keep going, breaking this down,
+where eventually it gives me a list of what I might want to plant, like tomatoes, or lettuce, or garlic.
+We'll keep garlic out of it this time. One of the other things lambda does is not just break down lists, but you can generate a tip.
+So here when I tap generate a tip-- oh, it's never seen this one before, actually. It's telling me, if I have a small yard or patio,
+it gives me different vegetables I might be able to grow. Now, when we think about products
+like this and experiences like this, it's much more than just coming up with a list of vegetables to grow.
+If I scroll back up, you can see all the different pathways that LaMDA is helping me think through
+and giving me tips along the way. And just like that, this whole task feels a lot less daunting.
+Back to you, Sundar.
+SUNDAR PICHAI: Thanks, Josh. Just like the other demos, you can input all kinds of goals,
+whether it's moving to a new city or learning an instrument. These experiences show the potential
+of language models to one day help us with things like planning, learning about the world,
+and more. Of course, there are significant challenges to solve before these models can truly be useful.
+While we have improved safety, the model might still generate inaccurate, inappropriate,
+or offensive responses. That's why we are inviting feedback in the app, so people can help report problems.
+And we'll be doing all of this work in accordance with our AI principles. Our process will be iterative, opening up access
+over the coming months, and carefully assessing feedback with a broad range of stakeholders,
+from AI researchers and social scientists to human rights experts.
+We'll incorporate this feedback into future versions of LaMDA and share our findings as we go.
+Over time, we intend to continue adding other emerging areas of AI into our AI Test Kitchen.
+And you can learn more here. As you just saw, LaMDA 2 has incredible conversational
+capabilities. To explore other aspects of natural language processing and AI, we recently announced a new model.
+It's called Pathways Language Model, or PaLM for short. It's our largest model to date and trained on 540 billion
+parameters. PaLM demonstrates breakthrough performance on many natural language processing tasks,
+such as generating code from text, answering a math word problem, or even explaining a joke.
+It achieves this through greater scale. And when we combine that scale with a new technique
+called Chain-of-Thought Prompting, the results are promising. Chain-of-Thought Prompting allows
+us to describe multi-step problems as a series of intermediate steps.
+Let's take an example of a math word problem that requires reasoning. Normally, how you use a model is you
+prompt it with the question and an answer. And then you start asking questions.
+In this case, how many hours are in the month of May? So as you can see, the model didn't quite get it right.
+So in Chain-of-Thought prompting, we give the model a question-answer pair. But this time, we explain how the answer
+was derived, kind of like when your teacher gives you a step-by-step example to help you understand
+how to solve a problem. Now, if you ask the model again, how many hours
+are in the month of May, or other related question, it actually answers correctly.
+And it even shows its work. [APPLAUSE]
+Chain-of-Thought Prompting increases accuracy by a large margin.
+This leads to state of the art performance across several reasoning benchmarks, including math word problems.
+And we can do it all without ever changing how the model is trained. PaLM is highly capable and can do so much more.
+For example, you might be someone who speaks a language that's not well represented on the web today, which makes
+it hard to find information. Even more frustrating because the answer you're looking for is probably out there.
+PaLM offers a new approach that holds enormous promise for making knowledge more accessible for everyone.
+Let me show you an example in which we can help answer questions in a language like Bengali, spoken
+by a quarter billion people. Just like before, we prompt the model with two examples of questions in Bengali with both Bengali
+and English answers. That said, now we can start asking questions in Bengali.
+What's the national song of Bangladesh? The answer, by the way, is "Amar Sonar Bangla."
+And PaLM got it right, too. This is not that surprising because you would expect that content to exist in Bengali.
+But you can also try something that is less likely to have related information in Bengali, such as what are popular pizza toppings in New
+York City? And the model again answers correctly in Bengali, though it probably just stirred up a debate amongst New Yorkers
+about how correct that answer really is. What is so impressive is PaLM has never
+seen parallel sentences between Bengali and English. It was never explicitly taught to answer questions
+or translate at all. The model brought all of its capabilities together to answer questions correctly in Bengali.
+And we can extend the technique to more languages on other complex tasks.
+We are so optimistic about the potential for language models. One day, we hope we can answer questions
+on more topics in any language you speak, making knowledge even more accessible in Search and across all of Google.
+All the advances we have shared today are possible only because of our continued innovation
+in our infrastructure. Recently, we announced plans to invest $9 and 1/2 billion
+in data centers and offices across the US. One of our state of the art data centers
+is in Mayes County, Oklahoma. I'm excited to announce that there we are launching the world's largest publicly
+available machine learning hub for all our Google Cloud customers. This machine learning hub has eight Cloud TPU V4 parts custom
+built on the same networking infrastructure that powers Google's largest neural models.
+They provide nearly nine exaflops of computing power in aggregate, bringing our customers
+an unprecedented ability to run complex models and workloads. We hope this will fuel innovation across many fields,
+from medicine to logistics, sustainability, and more. And speaking of sustainability, this hub
+is already operating at 90% carbon-free energy.
+[APPLAUSE]
+This is helping us make progress on our goal to become the first major company to operate
+all our data centers and campuses globally on 24/7 carbon-free energy by 2030.
+[APPLAUSE]
+Even as we invest in our data centers, we are also working to innovate on our mobile platforms
+so more processing can actually happen locally on device. Google Tensor, our custom system on a chip,
+was an important step in this direction. It's already running on Pixel 6 and Pixel 6 Pro and brings our AI capabilities,
+including the best speech recognition we've ever deployed, right to your phone. It's also a big step forward in making
+those devices more secure. Combined with Android's Private Compute core, it can run data powered features directly on device
+so that it's private to you. To share more about how we are making computing safer
+with Google, let me turn it over to Jen. [APPLAUSE]
+Safer with Google
+JEN FITZPATRICK: Every day, people turn to our products for help in moments big and small.
+Core to making this possible is protecting your private information every step of the way.
+Even as technology grows increasingly complex, we keep more people safe online than anyone else
+in the world with products that are secure by default, private by design, and put you in control.
+Today, I'm proud to share with you our latest advancements that make every day safer with Google.
+Widespread cyber attacks, like Colonial Pipeline and the recent Log4J vulnerability,
+threaten to put people's private information at risk, disrupt critical services like energy grids
+and telecommunications networks, and weaken global democracies. To prevent future attacks, we're raising
+the bar for the entire industry by pioneering advanced cybersecurity technology, alerting others
+to security risks within their own systems, and open sourcing solutions that make the whole internet safer.
+Specialized teams like Threat Analysis Group and Project Zero counter serious threat actors and detect vulnerabilities
+across the internet. Last year, our Threat Analysis Group detected that over 40,000 users were being targeted
+by government-backed actors. We automatically alerted everyone, and increased protections, and blocked attacks.
+[APPLAUSE] Most recently with the war in Ukraine,
+we observed a surge of distributed denial of service attacks against websites providing critical information, like current news and evacuation
+resources. We expanded our free DDoS defense program, Project Shield, to defend more than 180 Ukrainian websites, including
+those that belong to the Ukrainian government, news, and human rights groups.
+And because much of the world's technology infrastructure is dangerously outdated, we're now investing $10 billion
+to modernize vulnerable systems and infrastructures, secure the software supply chain,
+and train 100,000 Americans in digital skills, including data privacy and cybersecurity
+through the Google Career Certificate Program. In addition to keeping companies and organizations
+safe around the world, we build advanced security into everything we make to protect individual users.
+In the last few years, phishing scams have risen substantially. And they're responsible for 90% of recent cyber attacks.
+Our built-in protections intercept these attempts before they ever reach you. For example, every day, Gmail and Messages by Google
+block more than 15 billion spam and phishing messages. Google Play now scans 125 billion installed apps
+for malware, making the entire app ecosystem safer. And our safe browsing technology built
+into Chrome and other major browsers now protects 5 billion devices from risky sites.
+Detecting and blocking threats at this scale every day makes our AI powered protection second to none
+and also enables our teams to identify new areas to safeguard, which is why we're now scaling our proven phishing
+protections to Google Docs, Sheets, and Slides.
+Soon, if you're working in a shared doc that contains a suspicious link, we'll automatically alert you and take you back to safety.
+[APPLAUSE]
+No matter where they occur, all phishing attempts share a single goal-- to compromise your account, often using it
+as a tool to spread the attack to your network. Protecting your account starts with building the most
+advanced authentication technologies everywhere that you sign in.
+Cybersecurity experts say the single most important way to protect your account and help prevent
+cyber attacks is to use multifactor authentication. However, it sometimes gets a bad rap
+for creating extra friction. That's why we've made our 2-step verification as easy
+as it gets. Whether you're on Android or iOS, just one tap on your phone, and you're in.
+No six digit codes. [APPLAUSE]
+Over 10 years ago, we were the first consumer technology
+company to offer 2-step verification. And we're now the first to turn it on by default.
+Last year alone, we enrolled an additional 150 million accounts in 2-step verification.
+[APPLAUSE] And we're optimizing the sign-in flow and account recovery
+experience so that we can turn on this additional layer of protection for everyone.
+To extend the world class security of your Google account to all your online accounts, we built Sign In with Google.
+Every day, 400 million people use it for secure one-click access to everything
+from travel sites to grocery apps. Building an authentication system
+that's secure and easy to use is a massive challenge. I mean, how many times have we all
+had to click Forgot Password? Thanks to years of engineering investment
+in our password manager, 2-step verification, security keys, and, most recently, Passkeys, we've
+laid the path for a future without passwords. [APPLAUSE]
+And we're now leading an industry-wide effort
+to enable passwordless sign-in across every device, website, and application on any platform.
+I'm really proud of the work we've done to make secure authentication accessible for everyone everywhere.
+As we all do more and more of our shopping online, keeping your payment information safe and secure is critically important.
+Today, I'm excited to announce the launch of virtual cards on Chrome and Android.
+Now, when you use autofill to complete your payment details at checkout, we'll replace your card number
+with a distinct virtual number, reducing the risk of fraud and identity theft.
+To give more people access to a safer way to pay online, we've worked closely with Visa, American Express, Capital One,
+and Mastercard to roll out virtual cards starting this summer.
+[APPLAUSE]
+We're constantly monitoring the security of your Google account to give you peace of mind.
+We're now adding a safety status on your profile picture. So if anything needs your attention, we'll let you know
+and then guide you through simple steps to ensure your account is secure.
+We're relentless about protecting your personal information with the most advanced security
+in the world, because if it's not secure, it's not private.
+But protecting your privacy requires us to be equally rigorous in building products that are private by design.
+And I'm excited to tell you about our latest advancements in this area. Today, computing is no longer happening just on a computer
+or on a phone, but across your home, in your car, on your wrist, and in the Cloud.
+Unlocking personalized helpful experiences while protecting user privacy in this increasingly complex
+environment presents new technical challenges. Building on deep research and advances
+in AI, hardware, and Cloud computing, we've engineered a new technical approach
+we call Protected Computing. At its core, Protected Computing is a growing toolkit
+of technologies that transforms how, when, and where data is processed to technically ensure the privacy
+and safety of your data. Our approach focuses on three areas.
+First, we minimize your data footprint. Our focus here is on shrinking the amount of personally
+identifiable data altogether-- collecting less and deleting more, using techniques
+like edge processing and ephemerality. If the data doesn't exist, it can't be hacked.
+Second, we de-identify the data. From blurring and randomizing identifiable signals
+to adding statistical noise, we use a range of anonymization techniques to strip your identity from your data
+so it's no longer linked to you. And, third, we restrict access through technologies
+like end-to-end encryption and secure enclaves. This is about making it technically impossible for anyone, including Google,
+to access your sensitive data. This toolkit of diverse techniques enables us to deploy the safest, smartest solution possible,
+and often stack multiple techniques to provide layered protections.
+Today, protected computing enables Android to suggest the next phrase in your text
+while keeping your conversation completely private. It helps Pixel know when to keep your screen awake
+while continuously deleting ambient signals as they're processed. And it allows Chrome to alert you to compromised passwords
+without knowing a single one. [APPLAUSE]
+Later today, you'll hear more about how protected computing is enabling new ambient
+experiences across your Android and smart home devices while keeping your information private.
+In addition to providing helpful experiences, Protected Computing is essential to unlocking
+the potential of data to benefit society more broadly in a way that preserves everyone's privacy.
+For example, our Environmental Insights team is exploring how, with protected computing, we can provide local governments with de-identified and
+aggregated location and movement data within their cities to help reduce their carbon footprint.
+Protected computing represents our deep commitment to innovating new technical solutions that
+make technology more helpful, safe, and private everywhere that computing happens.
+No one else is deploying such a multifaceted approach at our scale. And I'm excited to see all the ways our teams will apply
+protected computing to ensure that every day you're safer with Google.
+[APPLAUSE]
+At the end of the day, we believe that privacy is personal. That's why we continue to build powerful controls that let you
+choose what's right for you. To share more about the newest ways we're putting you in control of your data,
+let me pass it to Danielle.
+Safer Way to Search
+DANIELLE ROMAIN: We feel privileged that billions of people trust products like Search, Chrome, Maps, and Android to help them every day.
+And we work hard to earn that trust by providing tools that put you in control of your privacy
+and that help you control your online experience. As Jen mentioned, protecting your privacy
+is central to making every day safer with Google. An important way that we do this is by helping you
+take more control over your data, including the data used to show you ads.
+We never sell your personal information to anyone or use the content you store in apps like Gmail, Google Photos,
+or Drive for advertising purposes. We also never use sensitive information
+like health, race, religion, or sexual orientation for personalized ads--
+period. We believe that the best ads are helpful, relevant, and safe.
+So later this year, we'll launch My Ad Center to give you even more control over the ads you
+see across YouTube, Search, and Discover.
+[APPLAUSE]
+We're expanding on our existing ads privacy settings. So now through My Ad Center, you can directly
+control the data used to personalize your ads. For the first time, you can choose
+to see more ads from the categories or brands you like. For example, I'm interested in hybrid vehicles,
+so I choose to see ads from that category. You can also opt to see fewer ads from categories or brands
+that you're not interested in. You'll be able to access My Ad Center through your Google
+account or directly from the ad. But it's not just about managing your data.
+We also know people want to have more control over their online presence to feel safer.
+So I have a question for you all. How many of you have searched for your name on Google?
+OK. I do the occasional search for myself. And judging by the reaction, I can
+tell I'm not alone in checking to see what others may find about me online.
+At Google, while we strongly believe in open access to information, we also have a deep commitment
+to protecting people online. This is why we have policies for removing
+certain types of personally identifiable information from search results that we know people may prefer
+to keep private, such as their bank account or credit card numbers that could be used for financial fraud.
+Now we're building on this by introducing a new tool to accompany updated removal policies that
+allows you to take even more control of your online presence.
+[APPLAUSE]
+Soon if you find search results that contain your contact details, such as your phone number, home address, or email
+address that you want taken down, you can easily request their removal from Google Search.
+[APPLAUSE]
+Of course, removing this information from Google Search doesn't remove it from the web. But this is an important step in helping
+to protect people online. This feature will be available in the coming months in the Google app, and you will also
+be able to access it by clicking the three dots next to individual Google Search results.
+Another part of being safer online is having access to reliable information.
+Google Search is built from the ground up to deliver high quality information.
+This has set Google apart from day one. And it's something we relentlessly invest in.
+And we also give you tools to evaluate the reliability of the information you come across.
+One of the tools we launched last year, called About This Result, has now been used more than 1.6 billion times.
+This tool is available on individual search results, helping you see important context about a website
+before you even visit. But we want to ensure you feel in control of the information you're consuming
+wherever you are online. So we're making this helpful context more accessible
+as you explore the web beyond Search. So imagine your research and conservation efforts,
+and you find yourself on an unfamiliar website of a rainforest protection organization.
+Before you decide to donate, you'd like to understand if it's reliable. And with just a tap, the Google app
+will soon surface relevant context about the website, including the site description, what they
+say about themselves, and what others say about them, helping you explore with confidence.
+You'll be able to see contexts like this on any website, coming soon to the Google app on both iOS and Android.
+[APPLAUSE]
+As we've talked about today, at Google, we keep more people safe online than anyone else
+in the world with products that are secure by default, private by design, and that put you in control.
+Everything we make is designed with safety at the core, including the platforms with billions of users,
+like search and Android. And speaking of Android, the team has been building cool experiences
+across the many devices in your life. And up next, Sameer will be here to tell you more about it.
+But first, let's say hello to our watch party in London.
+[MUSIC PLAYING]
+Android: Opening
+SAMEER SAMAT: Hi, everyone. It's great to be back at Shoreline for Google I/O.
+[APPLAUSE] Over the years, Android has grown into the most popular OS
+in the world, delivering access, connectivity, and information to people everywhere on their smartphones.
+Last year alone, consumers activated 1 billion new Android
+phones. And as Prabhakar showed us earlier, with advances in machine learning,
+these supercomputers in our pocket can help us get more done than ever before.
+While the phone is still the most popular form of computing, people are increasingly adding all kinds
+of connected technologies to their lives, like TVs, cars, watches, and more.
+And even if those devices come from different manufacturers, people expect everything to work together without the hassle.
+It's got to be simple. Android has always been about people choosing the technology
+that works best for them. In a multi-device world, we believe
+this openness is even more essential for creating the best consumer experience.
+So let's talk about what's new in Android 13 to bring all the benefits of this multi-device future
+to everyone. There are three big themes we're focused on.
+First, enabling you to do more with your phone at the center.
+Second, extending beyond the phone to all the forms of computing people
+love, like watches, tablets, and more. And third, making all your devices
+work better together to solve problems and help you throughout your day.
+Let's start by talking about phones. Android 13 builds on our Material
+You design language so your phone has even more ways to adapt to your style.
+All your app icons can now incorporate your color theme. And there's a new media control that
+tailors its look to the music you're listening to. I love how the progress bar grooves to the beat.
+It's super cool. You can even personalize your experience by setting a different language per app.
+So if you're multilingual, you can use your social media app in one language and your banking app in another.
+And, of course, Android 13 comes jam packed with dozens of new security and privacy features.
+But security needs to go beyond your device. When you send a message from your phone to someone else's,
+you want to be sure it's private and secure. That's why we've worked with carriers and device makers
+all over the world to upgrade SMS text messaging to a new standard called RCS, which
+can enable important privacy protections like end-to-end encryption.
+This is a huge step forward for the mobile ecosystem. And we're really excited about the progress.
+In fact, Google's Messages app already has half a billion monthly active users
+with RCS and growing fast.
+We hope every mobile operating system gets the message
+and upgrades to RCS so your messages are private
+no matter what device you're using. Now, our phones are essential parts
+of the way we communicate with our friends, family, and loved ones. In fact, these days, there's only two things
+I don't leave my home without-- my phone and my wallet.
+So the question is, can my phone replace my wallet?
+Well, today we're excited to introduce the new Google
+Wallet. [APPLAUSE]
+It's a digital wallet for Android that gives you fast, secure access to your everyday essentials.
+Your Google Wallet securely stores your payment cards so you can tap to pay anywhere Google Pay is accepted.
+But Wallet is for so much more than payments. It's a way to unlock more of the world around you.
+You can show your student ID on campus, board a flight, or start your car.
+You can even use it as your park pass to explore Walt Disney World.
+Items that contain highly personal information, like your vaccine card, are stored on your device
+and not shared with anyone, not even Google. Now, we know it's hard to part with your physical wallet
+if it doesn't have your most essential item-- your ID. So we're working with states here in the US and governments
+around the world to bring digital IDs to wallet later this year, starting with driver's licenses.
+You can share the information in your ID without ever having to give your phone to another person.
+Simply tap the NFC or use a QR code.
+Google Wallet will be rolling out to Android and Wear OS devices around the world in the coming weeks.
+[APPLAUSE] Now, helping you securely communicate with your friends
+and family and storing your digital identity is really useful. But our phones can be even more essential
+in difficult moments in life, like emergencies or natural disasters.
+Two years ago, we developed the first algorithms on a phone to detect when you're in a car crash
+and automatically call for help. Let's take a look.
+[VIDEO PLAYBACK] - I've got no recollection of the accident whatsoever.
+I woke up. I was upside down. And I had diesel fuel dripping on me.
+In the most powerful voice I had,
+I screamed out, help, which I knew was pointless. But I heard, help is on the way.
+The phone detected the accident and called 911.
+There was so much joy when I heard somebody say, we found him. We've got him. I'm getting goosebumps thinking of it
+at the moment because I wouldn't be here talking to you if it wasn't for that. The car crash detection feature on that phone saved my life.
+[END PLAYBACK]
+[APPLAUSE]
+SAMEER SAMAT: Stories like this have inspired us to do more, to make technology helpful when you need it the most.
+Later this year, we'll start bringing Emergency SOS to Wear, so you can instantly contact a trusted friend or family
+member, or call emergency services right from your watch.
+We're also expanding Android's earthquake alerting system to many of the remaining high risk regions in the world.
+It uses accelerometer data from phones to determine if an earthquake is happening and warn others in the surrounding area,
+often before the shaking reaches them. You can get off a ladder, take cover, or pull your car over.
+These extra seconds of warning can save lives.
+There's so many ways our phones can help us do more. Whether it's helping you securely communicate
+with friends, safeguarding your digital identity, or getting you help in critical moments,
+your phone is your most essential digital companion. And what you can do with Android gets even more exciting
+when we go beyond the phone. To tell you more, here's Trystan.
+TRYSTAN UPSTILL: Along with the phone, we're working hard to ensure Android delivers a fantastic
+experience on all the devices that are most important to you, especially your personal devices,
+like watches and tablets. At I/O last year, we announced some huge updates
+to Wear OS, including launching our joint platform with Samsung. And what a year it has been.
+There are now over three times as many Wear OS devices this year as there were last year.
+And this is just the start. Keep an eye out for new watches from Samsung, Fossil,
+Montblanc, and more starting this summer. The momentum has carried on to our developer community, who
+are launching great app experiences on Wear OS and making the Watch even better for our users.
+Favorites like Spotify, Adidas Running, Line, and KakaoTalk have all recently come to the platform,
+with many more coming soon. With a growing ecosystem of partners, developers, and apps,
+Wear OS is bringing the best of Android to your wrist. And this year, there's another, bigger screen that consumers
+are super excited about-- tablets. We are now approaching 270 million active users
+on large screen devices. [APPLAUSE]
+Android pioneered multiple sizes and form factors for larger screens. And we have many fantastic devices hitting the market,
+like the Samsung Galaxy Tab S8 Ultra, Lenovo Tab P12 PRO,
+and others from partners like Oppo and Xiaomi that are all being built on the latest Android releases.
+Incredibly, we can now get tablet-like experiences that can fit in your pocket, with foldables delivering
+all of the benefits of a large screen device with the portability of a phone. And Android is the only way to experience it all.
+But there is so much more to do. So this year we've been working hard to make Android tablets amazing.
+But rather than just telling you about all these updates, why don't I show you?
+From the moment you power on the device, you can see the Android experience has been refined for the larger screen.
+One thing I absolutely love are the changes to the notification shade. It's been expanded to let you see more at a glance
+and have control right at your fingertips. There's also a new app taskbar that runs along the bottom.
+You can see, if I go ahead and fire up Google Photos, the taskbar is still there.
+And it gives me easy access to all my apps when I need them.
+This bigger screen also makes multitasking super easy. Say I want to share a picture from my latest
+vacation with a friend. I can pick up the conversation, choose a photo, even edit it.
+It was pretty warm that day, as I remember it.
+And then drag it straight in. [APPLAUSE]
+I love using these pairs of apps to help me get things fun.
+In fact, if you swipe up to overview, you can see I'm already busy planning my next vacation.
+Now, these OS changes don't mean much if the app experiences for tablets aren't also great.
+So starting today, we'll be updating more than 20 Google Apps to look amazing on large screens
+and take full advantage of the extra functionality with a lot more to come.
+Let's take a look at some of these great new experiences. The tablet version of YouTube Music
+puts more of the music you love front and center. We've optimized Google Maps to include rich information
+at a glance to help you navigate the world around you. And the updated messages app uses a new multi-column view
+so you can easily manage all your texts and quickly jump between conversations.
+Third party apps look great on Android tablets, too. You'll see revamped experiences coming to your favorite apps,
+like TikTok, Zoom, Facebook, and more. And they look awesome.
+To help you find these new tablet apps, we're working to improve discovery on Google Play, along with introducing a new UI that makes
+the most of the larger screen. As you can see, we're building great experiences
+for phones, watches, tablets, and everything in between.
+The next step is getting all these devices to play nice with each other. So here's Liza to tell you more about what
+we're doing to make everything work better together.
+LIZA MA: The whole point of adding more devices to your life is to make it easier, richer,
+more convenient. But that only happens if everything works seamlessly.
+So let me show you how Android brings your devices together to be more helpful.
+First, I should be able to enjoy my media on whatever surface makes sense in the moment.
+For example, if I'm watching a show on my tablet and want to move it to the TV so my husband can see it too,
+or if I'm listening to music on headphones during a run and want to continue listening on my Bose speaker
+when I get home, casting makes that really easy. So it should be everywhere, which
+is why we're working to extend casting capabilities to new partners and products,
+such as Chromebooks or even your car. And I want my messages to move across my devices too.
+Like when I'm at my desk working, my conversations should be right there on the laptop screen I'm already using.
+This fall, we're extending Phone Hub so you can directly access all your phone's messaging apps
+on your Chromebook. Phone Hub gives you the exact app you're familiar with because it's streaming from your phone.
+No need to install a desktop client or keep one running in a tab that gets lost on your browser.
+So you can jump between chats, send and reply to messages, even add reactions to photos from your friends.
+And here is one of my favorite new features. Copy something on your phone and paste it on your tablet.
+It could be a URL, an address, or even a picture or screenshot.
+It's so simple and useful. [APPLAUSE]
+And that's how a multi-device world should work.
+Just use whatever surface is most convenient for what you want to do.
+But my biggest pet peeve is setting up all these devices in the first place.
+We developed Fast Pair to take care of that chore for you without having to manage settings or remember
+where the pairing button might be hidden. We're continuing to expand Fast Pair so
+your phone, your laptop, and your TV all pair easily and instantaneously with your headphones
+and smart devices. And we want to extend this easy connectivity to all the devices
+in your home. That's where a Matter comes in. It's an open industry standard launching this fall.
+Matter connects our Google Nest hardware, along with top brands and hundreds of supported products
+like light bulbs, door locks, smart plugs, and a lot more. It's a big list.
+You'll be able to quickly connect all those matter enabled devices in seconds to your home
+network, Google Home, and your favorite apps using Fast Pair.
+There are so many new opportunities in this multi-device world, from helping
+you do more with your phone at the center to extending computing beyond the phone
+and making sure all your devices work better together. Thank you so much to our millions of developers
+and billions of users for making Android an incredible platform. We're excited to keep pushing it forward with you,
+so keep an eye out for the Android 13 beta today.
+[APPLAUSE]
+We've got a bunch of great partners and devices participating, so check it out and send your feedback.
+Now before I go, we've been talking a lot about Fast Pair. So let's check in with another fast pair, Lando and Daniel.
+We've sent a few devices to our friends at McLaren, the newest members of the Android family.
+So let's see what fun they got into. And then we'll get some exciting updates from the Google hardware team.
+[VIDEO PLAYBACK] - What do we got here?
+- Some toys from our new sponsor. Did you know you can play a game between any Android devices? You want to play a game?
+- All right. - "Rocket League." Launch "Rocket League." - Yeah. - Let me show you how it's done.
+- How do you accelerate?
+- Are you not made for this, mate? - Oh. - Goal
+- Next goal wins. Oh no. Ah, no. No.
+- All right. Cast it to the TV. - All right, let's do it.
+- Oh my God. - Yeah, I know. I'm new to the YouTube game. - Do you think bandanas suit you?
+- I did like that one. - You see, the more you post, the less people like you.
+- Yeah. That's why I stopped posting. - Clever. - Yeah. All right, who would you like to message?
+Enter a group name. Uncle Buck and the Boys. It's perfect. - Oh, I'm in.
+- What's Mr. Zak Brown doing. Zak, you there mate?
+- Hello, Zak. - Guys, shouldn't you be training or something?
+- Oh, boy. You have broken it. [END PLAYBACK]
+BRIAN RAKOWSKI: You just heard about the work we're doing across Google and Android to make a multi-device world simpler so all of your devices
+work better together. Let's talk next about Google's own hardware.
+We're building on this multi-device world to create a seamless, cohesive Pixel portfolio that
+pulls together all the tech breakthroughs you've seen today across Google. We'll start with Pixel phones, where
+we take all the helpfulness and intelligence of Google and create an experience that adapts to you.
+Last fall, we debuted Google Pixel 6 and Pixel 6 Pro, a complete reimagining of Pixel inside and out.
+It's our first phone powered by Google Tensor, a mobile compute platform we developed around Google's latest AI and machine learning models.
+Tensor gives us a major advantage in Mobile AI. And it's a hardware foundation that we'll be building on
+for years to come. With leading edge hardware, software, and AI,
+Pixel 6 introduced some amazing new phone capabilities to help you take professional quality photos
+and communicate with people in another language, all while keeping your personal information private with the Google Tensor security core.
+Pixel 6 is a huge step forward for the Pixel portfolio. And it's been great to see the response from Pixel users.
+It's the fastest selling Pixel ever, despite all the supply constraints in the industry.
+Pixel 6 has already sold more than Pixel 4 and 5 combined. [APPLAUSE]
+So let's keep that momentum going. Today, I'm excited for Soniya to show you the new Pixel 6A.
+[APPLAUSE]
+SONIYA JOBANPUTRA: Thanks, Brian. Like all our A series phones, Pixel 6A delivers the helpful personal Pixel experience
+for the unbeatable price of $449. That's right.
+We truly believe it's the best smartphone we've ever offered for this price.
+And let me tell you why. Pixel 6A shares the same iconic design language introduced
+on Pixel 6, with a unique two tone look and slim bezels surrounding our perfectly pocketable 6.1-inch display.
+And you'll notice the Pixel camera bar, which houses our dual rear camera system with a 12 megapixel main and ultra wide lens.
+And all of that is encased in our recycled aluminum frame. Of course, the real magic of Pixel 6A
+is what you're able to do with it. In years past, the A series really
+took advantage of Google's strength in AI to get the most out of affordable hardware
+so we could deliver our core Pixel features for a low price. And that was great.
+The combination of Google smarts and a mid-range processor produced amazing smartphones that our users love.
+However, as Brian mentioned, we now have our own Google Tensor SOC.
+So for the first time, we've developed a common hardware system that we've scaled across the Pixel portfolio,
+from our flagship phones to our A series. So what does that mean?
+It means that Pixel 6A includes the same fast 5G connectivity as Pixel 6 and 6 Pro.
+It uses the exact same security architecture with Titan M2 for industry-leading protection
+that makes the phone more resilient to attacks. And most importantly, Pixel 6A uses the same premium Google
+Tensor SOC as our Pixel 6 Pro. [APPLAUSE]
+That's right. That is a big deal for a phone at this price.
+With Google Tensor as the brain inside Pixel 6A, our state of the art machine learning models
+run nearly five times faster than Pixel 5A so we can provide better performance
+and richer AI driven experiences for the same low price.
+Pixel 6A gives you the same great Android experience as our Pixel 6 Pro, as well as Pixel exclusive features
+across photography, speech, security, and more.
+Let's start with photography. The camera system has Real Tone built in,
+so your photos are-- beautifully and accurately reflect your own skin tone.
+It also has Night Sight, so you can take incredible low light photos.
+And, yes, Pixel 6A includes Magic Eraser in Google Photos to remove those distractions from your otherwise perfect
+pictures. Now, there might be other people on the beach. But that doesn't mean you want them in your beautiful photos.
+With just a tap, you can make them disappear like magic.
+[APPLAUSE]
+And watch this. We've enhanced Magic Eraser so you can also change the color of distracting objects in your photo.
+In a tap, the object's colors and shading blend in naturally.
+[APPLAUSE] So the focus is on this subject, where it should be.
+Now, let's talk about speech. Tensor's strength and machine learning enables amazing on-device speech features,
+like Live Caption, Recorder, and Live Translate. It's like having a personal interpreter
+and translator wherever you go. It even works in airplane mode, and protected computing
+ensures your speech data remains private with on-device processing.
+The other week, I was at my local bank. And I noticed someone struggling to communicate in English
+with the bank teller. It reminded me of my childhood interpreting for my grandmother and helping her navigate a vital daily task.
+The bank visitor pulled out their phone and started talking to it in interpreter mode. And just like that, the language barrier was gone.
+The bank employee knew exactly how to help the person. What could have been a really frustrating moment
+became an empowering one. Now, breaking down language barriers shouldn't be just for the most expensive smartphones.
+It should be for everyone. And thanks to Tensor, we're able to bring live translate
+to Pixel 6A. [APPLAUSE]
+And, finally, everyone deserves to have peace of mind
+knowing your phone is protected. So we're continuing to deliver the same safety and security
+features as our premium phones. Along with the Titan M2 security chip,
+there's an under-display fingerprint sensor for secure unlock. And you'll get five years of security updates,
+so you'll always have the latest protection. Pixel 6A delivers the core Google hardware and software
+experience powered by Google Tensor across photography, speech, and security.
+And you'll get all this without compromising on an all-day battery. We're super excited to make Pixel 6A available
+for just $449. [APPLAUSE]
+It comes in three colors.
+So you can order one on July 1 or pick it up in store on the 28th.
+Back over to you, Brian.
+BRIAN RAKOWSKI: Thanks, Soniya. Google prides itself on creating helpful technology for everyone.
+And with the A series, the Google smartphone experience is available to more people.
+But for those who want the latest, greatest, and fastest, we're also working on our next generation Pixel 7 phones.
+Let me give you an early preview so you can see what's coming this fall. [APPLAUSE]
+Here's a first look at the Pixel 7 and Pixel 7 Pro.
+You can see that we've extended the aluminum finish
+to the entire camera bar for the next evolution of the Pixel design language. The housing and camera bar are made from a single piece
+of 100% recycled aluminum. And the gorgeous Pixel 7 Pro and its triple camera system
+sets a completely new standard for photography, performance, and design.
+I really love the contrast of the different materials and the simplicity of the design. The polished aluminum looks beautiful with the glass
+in the back of the phone. On the inside, Pixel 7 and 7 Pro are
+designed to deliver the most helpful most personal experience you can get in a smartphone.
+They'll use the next generation of our Google Tensor SOC, bringing even more AI heavy breakthroughs
+and helpful personalized experiences across speech, photography, video, and security.
+And, of course, both phones will ship with Android 13 and all the goodness that comes with their latest mobile OS.
+That's all we'll share about Pixel 7 and Pixel 7 Pro today. But check out the Google Store online for more details and new experiences powered by Google
+tensor in the coming months. [APPLAUSE]
+Now, great phones need great earbuds, which is why our Pixel Buds are made to perfectly complement
+your Pixel phone. AUDIENCE: Woo! Pixel Buds! Woo!
+BRIAN RAKOWSKI: And this summer, we're excited to expand the Pixel Buds family with a Pro tier offering.
+It's a powerful new set of earbuds called Pixel Buds Pro. [APPLAUSE]
+Let's take a look at what makes them so special. These earbuds have all the helpfulness and smarts
+you'd expect from Google embedded in the best mobile audio hardware we've ever designed.
+And they're the first Pixel Buds with active noise cancellation. [APPLAUSE]
+Noise cancellation is a difficult technical challenge because it needs to be smart enough to account for noise across a wide frequency spectrum
+and powerful enough for super low latency. Pixel Buds Pro deliver one of the best noise cancellation
+performances in wireless earbuds today because they're designed around a new custom audio processor.
+It's a six-core audio chip running Google developed algorithms tuned by our in-house audio engineering team.
+It uses a neural processing engine to analyze external sound with extremely low latency, canceling it in real time through custom speakers.
+Now, everyone's ears are unique. So it's not always possible for the ear tips to form a perfect seal.
+And that can lead to sound leaking in from the outside. To counteract this, our active noise cancellation
+uses new silent seal technology to compensate for audio leakage. This helps maximize the amount of noise
+that's being canceled so you get immersive premium sound without distraction.
+Sometimes, though, you do want to hear what's going on around you. For these occasions, there's transparency mode.
+It lets outside sound in so you experience the world like you're not wearing earbuds at all.
+But great earbuds don't just let you hear things. They allow you to be heard. So whether you're talking on the phone
+or taking a meeting outside, our beamforming microphones use noise suppression algorithms that
+have been trained with machine learning. Wind, traffic, or other background noise will be suppressed, and your voice will be clear
+no matter where you are. [APPLAUSE]
+The custom audio chip is also engineered for power efficiency so you get more out of the battery.
+In fact, Pixel Buds Pro gives you up to 11 hours listening time, or seven hours
+with active noise cancellation turned on. So you can tune out the noise on that long flight.
+Like all our Pixel Buds, the Pro Series are built to deliver a helpful, hands free experience.
+So you can ask the Assistant for all sorts of things, like walking directions, or get real-time translation in 40 languages and much more.
+Pixel Buds Pro will support multipoint connectivity so your earbuds know to automatically switch
+from a podcast on your phone to a video call on your laptop. It's so much easier than clicking into your Bluetooth
+settings. And it works between your compatible phones, tablets, laptops, and TVs.
+And later this year we'll update Pixel Buds Pro to support spatial audio. So when you watch a movie or a TV
+show on compatible Pixel phones, you'll be right in the middle of the action. [APPLAUSE]
+Lastly, if you ever lose an earbud,
+you can use find my device to ring your Pixel Buds Pro or see where they're at, even if you only lost one of them.
+The new Pixel Buds Pro come in four colors. They'll be available online for pre-order on July 1
+and on sale the 28th, delivering the smarts of Google and top tier active noise cancellation for $199.
+And here's Rick with a few more Pixel updates. [APPLAUSE]
+Android: Wear OS & Tablet
+RICK OSTERLOH: Thanks, Brian. We've got a lot in the Pixel pipeline, representing investments across all different kinds
+of technologies-- custom silicon with Google Tensor,
+new multi-device experiences on Android, like Sameer and Liza shared earlier, cutting edge AI research, helpful software
+and services, powerful data security with Titan M2, and so much more.
+It's an incredible tech stack. All of these things work in concert
+to deliver our vision of ambient computing, providing the help people need wherever they want it.
+In a multi-device world, people don't want to spend their life fussing with technology.
+An ambient approach gets the tech out of your way so you can live your life while getting the help you need.
+It doesn't matter what device you're using, what context you're in, whether you're talking, typing,
+or tapping. The technology in your life works together seamlessly.
+To get there, we start by laying the foundation with protected computing, as you heard from Jen.
+With these security and privacy fundamentals in place, we can deliver new, personalized cross-device experiences.
+Next, we add Google smarts-- a layer of intelligence and responsiveness
+so your devices don't just work better together. They work better together for you.
+We're working toward a world where your front door knows when to lock itself, your TV pauses itself when you get up
+to grab a snack, your devices know whether to send an incoming call to your phone, your earbuds,
+or your watch. Building on our ambient computing vision
+and our end-to-end Google tech stack, we're able to extend what Pixel devices can
+do for you now and in the future to be even more helpful.
+So let me show you what's coming.
+We will start with a quick preview of the new Google Pixel
+Watch. [APPLAUSE]
+It's the first watch built inside and out by Google. And it's coming this fall with our new Pixel 7.
+Pixel Watch has a bold circular dome design, a tactile crown,
+and beautiful recycled stainless steel with customizable bands that seamlessly attach.
+And Pixel watch delivers an outstanding Wear OS experience on your wrist.
+It features an improved Wear OS UI with more fluid navigations
+and smart notifications. It's all designed to be tappable, voice enabled, and glanceable so you can be more present
+at home, at work, or on the go. You can ask the Assistant for help getting things done
+and for those little bits of information you need throughout the day. And with Google Maps, you can get directions on the go,
+even without your phone. With the new Google Wallet, you can leave your physical wallet
+at home, too. [APPLAUSE]
+You can quickly tap to pay at the store
+or to ride the subway. And with the new Google Home app for Wear OS, you can turn off the lights, adjust the thermostat,
+or get an alert when there's a person or a package at your front door. Now, my favorite thing about the Watch
+is the deep integration with Fitbit, which is coming first.
+[APPLAUSE]
+It's coming first to the Google Pixel watch for industry leading health and fitness experiences.
+You can get insights into your health with continuous heart rate and sleep tracking.
+You can see your active zone minutes when you're working out and track your stats and progress
+against your personal fitness goals. Google Pixel Watch is a natural extension of the Pixel family,
+providing help whenever and wherever you need it. It'll be available this fall, and we'll share many more
+details in the coming months. Now, along with wearables, the Android team
+has made big advancements in tablet software, like you saw earlier.
+And there's so much we can do here when we apply Google's tech stack with Tensor to a larger
+screen Android experience. So I want to give you a sneak peek at something
+we're working on for 2023. Now, normally we wouldn't announce a new product a year
+before it's ready. But there's so much amazing energy around tablets in the developer community that we wanted to bring you all into the loop.
+So here's a first ever look at our new Pixel tablet.
+[APPLAUSE]
+It's a next generation Android tablet powered by Google Tensor designed
+to be a perfect companion for your Pixel phone. The tablet bridges you're on-the-go life
+with your at-home life, working seamlessly with all of your Pixel devices to provide the most
+helpful experience possible. We're designing it to be the most helpful tablet
+in the world, and we're aiming to make it available next year.
+[APPLAUSE]
+So to quickly recap, Pixel 6A and Pixel Buds Pro
+are coming this summer. And we'll have lots more details to share soon about Pixel 7, Pixel 7 Pro, Pixel Watch, and the new Pixel
+tablet.
+We're pushing forward into so many helpful hardware experiences across phones, wearables, audio, smart home,
+and tablet computing. It adds up to a true Pixel family
+of devices with different options for different budgets and needs.
+With ambient computing as our North Star, this Pixel portfolio is a holistic approach to hardware
+designed around you. I can't wait for you to check out these new hardware experiences for yourself.
+And you can see all of this online at the Google Store. Or you can drop by our physical Google stores in New York City.
+Along with our original location in Chelsea, we're adding a second one in Williamsburg this summer.
+So please step by and check it out if you can.
+[MUSIC - HALO SOL, "COMIN' IN HOTTA"]
+Augmented Reality & Close
+SUNDAR PICHAI: Today, we talked about all the technologies that are changing how we use computers and access knowledge.
+We see devices working seamlessly together exactly when and where you need them
+and with conversational interfaces that make it easier to get things done.
+Looking ahead, there is a new frontier of computing, which has the potential to extend all of this even further,
+and that's augmented reality. At Google, we have been heavily invested in this area.
+We have been building augmented reality into many Google products from Google Lens to Multisearch, Scene Exploration,
+and live and immersive views in Maps. These AR capabilities are already useful on phones.
+And the magic will really come alive when you can use them in the real world without the technology getting in the way.
+That potential is what gets us most excited about AR, the ability to spend time--
+[APPLAUSE]
+The ability to spend time focusing on what matters in the real world in our real life.
+The real world is pretty amazing. [APPLAUSE]
+It's certainly looking that way to me right now. It's so good to be back in Shoreline. I can tell you're all enjoying it, too.
+It's important we design in a way that is built for the real world and doesn't take you away from it.
+And AR gives us new ways to accomplish this. Let's take language as an example.
+Language is just so fundamental to connecting with one another, yet understanding someone who speaks a different language
+or trying to follow a conversation if you're deaf or hard of hearing can be a real challenge.
+Let's see what happens when we take our advancements in translation and transcription,
+and deliver them in your line of sight in one of the early prototypes we have been testing.
+Take a look. [VIDEO PLAYBACK] - My mother speaks Mandarin.
+And I speak English, which is a strange thing.
+- We'd love to be able to share with you a new prototype we've been working on.
+You should be seeing what I'm saying just transcribed for you in real time, kind of subtitles for the world.
+- What we're working on is technology that enables us to break down language barriers, taking years
+of research and Google Translate and bringing that to Glasses. - Can you see me?
+- I'm actually looking straight into your eyes. And it seems like you're looking right at me.
+- Making access to information just instant and intuitive. By doing that, technology fades into the background.
+And we're more connected with the people and the things around us.
+- Giving people the gift of communicating with anyone, no matter what language they speak,
+I think is a really powerful thing.
+[END PLAYBACK] [APPLAUSE]
+SUNDAR PICHAI: You can see it in their faces, the joy that comes with speaking naturally to someone,
+that moment of connection to understand and be understood. That's what our focus on knowledge and computing
+is all about. And it's what we strive for every day with products that are built to help.
+Each year, we get a little closer to delivering on our timeless mission. And we still have so much further to go.
+At Google, we genuinely feel a sense of excitement about that. And we are optimistic that the breakthroughs you just saw
+will help us get there. Thank you to all of the developers, partners, and customers who joined us today.
+We look forward to building the future with all of you. Thank you so much. [APPLAUSE]
+[MUSIC PLAYING]

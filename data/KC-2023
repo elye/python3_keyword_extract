@@ -1,0 +1,551 @@
+Broadcast start
+foreign
+Intro 2023
+[Music] foreign
+[Applause]
+We Are Back!
+[Music] good morning
+there you go that's it that's how we do it welcome to Kotlin conf 2023 we are
+back we're back in Amsterdam how many have you been here in Amsterdam before raise your hands awesome brilliant venue
+we're back here we are back in person which is fantastic and it's really really exciting and great to be
+back we are also going to be joined online by everyone that couldn't make it here we
+are being streaming the keynote the closing panel everything is being streamed this year so for all those folks that are online welcome to you too
+we're also doing Kotlin conf Global which is going to take place in 41 countries 91 events across the globe and
+we welcome them as well and of course I want to say special thank you to our partners please go and
+make sure you visit the exhibit area they're wonderful they're awesome they're great they're here there you go
+that's why right program committee also we've put together a very diverse program for you a bunch of different topics anything you
+may be interested in you'll be able to find we have more content even this year we have four
+parallel tracks as before we have a new part track which is called the lightning talks which are 15 minute talks you've
+got two lightning talks in one slot of 45 minutes that means that if your attention span is too short go to the
+lightning talks and you'll get a 10 minute break between them but there's no coffee but you know they'll give you time to reflect we also have two code
+labs this year we've got our partners back from Big North Branch that are running codelabs and we have AWS Labs
+that are doing Hands-On things so if you got your laptop with you you can go up there and do some exercises as always
+there's a party tonight there's a party over there and we've enabled a brand new floor which we built no we didn't build
+it but we've enabled a brand new floor downstairs where it's going to be a quiet area there's a place for you to
+hang out you can go anytime not just through not just at the party there's a there's a barista there you've got
+electric plugs you know that's what we do right we come to a conference and then we'll go in a corner and work with our laptop
+there's a closing panel as always you can ask questions here if you're in this room I'm not sure if you're in that room
+but if you're in this room you can ask questions come up to the mic if you are online or you don't want to
+come up to the mic send us a question kc23 ask we will be collecting those questions and asking them the harder the
+question the more entertaining it will be for everyone finding your way around everywhere I was
+going to say you know I'm going to tell you how everything is placed but everyone comes in and they're looking at the map staring at the map I'm like it's
+not that interesting but anyway you've already probably looked at the map you're on the ground floor this is the big uh the big rooms exhibit is over
+there then you have upstairs you've got the two or three rooms you've got the lightning talks on that side and then
+you've got a session room on this side and a session room right over there above the stage
+the ground floor as I mentioned we've got the lounge where you can hang out and the cloakroom
+also Wi-Fi Kotlin comp no password we'll trust each other hydration we individually
+unwrapped wash the bottles for you so we're trying to be green no plastic or
+paper cups or anything like that so try and use your bottles if you're not comfortable give them another rinse but
+they should all be okay t-shirts you can pick up your t-shirts from today at two o'clock at
+registration there's a t-shirt for everybody so don't all Rush at once just
+take your time okay that 10 minutes between the lightning talks is when you can pick up your t-shirts not all of you
+of course the calling conf app is ready for you to mark your favorite sessions Etc most
+importantly make sure you vote if you're not entirely satisfied with the talk first ask yourself if it's you and not
+the talk and if it is the talk then give us some feedback but there's a little comment box we've enabled so if it's not
+happy or you're just kind of like a grimy day tell us a little bit why we'll try and make improvements for everyone
+and with that enjoy it I'm going to hand it over to Romana Elizabeth thank you
+Kotlin Stats
+[Applause] so hello welcome back to college I'm
+delighted to see you all here in Amsterdam the power of cotton has always been in its community in you
+and let's see what kind of audience we have here who are you let's do a show of
+hands who is doing Android development here please raise your hands wow great great lots of folks thank you and who is
+doing non Android developer like server side web wow oh my God that's amazing I
+mean there's there's a lot of you and this is really inspiring Kotlin is used in many places
+our own data shows that two-thirds of codeine active users are Android developers and one third is using coding
+for server side and other things coding is multi-platform and we'll have the whole section on all things
+multiplied from later in this Keynote for now let's look at an overall picture
+seeing coaching audience growth is great but that's not what keeps the cotton team busy and excited about the future
+things like these are last year we did the customer satisfaction survey
+according to its result 86 percent of all cotton users across all the
+platforms are either satisfied or very satisfied with Scotland that is the number we strive to make even better
+you see Kotlin has become what it was designed to be the language for industry a fun yet
+reliable tool you can use in your day-to-day job Kotlin is the language that was meant to
+be enjoyed and the content development team in jet brains is focusing on all aspects of quality including performance
+and stability and when you work with Colvin you use the
+K2 Compiler
+Kotlin compiler and what part of the cotton compiler you interact with most as a developer that part is called is
+called compiler front end and we saw your complaints about completion speed
+but it was harder it harder to optimize it so we started the project to rewrite
+the compiler front end and codename it K2 back in 2019.
+and the new architecture was really needed to make a breakthrough as this work is nearly in completion I'm
+really excited to say that it will be released as Kotlin 2.0 this is the major update to the cotton
+compiler today the preview version of Kotlin 2.0
+compiles a large Corpus of calling code correctly reports warning and errors and passes virtually all the tests
+and it is significantly faster see for yourself
+this is the compilation time for the full intelligent ultimate sources
+the bottleneck is currently in the compiler front end as you can see on this picture it is the slowest part
+taking the most time with Kotlin 2.0 preview the front end is
+significantly faster it's actually several times faster so it's almost on par with the compiler backend the whole
+compilation pipeline becomes twice as fast of course the actual numbers you'll get
+depend on what you compile for example when compiling the costing
+compiler itself the Improvement you get from content 2.0 is even better
+well what are the plans for Kotlin 2.0 release the work is continuing as we speak we're
+Kotlin 2.0
+only starting to gather your feedback on how it works with your projects
+we still plan to release cotton 1.9 later this year but there will be no
+cost in 1.10 right after 1.9 will start working on stabilization of
+cotton 2.0 it will be working hard to ensure that Kotlin 2.0
+perfectly compiles all of your code and for that we really need your
+feedback so please try cutting 2.0 now and Report
+check if it works for a code and if it doesn't please report the problems around to the issue tracker
+our goal is to make your transition from clothing 1.9 to content 2.0 as smooth as
+possible in fact we're consciously Trying to minimize the number of changes between coding 1.9 according 2.0
+you see the compiler front end is also the key part of the ID plugin for Kotlin
+things like code highlighting and other completion depend on it so we'll talk about the future after
+content 2.0 in a bit but in order to make this future possible it is important that cotton ID plugin also
+uses new cutting 2.0 front end the content ID plugin is released on its
+own schedule that is aligned with the IntelliJ releases so there will be a time when your
+compiler and your ID use different version of the content front end so that
+makes it very important that costing 1.9 and content 2.0 are compatible with respect to the language constructs they
+support so that's why we're trying to keep them as similar as possible and the great thing about this whole
+idea will work is that it also provides a clean separation between the compiler
+itself and the ID code so a new layer that we call the analysis API
+and it's not just for idea for example content symbol processing engine is
+being updated by Fox at Google to work on top of the analysis API
+so if you're writing your compiler plugins with KSP they'll automatically work with Kotlin 2.0
+we're also improving the underlying infrastructure of the ID plugin to make it even faster
+so if you're interested in details I really invite you to the talk of by Vladimir tomorrow at 1pm on how this
+improvements are being made now let's talk about the future after
+The Future of Kotlin
+cotton 2.0 because this is another reason why Kotlin 2.0 is such a big deal it makes
+it really easy to evolve the language you need the high level syntactic features get distributed into all the
+boilerplate right in the compiler front end everything else Falls automatically out
+of it we don't have to instantly change dozens of places in the compiler to add a new feature to the language
+but how do we figure out what features to add that fortunately really straightforward
+for us Kotlin is the language we develop for you and we already have a clear picture of
+your most pressing it comes from issue tracker from your vote and from the language features I read
+that we do so I'll give you a short overview of
+some of the most Wanted features of Kotlin features that we're planning to deliver after Kotlin 2.0
+these are static extensions collection literals name-based destruction context receivers and exclusive Fields that's
+what we'll cover today let's start with static extensions
+Static Extensions
+the request to support static extensions is literally the most voted issue in future like literally as the highest
+number of what's ever for any issue let's take a look at the problem they solve
+so suppose you have a third-party class big file for example or anything else and now you want to write an extension
+that you'll be calling this class maybe you want to call open function
+using file dot open syntax now if that was a classroom your own
+code then you could have defined a companion for the class and then declared an extension of this companion
+as simple as it is but if that is a third party clause
+it doesn't have a companion object then you can do this this code simply will not compile
+so static extensions provide a solution here you can declare them on any class with a new syntax for static extensions
+and it's more than just about static extensions we also plan to add static members to go to they provide an
+efficient alternative for many cases where you use companion objects today
+Statics will be one of the first big features we'll work on right after cutting 2.0
+you see static extensions enable you to attach functions to classes
+and that is required for the next feature we'll talk about and these are collection rituals
+Collection Literrals
+so what problem do they solve well in Kotlin today
+when you have a property with a list of strings say for example command line arguments then in order to pass an actual list of
+strings to this property you use list of function when your code contains a lot of
+configuration or is otherwise data heavy this list of calls don't add any value
+they just create visual noise in your code with collection literals you'll have a
+concise and Universal recognizable syntax with square brackets to create your list
+anyone just it will not just improve syntax it will also have an efficient
+implementation that does not use arrays collection literals will also work with
+the main specific types for example persistently that come from a separate
+library that we develop we'll also use collection visuals in fact any library
+with collection types will be able to work with collection literals
+as you would expect in Kotlin you'll be also able to specify the class on the right hand side or you know get it
+inferred from the context of the code around it
+The Collection literal centers is actually the same that the syntax will only use for arrays in annotations
+uh the whole groundwork for this sentence was laid back then when we
+added it to the language so what's the status
+we have a prototype that demonstrates how easy it is to integrate collection literals into content-to-point
+architecture we'll work on the details of the design and implementation right
+after static extensions now let's look on the next wanted
+feature name-based destruction you see
+Name-Based Destructuring
+collections are positional all you have in a collection is the order of elements
+but data classes they are name based for the most Parts
+when you declare a data class you specialize the names of the properties and when you visualize this data class
+from Json or your database It's usually the names that matter not the order of the properties in your
+declaration so now when you have an instance of this data class you can destructure it into
+variables using destruction declaration syntax that's what we call it in Cotton but this syntax is positional
+not name-based so why is it a problem you see the problem is that is too easy
+to make a mistake you can flip the properties around and your code still compiles
+and it can happen if you just refactor your data classes we know that this is bothering many of
+you that that's why you owed for it but so some even prohibit destruction altogether in their code style as a rule
+we want to get this right right for Kotlin and we're taking a careful approach here
+we want to find a solution that works well but it will not be among the first features we deliver article in 2.0 but
+we're going to fix it watch the Youtube issue for updates and
+share your thoughts if you have on what to do with it and we'll move on to the next really
+popular issue contextual servers so with them we've been experimenting
+Context Receivers
+for quite a while the public prototype is already available for the current version of Kotlin
+but what do they do to keep this story short
+they help you when you write a large application and you have ubiquitous context that you pass around many
+functions people have found ways to work around this problem by using extension
+functions but context receivers provide a cleaner solution here
+with context receivers you can explicitly declare the context of your function so you can cleanly distinguish
+between the actual parameters your function work with and the context your function Works Within
+what's more context can be added to extension functions so you can continue to write your code as a nice chain of
+extension calls while the context has been automatically passed around
+the context receiver feature has been out of preview for quite a while already
+so we've gathered a lot of valuable feedback from the people who already tried it out and we've they found way
+was how it can be used and how it can be abused too so we'll definitely going to
+address all these issues that you found before making the design Final in one of
+Kotlin 2.x versions but there's another small yet very
+Explicit Fields
+helpful feature that is almost ready to be delivered and that's explicit fields
+the problem they solve is likely known to many of you here
+suppose you will write a holder for your immutable state maybe immutable stateful
+well you want to keep it private because it is mutable so you create a private bacon feel for
+it now to expose this property as to public you declare a property with a different
+non-mutable type stateful in this example on the screen
+so now you have a property with one type and private property and a public property with another type
+but they essentially refer to the same concept they have the same name and you
+have to repeat this name three times in your code that is a lot of boilerplate for what
+conceptually is just a single property in your code and Kotlin mission is to get rid of
+boilerplate so here we go will offer a more concise syntax shortly
+after cutting 2.0 with this new syntax you can explicitly declare the type and the value of the
+private baking field for your public property no more boilerplate
+most of the design and the actual implementation for this new feature is already there it's just waiting to be
+released shortly after cutting 2.0 so with that let's move on so well
+Compiler Plugins
+performance and ability to support new language feature is not all that is so
+great about cutting 2.0 the new architecture is also significantly more powerful it what in
+what can be achieved outside of the language itself in compiler plugins Kotlin 2.0 is still work in progress but
+we've been experimenting to see what we can do with it for this demo I'll use an experimental
+content data frame Library so using this Library I can read a data
+set with all the questions on content from Star cover flow
+let's quickly check the schema of this data set it actually has a lot of columns but I'm primarily interested in
+creation date for the question and tags so let's filter it to keep only
+questions that are tagged as related to content multi-platform as you can see I can refer to text
+column in this code by its name that's because I have generated the
+corresponding extension property in advance based on the data schema that I knew I was going to work with in in my
+code now I want to see how the interesting multiplied from grows year by year so I
+start by creating a new column called here and I want to group with this newly edit
+column but here is the problem this code will not compile that's because I don't have
+this year column in my original data set so there is no extension to refer to it from record by a simple name I can only
+use string however with the new front end we can write a compiler plugin that understands
+this code for this particular library and injects the appropriate context with an extension property right at compile
+time at the right place just when I need it with the plugin I would not even need to
+write any extensions in advance all the necessary extensions to work with my data will be declared onto flight during
+compilation or as I type my coding ID this kind of plugin is just an only
+prototype to explore what's possible with Scotland 2.0 architecture I'm sure you'll find even more uses for these new
+capabilities to help with your own libraries that you use if you want to know more I really invite
+you to check out Michael's talk tomorrow on K2 compiler plugins remember k2's code name for the Continental portal
+compiler and that's tomorrow at 10 15 am
+so this concludes my section on Golden 2.0 to recap it's coming after cutting
+1.9 it is fast it opens the road to new features and enables completely new class of compiler
+plugins right now and give us your feedback like we really need to make sure like it
+works well on your code soon now let's get back to the data
+so do want to see how the interest in quality multiplayer grows year by year they want to know the answer
+yeah so but see I don't want to show because that's what's just text I don't want to show you born text table in a
+console I want to show you something visual it's like a chart and that is a common problem software
+developers face most of the production code you write works with data but
+Data Exploration
+sometimes in your work you have one-of-a-kind data exploration tasks just like we did
+the data can come from many sources maybe you have a database or there is a
+new API you like to explore or you're just debugging your code at some want to understand the data in there
+in fact this is a solves problem in the world of data science scientists routingly using interface
+called notebooks for interactive data analysis notebooks are like scratch
+files on steroids but they are extremely underrated among the general application
+Developers why simply because they're not integrated into everyday tools that developer use
+and this is something we inject Brands can change soon we'll be releasing the first
+preview of cotton notebooks as a plugin to IntelliJ IDEA what can they do
+let them speak for themselves watch video on the screen
+Kotlin Notebooks
+[Music]
+thank you
+thank you
+[Music]
+thank you [Music]
+thank you [Music]
+[Music]
+thank you [Applause] [Music]
+we believe that notebooks that are available right at your fingertips inside your favorite IntelliJ IDEA and
+work with your favorite programming language Kotlin will dramatically improve your productivity
+please come to jetbrain booth there at the conference to be the first one to try them out
+with that let me introduce our next speaker welcome Grace Club VP of
+engineering for Android developer experience at Google [Applause]
+Grace Kloba (Google)
+thanks Roman that's a really cool video good morning everyone I'm Chris Clover
+feeding Android developer experience group I'm thrilled to be here with you all in person today
+so first I want to share some of the investment that we are making in Kotlin
+at Google let me take you back in time to 2014.
+Google Investments into Kotlin
+so let me take you let me take you back in in time to 2014.
+Android Studio is built on top of intelligent it means our developers are
+exposed to the language earlier and they really like it our jpeg Library team also start to
+explore the language in the same year for the library development
+by early 2017 we decided to announce Kotlin will be official language for
+Android development this was a big decision but we believe it's the right one
+because it's the best language for the developer and we can made it to its
+future we also partnered with the jabrian to
+create Kotlin Foundation to help ensure its continued growth and
+evolution officially supporting Kotlin was just
+the first step we know we have to make a much better experience for the greater Android
+developer community so we made a significant investment on
+multiple fronts of course we build a culturaling support
+in Android Studio to make sure it's the best IDE for Android development
+every month there are millions of developers come to our website to visit
+and educating the documentation so we invest in building a Kotlin portal
+for Android making API references available in Kotlin and providing end-to-end examples
+for you to learn from it's no secret developers learn from one
+another so we have taken initiative to create wide range of comprehensive training
+resources including YouTube video complete the courses and the
+community-led events that available to individuals across the world
+from 2017 through 2019 we saw continuing growth in cultural and
+popularity this led us to take the next two big steps
+first we made a culturally in general available for Android development at Google
+this is a big undertaking because Google has a large mono repo with many customer
+tools it requires a lot of engineering effort to support Kotlin
+next we pivoted to kautilim First for all Android development
+while we're still supporting Java programming language we focused our Android developer
+experience around the quarterly this meant making Kotlin the default
+languages and providing mild resources and the tools for you to learn and use
+culturally if your Android developer you probably
+heard of modern Android development our recommended tools apis and a
+guidance Kotlin is at Heart of this new strategy
+we require all new jpeg libraries to be written in cartilage
+Google Kotlin Stistics
+now Kotlin is the most popular language for Android development
+over 95 of the top 1000 Android apps use
+quarterly and over 50 percent of professional Android developer use Kotlin as their
+primary language jetpack compose
+our modern UI toolkit is built exclusively with culturally
+this allows us to use kautiling's Rich compiler API to generate all the UI
+State Management analogy for you so you can focus on the high level UI design
+it is built on top of the powerful Kotlin features like extension methods and a code routine to
+make it more expressive JPI compose is changing how you build
+Android apps today over 23 of the top 1000 apps in
+Google Play shipping with compose more than double since last year
+team from clue shared with us their development speed increased up to three
+times after rewriting apps using jetpack compose
+like jailbreak every year we perform a survey with developer visiting our
+websites the results are incredibly positive among professional Android developers
+use quarterly we saw 96.9 positive satisfaction rate
+this is nine point higher than their Java counterpart
+we also heard a feedback from developer culturally not only improved their productivity
+but also improve apps quality for example in Google Play
+we sell apps build with Scotland on average 20 less likely to crash this is
+great news for everyone so with Scotland be widely used for
+application code and for expressing Rich UI with jpeg
+compose today we're taking the last step
+to enable Kotlin to enable you build the Android apps with a single
+language I'm excited to announce Kotlin DSL will
+Default Kotlin DSL
+be the default for all new Android apps starting Android Studio giraffe
+thank you
+this wouldn't be possible without many usability Improvement done by Gradle and
+significant performance Improvement in IntelliJ 2022-3
+we are very grateful the collaboration by all three companies in fact Guido is also recommending
+Kotlin DSL by default for new builds with this change you will get a much
+improved editor experience as culturally improvise you in a hint
+semantic highlighting navigation and code completion
+these features are critical when you work with complex or unfamiliar build
+script without knowing all its true rules
+Kotlin at Google
+cuddling God officially supports at Google in 2019
+most of our Android apps have adopted coupling
+but Google's interest in cuddling doesn't stop with Android apps in fact more than 45 percent of our
+Engineers who write Kotlin use it for Server development there are over 15 million lines of
+content code in our source control system this has been doubling year over year
+we have dedicated teams building tools to integrate the Kotlin into our
+large ecosystem if you're interested in learning how Kotlin is used at Google
+I invite you to attend the talk adopting Kotlin at the Google scale right after
+this Keynote earlier women talk about Kotlin 2.0
+we are very excited because we believe it will greatly improve developers
+productivity we have a dedicated team working closely with jabrin on the compiler
+at the same time we also actively incorporating cotton 2.0 into our own
+tools including Android Studio KSP and a compose compiler
+we also leveraging our large code base including Android platform and millions
+of lines Google's internal code to verify the compatibility of the new compiler
+looking forward we're dipping our toes into culturally multi-platform
+today I'm excited to share the Google workspace team is actively
+experimenting with culturally multi-platform they have a prototype with business
+logic of Google docs running on iOS using culturally multi-platform and
+quarterly native if you want to learn more
+please check out quarterly multi-platform in Google workspace later today
+as part of our X ploration into culturally multi-platform
+we also made a set of contributions which will benefit the community
+reported a set of jpeg library to multi-platform this will allow you to use tools apis
+you know and like from Android and apply to the multi-platform
+we also contribute to culturally native touching by improving its performance
+finally we've been helping with griddle plugin for quarterly multi-platform
+this will give you more control over each Target platform while still sharing as much code as possible
+there are several googlers speaking we also have a boost I invite you all to come by and talk to
+our engineers and share yourselves we are very excited about amazing
+benefit Kotlin has brought to the developer we're looking forward to even more in
+the next few years we're passionate about improving culturally for you the vibrator
+developer community that creates amazing experience that's a lot for me
+Kotlin Ecosystem
+next I would like to invite Igor on the stage to talk about Kotlin ecosystem thanks for your time
+[Applause]
+it's an exciting time to be a Kotlin developer cotton is everywhere on Android server
+iOS desktop and dividend build Scripts
+today we can use Scotland to solve basically any daily task
+this is all thanks to the vibrant ecosystem created by the Kotlin community
+as of 2023 the number of GitHub projects using Kotlin as a primary language has
+surpassed 1 million that's a massive milestone
+thank you all for your contributions and hard work
+we are delighted to see that the emerging cotton multi-platform ecosystem shares the same growth rate
+over the last year the number of multi-platform libraries increased by 60
+percent we are amazed to see its continuous growth at saturated pace
+we are deeply grateful to thousands of folks who contribute their time and effort spending time developing open
+source projects that benefit us all we understand how important your
+contribution is for the cotton future and we want to show our appreciation and
+provide support as Grace mentioned back in 2017 we
+started Kotlin foundation with two goals in mind to preserve the cotton trademarks and to control incomputable
+changes to the language it held jet brains and Google to build a
+strong partnership and make Kotlin the primary language for Android development
+we believe that the foundation can take on a larger scope of responsibilities and Advance Kotlin even further
+Wisconsin multiplied from On The Rise we see an excellent opportunity to enhance
+the multiplatform ecosystem and facilitate its sustainable development
+Kotlin Foundation Grant Programm
+starting today Kotlin Foundation launches a grants program for two
+libraries and Frameworks with the primary focus on multiplied from projects
+if you're an author or an existing project and you have a well-defined idea of how to enhance it further you're
+eligible for a grant let's consider some examples imagine that you're in author of a websocket
+client for Android and you want to make it multi-platform or you created a popular state to
+canalizer that accumulated a pile of bucks over the years you want to spend some time fixing them
+and enhance their overall code base quality in both cases you're eligible
+for a grant we don't ask you to provide any
+intellectual property rights or trademarks to the foundation we have only four basic requirements
+the project should have a permissive open source license such as MIT or Apache 2.
+it should not be backed by a company it should be actively maintained and it
+should benefit the multiplatform ecosystem when reviewing your submissions the
+Kotlin foundation ecosystem committee considers several factors including the
+project audience size the importance of a problem that the project is solving
+and its overall stability besides it the committee takes into
+account adherence to the best practices described in our newly released Library
+creators guidelines so be sure to check them out
+if you are interested fill out the application form and provide some details about your project and how you
+want to utilize the grind to enhance it further the first round of submissions ends May
+15. we believe that many companies that rely
+Join Kotlin Foundation
+on the Kotlin ecosystem want to give back to the community that's why we are also opening a
+membership program inviting companies enthusiastic about Kotlin future to
+partner with jetbrains and Google within the foundation by joining us you can help govern Kotlin
+trademarks accelerate ecosystem growth and promote Kotlin in education
+and today I am really excited to announce the first companies who join us
+and share our mission greaterling who developed the most
+widely used build system for Kotlin which is the default choice for Android Kotlin native and Kotlin multi-platform
+who believed in Kotlin multi-platform from the very beginning
+they they're helping teams of all sizes to get it into production creating
+developer tools for it and advocating for it in the community
+Shopify who you Scotland multi-platform to build features with high performance
+requirements only once and they will understand the needs of
+large-scale lives we are thrilled to have these companies join us and work towards the governance
+and development of the Kotlin ecosystem vibrant ecosystem enables developers to
+build amazing things that's why we also initiated a Kotlin
+multi-platform contest encouraging students all over the world to Showcase their creativity by building multiple
+platform projects in the Urban today we have authors of three best
+projects here with us at cottonconf Ahmed Barack from Turkey create a term
+multiplied from app for connecting volunteers with volunteering opportunities
+from Poland created a set of mini games that show lots of code between desktop
+and Android clients and a server Brian come on bigger from Kenya youth
+Scotland deal for pose estimation in the fitness application if you meet this fox at the conference
+be sure to say hello and talk to them about their projects they will really
+love it we in Japan's team are really excited
+about all the multi-platform projects created in the community
+welcome switlani sakawa who will share the latest updates on how we are
+evolving cotton multi-platform in jail brains so back a lot for some exciting
+news
+Kotlin Multiplatform
+thanks Igor let's talk about cartoon multi-platform
+we started Kotlin as a German language but soon realized that it was great to
+bring you to other platforms nowadays people are on Kotlin on
+different devices servers mobile phones browsers desktops
+the main value that cartoon multi-platform brings to Developers is the ability to share
+share the knowledge the expertise the code often different teams in an organization
+can use Kotlin which makes it easier for them to communicate because they speak
+the same language of course Kotlin multiplied from is more
+than sharing knowledge it's also about sharing code all these applications can use a common
+cross-platform part which gets compiled to different Target platforms
+this approach is really flexible you decide which force to share from sharing Network models between server
+and client after sharing owns the whole mobile apps
+it's different from other cross-platform Solutions typically you have a choice
+you should either go all in cross-platform or stay native
+and you all know the benefits of cross-platform development you have a single source of Truth consisting logic
+fewer bugs faster development process but it's not that everyone Grows
+cross-platform Right because native development has its own advantages
+you have the full power of native platforms which often means better performance and better user experience
+and cuddling multi-platform approach is unique it's not either cross-platform or native
+it can be both depending on your requirements and the state of your
+development you decide which parts to share you can combine
+both native and cross-platform parts in the obligation
+the best illustration for this idea is the mobile case where you have the full flexibility of
+which parts can be shared business logic algorithm data models
+networking data storage also UI you can start small
+when you already have your existing applications you can add a small shared part
+like a constant or a couple of functions for validation or formatting logic
+and then you can move more and more logic there you have can have different models like
+for analytics validation networking this approach is really flexible
+if you start from scratch you can share basically the whole app
+from cross-platform part you can use multi-platform libraries Igor shared with us and the impressive
+growth of the number of libraries in the last couple of years
+Multiplatform Libraries
+now you can find library for most of the use cases as the foundation we have core libraries
+developed by jetbrains like strand library or core routines
+many well-known community libraries like core and SQL Delight are now multi-platform
+we have Elegant solutions to improve Kotlin Swift interoperability like kmb native core routines autolink support to
+organize your projects like kmm Bridge and we're especially thrilled to see
+Alpha versions of some of the Google established libraries available for cartoon multi-platform
+we've been working on this technology for several years now we've made lots of experiments with
+Future of Kotlin Multiplatform
+multi-platform libraries project configuration memory management now your concurrent Kotlin code on the
+iOS looks the same as for Android so where are we now
+we're here all these Concepts were used and
+validated out there so we are moving to stable later this year
+Kotlin multi-platform is here to stay
+[Applause]
+despite being pre-stable we have lots of successful stories from the companies
+who decided to use Kotlin multi-platform for their projects and we are really grateful for all our
+doctors who've been helping us shape this technology
+our vision for cutting multi-platform is to be your default choice for cross-platform development for whatever
+tasks you might have it seems to be a missing piece in this
+story we got feedback from many people that they also want to share UI
+Compose Multiplatform
+and two and a half years ago we started working on composed multi-platform
+jetpack compose this great UI framework is declarative it's in Kotlin you're
+really productive with it and it's a pleasure to create your screens with compose we wanted to bring it to more platforms
+back in December we released compose multi-platform targeting desktop
+using the power of java virtual machine and the compose framework you can add your cross-platform desktop applications
+full in Kotlin in a declarative style targeting Windows Linux and Mac OS
+and it's already stable among others we're using criticide jet
+brains to power toolbox app this app is used is used by million
+people worldwide to manage jetbrain CDs installed on their machines
+if interested in details please go to Future talk tomorrow
+it's great to have a modern UI framework targeting desktop
+but what about mobile as some of you noticed we've been
+experimenting with compose for Iris and today
+Compose Multiplatform for iOS
+we're pleased to announce the Alpha version for composed multi-platform targeting iOS
+[Applause]
+using jetpack compose on Android and compose for Iris on iPhone you can now
+build the same app the benefits of shared UI are huge you
+have the same language you can reuse what you already know you don't need to maintain the versions
+of the same app writing UI becomes really fast you can
+get your MVP very quickly it's great to for startups to bring the ideas fast to
+markets if native UI is not crucial for a business you get all the benefits of
+shortcut bases it's currently in Alpha and we really
+believe in this use case and we are committed to Bringing iOS support to
+compose multi-platform foreign
+and share your feedback there are some open questions along the way and we want to involve you the
+community into this journey if you're interested please go to the
+talk of my colleagues Sebastian and Nikita later today they'll also show you
+this demo app in action
+it's not becoming the only way Kotlin multi-platform is about flexibility
+you can share a little business logic and keep the way native or you can share UI as well using
+composed multi-platform or another cross-platform bi framework or Library it's up to you it's your choice
+Kotlin + WebAssembly
+platform works on different platforms and we're also expanding it to New
+emerging platforms recently we released experimental
+support for Kotlin on webassembly webassembly is a binary instruction
+format supported by all the major browsers designed to be efficient and
+secure we are building an internal new compiler backend using webassembly garbage
+collection proposal we see huge potential in webassembly especially regarding the performance
+that your cotton got can get in browser we also look forward to seeing what the
+webassembly system interface initiative can bring to a server side and serverless application development
+what's more we've been experimenting with running compose apps in the browser
+wouldn't wouldn't it be great to Port your existing campus code to web
+we already have some prototypes which you can play with webassembly is a promising technology
+and it's important for Kotlin to support it having a unified UI experience with
+compose brings even more possibilities to this bright future
+so we've taken you on a tour today of what we have now what we are working on
+and what is planned for the future and this week at cutting off you have
+the opportunity to dive deeper into all of these areas and many incredible Community talks are
+waiting for us we really hope that you'll enjoy the event have a great conference
+[Applause]

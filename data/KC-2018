@@ -1,0 +1,430 @@
+Welcome
+[Music] [Applause]
+[Music]
+Thank You hottie hello everyone welcome
+welcome to everyone here in the room everyone in the other room welcome to
+those watching us online hello reddit I promise to say this so
+conferences you know people use them differently and I'm probably not the
+People use conferences differently
+most sociable person in the world so I use them weirdly people come to conferences to network to learn to
+listen to talks to exchange ideas and I mostly come to give talks and to be with
+you because this is what I'm actually running on the excitement of the Collin
+community thank you for being here my story is starts quite a long time ago
+Andreys story
+when I got a new job it was to work on a completely new programming language if
+it sounds a bit crazy to you now well it did sound a lot like that to me then and
+you know it was a huge risk but ambition was never my weak side so I jumped in
+crazy as it was the name Collin wasn't even round up at that time we had a code
+name and many many great things happened since then so eight years fast Ford and
+here we are Kotlin is an established technology with a very strong backing and crowds of
+people gathering to celebrate here a Kotlin coffe how did they all come about
+well step by step actually we had our ideas in the beginning but over time we
+Pragmatic language
+realized that our main focus our main motto was to make it pragmatic language
+I've heard this word a lot we're using it because we really believe in it
+and I would like to expend a little bit on what pragmatic means to us well formatic is something about
+practice right about getting things done and for a language it basically means not a stand in your
+way we want your ideas to be clearly expressed in the code and basically what
+it means is turning your thoughts into working software without any hoops to
+jump through that's the main goal but if we dive a little deeper people praise
+Kotlin for many things like these for example and I honestly have to object
+because if you take these really pretty matically I have to cross them all out of this list and replace with something
+else so many people say that color is concise and this is a good thing about
+it well I personally don't really care much about concision what I care about is readability a short program is not
+necessarily a good one right but if you have a lot of boilerplate it's a problem because you
+have to read through it all bugs can hi there so what we care about is readable code it's it must be shorter
+than some languages you know what I mean but it's not considered for the concision sake same goes for
+expressiveness it's something of course to be proud of for a language designer or even the language user right my
+language is so expressive I can do so many of things with it but actually what we care about is we
+use powerful abstractions are needed in languages to turn
+common patterns into libraries and this is why we add things of X facility to
+Collin as a language originality is actually my favorite because people
+argue about that so much you know like who invented this oh this language is
+just copying this from that other language who cares you know what we are
+not after originality by any means quite the opposite we don't want to say that a stand out we actually want to blend in
+because interoperability has been the Kotlins motto throughout the
+years well once we use existing knowledge existing expertise to make every library out there available to
+calling programmers even written in other languages so not original interoperable and last but not least
+soundness another point of pride especially for the academic perspective
+sound means that whatever your compiler tells you is 100% correct but actually
+there is very wide understanding that mainstream languages are mostly not
+sound they're sound D and what we actually care about in common why we
+have a static type system it's safety and tooling so I need the type system to
+catch my bugs not to be mathematically correct if it catches bugs as much as it
+can then great this is what it is for and also of course type system is what enables the
+tooling right I can click on it and go to the declaration thanks to the type system and it's actually that
+declaration that will be called so these are our values something we design
+causing according to and this is what drives us through the years there is
+another side to pragmatism you know if being a tool for people to buy stuff is
+dead all the when it's used it's relevant so being popular is essential for a
+pragmatic setting it's people the community who generate the actual value
+around the language and this is why I would like to talk about colors momentum
+Kotlin momentum
+here is our yearly chart I like the curve a lot many years ago I was telling
+my friends that you know it's a risky project I don't know how it's gonna turn out but if we hundred thousand users
+I'll be ok with it like it's already a good achievement it's enough critical
+mass to really make sense to have good things doing you rated
+and this is probably where my ambition failed me a little bit because here's my
+hundred thousand this year is not done yet but we already have seen million and a
+half users do something with Cosmin this year they opened the editor and change
+something in common code so I'm pretty confident they were knowing what they're doing so you know it's it's an amazing
+number I didn't expect this but I'm really excited to see it and let's maybe
+look a little bit into what those people are actually doing there I would start with the overall perspective we have at
+Generalpurpose language
+Carlin because we you know from the very beginning we never thought of Kotlin as a
+tool for like a single use case or two use cases it was always thought about as a general-purpose language which means
+that it should cover a vast majority of use cases out there and of course it
+should work in all platforms and in all settings basically so if you simply look
+Demographics
+at the demographics of this conference like what people in this room are doing it's from from the pawls we took as
+registration and it's multiple choice so if you add it up it's more than 100 we
+see you live mobile obviously we see a lot of server obviously we see web client we see desktop even embedded it's
+not necessarily everything done cousin but people here our interest in Kotlin so
+a lot of it is and this is a diversity we're aiming for from pretty early days
+so if we look at the momentum at different platforms of course Android is
+Platforms
+huge there last year Google announced Kotlin as a first-class language on
+Android and today one in four apps at the top thousand of Google Play Store is
+using coughlin which is great and the total number of apps using column in the
+Play Store has the Drupal since last year this is the piece I like but of course
+mobile one of the cousins use cases and there is more like why programming is strong
+Cloud
+and the monthly usage has doubled there since last year that's a lot of people
+it's hundreds of thousands of people doing server-side work and client so on and we have really good friends there
+like the Google cloud platform has started this community support a project for Kotlin and the Spring Framework
+delievered there is our longtime friend so it actually makes sense that Kotlin
+is popular in server side because you know Kotlin shines at the JVM JVM shines on the server you want to be productive
+in a high performance setting on the server Kotlin paws JVM that works so it makes
+perfect sense to me and I think this
+whole story is you know it's a good confirmation that we're going the right
+Thank you
+way and this is a good time for me to say thank you first of all to my
+colleagues on the cotton team many of you folks are here in the room I mean you're watching online it's my great
+pleasure to be working with you and we'll make wonderful things happen to coddle together but it doesn't end with
+a team you know because there are hundreds of people helping us every
+feature if sorry every incremental release we are adding pull requests from
+the community people send us patches on github people report issues give us feedback that's invaluable thank you
+very much but the community at large is doing a lot more like look at how many
+questions are and answers are there on Stack Overflow every newcomer will
+Google this and learn by your answers thank you messages on slack exchanging ideas
+asking questions answering questions guiding newcomers cuz the calling
+community is a welcoming place a warm place and I'm very much moved by this and you know we are all programmers
+GitHub
+right so we're doing code and many of us are putting code out there and github
+and great projects too we've reached and psychologically-important number of 100
+million lines of code on github which is amazing it's almost quadruple since last
+year and there are wonderful projects they are like our X column or a flexbox
+layout for example very popular many people are using them great work folks just keep it up you know but there is no
+Kotlin Community
+one thing they're really wanna mention about the common community it's well
+it's not an engineering thing it's not a technical thing it's emotional because it's love this year Stack Overflow ran
+this survey that showed that color is one of the most loved languages and earth which is you know a very warm
+feeling to know this and other data like the survey that Google ran says that
+over 90% of carlin developers are satisfied with the Cosmin which is a crazy number like so few people
+complaining and and by the way to the people who are complaining please give us your feedback we'll fix it so you
+know this love theme is very important to me because finally like ultimately
+I'm an emotional being and this is what I run up and if you just Google cup and
+love an image search you'll see so many hearts you know this is what people
+doing blog posts about Kotlin are using in their graphics hearts love the idea
+of falling in love with the language and you know what but love you too
+[Applause]
+yeah let's move on to more down-to-earth things but very important I mean this
+community is doing real technical work and Kotlin was intended as an industrial
+Kotlin as an Industrial Language
+language from the very beginning we definitely wanted to be accessible to all kinds of people to beginners to
+hobbies to everybody but it's crucial to be relevant to the industrial setting
+and you know a good education how it works in industry is the job work and
+Kotlin Job Growth
+many people even ask questions about this so thanks to guys calm here is the
+job growth in Kotlin well a million half users means that there are you know
+things going on and no wonder we have this curve but actually it's very
+interesting looking into those job openings posted online like companies
+are describing their positions and they're saying like knowing Kotlin is a
+plus some of them some of them were looking for a Java or Kotlin developer and to me it means a lot actually
+because you know people rely on the idea of a Java developer coming and picking
+coming up there easily and of course if you know Kotlin already it's an advantage
+for you so it's a good investment to learn if you haven't yet and you know if
+you look more into those listings it's actually very interesting source of information I haven't be using before so
+it's like a big revelation to me like reading those openings is so
+enlightening like there is one word leading Bank that's as we're looking for Kotlin
+developers because we're moving our entire front end under Coughlin Jas how
+good is that like I'm I'm really moved by it and shout out to the Kotlin Jas team you guys
+are doing real good work there and like other major banks for example that I
+unfortunately can't mention here did you you know legal hell that this world is
+there are openings like dozens of engineers hired to this bank to work a mobile a lot in that
+Bank to work on the server side someone's fourth so it's you know it's been picked up by Finance you know what
+that means by the way it means that during Kotlin doing sorry finance it's a lot more fun these days than I used to
+thought to think about and companies are definitely using Kotlin as an appealing
+cause for developers to join you know we're using Kyle technology so come join
+us and this is readable from those openings I have a few use cases through
+a few case studies reported by some companies using Kotlin all three of these
+Companies using Kotlin
+are really big tech companies with a lot of users like millions of users Allegra
+is retailer huge in Poland like dominating the Polish market and 26 is a
+European bank based in Germany with millions and millions for his actions and OLX is classified ads company lots
+and lots of usage operating like 45 countries across the world they're all using Kotlin mostly in the server side
+pros think lots lots of transactions all the time and one of them says we did
+this new worldwide payment service entirely Kotlin loved it totally would do
+it again well thanks for the kind words you know I'm really happy to hear this
+and talking about all sizes you know in the listings we see really small
+startups really big startups established companies and and a real Giants now
+Microsoft
+Microsoft a team at Microsoft told us a story about converting their mobile sdk
+from java to Coughlin shaving off 25% of lines of code there which is nice you know I know this
+feeling it's very nice that you just convert and I have the same code but it's less code it's you know helps
+readability but the important thing is that they preserve the API and this is very
+important because it's not just you write everything and you throw all the clients away interpreting gives you this
+opportunity you go Kotlin and you stay with your clients so I'm really happy we
+could help the team in Microsoft and that the usage you know yes the scale so
+at this point I'm pretty satisfied and as we promised last year we created this
+Kotlin Foundation
+entity called culling Foundation which is a nonprofit backed by Jeb Raines in Google this is to mark the established
+status of Kotlin to oversee the promotion and development and to hold the freight
+marks so I'll go to Kotlin's slash foundation to find out about the details
+Kotlin
+but this time at the keynote you're probably like okay announce something you're very right well you
+know I have a problem Kotlin is an open source project so if you're really
+curious about us announcing something it's there in github but anyway Kotlin
+Last minute feedback
+1.3 is coming soon you know that they are see is out there and I really really encourage you to go
+ahead and try it now give us any last minute feedback it's really important
+and I'll walk you through some highlights about 11.3 one of the
+Scaling up
+important goals we have with the carbon is being good for scaling up you know
+modern world is a lot about scalability and and you've seen the scale people are using s4 so it's important and this is
+why we added the paradigm of Cortines to Kotlin co-routines
+are a way of doing asynchronous non-blocking code easily and we've been
+keeping them in experimental for two years and today I'm happy to announce that they are ready ated stable
+thank you so almost everyone should use
+quarantines from now on because it actually adds a lot of value and I
+expect that this year maybe a year of coroutines for many cosmic developers
+you can learn more about what core genes are and how to use them in great talks
+that we're gonna have here banquettes and romans will be live-streamed and also i'm happy to tell you that cater
+Kedar
+our asynchronous framework for connected applications has reached 1.0 beta and will be also released soon Kedar is a
+ground-up implementation of an HTP stack all done in Kotlin and coroutines so it's
+completely asynchronous it's a wonderful experience using it you should totally try to learn more about coroutines just
+go to Kotlin coroutines there is a lot of material there next thing and a very big
+Kotlin Native
+thing is that we always intended Kotlin for everyone meaning every application developer in
+the world and of course this means many many many platforms so i'm very happy to
+tell you that Kotlin native has reached beta and is shipping as part of 1.3 now
+thank you so Kotlin native is he our compiler back-end that translates Collin
+to a standalone native binary that drawings without any DM has its own runtime native birds for various
+platforms iOS Windows Linux even webassembly so it actually widens the
+reach of carlin quite a bit and it's true to our core values like
+interpreting you can call in to any C or Objective C library you can call call in native from Swift which is actually a
+very good use case so it's cotton and this is why we're reading it you know
+having your own runtime is a chance to set a few things right in the world so
+we're trying different things and there is my favorite which is concurrency
+which is hard you know and nikolai today i'll tell you a lot about the conspiracy model native but i want to highlight one
+thing we're trying to get rid of shared mutable state altogether you know no
+races anymore mutable is fine shared mutable shouldn't happen learn more in
+Nikolai's talk and learn a lot more and Kotlin / native there is really really
+KotlinNative
+many interesting things an important note Kotlin native is not
+Multiplatform
+yet giving you the opportunity to go multi-platform right because platforms
+are not only native there is JVM there is Jas there's Android so Kotlin
+multi-platform is bigger than just native it's the ability to have your application run on different devices
+servers mobile phones browsers and all these applications can use a common
+piece of code that can the single piece of code without change can be compiled to different platforms I've been working
+in multiply form for years now and 1.3 brings a new multi-platform model with a
+whole new thing new set of things in the grade of DSL it's a lot more convenient
+than it used to be so you can look at the sources of the kulluk on tap for example you have this
+Sources
+code in your pockets I hope and now it runs on so many multi-platform libraries
+we have libraries for HTTP serialization Co teens done by the Kotlin team and
+settings in Logging's I've done but by the community so the entire logic layer of your application all the
+infrastructure on the business logic can be shared and it is just check it out and do your your apps this way well
+there is a lot to say about multi-platform but not so much time so
+go and check this page out but you know what compiling is nice but editing code
+Tooling
+may be a bit more important so I told
+you that tooling matters a lot to us and multi-platform tooling is really challenging because you take JVM you
+take native you take jus you put them all into the same ID well it's not so
+easy to make this ID but it turns out it's kind of possible so I'm happy to
+Multiplatform projects
+announce that in 1.3 you can open an entire multi-platform project described
+in Gradle including JVM j/s native in IntelliJ IDEA community or ultimate or
+in Android studio knock yourself out [Applause]
+yeah so the reworked Gradle language for definition of multi-platform projects
+gives you a lot of opportunities there you can have different source set depends on different things you can
+basically express all the common code all the platform specific code in your
+application you can compile the native part to framework and connect it to an iOS application so it's it's all there
+and you can use it even from free tooling you have all the editing experience navigation refactorings
+someone's a fourth and we'll be working on more chilling features over time
+Gradle DSL
+speaking of Gradle you've heard probably about the grade column DSL if you go to
+rayar slash Kotlin you'll find an RC there it's gonna release soon and it's a
+great typesafe DSL that it can use for your builds actually our new DSL hasn't
+caught up with us yet so you'll be still using traditional grill but it's great
+experience you should definitely try it and there will be a great DSL talk here
+at Kotlin come first of all so scripts are actually an important thing you know
+Fresh Files
+we like to scale up because it's it
+gives us the sense of importance right bait small programs are very important and even one-time programs are very
+important important to beginners important to professionals so we are investing into the scripting
+capabilities of Kotlin a lot and an example of that is this fresh files
+feature that we have in 1.3 you can run your script the kts file as a spread
+file and the ID and it will give you all those nice results of every statement you have in the script this is very much
+like repple very much like playground you can do anything with your ID so
+check it out and speaking of all the wonderful things wonderful new things we're not
+forgetting about the important essentials we are working on everything that there
+is fixing bugs improving experience and of course we're working on the both time so here is the improvement since the
+last release I've done a lot up to optimizing different kinds of builds
+there is now support for incremental compilation and JavaScript so you can do lots of lots of stuff with this a lot of
+announcements right and you can find even more a column 1.3 culling slash 1.3
+there are more language features more tooling features lots about lots and lots of information about libraries just
+check it out it's worth it I think it's a good time for me to switch to the
+future because you know this is something that's not on github yet so it
+may be to YouTube the evolution of a language is a
+challenge because you know it's I mean an advantage of Kotlin is that it's been designed from scratch right so we took
+the opportunity to do everything right being very constrained by the
+interoperability but still we don't carry 20 years of legacy behind us but
+the thing is we don't want to be constrained with this legacy 20 years from now and that's an important thing
+so there are guiding principles we use while working on the language and one of
+them is keeping the language motor so there are great ideas in languages some
+ideas are not so great some ideas become stale over time and don't work anymore and it's very important to evolve the
+language dropping the legacy getting rid of all stuff to make it to keep it more to keep it really up-to-date and you
+know there is quite a bit of negative experience with this right because you
+know about the language community is struggling with version updates because of incompatible changes so another
+Comfortable upgrades
+principle we're using is comfortable upgrades so when you install a new
+version of coughlin is just working for you we don't want your code to break so these new principles constrain each
+other of course but it's really essential to find a good balance there
+what we need is keep the language modern and keep the upgrades comfortable so
+Deprecation warnings
+what would you to achieve this is whenever we want to fix something but
+never want to remove a bad case or do something like this what issue a deprecation we warn you well in advance
+like many many months in advance years in advance give you deprecation warnings you installing a version you see okay
+this will be phased out over time you don't have to migrate right away but you'll see this pop up in the IDE
+Compatibility mode
+proposing you to make your code bit better and it just works it automatically migrates all the code
+you want but if you're really conservative really want to stay with the old code without touching anything
+there is compatibility mode in every new version so you know you're safe there so
+that's our idea our policy for Grady all
+comfortable upgrades you'll be able to simply migrate when you update first and
+then next time when things actually are phased out they will not just notice it it won't be there so these are two
+Feedback loop
+principles and the third one is of course keeping in the loop with you
+because a feedback for our users is what makes language design not an ivory tower
+thing but a pragmatic thing right and and it's been our philosophies since very early on we make something we show
+it to you you give us feedback right we do not get offended with the feedback we
+just take it seriously we change things we improve things and quarantines are for example a great example of that
+right like we we had two years of intensive development when people were
+trying co-routines out like people were some people were actually already do
+production systems giving us feedback and we were in the loop with them and we improve the performance dramatically we
+reduce the number of allocations a lot so now proteins are really good and this is why we're confident
+rolling them out so a feedback loop is important and this is one we this is why we have so many EAP builds like every
+incremental release we have comes with EAP and the big release comes with RC so
+please try it out give us feedback and by the way I want to highlight one thing there is something called progressive
+mode who heard about it few people okay check it out online
+progressive mode so if you are maintaining your Kotlin codebase actively just turn on this flag and
+you'll get all the cutting-edge bug fixes right away you won't need to wait for a long deprecation cycle to finish
+you'll just get the fixes right away check it out so the feedback loop idea
+Inline classes
+is basically continuous delivery for language features right and 1.3 actually
+comes with a few experimental features we introduced inline classes which is
+basically a class with only one field for now that can be erased by the
+compiler so you get a transparent abstraction it's a free abstraction but it gives you type safety using inline
+classes we implemented unsigned arithmetics which is you know a long
+wanted thing for people working with bytes and bits so we have a library for unsigned arithmetics we have language
+supports all that is experimental try it out if something doesn't work well for you tell us because there is time to
+change this and you know type system is a crucial part of language so we're
+improving it constantly and we're doing that great early so 1.3 comes with
+exciting things about the type system overall type inference improvements and very notably contracts contracts that
+add some so much knowledge to the type system like I can now know that my run
+function only executes my lambda once and the compiler knows that too so again
+like you initialize valves in it for example which has been an annoying detail for many column programmers
+Celina will tell you much more about the type system stuff in her talk at this
+conference and this is the process for
+Evolution
+the evolution we are working on the design a lot and there are so many ideas
+you know it's it's not easy to pick ideas because you know we can sit
+together with Roman and others to outline one-point-four roadmap and the
+roadmap won't fit on a blackboard or two blackboards but you know it's really
+important to focus we can't do everything at once even with lots lots
+of experimental features we don't want the entire world to be experimental so we'll be trying to focus and one
+Compiler API
+important thing we'll be working on is compiler API so this is this doesn't
+sound like a language feature because it isn't and that's the point Kotlin has
+been growing in two directions over time it's been going adding platforms like we
+started with the JVM soon at a JSON ativ and we're now covering all platforms and
+it's been adding paradigms too and what's paradigm basically a paradigm is
+a set of ideas that are important like Opie for example takes certain kinds of
+abstractions as a very important thing right so we started with OPN functional and from the very beginning we have
+these two prior paradigms then we added core genes and it's a whole new layer
+right we added scripting scripting is a completely different way of thinking
+about programs of lifecycle and even the the interaction experience so these
+paradigms we already have but there's one thing that we don't really have and
+I don't really want it in the language its meta programming because there is a
+very important problem contention between meta programming and tooling
+when when I say metaprogramming son probably you think syphilis plus template metaprogramming some think
+macros both are very hard for both
+humans and computers so making an ID that will be really nice around back
+rows for example is a huge challenge and I don't want to go that way instead we
+had a very good experience doing compiler plugins you'll probably know quite a few that we have now they've
+been slowly developed by the Kotlin team for now but we'll be working on
+stabilizing the compiler API to make it a really smooth experience you write a
+plug-in you plug it into the compiler and the ID and it works all together so
+metaprogramming the calling boy will be the compiler API we of course will keep
+working on what we have already because you know there's a lot there's a lot of
+use cases the support there is a lot of tooling different kinds IDs bell tolls everything there are experimental
+features that we have to finalize there are libraries a lot of libraries that will be working on ourselves and
+hopefully we'll take help from the community so there's a lot there but there is also distant future this is
+Concurrency
+something I'm totally not promising 41.4 well things before I'm not promising
+either you know but say nerd concurrency
+is something we are really serious about I've told you about Kotlin native right
+so there we were experimented with the concurrency model that rules out mutable
+state you can share immutable data you can't detach your mutable object from
+one thread and then attach to the other that's that's fine but you cannot have access from two threads to the same
+unprotected mutable object and that's very important and it's nice to have
+this in the runtime can it's then really enforced but there is a counterpart to
+this in the language actually many counterparts so for one thing I would really like to
+see at some point first-class immutability added to Qasim because this
+is something that's pretty complicated should be tracked by the compiler it's also complicated for the compiler so
+it's not easy to add but it will definitely work in that so saner concurrency is one of our big
+goals there somewhere out there well I've told you a lot haven't I hope
+Learning materials
+you're not very tired I am so you can
+learn a lot more about coddling being an experienced common developer or a beginner you can learn a lot and there
+is numerous learning materials out there there are books online courses offline
+training everything I would like to highlight a few things so Atlanta and
+Coursera
+myself are starting a new Coursera special specialization with its course
+calling for Java developers that's gonna start in October and everyone here at :
+Kampf will get a free invitation
+yes yeah so there will be more courses
+in this specialization over time so plana is very productive and together with Bruce echo she's working on a book
+Atomic Kotlin
+atomic Gosselin you know this is quite a nice story a long time ago I was learning by Bruce's
+book thinking in Java so it was kind of Bruce's student and then Atlanta was my
+student and now they collaborate in a book about Carlin what a world you know
+so I found Mike Carlin will be out soon and everyone here also get a free
+invitation to check out the early version you can
+Free abstractions
+people like free stuff right yeah that's
+that's why give it like inline functions there are free abstractions don't overuse them yeah there is a very nice
+way to practice Catalan which is install a plugin for your IDE which is called Ito tools and get all the exercises
+right in the environment you'll be using for production it has atomic online exercises so a
+great companion to the book it has : cones which is a nice introduction so he
+wants your friend to learn Catalan and be in high demand on the job market just
+given this works well many great courses are coming if you really don't want to
+install anything in your ID just go online play color lang org and lots of
+exercises are available right there in the browser it's like a mini ID you know I'm arrogant around IDs because because
+you know your brains but this is a nice ID
+it has examples it has Cohens and just a good playground for you to try things
+out I use it all the time so welcome there and a lots of learning materials
+are available at Kotlin slash learn use it yourself show it to anybody you meet here in the
+street in Amsterdam maybe their developer you know okay
+it's been a long keynote we talked about the values that Kotlin's been designed
+for we talked about the momentum the excitement we see in the community about
+the strength of our community about the industrial adoption we talked about 1.3
+and all the new features notably co-routines native and multi-platform including two
+Linea libraries right it's a lot of things now it's a very good time to
+start diving into coming to the Kotlin Kampf experience you have lots of great
+talks in front of you lots of interactions I wish you a nice day have a great time at Kotlin conf and have a
+nice collar [Applause] [Music]
+[Applause]

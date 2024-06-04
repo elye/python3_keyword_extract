@@ -1,0 +1,510 @@
+[Music]
+I think it was five or seven years ago we took your feedback I I don't know what exactly we
+did with the feedback but we somehow listen to you
+and I'd like to present to you the reimagined
+[Music] mascot and
+[Music] [Applause] [Music]
+he
+oh [Music]
+[Music]
+[Music]
+[Music]
+[Music] welcome to cing
+G Cody Cody get off stage what are you doing here come off you go there you go
+so sorry folks talking about Cody I know you had to put out with my voice so we were actually considering um asking
+scholar Johansson to see if she would like to do the voice uh for uh Cody but we thought she'll probably say no we
+don't want to go against her will but anyway welcome folks welcome to Callin comp there's 2,000 people here today
+Round of Applause go apart from the 2,000 we've got a
+whole bunch of people watching C link conf online in addition to that we have 35 37 countries actually with 71 Global
+events happening which is absolutely fantastic I want to Big A give a big shout out to our sponsors with whom well
+this would be a little bit more expensive uh so thank them please go to the exhibit hall and check them out and
+we've got an amazing lineup for the program for you as well we have the five parallel sessions if you can't tolerate
+45 minutes of listening to someone we've got the lightning talks which are 15 minutes then we have a coach challenge
+that's going on in the exhibit hole where you can code in the dark as well as the code Labs by our partners at
+touch lab tonight we have a party like 15 50 mters 5 10 five five meters across
+the hole from there and we're going to have a live band it's going to be fantastic we're also going to have a
+quiz it's going to be we're going to have a
+quiz we're going to have some really good prizes and some not so good prizes but there will be
+prizes as usual also we have our uh closing panel which is taking place
+tomorrow at uh in this room and at this the last session please come please stay
+is probably the best part of the conference and we're going to be asking very very difficult questions so really
+think hard about all of the difficult questions you could ask people that's what I want from you all of this information of course is in the Kotlin
+comp F which is composed multiplatform I don't have a mic to drop but anyway so
+you can check all the schedule everything about the different talks the most important thing of that app is vote
+for sessions that way we know who not to invite back next year and also as you walked in you
+picked up some T-shirts some of you I don't know if you're already wearing them but they have different words on them right there is like love code
+nothing I got the nothing and the idea is for you to kind of like join up and
+take pictures composing things and then put them on your social media of choice
+with hasht Kotlin com and with that enjoy the keynote and I'm going to hand it off to Igor Tolstoy Project Lead for Kotlin
+thank
+[Applause] you hey everyone welcome to Kotlin k
+Kotlin k is the favorite time of the year for the entire Kotlin team so
+please make us happy raise your hands if you enjoy using
+Kotlin thank you we see this attitude in our data as well nine out of 10
+developers tell us that they enjoy using Kotlin and this love for Kotlin is
+what truly fuels its growth 2 million developers use SKotlin for any task
+that you can imagine from creating beautiful multiplatform apps to Minecraft mods to Performance seros site
+apps to groundbreaking llm based tools and you know what there is
+something very very special about the number two don't you think
+so today I'm thrilled to present the release of Kotlin
+2.0 Kotlin 2.0 is a significant performance boost for daily productivity
+it is futur ready robust and fast thanks to the new compiler we can
+evolve the language much faster than before and do it in the platform agnostic way we can introduce new
+language features while being 100% sure that they won't affect your existing
+code we intentionally avoided introducing any new major language features in this language version to
+make your migration as smooth as possible however the new compil architecture by
+itself fixed many longstanding issues in the language now the compiler behaves
+more consistently and understands your code better making it even more robust
+than before and as I said there is something special about the number two because
+cotton 2.0 brings two times Improvement in compilation speed so sorry folks no
+more coffee breaks while waiting for bills while some projects might compile even
+faster than before and others a bit slower overall we're seeing a significant performance boost in real
+world projects and the improvements don't stop at compilation speed because
+the intelligy coton plugin K2 mode also shows remarkable results we see about
+1.8 times improvements in code highlighting speed on the code base of intelligy ultimate and that's a game
+changer the K2 ID mode is going to reach beta soon uh and the team currently works on
+the feature parity with the old id plug-in we're going to make K to mode the default data this year in intelligy
+24.3 release and introduce even more performance enhancements so please folks
+use K2 ID mode and let us know what you
+think uh just releasing a new language version is not enough because developers
+have to actually migrate to it this is why our Focus very early on was ensuring
+the most possible the mo the highest possible quality and smooth migration between language
+versions we've put quality Gates of about 40 different Jet brins and Community projects each K2 release was
+automatically tested against 10 million lines of code this helped us to ensure
+that each introduced change won't accidentally break code that compiled successfully with the old compiler and
+your migration will go really smooth 880,000 of developers tested uh k each
+K2 release sorry about 18,000 developers tested
+each K2 release starting from its very early versions on a total of 880,000
+Android multiplatform and S projects alongside thousands of
+individual developers many companies adopted K2 in their production code
+basis and reported us any issues they could find we call these folks EP
+Champions and rely on their feedback a lot and today I confident to say that
+Kotlin 2.0 is our most quality release
+yet this is all thanks to the exceptional e efforts of both our team
+and the community so thanks to everyone here in this room and beyond for making
+Kotlin 2.0 completely safe to my great
+T the new key to compiler Just Hits table but it's already adopted in the
+world's largest code bases I'm pleased to introduce Eve ma Android and engineer
+from Mata who will tell you more about how they adopted
+[Applause] [Music] [Applause] [Music]
+gor hello everyone I'm really glad to be here today and thanks eigor for inviting
+me to share our colon Journey with you all for almost three years now Android
+development at meta has been cin first we've come a really long way in that time since shipping our first line of
+Kotlin code 5 years ago we've introduced 20 million lines of Kotlin in our Android codebase along the way Kotlin
+has become the most preferred language amongst our Android developers which makes sense adopting Kotlin has improved
+the reliability of our codebase and made it more concise we've seen at least a 10% reduction in lines of code we've
+rolled out support for cin across the whole meta Android tech stack ID Integrations Frameworks like litho our
+build system inspections and even Dex spite code optimizers we've not only allowed teams
+to write new Kotlin code but also built tooling on top of intell's j2k converter
+to automatically convert code to Kotlin at our scale every week we see tens of
+thousands of lines of code automatically converted to Kotlin which brings us closer and closer to the mono language
+experience on Android that we want now at meta we care a lot about
+developer experience and we aim to minimize a development cycle for engineers as much as possible Kotlin
+build speeds are a dominating factor for a great developer experience and incremental compilation is key for
+having a quick feedback loop that's why our Android INF team started experimenting almost two years ago with
+what is now known as K2 in 2022 we noticed the potential to
+improve our Engineers experience with the K2 compiler by December of 2020 2
+after the Kotlin 1.8 release we considered it safe to use K2 in some of our builds from day one K2 brought type
+system improvements and even some build speed improvements in 2023 we enabled K2
+and buck 2 our new open source build system and with Kotlin 1.9 we made K2 the
+default compiler in a significant part of our codebase with Shadow K1 verification jobs now in 2024 up to 95%
+of modules in our Android code are built with the K2 compiler which provides up to 20% better Android
+compilation now with K2 going stable we're really excited to start
+shipping our apps built with Kotlin 2.0 from the early development stages of Kotlin the language has come a long way
+continuously improving and setting a high quality bar so that developers everywhere can ship faster and with
+higher confidence now let's welcome Jeffrey van go from Google
+[Applause] [Music] [Applause]
+[Music] thanks Eve and good morning everyone
+it's been a bit over year since our last update so let's take a look at some of the Investments Google's making into
+Kotlin uh just like jet brains and meta we are super excited about Kotlin to Pau reaching the stable release um at Google
+we've been working closely with the team from the early days and we have contributed many compiler contributions
+and we also been working on making Android ready for cot 2.0 we've ported Android lint paralized Kotlin symble
+processing and the composed compiler plugin to be ready for C 2.0 and talking about the composed compiler plugin we've
+heard your feedback that is really tricky to keep that up to date with new compiler releases and so I'm happy to
+announce that as of Kotlin 2.0 we've moved the compiler PL a composed compiler plugin into the compiler repo
+and it's shipped with each distribution of the compiler so no more tricky matching of versions
+and waiting for the plugin to be
+released and Kotlin symbol processing processing will follow the same path later this year the next big step as eager
+mentioned is IDE support and here we're too working on making sure that any feature in Android Studio that uses
+language Services is ready for cing 2.0 this is now available as an early preview in Android Studio quella which
+is currently in the canary Channel next to Kotlin 2.0 we have spent a lot
+of effort making sure that we keep improving jetpack compost we continue to add the features that you need to build
+high quality apps and the July release of compost will include support for highly requested
+features a top priority for us is to make sure that the compos you write naturally is as performant as possible
+and such we have made changes to the way that compos interpret uh stability and
+we've seen 20% faster recos position in our benchmarks uh next to Performance to the
+library itself we also have enhanced composed performance to improve tooling so make sure that you use the latest
+version of R8 and Baseline profiles in your release
+builds um as we mentioned in the past Google itself has been adopting Kotlin at a rapid Pace last year we told you we
+have over 15 million lines of code in our internal code Pace this year this has more than doubled to 33 33 million
+lines of code we which means that about 30% more developers are using Kotlin since March 220
+2023 Kotlin's usage is not just limited to building Android apps we're seeing steady growth in people using Kotlin to
+write surver code and these teams they are citing similar reasons for adopting Kotlin as Android
+developers they write simpler code leading to higher productivity fewer bugs and making code just more fun to
+write all the teams that de deploy jfm ser Ser code about a third of them are
+uh writing coton themselves last year we announced that
+we're experimenting with cotle multiplatform for Google workspace we're using business sharing business logic in
+Google Docs between Android iOS and web this project is going really well and
+the workspace team is excited to expand KMP across many of their apps in the
+future as part of this experiment we're contributing back impr improvements that we made to Kotlin tooling to the
+community uh we have already made 15% improvements to the garbage collector and memory allocator for Kotlin Native
+and this has been turned on by default since Kotlin 1.9.2 we're currently working on
+improving build speed and our internal projects we're seeing about a 2X Improvement in build speed and this will
+end in upcoming releases of the Kotlin Native compiler we've also continued to make
+the trend of uh making jetpack libraries available for cotle multiplatform annotations Collections and data store
+are now available in stable Channel and life cycle and view models
+are available in Alpha and happy to announce that room which is our persistent library for Android is now
+also available in early preview in in Alpha this allows you to write Kotlin
+audiomatic access to sqlite on both IOS and Android
+bringing KMP to a project as large and crucial as Google workspace has shown us how far the KMP efforts have come in the
+last few years as such we made an announcement at Google iio last week that Android now officially supports
+Kotlin multiplatform for sharing business logic across mobile web server and desktop
+platforms so we believe CP is especially well positioned for this Android developers already know and love Kotlin
+and came give you great flexibility on how much of your code you want to share between platforms versus right
+natively and through cot's various tool chains you get an experience that is tailored to each
+platform and we believe that this hybrid model enables developer to deliver the best native experience while reducing
+the oo development and maintenance cost through multiplatform development so but does it mean in
+practice next to the continued expansion of Jetpack libraries in the ecosystem we're bringing cotle multiplatform
+support natively into Android studio and related tooling basic KMP support is available today in the Android Gradle
+plugin Android studio and related tooling but this is just the beginning
+of our journey to fully support cutl multiplatform we plan to continue collaborating with jet brains gu Google
+engineering teams and the community to expand support on an ongoing basis we're excited about KMP and we look forward to
+expanding our support in the future this was only a sneak preview into many culton related efforts that
+Google has participated in over the last year we have several googler giving talks at the conference where they'll be
+going into much more depth on their projects we also have a booth in the exhibition Hall i' I'd like to invite
+you all to come by and talk to our team members and share your thoughts we are part we're proud to be part of this
+amazing community and I personally look forward to kicking out with you all about this amazing language with that I'd like to invite
+Sebastian anner andina Peta to talk more about cop multiplatform
+[Applause] [Music] [Applause]
+thank you Jeffrey for sharing all this wonderful news with us yes now coton multiplatform is officially supported by
+Google and it's a recommended approach for sharing business logic across platforms yeah and what's more thousands
+of applications that are being used daily are being powered by Kotlin multiplatform that's right and this
+success comes from the long journey we've taken together at jet Rin we want to redefine
+the crossplatform development by offering the pragmatic approach to code sharing re the benefits of code reusing
+the typical tradeoffs no Cod writing no need to
+invest in learning new languages and finally no compromises on application
+quality to achieve this we leveraged the robust C compilers integrating them with
+powerful build tooling enhancing them with special multiplatform language features and libous apis and introducing
+the secret source of ID support alt together it's now a flexible
+crossplatform technology with Native power under the hood to ensure all these
+components work well together the jet brain team has worked closely with the community and thousands of early
+adopters the better understand developer needs and all about your use cases all
+to provide you with a technology you can rely on provide you with stable
+technology last year cotel multiplat went stable you now can safely and
+without hesitation use it in production and all the core parts now provide strict compatibility
+guarantees okay Kate both of us are clearly very deeply involved with KMP so
+we could probably stand up here for hours and talk to you about its flexibility its credibility and so on
+but you know who I think could do an even better job here are users that's actually a great idea let's hear from a
+few of them at B we have eight different
+applications that often need to share common features our mobile apps must provide a great and consistent user
+experience on IOS and Android we were looking for a way to unify our IOS and
+Android SD work with our cin API after a successful initial test with
+the payments feature we expanded KMP to our entire McDonald's application we saw fewer crashes and better performance
+across both platforms after the launch we've decided to go ahead with compost multiplatform for building calendar view
+in less than 3 months it was live on app store and Google
+Play we can build features across platforms without team expansion or performance hits we Consolidated all our
+business logic into shared code which means we can now develop ones and deploy more we transitioned from a separate
+Android and iOS team to a more unified mobile
+team before KMP adoption we had an often heard saying it works differently on iOS
+but it has been a while since we heard that one with this confidence we're expanding the Kotlin multiplatform use
+throughout the company and soon we'll have more more features and business logic powered by KMP We Believe Kotlin
+multiplatform will significantly influence software development by Bridging the best of both words the
+efficiency of a shared code base and the superior experience of native applications and the best part this
+efficiency came without the need to learn new language or hire new development team but just by leveraging
+our existing knowledge of Kotlin
+C multiplatform is stable available for you today a solid foundation for any
+kind of application but more is coming it continues to evolve we're evolving it
+in many different directions and today we want to specifically highlight the
+Integrations the tooling support and the flexibility of code sharing let's dive
+deep studying with the Integrations to the iOS ecosystem which we are going to take on the next level
+with d Kotlin to Swift
+expert it's already in progress and we are heavily investing in this Direction
+let me show you how it works under the hood this tool takes your shared code and code sources or libraries and
+translates its public API into idiomatic Swift Code allowing you to use the full
+power of both these modern languages in your project when developing Kotlin to Swift export as a standalone
+tool that allows us to use it not only in the build chain to generate iOS binaries but also in cotton playround
+for example allowing you to prototype your apis even faster and finally in ID
+to make cross language resolve for really smooth and let's maybe talk a little bit more about that and let's
+talk about how we're evolving the multiplatform tooling experience in
+general en and that starts with the core of the development experience the IDE of
+course you're able to build your Kotlin applications with intell idea and Android Studio both multiplatform and
+single Target apps but often times KMP development means jumping around between
+different tools so we're working on bringing you a single all-in-one tool for Kotlin multiplatform development
+that is built on the fleet platform it's available as a preview right now so we can actually go ahead and take a closer
+look already our tooling supports you from the first moment you start working on a multiplatform project it configures
+automatically and it runs pre-flight checks to make sure that your development environment is ready to go
+and from there you get all the smartness and inspections at your fingertips that you would expect from jet brains tooling
+it fully understands xcode projects and provides full support for Swift so when you are working on platform specific
+spefic code for iOS you can stay in the same development environment you get full tooling support including
+inspections navigations and refactorings and what's more these even work across
+the language boundaries of Kotlin and Swift meaning that you can easily make changes across your entire code base
+without even having to switch Windows of course our tooling also allows you to run and deploy your
+applications on all Targets whether that's physical devices or emulators and
+if something goes wrong and you need to investigate you can use the built-in debugger to step through dive into the
+runtime details of any code in your multiplatform projects whether that's Swift Kotlin native Kotlin on the jvm
+and Beyond and again you can even step across language boundaries once
+[Applause] more crossplatform UI development also gets support that starts with things
+like previews for shared UI elements built with composed multiplatform as well as fully integrated support for
+composed resources including things like navigation access a generation and more
+and of course with Jeet brain's AI assistant you can autocomplete generate refactor and understand not just Kotlin
+code but Swift Code as well our Kotlin multiplatform tooling is
+in active development but we are ready for your feedback so it's a great time
+to try it out for building your multiplatform application
+Beyond this we're also thinking about the way you set up and configure your projects in the first place which starts
+with the build tool now Maven and Gradle are both well established here and we will continue investing in them going
+forward but we at jet brains also want to lower the bar of Entry of setting up
+projects and make even that part of the development experience truly enjoyable at the core of it the question
+is really what should a build system look like that simply gets out of your way that is built with multiplatform
+support from day one and that is built with tooling support in mind and our
+answer to that question is Amper our new build tool let's take a
+look with Amper you can set up a simple Kotlin jvm project in just a single
+line of configuration and of course it doesn't matter which Jeet brains ID you might be
+using from there adding new dependencies is just as simple and for your
+multiplatform project your configuration still stays just a few lines even as you
+continue to expand your project adding more complex Frameworks like composed multiplatform and even as I continue and
+specify Target specific configurations I can fit the entirety of the configuration for my project on this one
+slide and of course we want to build it with first class tooling support already
+you can use built-in quick fixes to start from an entirely empty folder and just use a couple of keystrokes to set
+up the full project structure you also get support for typical tasks uh such as
+setting up uh intentions to create version cataloges adding new dependencies um quickly adding for
+example compiler configuration settings and a whole bunch more things that we
+already have in the works now Amper is still in its early stage but we do want
+to evolve it based on your feedback so we're already looking forward to seeing you try out Amper and we really hope
+that you'll enjoy
+it that's that just mindblowing however not only tooling is
+evolving compulse multiplatform our declarative framework for building crossplatform uis and unlocks their full
+Cod sharing flexibility giving you the freedom of choice share just a piece of
+complex isolated logic cover all data access layer of your app want more share
+all business logic including with the main layer and finally choose between
+native or crossplatform UI depending on your use case meaning that you can write your app in up to 100%
+Kotlin F multiplatform allows you to expand the user base of your app experiences by meeting your users
+whenever you encounter them it's already stable on Android and desktop and iOS is
+moving forward quickly a lot of improvements have happened since its Alpha announcement on last cot in
+con interactions feel more natural with changes to scroll physics and
+gestures you have more common components available and they interact have been adjusted specifically for
+iOS compos apps also become more accessible with out of the box Integrations with platform capabilities
+like voice over and the developer workflow improves with a new common DSL for testing UI and better tooling
+support we're also introducing new common apis addressing the needs of the community in the essential areas when
+building UI we are bringing jetpack navigation the official navigation Library from Google and its well
+established apis to Common code with common life cycle and view models you
+getting first party support for typical architecture patterns in your common code and with our new common resources
+CPI you are getting typesafe access to crossplatform Assets in common code with
+all these developments and additional under the hood changes we are taking the
+next step on the road of stabilization promoting compost for iOS
+to
+Beta it's now really a great time to start using it in your
+project using compulse multiplatform means you can meet your users whenever you encounter them and with compul
+multiplatform for web you can bring your app experiences with component level
+reuse straight to a browser it's powered by cotton for web assembly cotton vasm allows you to run
+your Shar cat and Cat on high performant web assembl virtual machines that are available in all modern browsers we
+announced the experimental version of compost multiplatform for web last year and since then we readed a bunch of
+dimensional functionality to this target things like support for different screen sizes orientations uh user inputs the
+web Target also gains access to all common apis we just talked about earlier besides we improved the performance
+drastically now you can Port your composed applications to the web and they will just work looking and feeling
+as great as another platforms with lot of basic building
+blocks in place we are promoting compulse multiplatform for web to
+Alpha making it the perfect time to start EXP exploring bringing your apps
+to the browser so as you can see with Kotlin multiplatform you don't just have a
+solid foundation with a developer experience that's always evolving so that you can build whatever comes next
+as a cin engineer we really as Kotlin Engineers we really can't wait for you
+to see what you will do with this power next up we'd like to welcome Michael
+zarinsky who's the lead language designer of Kotlin to the stage to share news about the upcoming Kotlin
+language [Applause]
+[Music] features thank you so C in 2.0 is
+released and we are going to take a look at four language features that are said to be released first and it's going to
+be a lot of code so be prepared let's start with this PF code
+here we have a function that takes a parameter of the type status and returns a string if the parameter is equal to
+loading return the string loading if it's okay but doesn't have any data return the string no data otherwise
+return the rendered string and if it's a critical error you say that it's a problem so what's wrong with this code
+we repeated the status variable four times within the one expression so we'd like to pull the variable out to avoid
+this repetition and in Kotlin one way to do this is to use when the subject
+construction so let's try to do this now if we do this we get a compilation
+error that and end is forbidden at this position because using when expression
+with a subject has one important limitation each branch must have only a
+single check but we see that this pattern is widely used so we are going to remove this limitation by introducing
+guarded conditions where you can have additional conditions separated from the first check by if and we are going to
+introduce guards in beta in codlin
+2.1 now let's take this particular part of Json data and embed it into a multi-line
+string as you can see as you can see the adjacent Keys
+become un result references since the dollar sign is used for interpolation so we have to escape the dollar sign some
+hope we can try a backlash it's used to escape the dollar sign in single line strings however it doesn't work for
+multi-line Strings as multi-line strings don't have escaping sequences by Design
+so are there any workarounds well let's just say that there are some quite tricky ones and
+given that we'd like to slightly upgrate our string literals the idea is if you put two2
+signs in front of a string literal then inter olation must also start with $2 signs and the single dollar sign can
+used just as a symbol and the feature for multi- dollar interpolation also goes better in cotl
+2.1 in the next example we iterate over a range of numbers retrieve the state
+and for the nonnull state we check if it's minus one we break from the loop if it's zero we continue otherwise we
+process the state while the code looks correct it won't compile you see we've used break and
+continue inside the function called lead which is forbidden and the reason is
+that the compiler doesn't know anything about the function lead or when Lambda will be
+executed but let is an inline function which means it's Lambda cannot be stored
+anywhere and must be executed in place right in the four Loop and this property makes inline
+functions truly trans to jumps making the use of break and continue absolutely valid this feature also goes beta in
+Kotlin
+2.1 we've discussed somewhat minor yet important andr to the language now let's
+take a look at the feature that has naturally evolved in Kotlin over the past few years the update is about
+context parameters or context receivers which you've probably heard of but first let me briefly recap one of its use
+cases let's imagine I'd like to write a function without a close that can automatically close all the open files
+in a Lambda to do so I introduced the interface autoclose scope and two
+functions with autoc close which starts a new scope and the function open which can open files in such a
+scope the issue here is that I'd like to define the function open as an extension on a file to make the API more
+extensible and friendlier to ID so that it it will be possible to inspect available operations via autoc
+completion but that's not possible as the function open already has a receiver
+and here is where context parameters are going to help us essentially I moving the extension
+receiver to special context parameters section so now it's possible to define the function open as an extension on
+file and have a familiar and friendlier API the feature was already released as
+experimental and became quite popular so we addressing your feedback and moving it to Beta in Kotlin
+2.2 we've discussed a portion of language features that are going to be released soon and these features
+contribute to broader Focus areas we find important such as data recognition
+and deconstructions with improvements to our powerful data flow framework and data classes increasing obstructions
+with such features as quantex parameters and explicit backing Fields high performance and clear code with value
+classes and reputability and of course Library offers experience with the
+improvements to up mechanics and signature management and we'll be discussing these features in detail in
+my talk dedicated to language features and now thank you and I'm glad to welcome
+[Applause] [Music]
+Kotlin is everywhere it is BL out the server s side improves lives of millions of mobile developers and multiplatform
+adoption grows rapidly showing a solid 50% increase of Open Source multiplatform solution since the last
+year all of that wouldn't be possible without the Kotlin ecosystem without all of us and Kotlin team here is
+committed to do what it do does the best enable and Empower developers what is an
+ecosystem and it's very core this cot programming language which helps us all be more productive creative and
+generally more happy I won't stop on that as Michael covered it pretty nicely then the call libraries call
+libraries the very basic and primitive tools to get the job done and here we'll continue consolidating and improving our
+foundational libraries experience and I have plenty of news standard Library keeps providing
+more and more multiplatform capabilities stable native API surface data types formats atomics uid multiplatform
+multiplatform uni Cod support is coming meanwhile core routin and serialization keep strengthening their core providing
+uh more utilities better documentation and more robust and efficient underline
+implementation in Kotlin 2.0 we made Kotlin metadata stable and part of Kotlin release cycle so finally we can
+build our CT introspection and transformation tools with a St compatibility and versioning guarantees in mind
+on the front of ongoing developments cot's daytime recently celebrated a huge milestone with the release of universal
+passing and formating all that with a great help of the community feedback and not only from Kotlin but from other
+languages and ecosystems as well cink IO development is on its full speed
+multiplatform Ling of Frank of a bites streams of data files IO Primitives it's
+quite young under a year and it's already on its road to stabilization it was only possible because of the massive
+contribution from the community okay your team and in particular Jesse Wilson
+it's co maintainer thank you
+J and we have new we have new libraries joining the party welcome Kotlin xrpc
+Kotlin first multiplatform RPC framework with a seamless integration with the rest of the C EOS system Kandy
+a library for data visualization and data frame a data processing library with a first class support integration
+with cop notebooks but Co libraries is a really tiny part of the ecosystem and
+what's more important is all the solution that you build on top of them and with their help and here we'll
+continue our tradition of removing barriers effectively acting like a force multipliers for all the library authors
+and API designers great news on the tooling side recently we released a multiplatform
+binary compati ability valid data to help you safely evolve your multiplatform apis DOA team worked hard
+to improve multiplatform documentation experience - wise tooling wise performance wise cix cover our Kotlin
+first coverage solution is promoted to Beta and last but not least we released
+updated reamped API guidelines to help you sharpen your API and provide cohesive and aligned experience for all
+the Kotlin Developers and when was I was saying about removing
+barriers I meant that literally we aim to completely raise boundaries between platforms and our next huge milestone is
+universal CBS and Universal platform agnostic publication finally if you have a
+multiplatform Kotlin library you'll be able to build and publish any Target you want from any operating system you have
+without worrying about the rest
+it's also going to work on CI where it will be enough to have a single operating system as well we aim to
+provide experimental support for that in Kotlin 2.1 with all that effort we're creating
+the strong and solid foundation for the Kotlin ecosystem to thrive speaking of the foundation last year Kotlin
+Foundation announced grants program to recognize and award the most outstanding contributions to the courtl system the
+competition was Fier I would like to ask you for a round of applause for winners those beautiful
+libraries and I'm happy to tell you that this year we are continuing our grant program so if you're an author of Open
+Source Library framework or two with a well- defined scope and a Kotlin multiplatform support in mind you're
+eligible to apply Kotlin foundation is backed by companies who share our common Mission
+creating safe and sound cotl ecosystem and increasing cotl adoption everywhere
+and this year Uber joined SKotlin Foundation as a silver member to help us achiev in our mission and growing our
+ecosystem and with all that effort all that support by companies communities
+people we are creating amazing ecosystem for millions of developers to create millions of applications and make
+billions of people happy and about how one can navigate and enhance the cin system I would like to
+pass my word to Julia from Amazon [Applause]
+AWS thank you seba at Amazon we strive to make
+developers lives easier and we don't just do this for external
+developers we live this internally as well now ease of use uh
+familiarity incremental migrations from java and modern language features are
+just some of the reasons that we've encouraged developers at Amazon to use Kotlin and we have a quickly growing
+community of Kotlin users at Amazon and we're starting to see it show up more in
+internal trainings internal conferences and tools
+and recently we started to put more focus on Kotlin for our internal teams and we've had a six times increase in
+internal Amazon accounts using Kotlin over the last year and a 13 times
+increase in request to AWS through the AWS SDK for Kotlin now some of the teams using
+Kotlin are Amazon music Prime video amazon.com AWS amplify and many
+more but in addition to using Kotlin the language Amazon has built on other parts
+of the Kotlin ecos system including spring compose exposed Gradle with cin
+build definitions and many others and at Amazon we've added support for Kotlin
+and Smithy which we use extensively to Define service definitions that provide
+the foundation for much of our AWS sdks and Smithy is an open- Source
+interface description language that's used by many external customers in their
+services as well now the Smithy Kotlin generator it's optimized to produce performant
+code tested at Amazon scale but in addition to producing Kotlin code the
+generator is also written in Kotlin which accelerates understanding and
+adapting the generator for Kotlin Developers if you want more details on using Smithy
+with Kotlin see Ian Botsford and Aaron Todd's talk today at 1:00 now many Amazon teams are loving
+Kotlin and like the Prime video team they report higher quality satisfaction
+and productivity and Kotlin usage at Amazon continues to grow and we're excited
+about how this will benefit our users and make their experiences better and more reliable
+now support both internal and external developers using Kotlin we created the
+AWS SDK for Kotlin and it went GA in November and it's built on Smithy Kotlin
+providing idiomatic and consistent coplin apis for interacting with AWS
+services and on top of idiomatic Kotlin language features like co-routines
+Builders and nullability there are some convenient apis that make doing more
+complex things easier pagination waiters and streams are all built on co-routines and the
+streaming apis have easy interop with Kotlin flows and hundreds of AWS services are
+supported with the AWS SDK for Kotlin including newer apis like the Amazon
+Bedrock service for generative API so what's next at Amazon we're
+continuing to expand Kotlin usage by further enhancements to the AWS SDK for
+Kotlin to Smithy Kotlin and amplify with Kotlin first the AWS SDK already has
+support for Kotlin common but we will work on supporting uh targets beyond the
+jvm and Android including iOS Mac OS Linux and
+windows and we're also working on adding a high level uh for uh a high level API
+for Amazon Dynamo DB object to data mapping and another exciting API that
+we're working on is an Amazon S3 transfer manager making it easier to handle transferring files between Amazon
+S3 and other systems and finally we're working on adding more Telemetry Integrations with
+systems like Amazon cloudwatch and AWS x-ray now we'd love your feedback on
+these enhancements and the GitHub repo for the AWS SDK for cin is a great place
+to get started so please head over there and get involved and with that I'd like
+to bring up uh spana isakova from jet [Music] [Applause]
+[Music] brains many people would agree that
+we're experiencing the next technological Revolution like 30 years ago when the internet rapidly spread
+across the bo let's talk about Kotlin and
+a our goal of Jud brains is to equip cot developers with the best tools
+possible n becomes a natural prod of it let's see how Jet brain a assistant can
+help you be more productive the latest versions of our idas come with a based Cote
+completion these suggestions can greatly help you to speed up the development
+process passing correct arguments from the context or following the patterns adopted in the given code base it surely
+can be done automatically right but a assistant is much more than
+code generation the whole experience is deeply integrated and fits naturally
+into your development workflow for instance you can ask it to generate session rooting code in a gator
+server for conference application it correctly understands its cater and that conference repository is
+supposed to be used here or you can ask it to explain the
+code and then it provides human readable detailed explanations in a aone chat
+window you can ask it to write recommendation for your functionality or generate a commit
+message it might be a bit BS but you can customize how long you wouldd like it to
+be and which in what language it should be written in how does a assistant achieve all that
+it all boils down to one thing context ID knows the structure of your
+code Type information usages file structure related files dependencies and
+so on a assistant includes the relevant information into the cont text of Your
+Action this context is then passed over to the J brain Ser service which ensures a secure and
+transparent way of using this data with various SL language models if a company has constraints with
+cloud-based a Solutions you can check jetbrain AA
+Enterprise it'll be possible to run a service and premises and connected to your approved llm service providers
+I also want to share that Jed brain say assistant is written entirely in
+Kotlin later vlat tankov will share more details about its
+internals now let's talk a little bit about how it's implemented under the hood and what we are doing from the
+machine learning perspective we are working on our own
+language model for Kotlin it's been trained from the ground up the latest version of Fleet already
+uses it for COD completion and we plan to release it in intell 20
+24.2 there is a general model for qu completion in all the languages and a fine inv verion for
+Kotlin it supports passing custom context and filling coat in the middle
+and is tailored for one line and multi-line code completion the benchmarks show that it
+generates code back than other models even of a much bigger
+size to build and improve such a model we need data sets and evoluation
+benchmarks we set up collect repositories published with open source permissive licenses to get the most
+extensive and upto-date data set with the cing code we also converted the popular code
+exercises instructions data set and human devel Benchmark into Kotlin
+as an example we took two popular open source models run them with this
+Benchmark and then fine tune them using our data sets and the quality of the code they
+generate in Kotlin based on the provided instructions has significantly
+improved to make it available for the machine learning community and major L vendors we open source this data on
+huging face naturally age changes how we develop
+software and a Jad brins we have a simple goal to provide you with the best tooling experience and the best language
+to work with whether a human or AA and with that thank you to all the
+humans in the audience because I assume that there are no AA yet
+thank you saeta thank you everyone I hope you've enjoyed the keynote we've got two days full of packed contents for
+you so enjoy the conference [Applause]
+[Music] [Applause]

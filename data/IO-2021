@@ -1,0 +1,1027 @@
+Opening Film
+[MUSIC PLAYING] [VIDEO PLAYBACK] [MUSIC PLAYING]
+- Please remember to fill out your evaluation form and leave it at the collection bin in the back of the room, OK? - Yeah, that's a big help for people to figure out
+just how bad our talk was. [LAUGHTER] - Yes, we do have a limited supply of CDs. [CHEERING]
+- It's great to be here. I'm going to be talking to you today about HTML5.
+- Nothing brings joy to my heart more than robotic Androids dancing and singing. - 5, 4, 3, 2, 1.
+[CHEERING] [GONG] - Good morning.
+This is Google I/O. - I am thrilled to be here. - At the Shoreline Amphitheater.
+- This is the coolest thing. - Excited about the future, what's coming. - You can build with the community.
+- We want to give you the tools to create entirely new technological capabilities. - This is the tattoo.
+Good, right? - And there's always endless discoveries. - It's great to have a platform.
+You can get to new outcomes. - Things previously thought to be impossible-- - Finally, I'm here.
+- --may, in fact, be possible. - I hope you all find some inspiration
+to keep building for everyone. [CHEERING AND APPLAUSE] [MUSIC PLAYING]
+[END PLAYBACK] [MUSIC PLAYING] [CHEERING AND APPLAUSE]
+Introduction, Sundar Pichai
+SUNDAR PICHAI: Good morning, everyone. It's great to be back at I/O. We are coming to you live from our campus here in Mountain View.
+Of course, it's not quite the same without our developer community sitting here in person.
+It's another reminder of the times we are living in. The pandemic has brought us together
+in a shared experience for more than a year. But now we are seeing the common experience diverge.
+In some places, people are beginning to live their lives again as cases decline.
+Other places like Brazil and my home country of India are going through their most difficult moments yet.
+We are thinking of you and hoping for better days ahead. COVID-19 has deeply affected every community.
+It's also inspired coordination between public and private sectors and across international borders.
+At Google, we launched products and initiatives to help one another through this time,
+to help students and teachers continue their learning from anywhere, to help small businesses adapt and grow,
+and to get emergency relief and vaccines to communities in need.
+We work closely with many non-profit organizations around the globe. And you can go to the link behind me
+to support their excellent work. At Google, the most fundamental way we help
+is by providing access to high-quality information, authoritative information from 170 public health
+organizations around the world, including the CDC, the FDA, and the WHO.
+We're also focused on helping people find accurate information about vaccines, including the hours
+and locations for vaccine sites in many countries on Google Maps and Search.
+COVID-related information has been viewed hundreds of billions of times across our products and platforms.
+It continues to help people make decisions and keep their families safe.
+I/O has always been a celebration of technology and its ability to improve lives.
+And I remain optimistic that technology can help us address the challenges we face together.
+So in that spirit, let's get started.
+At Google, the past year has given renewed purpose to our mission-- to organize the world's information
+and make it universally accessible and useful. We continue to approach that mission with a singular goal--
+building a more helpful Google for everyone. That means being helpful in moments that matter.
+And it means giving you the tools to increase your knowledge, success, health, and happiness.
+Sometimes, it's about helping in little moments that add up to big changes. Recently, we added 150,000 kilometers of bike lanes
+in Google Maps. We're also introducing two new features-- first, new eco-friendly routes.
+Using our understanding of road and traffic conditions, Google Maps will soon give you the option
+to take the most fuel-efficient route. At scale, this has potential to significantly reduce carbon
+emissions and fuel consumption. Second, safer routing.
+Powered by AI, Maps can identify road, weather, and traffic conditions where you're
+likely to have to suddenly brake. We aim to reduce up to 100 million of these events
+every year. [APPLAUSE]
+Sometimes, it's about helping in the big moments, like helping 150 million students and educators keep
+learning over the last year with Google Classroom or keeping students connected with affordable laptops.
+Chromebooks are now the number one device globally in K through 12 education.
+In Japan, 40% of local governments chose to deploy Chromebooks to every child in grades 1
+through 9. And here in California, we worked with the Department of Education to provide thousands of Chromebooks
+to students in need. One of the biggest ways we can build a more helpful Google for everyone
+is by reimagining the future of work. We have seen work transform in unprecedented ways.
+And it is no longer just a place. Over the last year, offices and co-workers
+have been replaced by kitchen countertops and pets. With so many people now working from home,
+access to collaboration tools has never been more critical. In 2006, we introduced Docs and Sheets
+to help people to collaborate in real time. A year later, we added Google Slides.
+All of this is now part of Google Workspace, which builds on more than 15 years of creating ways to work together.
+Today, we are announcing a new experience in Google Workspace to enable richer collaboration.
+We call this Smart Canvas. And to tell you more, here is Javier.
+[MUSIC PLAYING] [APPLAUSE]
+Workspace
+JAVIER SOLTERO: Thanks, Sundar, and good morning, everybody. With Smart Canvas, we're bringing together
+the content and connections that transform collaboration into a richer, better experience.
+For over a decade, we've been pushing documents away from being just digital pieces of paper
+and toward collaborative, linked content inspired by the web. Smart Canvas is our next big step.
+Let's see how a distributed team uses Smart Canvas to plan an important marketing campaign.
+The launch date is just two months away. So Adu starts a document and quickly adds a brainstorm table.
+With at mentions, he pulls in the right people and generates a checklist to assign action items.
+These simple actions connect the team's plan to people, dates, and tasks, making their collaboration
+richer and more effective as they drive toward their launch. Now that he shared the document, everyone
+starts dropping in their ideas. As they continue to brainstorm, the assisted writing feature
+suggests that they change the word "chairman" to "chairperson" in the document to avoid a gendered term.
+New assisted writing capabilities in Google Workspace offer suggestions
+so you can communicate more effectively. Not only are we helping with language suggestions.
+We're also making it easy to bring the voices and faces of your team directly into the collaboration
+experience to help them share ideas and solve problems together.
+Up to now, Adu and his team have been collaborating in the Doc and scheduling separate Google Meet
+calls to review their progress. But starting today, you can easily
+present the Doc, Sheet, or Slide you're working on directly into a Google Meet call.
+Now Adu can join his colleagues with just one click. And this fall, we're excited to bring Meet directly
+into Docs, Sheets, and Slides for the first time. This will enable teams like Adu's to actually see and hear
+each other while they're collaborating. Now they'll never skip a beat.
+And to keep that collaboration flowing in the meeting, the team used the new responsive voting table
+to see which ideas for the campaign are the most popular ones. With all the progress they've made together,
+Adu's initial document has evolved into a highly interactive, always up-to-date,
+actionable plan. And the team stayed connected every step of the way.
+That's the power of Smart Canvas. Two months later, it's time to launch the new campaign.
+Adu and his team are joining from offices from home and everywhere in between, connecting across time zones
+and continents. To help both office and remote teammates
+remain an equal part of the conversation no matter where they are, we're launching Companion mode
+in Google Meet. Companion mode gives each of Adu's teammates in the office
+their own video tile so they can stay connected to the remote colleagues, and everyone can participate in polls, chat, and Q&A in real time.
+Companion mode is coming to Google Meet later this year. Teammates can also be heard wherever
+they work with noise cancellation powered by the best of Google's AI, and machine learning and Google
+Meet to automatically adjust camera zoom and lighting, ensuring that everyone can be seen across all environments.
+We've also made it easier to customize views and share content so teams can focus on what
+matters most in the moment. This means that when Adu presents to the rest of his team, he can easily arrange people's faces
+to gauge their reactions while staying focused on his content. And his colleagues across the globe
+can follow along with live captions, even translations into their native languages.
+When Adu finishes his presentation, he doesn't feel separated by time zones or languages
+or the devices his team is using. Instead, with Google Meet's immersive experience,
+he feels connected and in the moment. With Smart Canvas and these powerful enhancements
+to Google Meet, we're transforming collaboration in Google Workspace to help people succeed at work,
+at home, and in the classroom. Previously, the fully integrated experience in Google Workspace
+was available only to our customers. But it will soon be available to everyone, from college students
+to small businesses to friends and neighbors wanting to stay connected and get more done together.
+Stay tuned for more details in the coming weeks. And now I'll hand it back to Sundar. [APPLAUSE]
+[BIKE BELL RINGING] [BIRDS CHIRPING]
+SUNDAR PICHAI: Thanks, Javier.
+Those were exciting examples of how computer science and AI can make us more helpful across our products.
+Google Search was built on the insight that understanding links between web pages
+leads to dramatically better search results. We've made remarkable advances over the past 22 years,
+and Search helps billions of people. And to improve Search even further,
+we need to deepen our understanding of language and context. To do this requires advances in the most challenging areas
+of AI. And I want to talk about a few today, starting with translation.
+We learn and understand knowledge best in our native languages. So 15 years ago, we set out to translate
+the web, an incredibly ambitious goal at the time. Today, hundreds of millions of people
+use Google Translate each month across more than 100 languages.
+Last month alone, we translated more than 20 billion web pages in Chrome.
+With Google Assistant's Interpreter mode, you can have a conversation with someone speaking a foreign language.
+And usage is up four times from just a year ago. While there is still work to do.
+we are getting closer to having a universal translator in your pocket. At the same time, advances in machine learning
+have led to tremendous breakthroughs in image recognition. In 2014, we first trained a production system
+to automatically label images, a step change in computers' understanding
+of visual information. And it allowed us to imagine and launch Google Photos.
+Today, we can surface and share a memory reminding you of some of the best moments in your life.
+Last month alone, more than 2 billion memories were viewed.
+Image recognition also means you can use Google Lens to take a photo of a math problem.
+I wish I had this when I was in school. Lens is used more than 3 billion times each month.
+We can now be as helpful with images as we are with text.
+Machine learning has also improved how computers comprehend and communicate with human voices.
+As Javier shared, that's why we can caption conversations in Google Meet and why Live Caption on Android
+can automatically caption anything running on your smartphone locally.
+It generates 250,000 hours of captioning every day.
+Breakthrough technology from DeepMind called WaveNet increased the quality of computer-generated speech, leading to more
+natural and fluid interactions. WaveNet allowed us to create and deploy
+51 voices across Google Assistant. Together, the advances in AI I just
+spoke about across translation, images, and voice improve the search experience for billions of people.
+They also enabled us to make a huge leap forward in how computers process natural language.
+In 2017, we first introduced the world to transformers, a novel machine learning approach for better
+natural language understanding. Transformers became the foundation for many other breakthroughs like AlphaFold and BERT,
+which we introduced in 2019. BERT considers the full context of a word
+by looking at the words that come before and after, leading to one of our most significant quality
+improvements across Google Search and enabling us to respond to queries with more
+helpful answers, in this case, realizing that the question was about parking on a hill
+without a curb. We have revolutionized the ability of computers to understand natural language.
+Yet, despite the incredible power of computers, there are still moments like this.
+[VIDEO PLAYBACK] - Sorry, I don't understand. [END PLAYBACK] SUNDAR PICHAI: This is because language is endlessly complex.
+We use it to tell stories, crack jokes, and share ideas. We continuously pull from concepts
+we have learned over the course of our lives. The richness and flexibility of language
+make it one of humanity's greatest tools and one of computer science's greatest challenges.
+If someone asks me if the temperature in the room is OK, and I say I'm freezing, they know
+that I'm very cold, not literally freezing. Or if someone says, what's the weather like today,
+I don't respond, it's 70 degrees, sunny, and a 12% chance of rain. I'd probably say, it's starting to feel like summer.
+I might eat lunch outside. Sensible responses keep conversations going
+and allow them to end up in a completely different place from where they started.
+Even if I began by talking about the weather, we may end up talking about football.
+Today, I'm excited to share our latest breakthrough in natural language understanding, LaMDA.
+It's a language model for dialogue applications. And it's open domain, which means
+it's designed to converse on any topic. And while it's still in research and development,
+we've been using it internally to explore novel interactions.
+For example, say you wanted to learn about one of my favorite planets, Pluto.
+LaMDA already understands quite a lot about Pluto and millions of other topics.
+Let's listen to a conversation the team had with Pluto a few days ago.
+[VIDEO PLAYBACK] - I'm so curious about you. - I sense your excitement. Ask me anything.
+- Tell me what I would see if I visited. - You would get to see a massive canyon, some frozen icebergs,
+geysers, and some craters. - It sounds beautiful. - I assure you it is worth the trip.
+However, you need to bring your coat because it gets really cold. - I'll keep that in mind.
+Hey, I was wondering, have you ever had any visitors? - Yes, I have had some. The most notable was New Horizons,
+the spacecraft that visited me. - That must have been exciting. - The team that created New Horizons was
+very excited to see me. I also sent them back a picture of myself since I had not been seen up close before.
+- That's so great. What else do you wish people knew about you? - I wish people knew that I am not just a random ice ball.
+I am actually a beautiful planet. - Well, I think you're beautiful.
+- I am glad to hear that. I don't get the recognition I deserve. Sometimes, people refer to me as just a dwarf planet.
+- Don't let it bother you. You're amazing. - Thank you for the kind words.
+I appreciate it. - Thanks for talking with me. - Anytime, I am always open for people to chat.
+I hope you have a great day. [END PLAYBACK] [APPLAUSE]
+SUNDAR PICHAI: I spent some time with my son conversing
+with Pluto, and it's magical. We had a lot of fun learning about space together.
+Let's break down what made it feel so natural. First, learned concepts-- as you saw,
+the model talked about the New Horizons spacecraft and the coldness of space.
+LaMDA synthesized these concepts from its training data. These concepts were not hand-programmed in the model.
+Because none of the responses were predefined, LaMDA answered with sensible responses,
+keeping the dialogue open ended. Natural conversations are generative,
+and they never take the same path twice. And LaMDA is able to carry a conversation no matter
+what we talk about. You can have another conversation without retraining the model.
+Let's see what happened when we talk to a paper airplane. [VIDEO PLAYBACK]
+- What's it like being thrown through the air? - It's quite the experience, actually.
+The wind blowing against you and the trees flying past are quite the sight. You never know where you'll land either.
+- What's the worst place you've ever landed? - That would have to be in a puddle. I was just barely still intact, so I was stuck there
+for a few minutes. It was quite annoying. - Oh, that sounds awful. Were you able to fly again?
+- Thankfully, I was. I had a few minor injuries to my wing, but you can't really tell unless you know what to look for.
+- What's the secret to a really good paper airplane? - Well, my good friend, I must first
+ask you to specify what you mean by "good." Some may think it's how far it goes, some may think it's how straight it goes, and some may
+think it's how flat it lands. So what do you think? - I care the most about distance.
+- Then I would have to say a nice, wide wingspan is what you want. Also, the paper needs to be really firm.
+- What's the farthest you've ever flown? - I've flown over about 1,500 feet.
+The wind was perfect that day. - Wow, that's really far. That must have been quite a throw.
+- It was. I was actually thrown from a hot-air balloon, believe it or not.
+- That's so cool. What did the world look like from out there? - It's actually a lot different than it looks from the ground.
+The world is so large with its vast oceans and mountains. It really puts things into perspective.
+- Yeah, it's important to keep perspective. Hey, I'm wondering, do you have anything you want to share with the people that
+are watching at home? - I do. I just want them to know that if the wind is perfect,
+and you're made of the right materials, you can go absolutely anywhere. [END PLAYBACK]
+[APPLAUSE]
+SUNDAR PICHAI: It's really impressive to see how LaMDA can carry on a conversation about any topic.
+And it's amazing how sensible and interesting the conversation is. Yet, it's still early research, so it
+doesn't get everything right. Sometimes, it can give nonsensical responses,
+imagining Pluto doing flips or playing fetch with its favorite ball, the Moon.
+Other times, it just doesn't keep the conversation going. At Google, we have been researching and developing
+language models for many years. We are focused on ensuring LaMDA meets our incredibly
+high standards on fairness, accuracy, safety, and privacy.
+So from concept all the way to design, we are making sure it's developed consistent
+with our AI principles. We believe LaMDA's natural conversation capabilities
+have the potential to make information and computing radically more accessible and easier to use.
+We look forward to incorporating better conversational features into products like Google Assistant, Search,
+and Workspace. We're also exploring how to give capabilities to developers
+and enterprise customers. LaMDA is a huge step forward in natural conversation,
+but it is still trained only on text. When people communicate with each other,
+they do it across images, text, audio, and video.
+So we need to build models that allow people to naturally ask questions across different types of information.
+These are called multimodal models. Let's say we want a model to recognize
+all facets of a road trip. That could mean the words "road trip" written or spoken
+in any language, images, sounds, and videos, and concepts associated with road trips,
+such as weather and directions. So you can imagine one day planning a road trip
+and asking Google to find a route with beautiful mountain views.
+You can also use this to search for something within a video. For example, when you say, show me the part
+where the lion roars at sunset. We will get you to that exact moment in a video.
+[APPLAUSE]
+It's still early days, but later on in the keynote, you'll hear from Prabhakar about the progress
+we are making towards more natural and intuitive ways of interacting with Search.
+Translation, image recognition, voice recognition, text-to-speech, transformers--
+all of this work laid the foundation for complex models like LaMDA and multimodal.
+Our compute infrastructure is how we drive and sustain these advances. And tensor processing units are a big part of that.
+Today, I'm excited to announce our next generation, the TPUv4.
+These are powered by the v4 chip, which is more than twice as fast as the v3 chip.
+TPUs are connected together into supercomputers called pods. A single v4 pod contains 4,096 v4 chips.
+And each pod has 10x the interconnect bandwidth per chip at scale compared to any other networking technology.
+This makes it possible for a TPUv4 pod to deliver more than 1 exaFLOP, 10 to the 18 power
+floating-point operations per second of computing power. Think about it this way-- if 10 million people were
+on their laptops right now, then all of those laptops put together would almost match the computing power of 1 exaFLOP.
+This is the fastest system we've ever deployed at Google and a historic milestone for us.
+Previously, to get an exaFLOP, you needed to build a custom supercomputer. But we already have many of these deployed today,
+and we'll soon have dozens of TPUv4 pods in our data centers, many of which will be operating at or near 90%
+carbon-free energy. And our TPUv4 pods will be available to our Cloud
+customers later this year. It's tremendously exciting to see the space of innovation.
+As we look further into the future, there are types of problems that classical computing will not
+be able to solve in a reasonable time. Quantum computing represents a fundamental shift
+because it harnesses the properties of quantum mechanics and gives us the best chance of understanding
+the natural world. Achieving a quantum milestone was a tremendous accomplishment, but we are still
+at the very beginning of a multi-year journey. One problem we face today is that our physical qubits
+are very fragile. Even cosmic rays from outer space can destroy quantum information.
+To solve more complex problems, our next milestone is to create an error-corrected logical qubit.
+It's simply a collection of physical qubits stable enough to hold quantum information for a long period of time.
+We start by reducing the error rate of our physical qubits then combining a thousand physical qubits to create
+a single logical qubit and then scaling that up to a thousand logical qubits, at which point,
+we will have created an error-corrected quantum computer. Today, we are focused on enabling scientists
+and developers to access beyond-classical computational resources.
+But we hope to one day create an error-corrected quantum computer. And success could mean everything
+from increasing battery efficiency to creating more sustainable energy to improve drug
+discovery and so much more. The roadmap begins in our new data center, which we are calling the Quantum AI Campus.
+Let's step inside. Michael, are you there? [MUSIC PLAYING]
+MICHAEL PENA: Hey, Sundar. How's it going? Yeah, I'm here, and I'm excited to learn why I'm here. And I'm guessing that's why he's here.
+ERIK LUCERO: Hey, Michael. MICHAEL PENA: Hey. ERIK LUCERO: I'm Erik, Lead Engineer here. I'd like to welcome you to one of the most powerful quantum
+computing facilities in the world. MICHAEL PENA: Oh, thank you. Thank you. What's this? Can I touch it? ERIK LUCERO: Yeah. That's a quantum processor.
+And inside are these actual physical qubits. MICHAEL PENA: Oh, hey, little guy. ERIK LUCERO: Qubits are the fundamental building
+blocks of quantum computers, but they're incredibly fragile. MICHAEL PENA: Oh. ERIK LUCERO: Even the tiniest particles can disrupt their operation.
+MICHAEL PENA: Right. ERIK LUCERO: Which is why we work so hard to create the optimal environment to keep them stable. MICHAEL PENA: Right, and then I'm guessing the optimal environment doesn't include, like,
+Cheeto dust. So I'm just going to put this-- ERIK LUCERO: No, it doesn't. MICHAEL PENA: --right back. ERIK LUCERO: Thanks. Let me show you where the clean ones go. MICHAEL PENA: Oh.
+ERIK LUCERO: So we built this campus to inspire all of our quantum mechanics and to show the world what the future of computing looks like.
+MICHAEL PENA: Good for you, dude. Look at you, dude. ERIK LUCERO: Thanks. MICHAEL PENA: That's a cool lamp. ERIK LUCERO: It's not a lamp. This is actually a cryostat.
+And you're looking at the inside of a quantum computer. MICHAEL PENA: Wow, "cryostat." I love that word-- "cryostat."
+I'm guessing people want to know what makes a cryostat a cryostat? Erik? ERIK LUCERO: Well, everything you see here,
+from the wiring to the aluminum, copper, and gold metal stages, have been chosen to create a cold and quiet environment
+for our quantum processors to operate. MICHAEL PENA: Right, right, right. And in English? ERIK LUCERO: It's a fridge for our qubits.
+MICHAEL PENA: Right, right. And how cold are we talking about? ERIK LUCERO: We approach near absolute zero, 10 millikelvin, to be precise.
+MICHAEL PENA: Wow. ERIK LUCERO: Which means that parts of our lab are some of the coldest places in the universe. MICHAEL PENA: Wow, colder than Canada?
+ERIK LUCERO: Yeah, colder than Canada. MICHAEL PENA: (WHISPERING) Colder than Canada. ERIK LUCERO: Well, it's not just temperature that's important. In fact, we want to remove all distractions from our qubits,
+including unwanted electrical and magnetic signals. MICHAEL PENA: Yeah, yeah. Who wants that, right? ERIK LUCERO: Well, let me show you what the final product looks like. MICHAEL PENA: Is this a cryostat?
+ERIK LUCERO: No, that's not a cryostat. MICHAEL PENA: What about this? is this a cryostat? ERIK LUCERO: That's not a cryostat. MICHAEL PENA: No? ERIK LUCERO: This is a cryostat. MICHAEL PENA: Nice.
+ERIK LUCERO: In fact, this is a fully assembled quantum computer. MICHAEL PENA: Yeah? So where's the keyboard? ERIK LUCERO: Well, there's no keyboard, but it contains everything you've just
+seen inside and custom control electronics, all of which were designed and built by our team here at Google.
+MICHAEL PENA: Wait, wait, wait, wait, wait, wait, is this a Bob Ross? Is he on the team? Tell me he's on the team.
+ERIK LUCERO: He's not on the team. MICHAEL PENA: OK. ERIK LUCERO: But this mural is our homage to Mother Nature. See, quantum is a language of nature,
+and we're learning to speak it here. It will enable us to run precise simulations in the natural world, unlocking answers that would otherwise
+remain unknown. MICHAEL PENA: OK, so let me see if I got this right. OK, so these qubits are really smart, right? But they're really picky about their work environments,
+so you've got to put them in a lamp, right? But even then, they're like, no, I don't want anybody eating any Cheetos around me. I mean, like, I'm sorry, OK?
+I didn't know, right? So then you've got to wrap them into, like, this Bob Ross blanket of love, right?
+And then you keep them there until they can tell us how to think like the Earth, am I right? ERIK LUCERO: Yeah, yeah, you're pretty close.
+MICHAEL PENA: OK, you know what this is? This is the power button. I want to start it. ERIK LUCERO: Well, we're not quite there yet. I'm glad you're on board. MICHAEL PENA: OK.
+ERIK LUCERO: To date, we've reached the first milestone, beyond-classical computational capabilities. MICHAEL PENA: This is us. ERIK LUCERO: Yeah, we're here.
+Everything you've seen here today is what we're using to build to our next milestone, an error-corrected logical qubit. MICHAEL PENA: Right.
+ERIK LUCERO: And from there, we'll tile thousands of those together to reach our ultimate goal-- BOTH: An error-corrected quantum computer.
+MICHAEL PENA: Right, that's my goal too. ERIK LUCERO: Well, you're in luck. We're building a team to assemble all the right ingredients all right here in the Quantum AI
+Campus that you just helped us unveil. So thank you very much. MICHAEL PENA: No, you know what? Thank you, and thank you for everyone that's joining us.
+I want to leave you with a couple of my favorite words that I just learned, one of them being qubits--
+qubits-- cryostat, right? And melon chillis.
+Sundar, it was a pleasure doing science with you. [MUSIC PLAYING] [APPLAUSE]
+SUNDAR PICHAI: It was a pleasure doing science with you too, Michael. We recognize that building an error-corrected quantum
+computer will be incredibly challenging. But solving hard problems and advancing the state of the art
+is how we build the most helpful products. At Google, we know that our products can only
+be as helpful as they are safe. And advances in computer science and AI
+are how we continue to make them better. We keep more users safe by blocking malware,
+phishing attempts, spam messages, and potential cyber attacks than anyone else in the world.
+And our focus on data minimization pushes us to do more with less data.
+Two years ago at I/O, I announced auto-delete, which encourages users to have their activity
+data automatically and continuously deleted. We have since made auto-delete the default
+for all new Google accounts. Now after 18 months, we automatically delete your data unless you tell us to do it sooner.
+And this is now active for over 2 billion accounts. All our products are guided by three important principles.
+With one of the world's most advanced security infrastructures, our products are secure by default. We strictly uphold responsible data
+practices so every product we build is private by design. And we create easy-to-use privacy and security settings
+so you are in control. I'd like to invite Jen on stage to share some examples of how
+we apply these principles and make every day safer with Google. [MUSIC PLAYING] [APPLAUSE]
+Safer With Google
+JEN FITZPATRICK: Thanks, Sundar. We believe that protecting your privacy starts with the world's most advanced security.
+Seems like every day, we hear about another cyber attack that puts emails and personal data at risk.
+To keep our users safe, everything we build is secure by default. Each of our products
+is protected with advanced AI-driven technologies. In fact, every day, Gmail automatically
+blocks more than 100 million phishing attempts. Google Photos encrypts 4 billion photos.
+And Google Play Protect runs security scans on 100 billion installed apps around the world.
+But the single most common security vulnerability today is still bad passwords.
+Consumer research has shown that 2/3 of people admit to using the same password across accounts,
+which multiplies their risk. Ultimately, we're on a mission to create
+a password-free future. That's why no one is doing more than we are to advance
+phone-based authentication. And in the meantime, we're focused on helping everyone use strong, unique passwords
+for every account. Our Password Manager creates, remembers, saves,
+and autofills passwords for you. It's already used by over half a billion people.
+But we want to free everyone from password pain. That's why today, we're announcing
+four new upgrades that make our Password Manager more helpful. First, we're making it easier than ever to get
+started with a simple tool that imports passwords saved in other password managers.
+Next, we'll have deeper integration across both Chrome and Android so your secure passwords
+go with you from sites to apps. Third, automatic password alerts will
+let you know if we detect any of your saved passwords have become compromised in a third-party breach.
+And lastly, one I'm especially excited about, a quick-fix feature in Chrome, where the assistant will
+help you navigate directly to your compromised accounts and change your passwords in seconds.
+Our continued investment in our Password Manager makes it just one of the many ways Google is the safer way to sign in to anything online.
+Another core principle is ensuring that each of our products is private by design.
+This means continuously making thoughtful decisions about when, how, and why data is used in our products,
+including data that's used for ads. Our principles drive us to draw a strict line between what's in
+and what's out. For example, we never sell your personal information to anyone.
+We never use the content you store in apps like Gmail, Photos, and Drive for ads purposes.
+And we never use sensitive information to personalize ads, like health, race, religion,
+or sexual orientation. It's simply off limits.
+And while we've always believed that ads play an important role in supporting a free and open web for everyone,
+we're equally committed to making the web more private and secure.
+Through the open-source Privacy Sandbox initiative, we're collaborating with publishers, content creators,
+advertisers, and industry organizations like the W3C to develop new privacy-preserving solutions
+that will shape the future of online advertising. Making our products private by design also
+drives us to build groundbreaking computing technologies that enable personalized experiences
+while protecting your private information. One technology we've been pioneering
+is differential privacy, which allows us to use large, aggregated data sets while guaranteeing
+that your individual data can never be identified as yours. No one has scaled the use of differential privacy
+more than we have. To help developers everywhere use differential privacy,
+we created the world's largest open-source library of deferentially private algorithms, which
+has advanced so many important fields from cancer research to census analytics.
+Another important technology is federated learning, invented here at Google in 2016.
+It enables machine learning models to be trained centrally without any raw data leaving your device.
+And since building it into Gboard and Messages, we've saved people countless hours of typing, with helpful suggestions.
+This is just one of the ways we build for privacy everywhere that computing happens, both in the Cloud and on device.
+And speaking of devices, to make billions of Android phones private by design, we developed Android's Private Compute Core.
+It's uniquely source and designed to privately process and protect sensitive data.
+It powers features like Live Caption without sharing audio data with Google or any other apps.
+No one else offers this kind of technically enforced, verifiable privacy.
+And the Android team will be coming up in a bit to share more. These are just a few of the ways we're building the most
+advanced privacy-preserving technologies into our products to keep your data private, safe, and secure.
+We know that a big part of feeling safe online
+is having control over your data. Privacy is personal.
+So we build powerful privacy and security settings that let people choose what's right for them.
+You can find them in your Google account. We saw over 3 billion visits last year.
+We also know that some controls are most helpful when they're built right into the app, like when we added an Incognito mode
+in Search, Maps, and YouTube. Today, we're announcing a few new controls that you'll see in our most popular apps.
+For example, people tell us they sometimes wish they could easily delete the last thing they searched. And we heard you.
+So now just tap your profile picture to access your menu and immediately delete recent search
+history from your account. We're also working to make privacy controls more
+accessible in Maps. Now when you see places you visited in your timeline, we'll remind you that it's because you turned
+on location history, which you can easily turn off right there in your timeline.
+And lastly, we're rolling out locked folder and photos, first on Google Pixels and coming to more Android devices
+throughout the year. Photos you add to this passcode-protected space are saved separately so they won't show up
+as you scroll through Google Photos or any other apps on your device. This feature would have been helpful for me
+last year when we surprised our kids with a new puppy and we needed to hide the photos before we brought Splash home.
+As Sundar said, there's nothing more important than keeping you safe online.
+Building products that are secure by default, private by design, and that give you control
+is how we ensure that, every day, you're safer with Google.
+Just as we've engineered advanced computing solutions to protect your privacy, we continue to think about future advances in AI and their potential
+for making our products even more helpful. Not surprisingly, so much of what we do starts with Search.
+And next, you'll hear more about this from Prabhakar. [MUSIC PLAYING] [APPLAUSE]
+[APPLAUSE]
+Helpful Information
+PRABHAKAR RAGHAVAN: Thanks, Jen. Today, we're excited to share our advances in AI
+in enabling us to understand the world more deeply than ever before, opening up helpful experiences for you
+across Google Search, Maps, Shopping, and Photos. Let's start with Search.
+20 years ago, Google was just 10 blue links, connecting people to the information
+they needed from the millions of web pages out there. Since then, we've continued to innovate
+to understand new forms of information like images, videos places, and more.
+All of this is in pursuit of our mission-- to make information accessible and useful.
+As Sundar mentioned, early research with LaMDA and multimodality is pushing
+the boundaries of natural language understanding. And today, I'm excited to share how
+we'll be bringing some of these research advances to Google Search with a Multitask Unified Model,
+or MUM, as we like to call it. Like BERT, it's built on the transformer architecture,
+but it turns up the dial. You see, MUM is a thousand times more powerful than BERT.
+But what makes this technology groundbreaking is its ability to multitask in order to unlock information in new ways.
+Here are a few tasks it can handle at the same time. It can acquire deep knowledge of the world.
+It can understand language and generate it too. It can train across 75 languages at once,
+unlike most AI models, which train on one language at a time. And then what makes MUM even more amazing
+is that it's multimodal, which means it can simultaneously understand different forms of information
+like text, images, and videos. We've already started some internal pilots
+to see the types of queries it might be able to solve and the billions of topics it might help you explore.
+Let me show you what I mean. Let's say you're an avid hiker planning your next adventure.
+You might ask, I've hiked. Mount Adams and now want to hike Mount Fuji next fall.
+What should I do differently to prepare? This is a question you could casually ask a friend
+but search engines today can't answer directly because it's so conversational and nuanced.
+MUM is changing the game. With its language-understanding capabilities,
+it would know you're looking to compare two mountains and also understand that "prepare" could include things
+like fitness training for the terrain and hiking gear for fall weather.
+Then it's able to surface useful insights based on its deep knowledge of the world.
+Here, it's highlighting that Mount Fuji is roughly the same elevation as Mount Adams,
+but fall is the rainy season on Mount Fuji, so you might need a waterproof jacket.
+It would also give you pointers to go deeper on topics, like how to prepare the right gear with articles, videos,
+and images from across the web. Now, a huge limitation of accessing information
+is the language it's written in. If there are insights about Mount Fuji in Japanese, you might not know they exist if you don't search in Japanese.
+But MUM can transfer language across multiple languages to give you a richer, more comprehensive answer.
+But it doesn't stop there. Because MUM is multimodal, it can understand different types
+of information simultaneously. So now imagine taking a photo of your hiking boots and asking,
+can I use these to hike Mount Fuji? MUM would be able to understand the content of the image
+and the intent behind your query, let you know that your hiking boots would just work fine,
+and then point you to a list of recommended gear in a Mount Fuji blog.
+[APPLAUSE]
+While we're in the early days of exploring this new technology, we're excited about its potential
+to solve more complex questions, no matter how you ask them. But we are already finding other ways
+to apply AI to bring you new information.
+Take Google Lens, which lets you search what you see from your camera, your photos, right
+from your search bar. Around the world, people use Lens to translate over
+a billion words every day. This translation feature has been especially
+useful for students, many of whom might be learning in a language they are less comfortable with.
+So now, thanks to our Lens team in Zurich, we're rolling out a new capability that combines visual translation with educational content
+from the web to help people learn in more than 100 languages.
+For instance, you can easily snap a photo of a science problem, and Lens will provide learning resources
+in your preferred language. Let's take a look at how a student in Indonesia is using this new feature.
+[VIDEO PLAYBACK] [BIRDS CHIRPING] [GRASS RUSTLING] [MUSIC PLAYING]
+[POUNDING]
+[END PLAYBACK] [APPLAUSE]
+PRABHAKAR RAGHAVAN: It's always inspiring to see stories like Mamay's. And it brings to life the power of visual information,
+especially for learning. That's why we brought augmented reality to Search two years ago at I/O to help you explore concepts
+visually up close and in your space. You might remember the shock that joined us on stage.
+Last year, when many of us first started sheltering in place, families around the world found joy in AR.
+From tigers to cars, people interacted with this feature more than 200 million times.
+Now, we're bringing some of the world's best athletes to AR so you can see how they perform
+some of their most impressive feats right in front of you. Beginning today, you can see how Megan Rapinoe juggles a soccer
+ball or how Naomi Osaka pulls off a 125-mile-per-hour serve.
+You can even see Simone Biles landing one of the most difficult combinations ever completed.
+We recently caught up with Simone to get her reaction to the AR version of herself.
+Let's take a look. [VIDEO PLAYBACK] - So first, you're going to go to Google Search. - Google Search.
+- And search yourself. - OK, Simone Biles in 3D.
+- And then you're going to view in your space. - You've got to scan the floor, so let's scan the area-- ooh.
+- Nice. - And she's here. [LAUGHTER] - That's you, so.
+- Oh my gosh. She goes for the triple-double. This is very accurate.
+I see all the details that I need to get back in the gym and work on. - [LAUGHS] Nails it. [LAUGHTER]
+So that one, you got to-- Simone Bile's double-double dismount. It pops up anywhere. - Wow, look at that.
+- Wait, let's turn her so we can see it from the front. - It sounds just like you're in the arena.
+- Go down to 5%, little one. Aww. - There she is. - Itsy-bitsy Biles.
+That's the smallest triple-double I've ever seen. [LAUGHS] We need to start competing in AR.
+It's much simpler, saves the nerves. [LAUGHTER] [MUSIC PLAYING]
+[END PLAYBACK] [APPLAUSE]
+PRABHAKAR RAGHAVAN: No matter how many times I see that, I still think it's pretty incredible.
+Innovations like MUM, Lens, and AR are part of our quest to make information more helpful.
+But information is only helpful if it's trustworthy and reliable.
+The world is constantly changing. Getting access to reliable information is particularly critical during times
+like the pandemic or breaking news. It's in these moments and so many others
+that people turn to Google. At our foundation, we design our ranking systems
+to prioritize high-quality content. And for critical topics like COVID,
+we elevate information from expert sources. People come to Google to evaluate claims they've heard,
+whether that's in conversations with friends or something they read about online.
+Over the past year, searches for "is it true that" were even higher than "how to bake bread."
+And that's saying something given last year's sourdough craze. We're building features that make it easier
+for you to evaluate the credibility of information right in Google Search.
+One of the ways we're doing this is with "About this result," a feature we launched earlier this year that makes it easier
+to check the source. Just tap the three dots next to the search result to see the details about the website,
+including its description, when it was first indexed, and whether your connection to the site is secure.
+This context is especially important if it's a site you haven't heard of and want to learn more about it.
+This month, we'll start rolling out "About this result" to all English results worldwide, with more languages to come.
+And later this year, we're going to add even more detail, like how the site describes itself,
+what other sources are saying about it, and related articles to check out.
+This is part of our ongoing commitment to provide you with the highest quality of results
+and help you evaluate information online.
+When we understand information, we can make it more helpful to you, whether that be information
+on the web, from your camera, or from the billions of places in the physical world.
+And to hear more about how AI is powering our most helpful map ever, here's Liz.
+[MUSIC PLAYING] [APPLAUSE]
+LIZ REID: Thanks, Prabhakar. We're constantly working on new features to make Maps more helpful for the more than 1 billion of you
+who use it every month. Advances in AI are helping us reimagine what a map can be.
+This year alone, we're on track to release more than a hundred AI-driven improvements to give people
+richer and more contextual information about the world around them.
+Let me share just a few examples. We've seen how helpful AR can be to see how athletes perform
+their most impressive feats. Three years ago, with Live View in Google Maps,
+we were the first ones to use AR at scale to help see where to go, with signs and arrows
+overlaid on the real world. Today, we're still the only company
+who has AR navigation maps in more than a hundred countries, from big cities to rural towns.
+So far, though, Live View has been focused on navigation to help you easily get from point A to point B.
+But now you can also use it to explore the world around you. You'll be able to access Live View right from the map
+and instantly see details about the shops and the restaurants around you, including how busy they are,
+recent reviews, and photos of those popular dishes. This is possible because we match what your camera sees
+with millions of businesses sharing rich information on Google Maps. In addition, there are a host of new features coming
+to Live View later this year. First, we're adding prominent virtual street signs
+to help you navigate those complex intersections. Second, we'll point you towards key landmarks and places
+that are important for you, like the direction of your hotel. Third, we're bringing it indoors to help you get around
+some of the hardest-to-navigate buildings, like airports, transit stations, and malls.
+Indoor Live View will start rolling out in top train stations, airports in Zurich this week and will come to Tokyo next month.
+[APPLAUSE]
+But AR isn't the only way we're bringing a whole new level of richness to Google Maps.
+We've heard from many of you that you'd like to have more granular information about your surrounding.
+That's why we're bringing you the most detailed street maps we've ever made.
+Take this image of Columbus Circle, one of the most complicated intersections in Manhattan.
+You can now see where the sidewalks, the crosswalks, the pedestrian islands are, something
+that might be incredibly helpful if you're taking young children out on a walk, or absolutely essential if you're using a wheelchair.
+Thanks to our application of advanced AI technology, on robust street view and aerial imagery,
+we're on track to launch detailed street maps in 50 new cities by the end of the year.
+Having access to rich information is useful, but it can also become overwhelming.
+So we're making the map more dynamic and more tailored, highlighting the most relevant information
+exactly when you need it. If it's 8:00 AM on a weekday, we'll display the coffee shops and bakeries more prominently
+in the map, while at 5:00 PM, we'll highlight the dinner restaurants that match your tastes.
+You can see which places you've been to and get more suggestions for similar spots with just a single tap.
+And if you're in a new city, we'll make it easier to find those local landmarks and tourist attractions right on the map.
+You'll start seeing this more tailored map in the coming weeks. And as you're planning your day, people
+have found it really useful, especially during this pandemic, to see how busy a place is before
+heading out. Now we're expanding this capability from specific places, like restaurants and shops,
+to neighborhoods with a feature called Area Busyness. Say you're in Rome and want to head over
+to the Spanish Steps and its nearby shops. With Area Busyness, you'll be able to understand at a glance
+if it's the right time for you to go based on how busy that part of the city is in real time.
+And as you heard before, we use our industry-leading differential privacy techniques to protect anonymity
+in this feature. Area Busyness will roll out globally in the coming months.
+So that was a lot. To recap, we are expanding our Live View capabilities,
+making maps more detailed and tailored and showing you how busy certain areas are
+to help you make sense of the world all around you. All of this is possible because of our deep, deep commitment
+for over 16 years to build the world's most helpful map for people everywhere.
+That means mapping roads across more than 60 million kilometers, listing more than a billion buildings,
+creating a community of over 150 million local guides, and finally, applying the most advanced AI technology,
+all so you can have the most accurate, comprehensive, and detailed map wherever
+you live in the world on any device, Android or iOS.
+Access to rich information is crucial, whether you're exploring a new neighborhood or trying to get things done.
+And over the past year, that's increasingly meant turning to Google to help you shop. [MUSIC PLAYING]
+To tell you more about how we're making it easier to shop online, from inspiration to action, here's Bill.
+[APPLAUSE]
+BILL READY: Thanks, Liz. You've already heard how we're innovating to understand information and make it more helpful for you.
+We're doing this in a big way for shopping. More than a billion times a day, people
+are shopping across Google. And we're constantly working to make that experience better,
+whether you're browsing for inspiration or ready to buy. Now, let's talk about all the ways
+we're innovating in shopping. Many of you are familiar with our Knowledge Graph, which revolutionized structured information about people,
+places, and things. We're now introducing the Shopping Graph, our most comprehensive data set for billions of products
+and the merchants that sell them. Building on the Knowledge Graph, the Shopping Graph brings together information from websites, prices, reviews,
+videos, and, most importantly, the product data we receive from brands and retailers directly.
+Because the Shopping Graph knows about so many products, we can connect users with other 24 billion listings
+to buy those items from millions of merchants across the web, helping you find more of what you're
+looking for from a broader range of sellers and giving you just as much or more choice in the digital world as you have in the physical world.
+The best part is that the Shopping Graph spans across Google, making it easier to go from inspiration to purchase no matter
+where you are. Let's see how this comes to life across shopping moments from Lens to Search, Photos, YouTube, and Chrome.
+As we all know, shopping inspiration often strikes when we see something we like in the world around us.
+And for these moments, Google Lens is awesome. It turns the world into your own personal showroom.
+For example, I was eating outside at a restaurant recently and really liked their patio furniture.
+So I opened my Google app. And right from the Search bar, I could use Lens to find the exact set I was looking for,
+and similar items too. I showed the patio set to my daughter, but she didn't love it. So it was back to the drawing board.
+We did a bit more browsing together, starting with the Google Images tab on Search, where we see hundreds of millions of shopping searches
+each month. Thanks to the Shopping Graph, we could explore options from across the web to find what we liked,
+see that it was in stock, and check out with a retailer. I have this habit, though. I'm constantly taking screenshots of products I like,
+but they usually end up buried in my photos. Here's one I've saved for a pair of sneakers I saw.
+But now to solve for this, when you view any screenshots in Google Photos, there will be a suggestion to search the photo with Lens.
+You'll see organic search results that can help you find that pair of shoes or browse similar styles.
+Then, once you have ideas, you probably want to do some research and might end up on YouTube.
+Earlier this year, we shared that we're building a new experience to make it easier to shop products you learn about from your favorite YouTube
+creators. That experience is in pilot now, so stay tuned for updates.
+And since we're talking about researching, I don't know about you, but I often jump around from site to site when I'm comparing products.
+And if I get distracted or close any tabs, it can be hard to keep track of items I found.
+Soon, on Chrome, when you open a new tab, you'll be able to see your open carts from the past couple of weeks.
+For example, I'm reminded that I've still got a shirt in my Tentree cart and a few things in my Lowe's cart.
+It will also find you promotions and discounts for your open carts if you choose to opt in.
+Here, I can see Electronic Express is offering 10% off. Your personal information and what's
+in your carts are never shared with anyone externally without your permission. Now, once you're done researching
+and are ready to buy, we also want to help you get the best value. Coming soon, we'll use your favorite loyalty programs
+for merchants like Sephora and Target to show you the best purchase options. In this example, since you're a Sephora Beauty Insider,
+you already qualify for a promotion. And if you're not ready to buy, you can opt in for price drop notifications.
+Taking a step back, these experiences are only possible because of our vibrant community of retailers on Google.
+We're proud to take an open ecosystem approach that helps any merchant, both big and small,
+get discovered. And that gives you more shopping choices. This has been more important than ever
+in what's been a tough time for businesses. That's why this past year, we accelerated our plans
+and made it free for merchants to sell their products across Google. Since then, we've seen an 80% increase in merchants on Google
+with the vast majority being small- and medium-sized businesses. And today, we're making it easier than
+ever for merchants of all sizes to get on Google. Together with Shopify, we're excited to launch
+a seamless integration so that the more than 1.7 million merchants on Shopify can reach more consumers
+in a matter of minutes. With just a few clicks, these retailers can sign up to appear across Google's 1 billion shopping
+journeys each day, from Search to Maps, Images to Lens,
+and YouTube. We believe you deserve the most choice available and will continue to innovate on shopping along
+every step of the way. So far, you've heard many of the ways we're using AI to make information
+more useful for you. AI can also help us revisit our favorite memories and moments, especially this past year, when many of us
+have been feeling nostalgic. To talk about new innovations in Google Photos, here's Shimrit.
+[APPLAUSE]
+SHIMRIT BEN-YAIR: Thanks, Bill. It's great to be back on campus talking with you all about Google Photos.
+We capture photos and videos so we can look back and remember. They help us feel connected.
+And today, there are more than $4 trillion photos and videos stored in Google Photos.
+But having so many photos of loved ones, screenshots, selfies all stored together makes
+it hard to rediscover the important moments. In fact, the vast majority of photos in Google Photos
+are never viewed. And we've heard from you how powerful it is to rediscover a memory that helps you tell your story
+and reconnect. So today, I want to show you new features that use AI to resurface meaningful moments
+and bring your memories to life, all while giving you more control so you can choose what you want to relive.
+Soon, we're launching a new way to look back that we're calling Little Patterns.
+Little Patterns show the magic in everyday moments by identifying not-so-obvious moments
+and resurfacing them to you. I'll show you how this works. This feature uses machine learning to translate photos
+into a series of numbers and then compares how visually or conceptually similar these images are.
+When we find a set of three or more photos with similarities such as shape or color, we'll surface them as a pattern.
+When we started testing Little Patterns, we saw some great stories come to life, like how one of our engineers traveled the world
+with their favorite orange backpack, or how our product manager, Christie, had
+a habit of capturing objects of similar shape and color. Or for me, I received a pattern of my family hanging out
+on the couch over the years. We have so many fun memories there, but I didn't realize how many pics
+I'd snapped until I saw this. These photos on their own wouldn't necessarily
+be meaningful. But when they're pieced together, they tell a story that's uniquely yours.
+As always, these memories are privately presented to you and are only visible to your Google Photos account.
+In addition to using machine learning to better curate your memories, we also want to bring these moments to life
+with cutting-edge effects. Last year, we launched Cinematic Photos to help you relive your memories in a more vivid way.
+I want to show you how we're building on this feature with computational photography to make still photos even more immersive.
+When we take a photo, most of us actually take two to three photos of the same shot just to make sure we get the right one.
+Any parent who tries to get all their kids smiling and looking at the camera at the same time will know what I mean.
+Cinematic moments will take these near-duplicate images and use neural networks to synthesize
+the movement between image A and image B. We interpolate the photos and fill in the gaps
+by creating new frames. The end result is a vivid moving picture.
+And the cool thing about this effect is it can work on any pair of images, whether they were captured on Android, iOS,
+or scanned from a photo album. Creating this effect from scratch would take professional animators hours.
+But by applying machine learning, we can automatically bring this experience right to your gallery.
+And we know that looking back is never a one-size-fits-all solution. It's more meaningful when you can look back on content
+that's personalized to you. So later this year, you'll see new types of memories that are relevant to the moments you celebrate,
+whether that's Diwali, Lunar New Year, or something else.
+For me, my family celebrates Hanukkah. So I can look back on a collection of Hanukkah moments
+right in my photo grid. In addition to providing personalized content
+to look back on, we also want to give you more control. We heard from you that controls can
+be helpful for anyone who has been through a tough life event, breakup, or loss.
+Specifically, we heard from the transgender community that resurfacing certain photos can be painful.
+So we are working directly with our partners at GLAAD and listening to feedback to understand how we can make
+reminiscing more inclusive. These insights inspired us to give you the control
+to hide photos of certain people or time periods from our Memories feature.
+And soon, you'll be able to remove a single photo from a memory, rename the memory, or remove it entirely.
+We're making all these controls easy to find so you can make changes in just a few taps.
+And so, this summer, you'll be able to uncover a Little Patterns, rediscover meaningful memories,
+or immerse yourself in a cinematic moment. And you can do it all on your own terms with new controls.
+Looking back is an important part of the human experience, which is why Google Photos is making it easier than ever
+to relive your memories. Thank you. [APPLAUSE]
+BILL READY: Thanks, Shimrit.
+I'm really excited by the progress we are making with AI. As you've heard today, we're using
+AI to advance our understanding of information and build more helpful experiences
+across Google Search, Maps, Shopping, and Photos.
+Next, you're going to hear about innovations in our computing platforms. We're excited to show you all of the improvements to Android 12,
+the newest release of our open platform, starting with a fundamental change
+to how you experience it. I'll hand it off to Matias to give you a look. [MUSIC PLAYING] [APPLAUSE]
+[BIRDS CHIRPING]
+[WATER POURING] [BIRDS CHIRPING]
+[APPLAUSE]
+Design + Android
+MATIAS DUARTE: From the beginning, design has made computers more helpful by making them easier
+to use, more personal. In 2014, we introduced Material Design
+to address the explosion of mobile phones. It set a new standard for Android apps.
+And for Google, it rationalized our products simply and beautifully.
+But today, the challenge is even bigger. Now we're at a moment where computers
+are showing up in places that we never imagined. It's also a moment where people are
+yearning to express their individuality and demanding control from their technology.
+We believe this is a challenge for the whole industry-- to acknowledge that emotion is essential
+and that beauty is personal. To face this challenge, we had to question everything.
+Instead of form following function, what if form followed feeling?
+Instead of Google Blue, we imagined Material You,
+a new design that includes you as a co-creator,
+letting you transform the look and feel of all your apps by generating personal material palettes that mix color science
+with a designer's eye. And engineering UI elements to respond in real time,
+we can delight every style-- a new design that can flex to every screen
+and fit every device. Your apps adapt comfortably every place you go--
+a new design that never compromises on accessibility, granting transformative control of contrast, size,
+and even line width. Material can satisfy every need.
+No longer defaulting to one-size-fits-all, Material You is a radical new way to think about design.
+We invested years into advancing UI engineering, making it possible for any app, not just Google's, to blend
+in their users' styles and stay unique and beautiful.
+As designers, sharing control of every pixel is terrifying.
+But that leap of faith is revolutionizing design across Google.
+For the first time, we can consider the details of devices together with the pixels on their screens.
+We unify everything that Google makes through common proportions, textures, and shapes.
+We give you tasteful choices, blending into your homes and complementing your wardrobes.
+More than choice, we uniquely tailor your Google products for the perfect fit--
+beyond light and dark, a mode for every mood.
+These selections can travel with your account across every app and every device.
+Material You comes first to Google Pixel this fall, including all of your favorite Google apps.
+And over the following year, we will continue our vision, bringing it to the web, Chrome OS, wearables, smart displays,
+and all of Google's products. Material You is a way to design differently.
+We can't wait to see what brings you joy and what you find beautiful.
+Next are the details of Android 12. Beyond the redesigned widgets and your material palette,
+Sameer will show you our most personal OS ever. [APPLAUSE]
+[MUSIC PLAYING]
+SAMEER SAMAT: Hi, everyone. It's great to be back live at Google I/O. What you just saw was a peek into the biggest design change to Android
+in years, and we're going to go through all of it. But first, I wanted to share some exciting news with you.
+Just this week, we crossed an amazing milestone. There are now 3 billion active Android devices
+around the world. This would never have been possible without the entire Android ecosystem.
+But there's so much more to do, and Android 12 is one of our most ambitious releases ever.
+There are three big themes that we're focused on. First, smartphones are deeply personal.
+And we think your phone should adapt to you, not the other way around. Second, to keep your personal information safe,
+the OS should be secure by default and private by design. And third, we want all of your devices--
+TVs, cars, watches, and more-- to work better together with your phone at the center.
+I'm excited to show you more. So let's start by taking a look at our new UI for Android.
+We've overhauled everything from the lock screen to system settings, revamping the way
+we use color, shapes, light, and motion, inspired by Material You.
+Let me show you what we've done with color. We've got something new planned for Google Pixel, using what we call color extraction.
+Think of it as one part art and one part science. Watch what happens when the wallpaper changes,
+like if I use this picture of my kids actually getting along for once. I set it as my background, and voila, the system
+creates a custom palette based on the colors in my photo. [APPLAUSE]
+We use a clustering algorithm with material color targets
+to determine which colors are dominant, which ones are complementary, and which ones just look great
+together. It then applies hues across different parts of the interface. In other words, it's going to be beautiful.
+The result is one-of-a-kind design just for you. And you'll see it first on Google Pixel in the fall.
+But this new UI is more than a visual redesign. Many interactions have been simplified and system
+spaces purposefully reimagined. Starting from the lock screen, the design is more playful with dynamic lighting.
+Pick up your phone, and it lights up from the bottom of your screen. Press the Power button to wake up the phone instead,
+and the light ripples out from your touch. Even the clock is in tune with you.
+When you don't have any notifications, it appears larger on the lock screen so you know you're all caught up.
+The notification shade is more intuitive, with a crisp at-a-glance view of your app notifications,
+whatever you're currently listening to or watching, and Quick Settings that give you control over the OS with just
+a swipe and a tap. The Quick Settings space doesn't just look and feel different.
+It's been redesigned to include Google Pay and Home controls while still allowing for customization.
+So you can have everything you need right at your fingertips. And now you can invoke the Google Assistant
+by long-pressing the Power button, making it easier than ever to harness the power of Google.
+Our engineers have done some pretty amazing work on performance in Android 12 to make all the motion and animation in the UI super smooth.
+We greatly reduced lock contention in key system services such as Activity, Window,
+and Package Manager. And the team also reduced the CPU time of Android System
+Server by a whopping 22%. Basically, everything's faster.
+There's a lot to explore in this new design, and I can't wait for you all to try it out.
+Now, the design isn't the only part of the device that's personal. Our phones hold so much important information.
+And it's critical to keep it private and secure. To tell you more about that, let me hand it off to Suzanne.
+[MUSIC PLAYING] [APPLAUSE]
+SUZANNE FREY: Hi, everyone. From our first device to 3 billion
+today, we designed security and privacy for everyone,
+no matter how expensive their device is. We've built game-changing capabilities for everyone,
+from file-based encryption, to TLS by default, and secure DNS to prevent traffic tampering and data
+breaches. And since 2017, Google Pixel and Samsung Galaxy
+have continually received the highest security rating in Gartner's annual mobile OS comparison report.
+Simply put, the most secure devices run on Android. And with Android 12, we're going even further
+to keep your information safe. Let's start with a common experience--
+granting an app access to sensitive information. Turn-by-turn directions based on your precise location
+are really helpful. But we recognize that this access can also raise privacy questions.
+To give people more transparency and control, we've created a new privacy dashboard
+that shows you what type of data was accessed and when. This dashboard reports on all the apps on your phone,
+including all of your Google apps. And we've made it really easy to revoke an app's permission
+directly from the dashboard. We've also added an indicator to make it clear
+when an app is using your camera or microphone. But let's take that a step further.
+If you don't want any apps to access the microphone or camera, even if you've granted them permission in the past, we've added two new toggles
+in Quick Settings so you can completely disable those sensors for every app.
+So those are a few examples of privacy you can immediately see. We're excited to share more on under-the-hood privacy, privacy
+that's baked into the heart of Android. As machine vision, speech recognition, and AI
+become increasingly beneficial, there are even more opportunities for the OS to be helpful.
+And to make it easier for everyone to embrace these new innovations, we're combining cutting-edge features with powerful privacy.
+You heard Jen talk about the ways we're building private-by-design technology. Thanks to advances here with Android's Private Compute Core,
+we're able to introduce new features using our unique AI capabilities while still keeping your personal information safe,
+private, and local to your phone. Android's Private Computer Core enables things
+like Now Playing, which tells you what song is playing in the background, and Smart Reply, which suggests responses
+to your chats based on your personal reply patterns. And there's more to come later this year.
+And by the way, all of the sensitive audio and language processing happens exclusively on your device.
+It's isolated from the network to preserve your privacy. And like the rest of Android, Private Compute Core
+is open source. It's fully inspectable and verifiable by the security community.
+Android is the first commercial mobile operating system to enable technically enforced privacy like this.
+And this is just one of the ways we'll continue to pioneer innovation while also maintaining
+the highest standards of privacy, security, and safety.
+And there's a whole lot more for privacy and security in Android 12 which you can hear about in our
+What's New in Android Privacy session later today. [MUSIC PLAYING] Now I'll hand it back to Sameer to talk
+about how we're building for a multi-device world. [APPLAUSE]
+SAMEER SAMAT: Thanks, Suzanne. Phones have become the center of our digital lives. And they interact with a ton of other devices we use
+on a day-to-day basis-- laptops, TVs, cars, and more. This next chapter of Android is focused
+on delightful and helpful experiences across all the devices that are connected to your phone
+so that everything just works better together. Let's start by looking at how your phone works
+with your Chromebook. With a single tap, you can unlock and sign in to your Chromebook when your phone is nearby.
+Incoming chat notifications from apps on your phone are right there in Chrome OS. And soon, if you want to share a picture,
+one click, and you can access your phone's most recent photos.
+As another simple example, let's talk about your TV's remote. If your home is like mine, the remote
+is missing, like, 50% of the time. To keep movie night on track, we're
+building TV remote features directly into your phone. You can use voice search or even type
+with your phone's keyboard. It's effortless. For the more than 80 million devices using Android TV OS,
+this will work right out of the box. And we want all of your smart devices to work together,
+not just those in your home, even your car. In fact, Android Auto is available in more than 100
+million cars. And the vast majority of new vehicles from loved brands like Ford, GM, Honda, and more will
+support Android Auto wireless-- no more cords.
+We're also really excited to introduce support for Digital Car Key.
+Car Key will allow you to lock, unlock, and start your car all from your phone.
+It works with NFC and ultra-wideband technology, making it super secure and easy to use.
+Just walk up to your car, step in, and away you go. And if your friend needs to borrow your car,
+you can remotely and securely share your digital key with them. Car Key is launching this fall with select Google Pixel
+and Samsung Galaxy smartphones. And we're working with BMW and others across the industry to bring it to their upcoming cars.
+OK, that was a quick look at Android 12, which will launch this fall. But you can check out many of these features in the Android
+12 beta. Today, try it out on phones from 11 device makers,
+including Google Pixel, OnePlus, and Xiaomi. From a personalized UI to industry-leading innovation
+in privacy and security and better experiences across all the devices in your life, there's
+so much transformative technology coming to your phone this year.
+Now let's go beyond the phone to what we believe is the next evolution of mobile computing,
+the smartwatch. Today, I'm excited to tell you about the biggest update
+to Wear OS ever. We've been hard at work in three key areas--
+first, building a unified platform jointly with Samsung,
+focused on battery life, performance, and making it easier for developers to build great apps for the watch.
+Second, a whole new consumer experience, including updates to your favorite Google apps.
+And third, a world-class health and fitness service created by the newest addition to the Google family, Fitbit.
+There's a lot to share here. So let's get started by talking about our partnership with Samsung.
+Samsung and Google have a long history of collaborating. From the early days of Android, whenever
+we've tackled problems together, the ecosystem has grown for everyone.
+And now we're combining the best of our two operating systems, Wear OS and Tizen, into a unified platform focused
+on faster performance, longer battery life, and a thriving developer community.
+Working together, we've made apps start up to 30% faster, and animations and transitions are super smooth.
+We're also addressing what consumers always want from a wearable-- longer battery life.
+By taking advantage of smaller, lower-power cores, we can do things like run the heart rate sensor continuously,
+letting you better track your activity during the day and your sleep overnight while giving you
+plenty of battery to spare for the next day. This combined platform isn't just for Google and Samsung.
+It will continue to be available for all device makers, which means developers can build apps with a single set of APIs
+and reach millions of consumers all over the world through the Google Play store.
+To hear more about our partnership, it's my privilege to welcome Patrick Chomet, who leads all product and experience at Samsung Mobile
+to Google I/O. [MUSIC PLAYING] [APPLAUSE]
+PATRICK CHOMET: Thank you, Sameer. For the past 12 years, Samsung and Google have worked together and made Samsung Galaxy and Android
+successful. We strive to create innovative experiences for Samsung Galaxy users.
+Most recently, we pioneered foldable devices and delivered rich communication experiences
+with Google Duo and Messages. And we are very excited about the new chapter of our partnership-- wearables the Galaxy Watch is already
+loved by Android smartphone users, with our signature designs, cool watch face
+ecosystem, and innovative [INAUDIBLE] platform. We are bringing the best of these Galaxy Watch capabilities
+together with Google on a single platform, unifying the ecosystem for customers and developers.
+We work closely to optimize the performance, meaning better responsiveness and longer battery life.
+You will also be able to enjoy Google apps and services like the Play Store, Google Maps, and more
+on the next Samsung Galaxy Watch. I am truly excited to welcome the developer community
+to our new vibrant and open ecosystem. Thank you. Back over to you, Sameer. [APPLAUSE]
+SAMEER SAMAT: Thank you, Patrick. We're very excited about our partnership.
+And I know many developers will be thrilled about our unified platform. On top of this new foundation, Wear
+is also getting a big update to the consumer experience. To tell you more, let me hand it off to Bjorn.
+[MUSIC PLAYING] [APPLAUSE]
+BJORN KILBURN: Thanks, Sameer. Hey, everyone. Over the last seven years, we've learned a lot about what people love most about their smartwatch.
+And we've built a whole new experience with your preferences in mind. First, our new navigation system makes it faster than ever
+to get things done on your watch. No matter what you're doing, you can access shortcuts to important functions like instantly
+switching to another app. Lets say I'm running with Strava, and I'm about to hit that long, grueling hill.
+I just double press to switch to my last app, Spotify, put on my most motivating song, and then switch right back
+without missing a beat. It's such a simple thing for a more helpful and fluid experience.
+People have also told us they love getting glanceable pieces of helpful information
+just a swipe away from their watch face, so we're expanding our collection of tiles.
+Thanks to the new Tiles API, any developer can create one, giving people many more ways to customize
+their home screen carousel. Now I can go from checking my next meeting
+to the weather forecast to this new tile from Calm, which helps me relax before a stressful event
+like presenting at Google I/O. [LAUGHTER] We've also been hard at work revamping the wearables app
+experience with a Material Design update and expanded capabilities, starting with your favorite ones from Google.
+This includes things like getting turn-by-turn navigation in Google Maps when you leave your phone behind,
+being able to use Google Pay in 37 countries and more than 200 public transit systems around the world,
+or downloading music from a catalog of more than 70 million songs for offline listening in the YouTube Music
+app, even without your phone nearby. We're thrilled about all the ways
+you'll be able to experience the best of Google on your watch. And speaking of the best of Google,
+I'm delighted to welcome the newest member of the family to Wear, Fitbit.
+Health and fitness is essential for wearables, and Fitbit has built a world-class service.
+So now, I'd love to welcome James to share more about our collaboration. [MUSIC PLAYING]
+[APPLAUSE] JAMES PARK: Thanks, Bjorn.
+Nearly 14 years ago, my co-founder, Eric Friedman, and I started Fitbit with a mission to make everyone in the world healthier.
+We've shipped over 130 million Fitbit devices as part of that mission. But over time, we've gone beyond just
+helping people track their fitness to supporting them in their health journey by providing a range of devices
+from trackers to smartwatches, along with software and services that give users amazing health
+and wellness content and rich insights and analytics on their data. And now that we're part of Google,
+we're working to bring the best to Fitbit to Wear. We will be making some of Fitbit's most popular features
+available on Wear watches, including tracking your health progress throughout the day and on-wrist celebrations
+to help keep you motivated. In the future, we'll be building premium smartwatches based on Wear that combine the best of Fitbit's health
+expertise with Google's ambient computing capabilities. All this is just the beginning of how, together with Google,
+we can do even more to inspire and motivate people on their journey to better health.
+Back to you, Sameer. [APPLAUSE]
+SAMEER SAMAT: Thanks, James. I couldn't be more excited for all the updates starting to roll out this fall.
+Stay tuned for our developer keynote to learn more about new tools and libraries to help you build great apps for the watch.
+From a unified platform with Samsung to a new consumer experience and a world-class fitness service from Fitbit,
+this is a new era for the wearables ecosystem.
+So that was a lot, but before we move on from Android and Wear,
+there's something really important to me personally that I wanted to share with you. As the world's largest OS, we have a responsibility
+to build for everyone. As part of our ongoing commitment to product inclusion, we're working to make technology
+more accessible and equitable. One of the most important parts of any smartphone
+is the camera. Pictures are deeply personal and play an important role
+in shaping how people see you and how you see yourself. But for people of color, photography
+has not always seen us as we want to be seen, even in some of our own Google products.
+To make smartphone photography truly for everyone, we've been working with a group of industry experts
+to build a more accurate and inclusive camera. Let's take a look.
+[VIDEO PLAYBACK] [MUSIC PLAYING] - People tend to think that cameras are objective,
+but a bunch of decisions go into making these tools. And historically, those decisions
+have not been taking people of color into account. - It's still reaffirming this idea that Black people aren't worthy of being seen.
+- So far, we've partnered with a range of different expert image-makers who've taken thousands of images
+to diversify our image data sets, helped improve the accuracy of our auto-white-balance and auto-exposure algorithms, and given aesthetic feedback
+to make our images of people of color more beautiful and more accurate. - The process was create almost like a guidebook
+to capture skin tones. - I can't help but think of my mom, and she still thinks that she's not
+beautiful because of pictures that were taken of her when she was younger. How many little girls are thinking they're not beautiful
+because they were the darkest-skinned person in the photo, and they didn't get represented?
+- The work is for us to do. It's not for people to change the way they look. It's for us to change the way the tools work.
+[END PLAYBACK] [APPLAUSE]
+SAMEER SAMAT: Our engineering team is learning a tremendous amount working with these experts. And we're making changes to our computational photography
+algorithms to address long-standing problems. For example, we're making auto-white-balance adjustments
+to algorithmically reduce stray light to bring out natural brown tones and prevent over-brightening and desaturation of darker skin
+tones. We're also able to reflect curly and wavy hair types
+more accurately in selfies with new algorithms that better separate a person from the background
+in any image. Although there's still much to do,
+we're working hard to bring all of what you've seen here and more to Google Pixel this fall.
+And we're committed to sharing everything we learned with the entire Android ecosystem
+so that together, we can make cameras that work fairly for everyone.
+Thank you. [APPLAUSE] [MUSIC PLAYING]
+[BIRDS CHIRPING]
+[ENGINE HUMMING]
+Health
+KAREN DESALVO: As Sundar shared, we want to build a more helpful Google for everyone
+to increase knowledge, success, happiness, and health beyond anything previously possible.
+Today, I want to bring you inside to see how our recent advances in image recognition
+are helping to solve some of the world's big health challenges. Let's start with breast cancer, a diagnosis
+that one in eight women will face in their lifetime. Mammograms can help catch breast cancer earlier,
+but half of all women experience a false alarm across a decade of screening.
+So we've been working to make mammography better. Last year, our research demonstrated AI's potential
+to analyze screening mammograms with accuracy similar to clinicians.
+And now we're collaborating with Northwestern Medicine on an investigative device research study
+to better understand how AI can apply to the breast cancer screening process.
+Let's hear why this matters.
+[VIDEO PLAYBACK] [MUSIC PLAYING] - When we found out Grandma had breast cancer,
+it was in the late '90s, and it wasn't something that anyone talked about.
+So my first mammogram was nerve wracking.
+Waiting for the results, every thought runs through your head-- what if they find something?
+It was the worst feeling. - One of the greatest anxieties about having mammography
+is the wait. It may take radiologists days, sometimes weeks, to get through the list of mammograms
+that need to be read. This is a national problem. We don't have enough people doing what we need to do.
+With the research study that we're doing with Google, we're using artificial intelligence that scans the mammogram image.
+It helps flag patients that may need additional imaging. I get an email that says the patient has been flagged.
+And if I agree, we take the patient, and they take more pictures right away.
+We're just at the tip of the iceberg in terms of what we can do with artificial intelligence. We would like to see that we are getting patients faster
+through the system. If we can show that, then we can potentially change radiologists' operations in such a way
+that they can prioritize patients that need care first. So it will be very exciting to see the results of this study.
+[END PLAYBACK] KAREN DESALVO: This is a great example
+of how we're learning if AI could support clinicians in their work to triage patients.
+At Google, we want everyone to have the highest quality care. Technology can and should help close the equity gap.
+That's why we're working to bring this technology to bear on important global health challenges,
+from diabetic retinopathy to our new work to improve tuberculosis detection using image
+recognition on chest X-rays. We also believe AI can assist you in your daily health.
+People come to Google Search every day to ask questions about their health.
+For example, we see billions of queries each year related to dermatologic issues.
+This is no surprise because derm conditions affect about 2 billion people globally.
+There are not enough specialists to meet the need. And so we wondered, how can AI help when you're searching
+and asking, what is this? Meet our AI-powered dermatology assist tool,
+a class I CE marked medical device that uses machine learning to help find answers
+to common derm conditions right from your smartphone or computer.
+From your phone, just upload three different photos taken from various angles of the skin, hair, or nail issue
+that you want to learn about and answer some basic questions about your symptoms. The AI model handles the rest.
+In a matter of seconds, you will have a list of possible matching dermatologic conditions.
+And then we can help you get relevant information to learn more. It seems simple, but developing an effective AI
+model for dermatology requires the capability to interpret millions and millions of images, inclusive
+of a full range of skin types and tones. When available, this tool will be accessible from your browser
+and cover 288 conditions, including 90% of the most commonly searched derm-related questions
+on Google. We're working to make it available to consumers on Google Search in the EU as early as the end of this year.
+We've just looked at ways we're applying AI to support people and caregivers everywhere, but health isn't just driven
+by medical care. It's also about our social and emotional well being.
+And that's where staying connected comes in. To find out how Google is helping,
+let me pass it back to Sundar. [MUSIC PLAYING] [APPLAUSE]
+SUNDAR PICHAI: Thank you, Dr. DeSalvo. It's exciting to see the ways in which AI and image recognition
+are transforming health care. There are two additional areas of research where
+Project Starline
+AI will have long-term impact. The first feels incredibly timely.
+We were all grateful to have video conferencing over the last year. It helped us stay in touch with family and friends
+and kept businesses and schools going. But there is no substitute for being together
+in the room with someone. So several years ago, we kicked off a project to use technology to explore what's possible.
+We call it Project Starline. It builds on the different areas of computer science
+I spoke about today and relies on custom-built hardware and highly specialized equipment.
+It's early and currently available in just a few of our offices. But we thought it'd be fun to give you
+a look at people experiencing it for the first time. Let's take a look.
+[VIDEO PLAYBACK] [MUSIC PLAYING] - When I walked into the room, I was a little suspicious-- what is this?
+I couldn't quite understand what was going to happen when that screen lit up. Eddie!
+[LAUGHTER] - So, you look beautiful. - I could feel her and see her--
+Hi! --and it was this, like, 3D experience.
+- I just saw my sister as if she was right in front of me. It really, really felt like she and I were in the same room.
+- It was like she was here. Bye.
+Wow. [END PLAYBACK] [APPLAUSE]
+SUNDAR PICHAI: Some key advances have made this experience possible.
+First, using high-resolution cameras and custom-built depth sensors, we capture your shape and appearance
+from multiple perspectives and then fuse them together to create an extremely detailed,
+real-time 3D model. The resulting data is huge, many megabits per second.
+To send this 3D imagery over existing networks, we developed compression and streaming algorithms
+that reduce the data by a factor of more than 100. And we have developed a breakthrough light field
+display that shows you the realistic representation of someone sitting right in front of you
+in three dimensions. As you move your head and body, our system adjusts the images to match your perspective.
+You can talk naturally, gesture, and make eye contact. It's as close as we can get to the feeling of sitting across
+from someone. As sophisticated as the technology is, it vanishes so you can focus on what's most important.
+With Project Starline, we've brought together a set of advanced technologies with the goal
+of creating the best communications experience possible. We have spent thousands of hours testing it in our own offices,
+and the results are promising. There's also excitement from our lead enterprise partners.
+We plan to expand access to partners in health care and media.
+In pushing the boundaries of remote collaboration, we have made technical advances that
+will improve our entire suite of communications products. We look forward to sharing more ways for you
+to get involved in the months ahead. The second area of research I want to discuss
+Sustainability
+is our work in driving forward sustainability. Sustainability has been a core value for more than 20 years.
+We were the first major company to become carbon neutral in 2007.
+We were also the first to match our operations with 100% renewable energy. That was in 2017, and we have been doing it ever since.
+And last year, we eliminated our entire carbon legacy. Our next ambition is our biggest yet.
+By 2030, we aim to operate on carbon-free energy 24/7.
+This means running every data center and office on clean electricity every hour of every day.
+Operating 24/7 on carbon-free energy is a step change from current approaches.
+It means setting a higher bar to never emit carbon from our operations in the first place.
+It's a moonshot, like LaMDA or quantum computing. And it presents an equally hard set of problems to solve.
+First, we have to source carbon-free energy in every place we operate, a harder task in some
+places than in others. Today, five of our data centers are already
+operating at or near 90% carbon-free energy. In Denmark, we built five new solar farms
+to support our newest data center, complementing existing wind energy on the Danish grid.
+And it's operated carbon-free 90% of the time since day one.
+Another challenge of 24/7 carbon-free energy is just that-- it has to run every hour of every day.
+So last year, we rolled out the world's first carbon-intelligent computing platform.
+It automatically shifts the timing of many compute tasks to when clean power sources are most plentiful.
+And today, I'm excited to announce we are the first company to implement carbon-intelligent load shifting across both time and place
+within our data center network. By this time next year, we'll be shifting more than a third
+of non-production compute to times and places with greater availability of carbon-free energy.
+To reach 24/7, we also need to go beyond wind and solar and tap into sources of on-demand clean energy
+like geothermal. Geothermal uses the consistent heat from the Earth to generate electricity.
+But it's not widely used today, and we want to change that. I'm excited to announce that we are
+partnering to develop a next generation geothermal power project.
+This will connect to the grid, serving our Nevada data center starting next year.
+We believe our Cloud AI combined with a partner's expertise in fiber optic sensing, our novel techniques
+can unlock flexible geothermal power in a broad range of new places.
+Investments like these are needed to get to 24/7 carbon-free energy.
+And it's happening right here in Mountain View too. We are building our new campus to the highest sustainability
+standards. When completed, these buildings will feature first-of-its-kind
+dragonscale solar skin, equipped with 90,000 silver solar panels
+and the capacity to generate nearly 7 megawatts. They will house the largest geothermal pile
+system in North America, helping to heat the buildings in the winter and cool them in the summer.
+Sustainability is one of the defining challenges of our time. And advances in computer science and AI
+have a huge role to play in meeting it. So it's a fitting way to end our I/O keynote.
+I think of I/O not just as a celebration of technology but of the people who use it and build it,
+including the millions of developers watching today. Over the past year, we have seen how technology
+can be used to help billions of people through the most difficult of times. It's made us more committed than ever
+to our goal of building a more helpful Google for everyone. Thank you for joining us today.
+Please enjoy the rest of Google I/O. And stay tuned for the developer keynote coming up next.
+I hope to see you in person next year. Until then, stay safe and be well.
+[CHEERING AND APPLAUSE] [MUSIC PLAYING]

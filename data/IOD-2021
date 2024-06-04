@@ -1,0 +1,428 @@
+Opening
+Hi, everyone, it’s great to be back here at Google I/O again this year. I’m Jason Titus, and I work on Developer Relations here at Google.
+As Sundar said, we all miss being able to get together in person; and while this is a different vantage point than we’re used to,
+I’m glad we get to get together virtually. We have over 225,000 registered attendees joining us from 181 countries today
+with some largest audiences from India, the U.S., Brazil, Germany and South Korea.
+Many of these communities are going through extremely difficult times at the moment, so wherever you are, we hope you and those you care about are staying safe.
+This year has been unlike anything I imagined we’d be living through. It’s changed so much, including how we live, work and interact with others.
+We’ve had to adapt to working together while physically apart and tackling problems we never imagined we'd have to face,
+all while dealing with tremendous isolation and loss.
+But technology has played a significant role in helping us adapt to these challenges, allowing us to do everything from ordering groceries
+to working from home to staying connected with our loved ones. As we know, crisis doesn’t create character. It reveals it.
+And it’s been amazing to see developers like you coming up with solutions to the problems around you.
+It's in our developer DNA. We're problem solvers drawn to the hardest problems
+and using technology to tackle them. I’ve seen this again and again during the past year.
+In Kenya, there’s the team at Flare who used Google Maps to create an emergency response app designed specifically for places
+without emergency phone service, like 911 or 112, which has helped save over 7,000 people from previously impossible situations.
+In Russia, there’s Ivan Bakaidov, a 21 year old self-taught programmer with cerebral palsy
+who develops apps for other people with speech and motor challenges to communicate. All of his apps are free and open-source and helping people around the world.
+In Texas, there’s Mandy Price and her team at Kanarys, who are using machine learning and natural language processing through AutoML
+to help companies with their diversity, equity and inclusion efforts. While most companies can measure the representation of their employees,
+the team at Kanarys is using hundreds of data sources to quantify equity and inclusion, uncover structural bias and drive systemic change.
+And in Bangladesh, we have the team at Maya who created a digital assistant so women could get health information
+and telehealth consultations in their native language. The team partnered with Google to use an end-to-end transformer-based
+deep neural network to train on their in-house data set, which increased the accuracy of their natural language processing to above 90 percent.
+Now their app can provide answers in Bengali to questions on 50 topics. And in the last year, their platform has reached over 9- over 10 million users.
+These are just some of the stories we’ve heard about developers around the globe who’ve built and achieved amazing things during incredibly difficult times.
+You’ve also found ways to continue to collaborate during this time. Around the world, our Google Developer Group leaders have stepped up in a huge way,
+figuring out how to host events that worked for each of their communities. We had over 16,000 digital events last year, reaching over three million developers,
+which is nearly double the number of developers we reached the year before. That’s amazing, and while it’s not the same as working together in person,
+it’s helped to support each other when we’ve all needed it. We want to continue this support by meeting you where you are,
+to help you solve the problems you care about and build the products of our future, and that isn’t easy.
+We know it's hard to build in today's environment and not just because of the pandemic. It's challenging to code for multiple platforms.
+It can be hard to integrate machine learning, and it’s complex to manage user data safely and correctly in markets around the world.
+But across our products, we’re working to make it easier so that you can focus on the specific problem you’re working to solve.
+Today you’ll hear the latest on Android, web, Flutter, Firebase and machine learning.
+So thank you for joining us, and now I’d like to pass it on to Jacob, who will start us off with updates from the Android team.
+[Applause]
+I want to connect with people and then just get this conversation that we started here and make it happen all year long.
+Android
+Thank you, Jason. This really has been a year of huge changes for all of us.
+I remember watching what felt like futuristic video calls in the film “2001” as a kid.
+Now my three-year-old chats with her grandparents every week on Duo. We can’t wait to see each other, but it helps us get through a difficult time.
+With people depending on apps more than ever, expectations are higher and your jobs as developers aren’t getting easier.
+We want to help. Today, we’ll talk about three things: Android 12 for developers,
+building beautiful, high-quality apps with modern Android and how to bring apps to large screens and wearables.
+Ok, let’s talk about Android 12. As Sameer shared earlier, Android 12 is one of the biggest design changes ever,
+with new experiences that keep people safe and an all-new UI that is personal, smoother
+and much faster to help bring this to your apps running a ton of new features.
+Let’s start with user safety. As developers, you know it’s crucial that people trust your apps
+and the platform they’re on. To earn this trust, we believe people should understand how apps use their data,
+have control over how their data is used, and are comfortable it’s necessary for tasks that they’ve initiated.
+In Android 12, we’re adding multiple features to help people understand how apps use their data.
+To check usage in your apps or SDKs, we’re giving you auditing APIs and guidance.
+And to share more context about your usage, you get a new API, permission intent.
+To give people more control, we’re adding features like approximate location so they can decide how much they want to share.
+And to help people feel comfortable with the data you’re using, we’re giving you Bluetooth permissions to scan and connect to nearby devices.
+No more location needed. Now, we also want to help you build delightful apps.
+To us, this means that they perform really well and are engaging. Most of this is magic you add as developers, but the platform should help.
+First, performance. Sometimes apps are killed or notifications are delayed
+to improve responsiveness and battery. We know this is frustrating, especially when it’s unpredictable.
+To help, two areas we focused on are standby buckets and foreground services.
+For example, the new restricted standby bucket lets Android limit background work in ways that you’ll find predictable and transparent.
+Foreground services help people interact with apps that are doing work in the background, such as recording your morning run.
+But sometimes they're misused. Now you can only start foreground services from user actions or external events.
+And for background work that needs to run immediately, we’re giving you Expedited Jobs.
+To improve app startup, we adding guardrails that prevent apps from using notification trampolines.
+Working with Google Photos, it now launches up to 34 percent faster
+and we have new customizable launch animations and splash screens. Startup feels responsive and you can update it with your branding.
+That was performance. Let’s talk about making your apps engaging. We’re improving the experience across Android with things like
+updated notifications and bubbles. Your apps get this for free, but there's more.
+We’re improving media with a new API to insert content in apps like messaging, and we’re adding support for AVIF images and HEVC transcoding.
+And to give people a fun way to see when they’ve scrolled past the end of your content we’re giving you Stretch Overscroll.
+And to make widgets more interactive, you're getting features like animations and new UI controls.
+Now, that's just a quick glimpse into Android 12. Watch the What’s New in Android session for more,
+and then download the beta. Test it with your apps and tell us what you think.
+Now over to Karen to see how to build beautiful, high-quality apps with modern Android.
+[Applause]
+Thanks, Jacob. We’ve been hard at work improving the mobile developer experience, what we call Modern Android Development.
+You told us keep the openness but become opinionated about the right way to do things and make the right way the easiest way, so we did.
+We know you need a powerful IDE that can keep up with you, a programming language that enables you to do more with less code,
+and APIs that solve the hardest problems on mobile, yet have backward compatibility.
+So we brought you Android Studio, Kotlin, Jetpack and Jetpack Compose,
+our powerful UI tool kit to easily build beautiful apps for all Android devices.
+First, Android Studio. We want to help you build higher quality apps faster,
+like showing test results across multiple devices, debugging databases and background tests with the app inspector,
+or making your apps more accessible with Android accessibility framework inside Android Studio.
+And for faster build speeds, we have the Android Gradle Plugin 7.0 and new DSL and variant APIs.
+You can find all of this in Android Studio Arctic Fox beta available today.
+Talking about build speeds, we are continuing to push on the boundaries of Kotlin
+with a brand new native solution to annotation processing for Kotlin built from the ground up.
+Kotlin Symbol Processing is available today and is a powerful and yet simple API
+for parsing Kotlin code directly showing speeds up to 2x faster with libraries like Room.
+With over 1.2 million apps in the Play Store using Kotlin, it is the most used language by professional Android developers,
+including 80 percent of the top thousand apps meaning it’s a language that’s chosen by apps that see millions of downloads
+and need to scale across those three billion devices. And here at Google, we love it too, with over 70 apps,
+including Drive, Home, Maps and Play. Ok, let’s talk about Android Jetpack.
+We took the hardest, most common developer problems, and created libraries to ensure your apps are high quality and have backward compatibility.
+Over 84 percent of the top 10,000 apps are now using a Jetpack library.
+And today we're going further. We know that your app performance matters. We’re launching Jetpack Macrobenchmark to capture large interactions
+that affect your app’s startup and jank before your app is released. It’s now in alpha and is a perfect complement to Firebase Performance Monitoring
+for after your app is released. Or persisting data more efficiently with DataStore,
+a new Kotlin coroutines API now in beta. And first-class support for Jetpack Compose with architecture libraries and so much more.
+And now for Jetpack Compose. We started building Compose in the open two years ago today here at Google I/O,
+listening to your feedback to make sure that we really got this right, with over 35 public releases.
+We took everything that we learned from Jetpack and Kotlin and we brought it to UI development.
+Compose is our modern native UI toolkit for Android, fully declarative for defining UI,
+so you can build gorgeous apps in way less time. Interoperable with existing Android views so you don’t need to rewrite
+a single line of code. It works with your existing code base from day one.
+With the Compose beta, developers around the world have created some truly beautiful, innovative experiences in half the time.
+I’m blown away by all of these amazing apps built during the Android Dev Challenge. The first challenge was all about puppies,
+which made for a ton of really cute moments in our team chat. It’s inspiring to see the number of developers already working
+on production apps with Compose like these: The New York Times, Airbnb, Twitter, Lift, Play.
+Ok, but enough talk. Now is a good time to hand it to Romain to give you a quick demo to see Compose in action.
+[Applause]
+Thank you, Karen, Compose makes it a lot easier and also a lot more fun to build beautiful UIs.
+Today, I would like to show you how you can add Compose to an existing app. So here’s an app I wrote using Views.
+I have a recycler view, and when I click on an item, it takes me to the next fragment. I have a nested scroll view, I have a FAB, and a bunch of other views.
+Now I would like to add Compose to the screen. So let's take a look at the code. I’ve already set up a ComposeView inside my fragments,
+and I can call setContent on it, and that’s pretty much it. That’s all I need to do to start writing Compose code.
+So we’re going to set up a theme. Then I’m going to add a list of Material cards
+and you can see the declarative model of Compose in action. It’s simple function calls; we don’t have complex XML,
+we don’t have complicated layout terms. It's much easier than before. And when we run the app and we go back to that screen.
+You will be able to see our Compose UI in action, and it interacts naturally with the viewers around it.
+Now, here’s something interesting. In every card you can see this physically accurate view of the sky
+that’s computed on the GPU using the selected time and location. It uses a surface view that means our Views inside Compose inside Views.
+You have full two-way interop. Compose is completely compatible with your existing code and existing custom views.
+There’s one more thing I would like to show you. These cards are pretty big, and I would like the user to be able to collapse them and expand them.
+So let's take a look at the code. We’ll add a single line of code around the content of the cards: AnimatedVisibility.
+And now when I rerun the app, and I go back to that screen, I can tap on the cards to expand them and collapse them with an animation.
+It’s that simple. So Compose is completely compatible with your code. Animations are a lot easier than before, so try it today.
+And now back to Karen.
+Thanks, Romain. That was really fun. I love how animation is so much easier to do
+and every UI component is Material by default, so it’s easy to build gorgeous UI. Stay tuned for the new Material You Components coming later this year
+for both Compose and Android views. We’re building Compose to make sure you’re productive,
+but also promise that it will scale. The API is fully complete. We are pressure testing the final bits, so Compose will hit 1.0 in July.
+It's a great time to start so your apps will be ready to launch. And about that openness.
+We have just open-sourced Compose for Wear OS. The next era of Android is about enabling all your devices connected to your phone;
+TVs, cars, watches, tablets, to work better together. Let’s talk more about building across screens.
+Starting from our largest screens with tablets, foldable and Chrome OS, there’s huge momentum as people are relying on these devices more
+to stay connected as family and friends, go to school, or work remotely. There are over 250 million active large screen active devices.
+Last year, Chrome OS grew 92% year over year, five times the rate of the PC market,
+making Chrome OS the fastest growing and second most popular desktop OS. Android app usage has tripled in the last year.
+It's so cool to see how apps are taking advantage of the extra space of larger screens, like Disney+.
+Watch how this looks on a Samsung Galaxy Z Fold 2. The app makes good use of the front screen, seamlessly transitions to tablet mode,
+and even makes use of the new Hinge API to tell when the phone is in tabletop mode.
+We studied how people interact with large screens like where their fingers and their thumbs are placed, and we’re giving you APIs and tools to make that experience easier,
+like having your content resize automatically to more space with SlidingpaneLayout 2.0 or a vertical navrail,
+max widths on components to avoid those terrible-looking stretch UIs, help updating fold and transition states with Constraint Layout 2.1 and MotionLayout,
+and updates to the platform, Chrome OS, and Jetpack windowmanager so apps just work better by default.
+We’re also making it easier for apps and services to access with voice with the help of Google Assistant.
+We heard your feedback. Enabling Assistant capabilities with your app is pretty hard, and it isn't part of your normal Android development flow.
+So using existing Android APIs, we’re bringing voice interaction right into Android Studio.
+With Android Shortcuts and a new Capabilities API, you can now create voice shortcuts for your apps.
+You can optimize your widgets for voice by connecting it to an app capability and adding TTS support, allowing your app to show up on surfaces
+like the Lock Screen on mobile or even as a view on Android Auto. Now to our smallest screens: smart watches.
+You heard the big updates we had for wearables earlier, a unified wearables platform built jointly with Samsung,
+combining the best of Wear OS and Tizen, a new consumer experience, and a world-class health and fitness service with Fitbit.
+As an Android developer, It means you'll have more reach. You can use all of your existing skills, tools, and APIs
+that make your mobile apps great to build for a single wearable platform used by people all over the world.
+And we’re bringing the best of Samsung to that unified platform, like Samsung’s sensor technology that measures exercise data more accurately
+with longer battery life. We now have new Jetpack APIs for Wear OS tailored for small screens
+and designed to optimize battery life, like the Jetpack Tiles API, so any developer can create a custom tile for all devices in the Wear ecosystem.
+It’s now in alpha and will start to show up on consumer watches with a new platform update.
+Look at all these tiles coming from Adidas, Sleep Cycle, Hole 19, Calm, and Flo.
+We also have a new set of APIs for health and fitness created in collaboration with Samsung.
+Data collection from sensors and metric computation is streamlined, consistent, accurate, from data like heart rate to calories
+to daily distance from a single trusted source. The alpha of the Health Services platform is available to use today
+and all of this comes together with new tooling with the release of Android Studio Arctic Fox beta,
+like easier pairing to test those apps and even a virtual heart rate sensor in the emulator.
+And when your app is ready, users will have a much easier time discovering the world of Wear apps
+on Google Play with some big updates coming to discoverability. The Wear app ecosystem is growing.
+We’re working with developers like these: Strava, Spotify, Calm, and Adidas to bring richer, more immersive app experiences to the platform.
+So that’s it. It’s a great time to get started here.
+That's our quick recap of the world of Android, including Android 12, all of the latest modern Android development like Jetpack Compose
+and some cool ways we’re working with you to bring your experience to new screens.
+Before I hand it off to Barb, let’s hear from our friends at Spotify.
+The Spotify vision is to connect millions of creators with billions of fans,
+and we believe that smart watches is an essential device for us to realize that vision.
+We just released our totally new and rebuilt version of the wear app. Now we’re working on the ability to download music and podcasts to your watch
+so you can go for a run without the distraction of bringing your phone with you, but still listen to your favorite playlists and podcasts.
+We believe that wearables will be more and more important in the future, and we see our investment in Wear as absolutely essential for Spotify.
+Web
+[Applause]
+The open web is grounded on interoperability, accessibility, and choice. Today, I’ll share how we’re working with you to add new capabilities
+and innovative approaches that advance what’s possible on the web. We’ll focus on three areas: powerful new capabilities,
+performance optimizations for fast and seamless sites, and new solutions for user privacy.
+Together, we've been bringing more advanced features and computing power to the browser, from an array of new APIs
+to the ongoing evolution of WebAssembly, which lets you run code in the browser at near-native speed.
+One trend that's really stood out in this past year is the browser’s emergence as a first-class platform
+for voice and video apps, because it’s so nice to jump right into a meeting without installing anything.
+And these new features are making these experiences even better. For example, when we couldn’t gather in person,
+WebRTC helped Yahoo enrich the online event experience with live video chat.
+And WebAssembly’s recently added support for SIMD processor instructions, dramatically reduced CPU overhead
+for workloads like video processing and streaming, enabling Google Meet to make background blur available to twice as many users.
+Another visually immersive experience that relies on powerful browser capabilities is 3D mapping.
+And while Google Maps on the web has been using WebGL to deliver high quality graphics rendering for years,
+it wasn’t available in the Maps JavaScript API for developers. That changes today with two new beta features that allow you
+to tilt and rotate the map in 3D, while a new WebGLOverlayView gives you the ability
+to render objects directly on the map for the first time, opening a world of new possibilities.
+Now, if you’ve been waiting for access to more device functionality, this year, we've added a growing number of hardware APIs to Chrome stable,
+allowing you to access nearly any device peripheral from your browser.
+And we’re enabling access to the native file system for developers building text, photo, and code editors
+so the Stackblitz team could build an IDE all in the browser.
+And meanwhile, simply getting in front of people is something we know every site cares about. So we’ve been working to better highlight Progressive Web Apps in the browser
+to help people install and return to your app through their home screen, dock, or taskbar.
+And making it easy to list your PWAs in Google Play across Android and now Chrome OS with the Trusted Web Activity API.
+Plus you can implement Google Play Billing for subscriptions and in-app purchases with the Digital Goods API.
+All of this work to expand the web’s capabilities and reach is empowering more companies to come to the web, like Tiktok,
+which brought its core experience to the mobile web in 2020 and desktop in 2021.
+So now people can find and share links to TikTok content across the open web.
+Or Adobe, which launched its rich Adobe Spark graphics and photo editor on the web to help creators and small businesses searching
+for a quick and easy creative app, or students doing classroom projects on their Chromebooks,
+or e-commerce sites like Rackuten, which built an installable PWA and quick response to
+a surge in demand for online groceries, for the engagement of an installed app and the cross-platform
+reach and efficiency of the web. We love to see developers combine the web’s core powers with new capabilities
+and give us a clear vision of what the web can be. And that vision has to include performance.
+So we’re continuing our work to make Chrome fast for users and developers.
+Highlights from the past year include making the V8 JavaScript Engine even faster and dramatically reducing its memory footprint,
+introducing a next generation compact image format, AVIF,
+and a back forward cache for instant navigations on Chrome, Android, and soon all Chrome versions.
+We’re also glad to see that lazy loading of images is now supported natively across all modern browsers,
+with the addition of a simple loading attribute. Of course, our work to build a faster web goes beyond the browser.
+We also want to help you improve your site’s performance. So we examined millions of pages across the web
+to identify what makes a site feel fast to users. And three areas stood out: how fast a site loads,
+how responsive a site is to user input, and how stable a site is as a user reads it.
+We published these three metrics as the Core Web Vitals to help site owners build the best experiences possible.
+Core Web Vitals are now integrated across many of our tools like Lighthouse, and we’re happy to see Core Web Vitals appear in analytic services like SpeedCurve
+and on CMS platforms like WiX. And this summer, Core Web Vitals will be added to the search ranking signals
+used by Google Search, helping users find relevant content that’s fast,
+and helping fast sites find new users. So to see how your site performs
+and learn how you can improve your Core Web Vitals, check out our measurement tools on web.dev.
+And finally, let’s turn to the important work of improving privacy in the Chrome browser
+and across the web. In 2019, we kicked off the Privacy Sandbox Initiative
+to develop new privacy-preserving technologies to help the web move away from cross-site user tracking while continuing to support
+the critical capabilities that keep the web healthy. This requires technical innovation and iteration,
+working with countless stakeholders across the web. Several of the new Privacy Sandbox APIs are now available for developers to test
+so that you can evaluate them and share feedback before they roll out to Chrome stable for broader use.
+And once the new solutions are in place and working for users and the ecosystem,
+we plan to phase out third-party cookies in Chrome. We're committed to navigating this transition responsibly.
+That means continuing to operate transparently every step of the way, sharing proposals, learnings and progress, listening to your input,
+and providing meaningful notice before we make changes in Chrome. This includes our ongoing efforts to combat
+covert tracking techniques such as fingerprinting. And we’ll continue to improve Chrome tools and user settings for safety and privacy.
+So please bring your questions to our AMA and check out our full Privacy Sandbox Session.
+We appreciate working with you, the developer community, to build powerful, fast web experiences that people love and that they trust.
+Next up, it’s the Flutter team. It’s been great working with them to add web support. And in a minute, you’ll hear the latest on Flutter from Zoey.
+[Applause] In these events, I come for knowledge, networking, to meet fellow developers,
+and see what things can I bring back to my community as well.
+Flutter
+-[Zoey Fan] Flutter is an open-source UI toolkit by Google that empowers developers to
+build beautiful experiences across multiple platforms. With Flutter,
+you can use the same code base to compile apps directly into machine code for Android,
+iOS, web, desktop or anywhere that you might want to paint pixels on the screen.
+It's the first UI platform designed for an ambient computing world.
+Traditionally, when building apps, the first decision you have to make is, “Where’s my app going to run?” With Flutter,
+you start from the experience you want to create and can shift to any device you want to target. And that’s just the beginning.
+Beyond Google, a global open source community is contributing to Flutter.
+For example, companies like Toyota, Canonical, Sony, Samsung, and Microsoft Surface team are all working to bring Flutter to even more
+devices. Already, there are more than 200,000 apps using Flutter in
+the Google Play store like WeChat, myBMW, and Grab. Flutter is used by developers all around the world.
+For example, ByteDance, the company behind TikTok is using Flutter in more than 70
+apps. Productivity is why they continue to use Flutter.
+Their engineers say, switching to Flutter has allowed them to ship new apps and features 30% faster.
+Within Google, more than 30 teams choose to build with Flutter for its productivity,
+also. This includes Google Pay, which unified its codebase
+with Flutter and went from two million lines of code to 1.1 million,
+reducing it by nearly half. Today, we are excited to announce Flutter 2.2,
+which builds on this foundation. Here are some highlights. We improved the beta support for a Flutter on desktop,
+so it's even easier for you to target Windows, macOS, and Linux from a single codebase.
+In this release, we’ve enabled sound null safety by default for a new projects.
+We’re helping developers to eliminate a whole class of errors, increase app performance, and reduce package size.
+Additionally, building on these enhancements to our developer experience, we’ve upgraded the Flutter DevTools to help you understand how memory is allocated
+in your apps. Another major theme in Flutter 2.2 is how we are investing in
+ways to help connect your apps to the rest of the Google ecosystem.
+We’re launching a new payment plugin with Google Pay. We're updating the Google Mobile Ads SDK for Flutter.
+We’re promoting the In-App Purchase plugin to production. We’re expanding the Google APIs and Cloud services your apps can access.
+And we’re committed to fully supporting Material You when they ship later this year.
+These are just a few of the updates in Flutter 2.2. Join our What’s New in
+Flutter Product keynote, sessions and codelabs for more. One more thing. Here at I/O, we’re celebrating by joining forces with
+Firebase, Google’s mobile and web app platform, to create a fun open-source demo showing how easy it is to build a Flutter
+web app powered by Firebase services. So. before you go, head to photobooth.flutter.dev.
+to check out the code and grab a photo with our mascot, Dash.
+And with that, it’s time to hear more about Firebase with Francis. [Applause]
+Firebase
+-[Francis Ma] Thanks, Zoe. Our mission for Firebase is to empower you to succeed by making it easy
+to build and run mobile and web apps. Over three million apps use Firebase every month.
+We know you rely on our products like Crashlytics and Realtime Database throughout your app’s life cycle,
+and we rely on your feedback to continuously improve our offerings to suit your needs.
+I'm happy to share what we've been working on to help you accelerate your app development,
+ensure a high quality app experiences for your users, and keep your users engaged.
+Firebase’s fully managed infrastructure products help you speed up and simplify developments, but adding new features can still be time-consuming
+and tie up engineering resources. Designed to increase productivity, Firebase Extensions are prepackaged solutions that let you quickly add more
+functionality to your mobile and web apps like translating text with the Google Cloud Translation API or exporting Firestore collections to BigQuery.
+And now we're expanding and releasing new extensions with companies you know
+and trust so you can do even more, like quickly integrate payments processing with
+Stripe, search Firestore with Algolia, send email with MailChimp, and communicate with your users via a MessageBird,
+all without having to write any code or learn new APIs on your own. So let's say you're an e-commerce app
+and you want to keep customers informed about the status of their orders. You can use the new MessageBird extension to send triggered messages to your users.
+It’s easy to set up with just a few clicks in the Firebase Console, and once it’s installed, you can add or update documents in Firestore and
+the MessageBird extension will automatically send messages to your customers on channels like messaging apps or SMS.
+This implementation that normally would have taken days can now be done in hours with Firebase Extensions. Check out Extensions now to see how they can help you expand your
+apps functionality without a lot of additional work. Once your app is live, users expect it to be fast and responsive. Performance Monitoring
+presents mobile and web performance data so you know exactly how users are experiencing your app from their point of
+view. We’re pleased to share our latest updates to Performance Monitoring.
+Now you can track and improve your performance metrics in real time!
+This lets you monitor the rollout of a new app release within minutes and identify issues before they become major problems. But that's not all.
+We redesigned the Performance Monitoring dashboard to help you better identify your
+most crucial performance issues. The new comprehensive trace table lets you compare trends across your metrics
+and zero in on the biggest changes that need your immediate attention, like a network call that's been running slower than before.
+This is in addition to the customizable metrics you can select to appear right at the top of the dashboard. So if you want to keep an eye out on the performance of
+a new API call you’ve just added, or make sure network request isn’t too slow,
+you can track that front and center right in the dashboard. Get started with Performance Monitoring today to ensure your users experience
+the best version of your app. Another challenge you can turn to Firebase to help you solve is user engagement,
+and that's where Firebase Remote Config comes in. Remote Config lets you update the behavior in appearance
+of your app for different audience segments without releasing a new version. This lets you run A/B tests,
+roll out new features or push custom experiences to groups of users, all from the Firebase Console.
+Now, while A/B tests are a great tool, it can take some time and expertise to set up,
+run, analyze, and roll out the results. And that’s why we’re launching a new feature called personalization,
+which uses the power of Google’s Machine Learning to automatically deliver the best experience to each of your users individually. Set-up is simple
+and personalization starts to deliver optimized experiences within hours.
+Best of all, you don't need to manually analyze the results and pick a single winning experience to roll out.
+So let's say you're a game developer and you want to balance the difficulty of your game to keep users engaged. With personalization,
+you can set up different options and then ask Firebase to figure out the rest for you. Personalization automatically learns which types of users respond best to which
+difficulty settings. It then assigns each user the right sets of value to maximize their enjoyment,
+whether they are a more casual player or prefer more of a challenge. To get ready for personalization, install the Remote Config SDK today,
+and if you want to test personalization right now, just join our Alpha program where you can get early access to it.
+With every improvement to Firebase, we aim to take away the hard work for you, so you can focus on delivering
+the amazing experiences that people rely on every day. Now, I’ll pass it over to Kemal to share more updates on machine learning.
+[Applause] -[Kemal] I like to meet
+other people in the community who are in the same circles I'm in and we're focused
+on the same things.
+Machine Learning
+We’ve seen the many ways AI is making our products more helpful in people’s daily lives.
+These inspiring stories are made possible by developers just like you, applying machine learning to solve the problems they’re passionate about.
+But machine learning is evolving at an incredible pace we need algorithms, hardware, datasets and use cases.
+We don’t expect you to be an ML expert. Instead, we build our platform so you don't have to be.
+So today I’m going to show you how, with no ML expertise required, you can build these experiences on the platforms that you care about,
+whether it’s on mobile, the web or in the cloud. Say you’re a mobile developer and you have an idea for a new app
+that reacts to different sounds in your environment, like traffic or birdsongs or music.
+How would you build this app? The first step is to look for existing models.
+On TensorFlow Hub, you can find hundreds of pretrained models for video, image, text, speech, and audio.
+Here, you’ll need an audio model, and this one by Google can recognize a variety of different sounds.
+The next step is to build this model into your app. To make it easy to integrate a model into your Android app,
+we’ve provided the TensorFlow Lite Task Library, which gives you simple APIs and data structures that work in the language you use.
+This allows you to go from all this code... ...to this.
+Finally, to recognize your own sounds, you will need to customize your model. Building your own model can be time-consuming.
+It requires taking several steps, like loading your own data, labeling it, defining its features, and more.
+TensorFlow Lite Model Maker automates these steps for popular use cases, allowing you to take a state-of-the-art model and customize it
+using your own dataset with only a few lines of code.
+As you can see, in just three simple steps, and no ML experience, you can build an app that recognizes any specific sound around you,
+and that’s just one example. You can go wherever inspiration takes you.
+The web is another area where we’re making it easier to build AI applications. JavaScript is one of the world’s most popular languages with millions of developers.
+TensorFlow.js, our JavaScript library, lets you build AI experiences in your website without having to install a single SDK.
+It runs directly in the browser, and all you need to do is reference it in your code,
+include the model as a JSON file, and you’re good to go. Let's take a look at an example.
+Imagine you want to detect spam in user comments. Bots can generate a lot of spam.
+By capturing it directly in the browser, you can save on server costs and improve user experience.
+A use case like this requires a text model that’s been trained with existing comments.
+Luckily, TendorFlow Hub also offers a text model you can start with, and you can test this one directly in your browser
+before even including it in your web app. Now, not all comment spam is the same,
+and you might have specific examples for your community. To customize your model, you can use TensorFlow Lite Model Maker again.
+And since you’re on the web, let’s use Colab, Google’s hosted notebook service,
+which allows anybody to run Python code through the browser. Colab gives you free access to TPUs and GPUs,
+so we can customize the spam detection model much faster. ML in the browser opens up many new exciting use cases
+for millions of web developers. For example, you can now use the entire collection of TensorFlow Lite models
+with TensorFlow.js so they can directly be used on the web. No conversion required.
+And the new Web Bluetooth API is compatible with TensorFlow Lite for microcontrollers so you can deploy models
+to a tiny board directly from your browser without installing software.
+As you can see, whether you’re a mobile or web developer, you don’t have to be an expert to start building these experiences.
+To help you get started, we’ve created a new On-Device Machine Learning site, with learning pathways and turnkey solutions where you can learn how to build
+common apps like the mobile and web examples I just shared. These tools are available open-source and complement our set of Cloud AI products,
+which support every type of ML developers. But we know that it can be frustrating to juggle
+with the various tools, frameworks and platforms. This can make it difficult to manage your models efficiently.
+To solve this, we have an exciting announcement. I’d like to introduce Vertex AI, a new managed machine learning platform
+that is built off of our experience in creating machine learning tools. It incorporates new features that let you experiment
+and deploy faster while simplifying model management. Let’s revisit our comment spam example using data from BigQuery.
+First, with Vertex AI, we don’t need to build a model ourselves. AutoML can take care of that for us.
+No code is required, just press the “train” button, and AutoML will search state-of-the-art models,
+customize them to build just the right one for you completely automatically.
+Of course you can also bring your own ML code written in popular frameworks, like TensorFlow, and use Vertex AI to train faster at scale.
+Next, Vertex makes it easy to understand and test our model. Here we can see a solid accuracy improvement
+and we can use feature importance to tell us which inputs our model relies on most to make its predictions,
+giving you more transparency. Here the comment text’s the biggest indicator of whether our model will mark it is spam.
+We can also easily test the model in the console. For this example, our model is 99.8% confident that this model is spam.
+So we have a great model, but we’re not done. In reality, we will need to keep iterating on this model.
+We need to make sure new comments are classified correctly. And if spammers adapt, we should update our model by retraining it on new data,
+evaluate it and redeploy it. This can be a lot of work. To automate this process, Vertex AI includes Vertex Pipelines,
+a new feature that helps you manage your models in production by letting you define and launch pipelines using Kubeflow or TensorFlow Extended.
+This is what our spam detection example looks like. With the output generated from each step,
+you can track the artifacts across the whole process. This makes it really easy to have Vertex AI automatically retrain your model
+on new spam data and redeploy it only if your quality targets are met.
+And we’ve already seen some great use cases from our beta partners: for example, Portal Telemedicina, a Brazilian healthcare startup,
+used Vertex AI and its model validation features to scan thousands of ECGs
+for heart problems across Brazil and Africa, helping doctors better detect and triage high-risk patients.
+We can’t wait to see what you build with Vertex AI. Check out our resources or get started by going to your Google Cloud Console.
+Many of you have made our AI tools what they are today and on behalf of the ML teams at Google, thank you.
+What inspires me the most is seeing what you do with these new tools in your hands, whether it’s on your phone or your browser or on tiny devices.
+We are amazed by the things you build; things that we could have never imagined, things like what we saw in the video of Jason Barnes and his prosthetic arm,
+which gave him back his ability to drum. That is truly amazing.
+Now, I'd like to turn it back over to Jason. [Applause]
+You can build and build and build. There’s always endless possibilities.
+[Applause]
+Closing
+The things you can do with machine learning are truly incredible. Some of the most exciting examples I’ve seen recently have been through the work
+we’re doing with startups around tackling climate change. Over the past two years, we’ve supported dozens of sustainability-focused startups
+in Japan and Europe. And we recently launched our first accelerator in North America.
+We’re helping 11 startups use machine learning to tackle big challenges from creating carbon negative concrete
+to making everything from office buildings to pet food more sustainable. These are companies like Yard Stick, who saw there was a huge opportunity
+to store CO2 from the atmosphere in the soil and decided to build the tools that were needed to measure it.
+They’re using Google Maps, TensorFlow and our Compute platforms to allow instant carbon level testing.
+This can enable large scale adoption of sustainable agricultural practices that will capture more carbon in the ground.
+Examples like this show how developers coming together can be such a powerful force,
+and that’s what makes moments like I/O so special. While you’re here, we encourage you to visit the community lounge
+to find and join the community group that’s right for you. Now, we’ve covered a lot of ground today,
+but there’s more our team wants to share with you. One of the benefits of a virtual I/O is that you can check out any session you want.
+No waiting in line or having to pick and choose what fits in your schedule. All content will be available on-demand.
+So I encourage you to step outside of your comfort zone and explore something new.
+For developers interested in emerging platforms, we have updates from ARCore about new APIs
+and information on the new industry-wide Matter initiative for the Smart Home.
+We also have updates from the Ads team, Google Pay and others, as well as sessions and codelabs to get you started
+on everything you’ve heard about today. And we’ve created I/O Adventure,
+which is an interactive environment where you can visit product domes, play with interactive demos and chat with attendees.
+You can also hear directly from the experts, with 26 live Ask Me Anything sessions with Googlers you know and love.
+We’re here to support you as you build your next amazing products.
+This year has shown us so much: how interconnected we are, how resilient we are,
+and how powerful we are when we all work together. I hope we can take what we’ve learned and build the world we need for the future.
+So enjoy I/O, connect with each other, learn new things, invest in yourself and in the community.
+I can't wait to see what you build. And I look forward to seeing you all in person soon. Thank you.
+[Applause]

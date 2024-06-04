@@ -1,0 +1,939 @@
+♪ (electronic pop) ♪
+(applause)
+Good morning. (cheering)
+Welcome to Google I/O. It's a beautiful day; I think warmer than last year. I hope you're all enjoying it. Thank you for joining us.
+I think we have over 7,000 people here today. As well as many, many people--
+we're live streaming this to many locations around the world. So, thank you all for joining us today. We have a lot to cover.
+But, before we get started, I had one important business which I wanted to get over with.
+Towards the end of last year, it came to my attention that we had a major bug in one of our core products.
+- It turns out... - (laughter) ...we got the cheese wrong in our burger emoji.
+Anyway, we went hard to work. I never knew so many people cared about where the cheese is. - (laughter) - We fixed it.
+You know, the irony of the whole thing is I'm a vegetarian in the first place. (laughter and applause)
+So, we fixed it-- hopefully we got the cheese right, but as we were working on this, this came to my attention.
+(laughter) I don't even want to tell you the explanation the team gave me
+as to why the foam is floating above the beer. (laughter) ...but we restored the natural laws of physics.
+(laughter) (cheering)
+So, all is well. We can get back to business. We can talk about all the progress since last year's I/O.
+I'm sure all of you would agree it's been an extraordinary year on many fronts. I'm sure you've all felt it.
+We're at an important inflection point in computing. And it's exciting to be driving technology forward.
+And it's made us even more reflective about our responsibilities.
+Expectations for technology vary greatly, depending on where you are in the world,
+or what opportunities are available to you. For someone like me, who grew up without a phone,
+I can distinctly remember how gaining access to technology can make a difference in your life.
+And we see this in the work we do around the world. You see it when someone gets access to a smartphone for the first time.
+And you can feel it in the huge demand for digital skills we see. That's why we've been so focused on bringing digital skills
+to communities around the world. So far, we have trained over 25 million people
+and we expect that number to rise over 60 million in the next five years.
+It's clear technology can be a positive force. But it's equally clear that we just can't be wide-eyed
+about the innovations technology creates. There are very real and important questions being raised
+about the impact of these advances and the role they'll play in our lives.
+So, we know the path ahead needs to be navigated carefully and deliberately.
+And we feel a deep sense of responsibility to get this right.
+That's the spirit with which we're approaching our core mission-- to make information more useful,
+accessible, and beneficial to society. I've always felt that we were fortunate as a company
+to have a timeless mission that feels as relevant today as when we started.
+We're excited about how we're going to approach our mission with renewed vigor, thanks to the progress we see in AI.
+AI is enabling for us to do this in new ways, solving problems for our users around the world.
+Last year, at Google I/O, we announced Google AI. It's a collection of our teams and efforts
+to bring the benefits of AI to everyone. And we want this to work globally,
+so we are opening AI centers around the world. AI is going to impact many, many fields.
+I want to give you a couple of examples today. Healthcare is one of the most important fields AI is going to transform.
+Last year we announced our work on diabetic retinopathy. This is a leading cause of blindness,
+and we used deep learning to help doctors diagnose it earlier. And we've been running field trials since then
+at Aravind and Sankara hospitals in India, and the field trials are going really well.
+We are bringing expert diagnosis to places where trained doctors are scarce.
+It turned out, using the same retinal scans, there were things which humans quite didn't know to look for,
+but our AI systems offered more insights. Your same eye scan,
+it turns out, holds information with which we can predict the five-year risk
+of you having an adverse cardiovascular event-- heart attack or strokes.
+So, to me, the interesting thing is that, more than what doctors could find in these eye scans,
+the machine learning systems offered newer insights. This could be the basis for a new, non-invasive way
+to detect cardiovascular risk. And we're working-- we just published the research--
+and we're going to be working to bring this to field trials with our partners.
+Another area where AI can help is to actually help doctors predict medical events.
+It turns out, doctors have a lot of difficult decisions to make, and for them, getting advanced notice--
+say, 24-48 hours before a patient is likely to get very sick--
+has a tremendous difference in the outcome. And so, we put our machine learning systems to work.
+We've been working with our partners using de-identified medical records.
+And it turns out if you go and analyze over 100,000 data points per patient-- more than any single doctor could analyze--
+we can actually quantitatively predict the chance of readmission,
+24-48 hours earlier than traditional methods. It gives doctors more time to act.
+We are publishing our paper on this later today and we're looking forward to partnering with hospitals and medical institutions.
+Another area where AI can help is accessibility. You know, we can make day-to-day use cases much easier for people.
+Let's take a common use case. You come back home at night and you turn your TV on.
+It's not that uncommon to see two or more people passionately talking over each other.
+Imagine if you're hearing impaired and you're relying on closed captioning to understand what's going on.
+This is how it looks to you. (two men talking over each other)
+As you can see, it's gibberish-- you can't make sense of what's going on. So, we have machine learning technology called looking to listen.
+It not only looks for audio cues, but combines it with visual cues
+to clearly disambiguate the two voices. Let's see how that can work, maybe, in YouTube.
+(man on right) He's not on a Danny Ainge level. But, he's above a Colangelo level. In other words, he understands enough to...
+(man on left) You said it was alright to lose on purpose. You said it's alright to lose on purpose,
+and advertise that to the fans. It's perfectly okay. You said it's okay! We have nothing else to talk about!
+(Sundar) We have a lot to talk about. (chuckles) (laughter) (cheering)
+But you can see how we can put technology to work to make an important day-to-day use case profoundly better.
+The great thing about technology is it's constantly evolving. In fact, we can even apply machine learning
+to a 200-year old technology-- Morse code-- and make an impact on someone's quality of life.
+Let's take a look. ♪ (music) ♪ (beeping)
+(computer's voice) Hi, I am Tania. This is my voice. I use Morse code by putting dots and dashes
+with switches mounted near my head. As a very young child, I used a communication word board.
+I used a head stick to point to the words. It was very attractive, to say the least.
+Once Morse code was incorporated into my life, it was a feeling of pure liberation and freedom.
+(boy) See you later. Love you. I think that is why I like sky diving so much.
+It is the same kind of feeling. Through sky diving, I met Ken, the love of my life,
+and partner in crime. It's always been very, very difficult
+just to find Morse code devices, to try Morse code. (Tania) This is why I had to create my own.
+With the help from Ken, I have a voice, and more independence in my daily life.
+But most people don't have Ken. It is our hope that we can collaborate with the Gboard team
+to help people who want to tap into the freedom of using Morse code. (woman) Gboard is the Google keyboard.
+What we have discovered, working on Gboard, is that there are entire pockets of populations in the world--
+and when I say "pockets" it's like tens of millions of people-- who have never had access to a keyboard that works in their own language.
+With Tania, we've built support in Gboard for Morse code. So, it's an input modality
+that allows you to type in Morse code and get text out with predictions, suggestions.
+I think it's a beautiful example of where machine learning can really assist someone in a way that a normal keyboard,
+without artificial intelligence, wouldn't be able to. (Tania) I am very excited to continue on this journey.
+Many, many people will benefit from this and that thrills me to no end.
+♪ (music) ♪
+(applause)
+It's a very inspiring story. We're very, very excited to have Tania and Ken join us today.
+(cheering)
+Tania and Ken are actually developers. They really worked with our team to harness the power of actually predictive suggestions
+in Gboard, in the context of Morse code. I'm really excited that Gboard with Morse code
+is available in beta later today. It's great to reinvent products with AI.
+Gboard is actually a great example of it. Every single day, we offer users-- and users choose-- over 8 billion auto correction
+each and every day. Another example of one of our core products
+which we are redesigning with AI is Gmail. We just had a new, fresher look for Gmail--
+a recent redesign. I hope you're all enjoying using it. We're bringing another feature to Gmail.
+We call it Smart Compose. So, as the name suggests, we use machine learning to start suggesting phrases for you
+as you type. All you need to do is to hit Tab and keep auto-completing.
+(applause)
+In this case, it understands the subject is "Taco Tuesday." It suggests chips, salsa, guacamole.
+It takes care of mundane things like addresses so you don't need to worry about it--
+you can actually focus on what you want to type. I've been loving using it. I've been sending a lot more emails to the company...
+- ...not sure what the company thinks of it. - (laughter) But it's been great. We are rolling out Smart Compose to all our users this month
+and hope you enjoy using it as well. (applause)
+Another product, which we built from the ground up using AI is Google Photos.
+Works amazingly well, and it scales. If you click on one of these photos,
+what we call the "photo viewer experience" where you're looking at one photo at a time, so that you understand the scale.
+Every single day there are over 5 billion photos viewed by our users,
+each and every day. So, we want to use the AI to help in those moments.
+We are bringing a new feature called Suggested Actions-- essentially suggesting small actions
+right in context for you to act on. Say, for example, you went to a wedding
+and you're looking through those pictures. We understand your friend, Lisa, is in the picture,
+and we offer to the share the three photos with Lisa, and with one click those photos can be sent to her.
+So, the anxiety where everyone is trying to get the picture on their phone, I think we can make that better.
+Say, for example, if the photo-- in the same wedding-- if the photos are underexposed, our AI systems offer a suggestion
+to fix the brightness right there, one tap, and we can fix the brightness for you.
+Or, if you took a picture of a document which you want to save for later, we can recognize, convert the document to PDF,
+- and make it... - (cheering)
+...make it much easier for you to use later. We want to make all these simple cases delightful.
+By the way, AI can also deliver unexpected moments. So, for example, if you have this cute picture of your kid,
+we can make it better-- we can drop the background color, pop the color, and make the kid even cuter.
+(cheering) Or, if you happen to have a very special memory,
+something in black and white-- maybe of your mother and grandmother-- we can recreate that moment in color
+and make that moment even more real and special. (cheering)
+All these features are going to be rolling out to Google Photos users in the next couple of months.
+The reason we are able to do this is because, for a while, we have been investing
+in the scale of our computational architecture. This is why last year we talked about our Tensor Processing Units.
+These are special purpose machine learning chips. These are driving all the product improvements you're seeing today.
+And we have made it available to our Cloud customers. Since the last year, we've been hard at work,
+and today, I'm excited to announce our next generation TPU 3.0.
+(cheering) These chips are so powerful that for the first time
+we've had to introduce liquid cooling in our data centers. (cheering)
+And we put these chips in the form of giant pods. Each of these pods is now 8x more powerful than last year--
+it's well over 100 pedaflops. And this is what allows us to develop better models,
+larger models, more accurate models, and helps us tackle even bigger problems.
+And one of the biggest problems we're tackling with AI is the Google Assistant.
+Our vision for the perfect Assistant is that it's naturally conversational, it's there when you need it
+so that you can get things done in the real world. And we are working to make it even better.
+We want the Assistant to be something that's natural and comfortable to talk to. And to do that,
+we need to start with the foundation of the Google Assistant-- the voice. Today, that's how most users interact with the Assistant.
+Our current voice is code-named "Holly." She was a real person. She spent months in our studio.
+And then we stitched those recordings together to create Voice. But 18 months ago,
+we announced a breakthrough from our DeepMind team called WaveNet. Unlike the current systems,
+WaveNet actually models the underlying raw audio to create a more natural voice.
+It's closer to how humans speak-- the pitch, the pace, even all the pauses, that convey meaning.
+We want to get all of that right. So, we've worked hard with WaveNet, and we are adding, as of today,
+six new voices to the Google Assistant. Let's have them say hello.
+(voice #1) Good morning, everyone. (voice #2) I'm your Google Assistant. (voice #3) Welcome to Shoreline Amphitheatre.
+(voice #4) We hope you'll enjoy Google I/O. (voice #5) Back to you, Sundar.
+(applause) Our goal is, one day,
+to get the right accents, languages, and dialects right, globally. WaveNet can make this much easier.
+With this technology, we started wondering who we could get into the studio
+with an amazing voice. Take a look. Couscous: A type of North African semolina and granules
+made from crushed durum wheat. (trilling)
+I want a puppy with sweet eyes and a fluffy tail who likes my haikus. Don't we all?
+(singing) ♪ Happy birthday, to the person whose birthday it is...
+Happy birthday... ...to you ♪
+John Legend... He would probably tell you he don't want to brag but he'll be the best assistant you ever had.
+(man) Can you tell me where you live? You can find me on all kinds of devices-- phones, Google Homes, and, if I'm lucky...
+...in your heart. (laughter and applause)
+That's right-- John Legend's voice is coming to the Assistant. Clearly, he didn't spend all the time in the studio
+answering every possible question that you could ask. But WaveNet allowed us to shorten the studio time,
+and the model can actually capture the richness of his voice. His voice will be coming later this year in certain contexts
+so that you can get responses like this: (John Legend's voice) Good morning, Sundar. Right now, in Mountain View, it's 65 with clear skies.
+Today, it's predicted to be 75 degrees and sunny. At 10 a.m. you have an event called Google I/O Keynote.
+- Then, at 1 p.m. you have margaritas. - (laughter) Have a wonderful day. I'm looking forward to 1 p.m.
+(laughter) So, John's voice is coming later this year. I'm really excited we can drive advances like this with AI.
+We are doing a lot more with the Google Assistant. And, to talk to you a little more about it, let me invite Scott onto the stage.
+Hey Google. Call Maddie. (Assistant) Okay, dialing now. Hey Google. Book a table for four. (Assistant) Sounds good.
+Hey Google. Call my brother. Hey Google. Call my brother. Text Carol. Can you text Carol for me, too?
+Hey Google. Who just texted me? - Yo Google. - (man) Cut! Kevin, that was great. But we haven't made "Yo Google" work yet,
+so you have to say "Hey". (together) Hey Google. - (calling) Hey Google. - Play some Sia. (lip trilling)
+Hey Google, play the next episode. Play The Crown on Netflix. All Channing Tatum movies.
+(Assistant) Okay. - Yo Google. - (man) Cut! That was great. Can we just get one where you say, "Hey Google"?
+Hey Google. Find my phone. (Assistant) Finding now. Whoa! - Hey Google. - (whispering) Hey Google.
+(man yelling) Hey Google! Yo Google. Lock the front door. (man) Cut! (man) Okay. Let's just go with Yo Google then.
+I'm sure the engineers would love to update... everything. Yo. ♪ (music) ♪
+(Assistant) Hi, what can I do for you? ♪ (music) ♪
+(cheering)
+Two years ago we announced the Google Assistant right here at I/O. Today, the Assistant is available on over 500 million devices,
+including phones, speakers, headphones, TVs, watches, and more.
+It's available in cars for more than 40 auto brands, and it works with over 5,000 connected home devices,
+from dishwashers to doorbells. People around the world are using it every single day.
+For example, we launched the Assistant in India last year, and the response has been incredible.
+Daily usage there has tripled since the beginning of the year. By the end of this year,
+the Assistant will support 30 languages and be available in 80 countries. So, we've made great progress.
+But we're just getting started. Today, we're going to share with you some important ways
+that the Assistant is becoming more naturally conversational and visually assistive,
+in order to help you do more and get time back. Now, as you heard from Sundar,
+new voices that you can choose from to make the Google Assistant your own are an important aspect
+of making the conversation with your Assistant more natural. But to be a great conversation partner,
+the Assistant needs to deeply understand the social dynamics of conversation.
+For example, let's be honest, it gets a little annoying to say, "Hey Google"
+every time I want to get my Assistant's attention. This grandma, who you might have seen on YouTube,
+was definitely feeling that way. - (woman) Googoo! - (laughter) Hey Googoo!
+Googoo! Hello Googoo! - (slowly) H-e-y Googoo. - (laughter)
+Okay Googoo. - He wanna know what is the weather... - (man) Tomorrow. (woman) Tomorrow.
+(Assistant) In Flagler Beach tomorrow, there'll be showers with a high of 65 and a low of 56.
+(laughter) - (Scott laughing) - (laughter)
+Well, the Assistant eventually worked for her. But, it shouldn't be so hard. Now you won't have to say, "Hey Google" every time.
+Check this out. Hey Google. Did the Warriors win? (Assistant) Yes, the Warriors won 118 to 92
+last Sunday against the Pelicans. (Scott) Nice! When's their next game?
+(Assistant) The Warriors' next game is today at 7:30 pm where they will be playing the Pelicans. (Scott) Great. It's going to be fun to watch tonight.
+Hey, remind me to find my Kevin Durant jersey when I get home. (Assistant) Sure. I'll remind you when you get home.
+Now, notice that I was able to have a natural, back-and-forth conversation with my Assistant, without having to repeat "Hey Google" for every followup request.
+Even more helpful-- my Assistant could understand when I was talking to it versus when I was talking to all of you.
+We call this Continued Conversation and it's been a top feature request. You'll be able to turn it on in the coming weeks.
+(applause) So, let's say it's almost game time.
+Hey Google. Turn on the Warriors game and start the popcorn maker. (Assistant) Sure. Here's the Golden State Warriors game
+on YouTube TV and turning the popcorn maker on. (Scott) Oh, and can you dim the lights in the family room and in the kitchen?
+(Assistant) Sure. Dimming the lights in the family room and in the kitchen. (Scott) Now, you'll notice in both of these examples
+I asked for multiple things at once-- something that feels really natural for us, but it's very difficult for computers to understand.
+It's something we call Multiple Actions and we're rolling out this capability in the Assistant now.
+You might think, "Come on, it's easy! Just look for the 'and'." (laughter)
+But it's not always so straightforward. In this example, even though it has the word "and,"
+it's not two requests-- it's actually just one. But here,
+even though it looks very similar, the Assistant has to break it apart to form the two requests.
+In linguistics it's called "coordination reduction." Multiple actions can get way more complicated
+so, just for fun-- Hey Google. Who was the governor of California when Kevin Durant was drafted,
+and what team drafted him? (Assistant) Arnold Schwarzenegger was the governor in 2007.
+Kevin Durant was drafted by the Seattle Super Sonics. (Scott) Alright. Just in case you were wondering.
+(applause) Alright. Next.
+We've also been working on improving the conversation with the Google Assistant for families.
+Last fall, we launched our Family experience for the Google Assistant. It provides family-friendly games, activities, and stories.
+We've continued to grow our library, and families have listened to over 130,000 hours of children's stories
+in the last two months alone. Now, as we continue to improve the experience for families,
+a concern that we've heard from many parents-- including people on the team who have children-- is are kids learning to be bossy and demanding
+when they can just say, "Hey Google" to ask for anything they need? It's not a simple area,
+but one step that we've been working on is something we call "Pretty Please." Some of the parents on the team have been testing it out with their families.
+Take a look. Hey Google. Talk to [inaudible]. Daddy, you forgot to say please.
+Okay Google. Please tell me a story. (Assistant) Thanks for saying please. Play "Freeze Dance," please.
+(Assistant) What a nice way to ask me. Tell me a story, please. (Assistant) Thanks for asking so nicely.
+Once upon a time, there was a wacky walrus... Please help me with my homework. Please...
+- Please... - Please... (Assistant) You're very polite. I know.
+♪ (music) ♪ (laughter) (Scott) So, the Assistant understands and responds to positive conversation with polite reinforcement.
+We've been consulting with families and child development experts, and we plan to offer Pretty Please as an option for families later this year.
+So, with new voices for your Assistant, Continued Conversation,
+Multiple Actions and Pretty Please, AI is helping us make big strides so everyone can have a more natural conversation
+with their Assistant. And now I'd like to introduce Lilian, who's going to share some exciting things we're doing,
+bringing Voice and Visual Assistance together. ♪ (music) ♪
+Well, thanks Scott, and good morning everyone. Over the last couple of years the Assistant has been focused
+on the verbal conversation that you can have with Google. Today, we're going to unveil a new visual canvas
+for the Google Assistant across screens. This will bring the simplicity of Voice together with a rich visual experience.
+I'm going to invite Meggy to come up because we're going to be switching to a lot of live demos. We gave you an early look at our new Smart Displays
+at CES in January. We're working with some of the best consumer electronic brands,
+and today I'm excited to announce that the first Smart Displays will go on sale in July.
+Today, I'll show you some of the ways that this new device can make your day easier, by bringing the simplicity of Voice
+with the glanceability of a touch screen. Let's switch over to the live demos.
+Now, this is one of the Lenovo Smart Displays. The ambient screen integrates with Google Photos
+and greets me with pictures of my kids, Bella and Hudson-- those are really my kids. Best way to start my day every morning.
+Because the device is controlled by voice, I can watch videos or live TV with just a simple command.
+This makes it so easy to enjoy my favorite shows while multitasking around the house.
+Hey Google. Let's watch Jimmy Kimmel Live. (Assistant) Okay, playing Jimmy Kimmel Live
+on YouTube TV.
+(applause coming via the device) (Jimmy) I had a funny thing happen. Here's something from my life--
+I was driving my daughter to school this morning... (Lilian) That's right. On YouTube TV you will be able to watch all of these amazing shows,
+from local news, live sports, and much more, and they will be available on Smart Displays.
+Now, of course you can also enjoy all the normal content from YouTube, including How-to videos, music, and original shows,
+like the brand new series Cobra Kai which we started binge watching this week because it's so good. (laughs)
+Now, cooking is another instance where the blend of voice and visuals is incredibly useful.
+Nick and I are always looking for simple family-friendly recipes. Hey Google.
+Show me recipes for pizza bombs. (Assistant) Sure. Here are some recipes. (Lilian) So we can choose the first one from Tasty-- that looks good.
+You see the recipe details come right up and we can just tap to start cooking. (Assistant) Sure, here's Tasty.
+So, seeing a video demonstration along with spoken instructions is a total game changer for cooking,
+especially when you have your hands full. Thanks, Meggy. (applause)
+We showed you a couple of ways that Smart Displays can make life at home easier, but there are so many more,
+from staying in touch with family with Broadcast and Dual Video Calling, to keeping an eye on your home with all of our other Smart Home partners,
+to seeing in advance what the morning commute's like with Google Maps. We're thoughtfully integrating the best of Google,
+and working with developer and partners all around the world to bring Voice and Visuals together in a completely new way for the home.
+Now, inspired by the Smart Display experiences, we've also been working to reimagine the Assistant experience
+on the screen that's with us all the time-- our mobile phones. I'm going to give you a sneak peak into how the Assistant on the phone
+is becoming more immersive, interactive, and proactive. So, we're going to switch to another live demo.
+Hey Google, tell me about Camila Cabello. (Assistant) According to Wikipedia,
+Karla Camila Cabello Estrabao is an American singer and songwriter. As you can see, we're taking full advantage of the screen
+to give you a rich and immersive response. Here's another. Turn down the heat.
+(Assistant) Sure. Cooling the living room down. For Smart Home requests what you can see here
+is we're bringing the controls right into your fingertips. And here's one of my favorites.
+Hey Google. Order my usual from Starbucks.
+(Assistant) Hello. Welcome back to Starbucks. That's one tall, non-fat latte with caramel drizzle.
+Anything else? No, thanks. (Assistant) And, are you picking that up at the usual place?
+So, I'm going to tap Yes. (Assistant) Okay, your order's in. See you soon.
+- (applause) - Yeah!
+We're excited to share that we've been working with Starbucks, Dunkin' Donuts, DoorDash, Domino's and many other partners
+on a new food pick up and delivery experience for the Google Assistant. We have already started rolling some of these out,
+with many more partners coming soon. Now, rich and interactive responses to my requests
+are really helpful, but my ideal Assistant should also be able to help in a proactive way.
+So, when I'm in the Assistant now, and swipe up, I now get a visual snapshot of my day.
+I see helpful suggestions based on the time, my location, and even my recent interactions with the Assistant.
+I also have my reminders, packages, and even notes and lists, organized and accessible right here.
+I love the convenience of having all these details helpfully curated and so easy to get to.
+This new visual experience for the phone is thoughtfully designed with AI at the core. It will launch on Android this summer, and iOS later this year.
+(applause)
+Now, sometimes the Assistant can actually be more helpful by having a lower visual profile.
+So, when you're in the car, you should stay focused on driving. So, let's say I'm heading home from work.
+I have Google Maps showing me the fastest route during rush hour traffic. Hey Google. Send Nick my ETA and play some hip-hop.
+(Assistant) Okay. Letting Nick know you're 20 minutes away and check out this hip-hop music station on YouTube.
+♪ (hip-hop music) ♪
+So, it's so convenient to share my ETA with my husband with just a simple voice command. I'm excited to share that the Assistant will come to navigation in Google Maps
+this summer. (applause)
+So, across Smart Displays, phones, and in Maps, this gives you a sense of how we're making the Google Assistant
+more visually assistive, sensing when to respond with voice, and when to show a more immersive and interactive experience.
+And with that I'll turn it back to Sundar. Thank you. ♪ (music) ♪
+Thanks, Lilian. It's great to see the progress with our Assistant. As I said earlier, our vision for our Assistant
+is to help you get things done. It turns out, a big part of getting things done
+is making a phone call. You may want to get an oil change schedule, maybe call a plumber in the middle of the week,
+or even schedule a haircut appointment. We are working hard to help users through those moments.
+We want to connect users to businesses in a good way.
+Businesses actually rely a lot on this, but even in the US, 60% of small businesses don't have an online booking system set up.
+We think AI can help with this problem. So, let's go back to this example.
+Let's say you want to ask Google to make you a haircut appointment on Tuesday between 10 and noon.
+What happens is the Google Assistant makes the call seamlessly in the background for you.
+So, what you're going to hear is the Google Assistant actually calling a real salon
+to schedule an appointment for you. - (cheering) - Let's listen.
+(ringing tone) (woman) Hello, how can I help you? (Assitant) Hi, I'm calling to book a women's haircut for our client.
+I'm looking for something on May 3rd. (woman) Sure, give me one second.
+- (Assistant) Mm-hmm. - (laughter) (woman) Sure. What time are you looking for, around?
+(Assistant) At 12 pm. We do not have a 12 pm available. The closest we have to that is a 1:15.
+(Assistant) Do you have anything between 10 am and 12 pm? (woman) Depending on what service she would like.
+What service is she looking for? (Assistant) Just a women's haircut, for now. (woman) Okay, we have a 10 o' clock.
+- (Assistant) 10 am is fine. - (woman) Okay, what's her first name? (Assistant) The first name is Lisa.
+(woman) Okay, perfect, so I will see Lisa at 10 o' clock on May 3rd. - (Assistant) Okay great, thanks. - (woman) Great, have a great day, bye.
+(applause)
+That was a real call you just heard. The amazing thing is the Assistant can actually understand
+the nuances of conversation. We've been working on this technology for many years.
+It's called Google Duplex. It brings together all our investments over the years on natural language understanding,
+deep learning, textured speech. By the way, when we are done the Assistant can give you
+a confirmation notification saying your appointment has been taken care of. Let me give you another example.
+Let's say you want to call a restaurant, but maybe it's a small restaurant which is not easily available to book online.
+The call actually goes a bit differently than expected. So, take a listen.
+(ringing tone) (woman) Hi, may I help you? (Assistant) Hi, I'd like to reserve a table for Wednesday, the 7th.
+(woman) For seven people? (Assistant) Um, it's for four people.
+(woman) Four people? When? Today? Tonight? (Assistant) Um, next Wednesday, at 6 pm.
+(woman) Actually, we reserve for upwards of five people. For four people, you can come.
+(Assistant) How long is the wait usually to be seated? (woman) For when? Tomorrow? Or weekend, or..?
+(Assistant) For next Wednesday, uh, the 7th. (woman) Oh no, it's not too busy. You can come for four people, okay?
+- (Assistant) Oh, I gotcha. Thanks. - (woman) Yep. Bye-bye. (laughter) (cheering)
+Again, that was a real call. We have many of these examples, where the calls quite don't go as expected
+but the Assistant understands the context, the nuance, it knew to ask for wait times in this case,
+and handled the interaction gracefully. We're still developing this technology,
+and we actually want to work hard to get this right-- get the user experience and the expectation right
+for both businesses and users. But, done correctly, it will save time for people,
+and generate a lot of value for businesses. We really want it to work in cases, say, if you're a busy parent in the morning
+and your kid is sick and you want to call for a doctor's appointment. So, we're going to work hard to get this right.
+There is a more straightforward case where we can roll this out sooner, where, for example, every single day we get a lot of queries into Google
+where people are wondering on the opening and closing hours of businesses. But it gets tricky during holidays
+and businesses get a lot of calls. So, we as Google, can make just that one phone call
+and then update the information for millions of users and it will save a small business countless number of calls.
+So, we're going to get moments like this right, and make the experience better for users. This is going to be rolling out as an experiment in the coming weeks.
+And so, stay tuned. (applause)
+A common theme across all this is we are working hard to give users back time.
+We've always been obsessed about that at Google. Search is obsessed about getting users the answers quickly
+and giving them what they want. Which brings me to another area-- Digital Wellbeing.
+Based on our research, we know that people feel tethered to their devices.
+I'm sure it resonates with all of you. There is increasing social pressure
+to respond to anything you get right away. People are anxious to stay up to date
+with all the information out there. They have FOMO-- Fear of Missing Out.
+We think there's a chance for us to do better. We've been talking to people, and some people introduced to us the concept of JOMO--
+the actual Joy of Missing Out. (chuckles) (laughter) So, we think we can really help users with digital wellbeing.
+This is going to be a deep, ongoing effort across all our products and platforms,
+and we need all your help. We think we can help users with their digital wellbeing
+in four ways. We want to help you understand your habits,
+focus on what matters, switch off when you need to, and, above all, find balance with your family.
+So, let me give a couple of examples. You're going to hear about this from Android a bit later,
+in their upcoming release. But one of my favorite features is Dashboard. In Android, we're actually going to give you full visibility
+into how you're spending your time-- the apps where you're spending your time, the number of times you unlock your phone on a given day,
+the number of notifications you got, and we're going to really help you deal with this better.
+Apps can also help. YouTube is going to take the lead, and if you choose to do so,
+it'll actually remind you to take a break. So, for example, if you've been watching YouTube for a while,
+maybe it'll show up and say, "Hey, it's time to take a break." YouTube is also going to work to combine-- if users want to--
+combine all their notifications in the form of a daily digest,
+so that if you have four notifications, it comes to you once during the day. YouTube is going to roll out all these features this week.
+(applause)
+We've been doing a lot of work in this area. Family Link is a great example, where we provide parents tools
+to help manage kids' screen time. I think this is an important part of it. We want to do more here,
+we want to equip kids to make smart decisions. So, we have a new approach-- a Google design approach.
+It's called Be Internet Awesome, to help kids become safe explorers of the digital world.
+We want kids to be secure, kind, mindful, when online. And we are pledging to train an additional 5 million kids
+this coming year. All these tools you're seeing are launching with our Digital Wellbeing site
+later today. Another area where we feel tremendous responsibility
+is news. News is core to our mission.
+Also, at times like this, it's more important than ever to support quality journalism.
+It's foundational to how democracies work. I've always been fond of news.
+Growing up in India, I have distinct memory of-- I used to wait for the physical newspaper.
+My grandfather used to stay right next to us. There was a clear hierarchy. He got his hands on the newspaper first,
+then my dad, and then my brother and I would go at it. I was mainly interested in the sports section at that time,
+but over time I developed a fondness for news, and it stayed with me even till today.
+It is a challenging time for the news industry. Recently, we launched Google News Initiative,
+and we committed 300 million dollars over the next three years. We want to work with organizations and journalists
+to help develop innovative products and programs that help the industry.
+We've also had a product here for a long time-- Google News. It was actually built right after 9/11.
+It was a 20-person project by one of our engineers who wanted to see news from a variety of sources
+to better understand what happened. Since then, if anything, the volume and diversity of content has only grown.
+I think there is more great journalism being produced today than ever before.
+It's also true that people turn to Google in times of need and we have a responsibility to provide that information.
+This is why we have re-imagined our News Project. We are using AI to bring forward the best of what journalism has to offer.
+We want to give users quality sources that they trust, but we want to build a product that works for publishers.
+Above all, we want to make sure we're giving them deeper insight and a fuller perspective
+about any topic they're interested in. I'm really excited to announce the new Google News,
+and here's Trystan to tell you more. ♪ (music) ♪ (applause)
+Thank you, Sundar. With the new Google News, we set out to help you do three things:
+First, keep up with the news you care about. Second, understand the full story.
+And, finally, enjoy and support the sources you love. After all, without news publishers
+and the quality journalism they produce, we'd have nothing to show you here today.
+Let's start with how we're making it easier for you to keep up with the news you care about. As soon as I open Google News,
+right at the top, I get a briefing with the top five stories I need to know right now.
+As I move past my briefing, there are more stories selected just for me.
+Our AI constantly reads the firehose of the web for you-- the millions of articles, videos, podcasts, and comments
+being published every minute-- and assembles the key things you need to know.
+Google News also pulls in local voices and news about events in my area. It's this kind of information that makes me feel connected to my community.
+This article from The Chronicle makes me wonder how long it would take to ride across this new Bay Bridge.
+What's cool is I didn't have to tell the app that I follow politics, love to bike, or want information about the Bay area--
+it works right out of the box. And, because we've applied techniques like reinforcement learning throughout the app,
+the more I use it, the better it gets. At any point, I can jump in and say whether I want to see less or more
+of a given publisher or topic. And whenever I want to see what the rest of the world is reading,
+I can switch over to Headlines to see the top stories that are generating the most coverage right now, around the world.
+So, let's keep going. You can see there are lots of big, gorgeous images
+that make this app super engaging, and a truly great video experience.
+Let's take a look. (music and cheering via the device)
+This brings you all the latest videos from YouTube and around the web.
+All of our design choices focus on keeping the app light, easy, fast, and fun.
+Our guiding principle is to let the stories speak for themselves. So, it's pretty cool, right?
+(applause)
+What we're seeing here throughout the app is the new Google Material Theme. The entire app is built using Material design--
+our adaptable, unified design system that's been uniquely tailored by Google.
+Later today, you'll hear more about this and how you can use Material themes in your products.
+We're also excited to introduce a new visual format we call Newscasts. You're not going to see these in any other news app.
+Newscasts are kind of like a preview of the story, and they make it easier for you to get a feel for what's going on.
+Check out this one on the Star Wars movie. Here we're using the latest developments in natural language understanding
+to bring together everything, from the Solo movie trailer, to news articles, to quotes-- from the cast and more--
+in a fresh presentation that looks absolutely great on your phone. Newscasts give me an easy way to get the basics
+and decide where I want to dive in more deeply. And sometimes I even discover things I never would have found out otherwise.
+For the stories I care about most, or the ones that are really complex, I want to be able to jump in and see many different perspectives.
+So, let's talk about our second goal for Google News-- understanding the full story.
+Today, it takes a lot of work to broaden your point of view and understand a news story in-depth.
+With Google news, we set out to make that effortless. Full Coverage is an invitation to learn more.
+It gives a complete picture of a story in terms of how it's being reported from a variety of sources,
+and in a variety of formats. We assemble Full Coverage using a technique we call temporal co-locality.
+This technique enables us to map relationships between entities and understand the people, places, and things in a story
+right as it evolves. We applied this to the deluge of information published to the web
+at any given moment and then organize it around story lines-- all in real time.
+This is by far the most powerful feature of the app, and provides a whole new way to dig into the news.
+Take a look at how Full Coverage works for the recent power outage in Puerto Rico.
+There are so many questions I had about this story, like, "How did we get here?" "Could it have been prevented?"
+and, "Are things actually getting better?" We built Full Coverage to help make sense of it all,
+all in one place. We start out with a set of top headlines that tell me what happened,
+and then start to organize around the key story aspects using our real time event understanding.
+For news events that have played out, like this one, over weeks and months, you can understand the origin of developments,
+by looking at our timeline of the key moments. And while the recovery has begun,
+we can clearly see there's still a long way to go. There are also certain questions we are all asking about a story,
+and we pull those out so you don't have to hunt for the answers. We know context and perspective come from many places,
+so we show you Tweets from relevant voices, and opinions, analysis, and fact checks,
+to help you understand the story that one level deeper. In each case, our AI is highlighting why this is an important piece of information
+and what unique value it brings. Now, when I use Full Coverage,
+I find that I can build a huge amount of knowledge on the topics I care about. It's a true 360 degree view
+that goes well beyond what I get from just scanning a few headlines.
+On top of this, our research shows that having a productive conversation or debate requires everyone to have access to the same information.
+Which is why everyone sees the same content in Full Coverage for a topic. It's an unfiltered view of events from a range of trusted news sources.
+(applause) Thank you.
+So, I've got to say-- I love these new features. And these are just a few of the things we think make the new Google News
+so exciting. But, as we mentioned before, none of this would exist without the great journalism
+news rooms produce every day. Which brings us to our final goal--
+helping you enjoy and support the news sources you love. We've put publishers front and center throughout the app,
+and here in the Newsstand section, it's easy to find and follow the sources I already love,
+and browse and discover new ones. including over 1,000 magazine titles, like Wired, National Geographic, and People,
+which all look great on my phone. I can follow publications like USA Today by directly tapping the star icon.
+And, if there's a publication I want to subscribe to-- say, The Washington Post, we make it dead simple.
+No more forms, credit card numbers, or new passwords, because you're signed in with your Google account,
+you're set. When you subscribe to a publisher, we think you should have easy access to your content everywhere.
+And this is why we developed Subscribe with Google. Subscribe with Google enables you to use your Google account
+to access your paid content everywhere, across all platforms and devices on Google Search, Google News,
+and publishers' own sites. We built this in collaboration with over 60 publishers around the world
+and it will be rolling out in the coming weeks.
+(applause) Thank you.
+And this is one of the many steps we're taking to make it easier to access dependable, high quality information,
+when and where it matters most. So, that's the new Google News.
+It helps you keep up with the news you care about, with your Briefing and Newscasts, understand the full story, using Full Coverage,
+and enjoy and support the news sources you love, by reading, following, and subscribing.
+And now, for the best news of all, we're rolling out on Android, iOS and the web,
+in 127 countries, starting today. (cheering)
+I think so, too. Pretty cool. It will be available to everyone next week.
+At Google, we know that getting accurate and timely information into people's hands, and building and supporting high quality journalism
+is more important than it ever has been right now. And we are totally committed to doing our part.
+We can't wait to continue on this journey with you. And now, I'm excited to introduce Dave to tell you more about what's going on in Android.
+(applause) (man) Android started with the simple goal of bringing open standards to the mobile industry.
+Today, it is the most popular mobile operating system in the world. ♪ (uplifting music) ♪
+(man) If you believe in openness, if you believe in choice, if you believe in innovation from everyone,
+then welcome to Android. (applause)
+♪ (music) ♪
+Hi everyone. It's great to be here at Google I/O 2018. (cheering)
+Ten years ago, when we launched the first Android phone, the T-Mobile G1,
+it was with a simple but bold idea-- to build a mobile platform that was free and open to everyone.
+And, today, that idea is thriving. Our partners have launched tens of thousands of smartphones,
+used by billions of people all around the world. And through this journey we've seen Android become more
+than just a smartphone operating system. powering new categories of computing, including wearables, TV, auto, ARVR, IoT.
+And the growth of Android over the last ten years has helped fuel the shift in computing
+from desktop to mobile. And, as Sundar mentioned, the world is now on the precipice of another shift.
+AI is going to profoundly change industries like healthcare and transport. It is already starting to change ours.
+And this brings me to the new version of Android we're working on-- Android P.
+Android P is an important first step towards this vision of AI at the core of the operating system.
+In fact, AI underpins the first of three themes in this release, which are:
+Intelligence, Simplicity, and Digital wellbeing. So, starting with intelligence.
+We believe smartphones should be smarter. They should learn from you and they should adapt to you. Technologies such as on-device machine learning
+can learn your usage patterns, and automatically anticipate your next actions, saving you time.
+And, because it runs on device, the data is kept private to your phone.
+So, let's take a look at some examples of how we're applying these technologies to Android to build a smarter operating system.
+In pretty much every survey of smartphone users, you'll see battery life as the top concern.
+And, I don't know about you, but this is my version of Maslow's hierarchy of needs. (laughter)
+And we've all been there. Your battery's been okay, but then you have one of those outlier days, where it's draining faster than normal, leaving you to run to the charger.
+With Android P we partnered with Deep Mind to work on a new feature we call Adaptive Battery.
+It's designed to give you a more consistent battery experience. Adaptive battery uses on-device machine learning
+to figure out which apps you'll use in the next few hours, and which you won't use until later, if at all, today.
+And then, with this understanding, the operating system adapts to your usage patterns.
+so that it spends battery only the apps and services that you care about. And the results are really promising.
+We're seeing a 30% reduction in CPU wake-ups for apps in general. And this, combined with other performance improvements,
+including running background processes on the small CPU cores, is resulting in an increase in battery for many users.
+It's pretty cool. Another example of how the OS is adapting to the user
+is auto-brightness. Now, most modern smartphones will automatically adjust the brightness,
+given the current lighting conditions. But it's a one-size-fits-all. They don't take into account your personal preferences
+and environment. So, often what happens, is you then need to manually adjust the brightness slider,
+resulting in the screen later becoming too bright or too dim. With Android P, we were introducing a new on-device machine learning feature
+we call Adaptive Brightness. Adaptive Brightness learns how you like to set the brightness slider,
+given the ambient lighting, and then does it for you in a power-efficient way. So, you'll literally see the brightness slider move
+as the phone adapts to your preferences. And it's extremely effective. In fact, we're seeing almost half of our test users
+now make fewer manual brightness adjustments, compared to any previous version of Android.
+We're also making the UI more intelligent. Last year we introduced the concept of predicted apps,
+a feature that places the next apps the OS anticipates you need on the path you'd normally follow
+to launch that app. And it's very effective, with an almost 60% prediction rate.
+With Android P, we're going beyond simply predicting the next app to launch, to predicting the next action you want to take.
+We call this feature App Actions. Let's take a look at how it works.
+At the top of the launcher you can see two actions-- one, to call my sister, Fiona, and another to start a workout on Strava, for my evening run.
+So, what's happening here is that the actions are being predicted based on my usage patterns.
+The phone is adapting to me and trying to help me get to my next task more quickly.
+As another example, if I connect my headphones, Android will surface an action to resume the album I was listening to.
+To support App Actions, developers just need to add an actions.xml file to their app.
+And then Actions surfaces not just in the Launcher, but in Smart Text selection, the Play Store, Google Search,
+and the Assistant. Take Google Search. We're experimenting with different ways to surface actions
+for apps you've installed and use a lot. For example, I'm a big Fandango user. So, when I search for the new Avengers movie, Infinity War,
+I get, in addition to regular suggestions, I get an action to the Fandango app to buy tickets.
+Pretty cool. Actions are a simple but powerful idea for providing deep links into the app
+given your context. But even more powerful is bringing part of the app UI
+to the user, right there and then. We call this feature Slices.
+Slices are a new API for developers to define interactive snippets of their app UI.
+They can be surfaced in different places in the OS. In Android P, we're laying the groundwork by showing slices first in Search.
+So, let's take a look. Let's say I'm out and about and I need to get a ride to work.
+If I type "lyft" into the Google Search app, I now see a slice from the Lyft app installed on my phone.
+Lyft is using the Slice API's rich array of UI templates to render a slice of their app in the context of Search.
+And then Lyft is able to give me the price for my trip to work, and the slice is interactive, so I can order the ride directly from it.
+Pretty nice. The Slice templates are versatile so developers can offer everything
+from playing a video to, say, checking into a hotel. As another example-- if I search for Hawaii,
+I'll see a slice from Google Photos with my vacation pictures. And we're working with some amazing partners
+on App Actions and Slices. And we'll be opening an early-access program to developers more broadly next month.
+So, we're excited to see how Actions and, in particular, Slices, will enable a dynamic two-way experience
+where the app's UI can intelligently show up in context. So, that's some of the ways that we're making Android more intelligent
+by teaching the operating system to adapt to the user. Machine learning's a powerful tool,
+but it can also be intimidating and costly for developers to learn and apply. And we want to make these tools accessible
+and easy to use to those who have little or no expertise in machine learning. So, today I'm really excited to announce ML Kit,
+a new set of APIs available through Firebase. With ML Kit,
+you get on-device APIs, to text recognition, and face detection, image labeling, and a lot more.
+And ML Kit also supports the ability to tap into Google's cloud-based ML technologies.
+Architecturally, you can think of ML Kit as providing ready-to-use models, built on TensorFlow Lite
+and optimized for mobile. And, best of all, ML Kit is cross platform, so it runs on both Android and iOS.
+(cheering)
+We're working with an early set of partners on ML Kit with some really great results.
+For example, the popular calorie counting app, Lose It! is using our text recognition model
+to scan nutritional information, and ML Kits custom-model APIs to automatically classify 200 different foods
+through the camera. You'll hear more about ML Kit at the developer keynote later today.
+So, we're excited about making your smartphone more intelligent, but it's also important to us that the technology fades to the back.
+One of our key goals over the last few years has been to evolve Android's UI to be simpler and more approachable,
+both for the current set of users, and the next billion Android users. With Android P,
+we put a special emphasis on simplicity by addressing many pain points where we thought-- and you told us--
+the experience was more complicated than it ought to be. And you'll find these improvements on any device
+that adopts Google's version of the Android UI, such as Google Pixel and Android One devices.
+So, let me walk you through a few live demos on my phone. What could possibly go wrong
+in front of 7,000 people in an amphitheater? Okay. (laughs) As part of Android P, we're introducing a new system navigation
+that we've been working on for more than a year now. And the new design makes Android's multitasking more approachable
+and easier to understand. And the first striking thing you'll notice is the single, clean Home button.
+And the design recognizes a trend towards smaller screen bezels and places an emphasis on gestures
+over multiple buttons at the edge of the screen. So, when I swipe up, I'm immediately brought to the Overview,
+where I can resume apps I've recently used. I also get five predicted apps at the bottom of the screen
+to save me time. Now, if I continue to swipe up, or I swipe up a second time,
+I get to All Apps. So, architecturally, what we've done is combine the All Apps and Overview spaces into one.
+The swipe up gesture works from anywhere, no matter what app I'm in so that I can quickly get back to All Apps and Overview
+without losing the context I'm in. And, if you prefer, you can also use the Quick Scrub gesture
+by sliding the Home button sideways to scroll through your recent set of apps like so. (applause)
+Now, one of the nice things about the larger horizontal Overview is that the app content is now glanceable,
+so you can easily refer back to information in a previous app. Even more is we've extended Smart Text Selection to work in Overview.
+So, for example, if I tap anywhere on the phrase, The Killers, all of the phrase will be selected for me,
+and then I get an action to listen to it on Spotify, like so. And we've extended Smart Text Selection's neural network
+to recognize more entities, like sports teams and music artists, and flight codes and more.
+I've been using this View navigation system for the last month, and I absolutely love it. It's a much faster, more powerful way
+to multitask on the go. So, changing how Navigation works-- it's a pretty big deal.
+But sometimes small changes can make a big difference, too. So, take volume control.
+We've all been there-- you try to turn down the volume before a video starts, but instead, you turn down the ringer volume
+and then the video blasts everyone around you. So, how are we fixing it? Well, you can see the new simplified volume controls here.
+They're vertical, and located beside the hardware buttons-- so they're intuitive. But the key difference is that the slider now adjusts the media volume by default,
+because that's the thing you want to change most often. And, for the ringer volume, all you really care about is On, Silent,
+and Off, like so. Okay. We've also greatly simplified rotation.
+And, if you're like me, and hate your device rotating at the wrong time you'll love this feature. So, right now, I'm in the Lock Rotation mode.
+And let me launch an app, and you'll notice that when I rotate the device, a new Rotation button appears on the Nav bar.
+And then I can just tap on it and rotate under my own control. It's pretty cool. (applause)
+Alright, so that's a quick tour of some of the ways that we've simplified user experience in Android P.
+And there's lots more. Everything from a redesigned work profile, to better screenshots,
+to improved notifications management, and more. Speaking of notifications management,
+we want to give you more control over demands on your attention. And this highlights a concept that Sundar alluded to earlier--
+making it easier to move between your digital life and your real life. To learn more about this important area,
+and our third theme, let me hand over to Sameer. Thanks. (applause) ♪ (music) ♪
+Hi everyone! On a recent family vacation, my partner asked if she could see my phone
+right after we got to our hotel room. She took it from me, walked over to the hotel safe,
+locked it inside, and turned and looked me right in the eye and said, "You get this back in seven days when we leave."
+(laughter) Whoa! I was shocked. I was kind of angry.
+But after a few hours, something pretty cool happened. Without all the distractions from my phone,
+I was actually able to disconnect, be fully present, and I ended up having a wonderful family vacation.
+But it's not just me. Our team has heard so many stories from people who are trying to find the right balance with technology.
+As you heard from Sundar, helping people with their digital wellbeing is more important to us than ever.
+People tell us a lot of the time they spend on their phone is really useful. But some of it they wish they'd spent on other things.
+In fact, we found over 70% of people want more help striking this balance.
+So, we've been working hard to add key capabilities right into Android to help people find the balance with technology
+that they're looking for. One of the first things we focused on was helping you understand your habits.
+Android P will show you a Dashboard of how you're spending time on your device. As you saw earlier,
+you can see how much time you spent in apps, how many times you've unlocked your device today,
+and how many notifications you've received. And you can drill down on any of these things.
+For example, here's my Gmail data from Saturday. And when I saw this it did make me wonder whether I should've been on my email
+all weekend. But that's kind of the point of the Dashboard. Now, when you're engaging is one part of understanding.
+But what you're engaging with in apps is equally important. It's like watching TV--
+catching up on your favorite shows at the end of a long day can feel pretty good. But watching an infomercial might leave you wondering
+why you didn't do something else instead. Many developers call this concept "meaningful engagement."
+And we've been working closely with many of our developer partners who share the goal of helping people use technology in healthy ways.
+So, in Android P, developers can link to more detailed breakdowns of how you're spending time in their app
+from this new Dashboard. For example, YouTube will be adding a deep link where you can see total watch time
+across mobile and desktop and access many of the helpful tools that Sundar shared earlier.
+Now, understanding is a good start. But Android P also gives you controls
+to help you manage how and when you spend time on your phone. Maybe you have an app that you love,
+but you're spending more time in it than you realize. Android P lets you set time limits on your apps
+and will nudge you when you're close to your limit that it's time to do something else. And, for the rest of the day,
+that app icon is grayed out, to remind you of your goal. People have also told us they struggle to be fully present
+for the dinner that they're at or the meeting that they're attending, because the notifications they get on their device
+can be distracting and too tempting to resist. Come on-- we've all been there.
+So we're making improvements to Do Not Disturb mode, to silence not just the phone calls and texts,
+but also the visual interruptions that pop up on your screen. To make Do Not Disturb even easier to use,
+we've created a new gesture that we've affectionately code-named Shush. (laughter)
+If you turn your phone over on the table, it automatically enters Do Not Disturb so you can focus on being present--
+no pings, vibrations, or other distractions. (applause)
+Of course, in an emergency, we all want to make sure we're still reachable by the key people in our lives,
+like your partner or your child's school. Android P will help you set up a list of contacts that can always get through to you with a phone call,
+even if Do Not Disturb is turned on. Finally, we heard from people that they often check their phone
+right before going to bed, and, before you know it, an hour or two has slipped by.
+And, honestly, this happens to me at least once a week. Getting a good night's sleep is critical,
+and technology should help you with this, not prevent it from happening. So, we created Wind Down mode.
+You can tell the Google Assistant what time you aim to go to bed, and when that time arrives it will switch on Do Not Disturb,
+and fade the screen to gray scale, which is far less stimulating for the brain, and can help you set the phone down.
+It's such a simple idea, but I found it's amazing how quickly I put my phone away
+when all my apps go back to the days before color TV. (laughter)
+(applause) Don't worry, all the colors return in the morning when you wake up.
+Okay, that was a quick tour of some of the digital wellbeing features we're bringing to Android P this fall,
+starting with Google Pixel. Digital wellbeing is going to be a long term theme for us,
+so look for much more to come in the future. Beyond the three themes of intelligence, simplicity,
+and digital wellbeing that Dave and I talked about, there are literally hundreds of other improvements coming
+in Android P. I'm especially excited about the security advancements we've added to the platform,
+and you can learn more about them at the Android Security session on Thursday. But your big question is:
+That's all great. How do I try some of this stuff? Well, today we're announcing Android P Beta.
+(applause)
+And with efforts in Android Oreo to make OS upgrades easier, Android P Beta is available on Google Pixel
+and seven more manufacturer flagship devices today. (applause)
+You can head over to this link to find out how to receive the Beta on your device, and please do let us know what you think.
+Okay, that's a wrap on what's new at Android, and now I'd like to introduce Jen to talk about Maps.
+Thank you. (applause) ♪ (music) ♪
+(woman) It has changed Nigeria so much and you can actually be part of it. (man) Being able to be armed with the knowledge of where you're going,
+you're going to be able to get there like anybody else can. (man) Two consecutive earthquakes hit Mexico City
+and Google Maps helped the response to emergency crises like this. (woman) The hurricane hit turned Houston into islands
+and the roads were changing constantly. We kept saying, "Thank God for Google!" What would we have done?
+(man) It's really cool that this is helping people to keep doing what they love doing and keep doing what they need to do.
+♪ (music) ♪
+(applause)
+Building technology to help people in the real world, every day, has been core to who we are
+and what we've focused on at Google from the very start. Recent advancements in AI and computer vision
+have allowed us to dramatically improve long-standing products like Google Maps, and have also made possible brand new products, like Google Lens.
+Let's start with Google Maps. Maps was built to assist everyone, wherever they are in the world.
+We've mapped over 220 countries and territories, and put hundreds of millions of businesses and places on the map.
+And, in doing so, we've given more than a billion people the ability to travel the world with the confidence that they won't get lost along the way.
+But we're far from done. We've been making Maps smarter and more detailed as advancements in AI have accelerated.
+We're now able to automatically add new addresses, businesses, and buildings that we extract from Street View and satellite imagery directly to the Map.
+This is critical in rural areas, in places without formal addresses, and in fast-changing cities, like Lagos here,
+where we've literally changed the face of the map in the last few years. (cheering)
+Hello, Nigeria! (laughs) (laughter) We can also tell you if the business you're looking for is open,
+how busy it is, what the wait time is, and even how long people usually spend there.
+We can tell you before you leave whether parking is going to be easy or difficult, and we can help you find it.
+And we can now give you different routes based on your mode of transportation, whether you're riding a motorbike or driving a car.
+And, by understanding how different types of vehicles move at different speeds, we can make more accurate traffic predictions for everyone.
+But we've only scratched the surface of what Maps can do. We originally designed Maps to help you understand where you are,
+and to help you get from here to there. But, over the past few years, we've seen our users demand more and more of Maps.
+They're bringing us harder and more complex questions about the world around them, and they're trying to get more done.
+Today, our users aren't just asking for the fastest route to a place. They also want to know what's happening around them,
+what the new places to try are, and what locals love in their neighborhood.
+The world is filled with amazing experiences, like cheering for your favorite team at a sports bar,
+or a night out with friends or family at a cosy neighborhood bistro. We want to make it easy for you to explore and experience
+more of what the world has to offer. We've been working hard on an updated version of Google Maps
+that keeps you in the know on what's new and trending in the areas you care about. It helps you find the best place for you,
+based on your context and interests. Let me give you a few examples of what this is going to look like,
+with some help from Sophia. First, we're adding a new tab to Maps called For You.
+It's designed to tell you what you need to know about the neighborhoods you care about-- new places that are opening,
+what's trending now, and personal recommendations. Here, I'm being told about a cafe that just opened in my area.
+If we scroll down, I see a list of the restaurants that are trending this week. This is super useful, because, with zero work,
+Maps is giving me ideas to kick me out of my rut and inspire me to try something new.
+But how do I know if a place is really right for me? Have you ever had the experience of looking at lots of places,
+all with four-star ratings, and you're pretty sure there's some you're going to like a lot and others that maybe aren't quite so great,
+but you're not sure how to tell which ones? We've created a score called Your Match
+to help you find more places that you'll love. Your Match uses machine learning
+to combine what Google knows about hundreds of millions of places with the information that I've added--
+restaurants I've rated, cuisines I've liked, and places that I've been to.
+If you click into the Match number, you'll see reasons explaining why it's recommended just for you.
+It's your personal score for places. And our early testers are telling us that they love it.
+Now, you can confidently pick the places that are best for you, whether you're planning ahead or on the go and need to make a quick decision, right now.
+Thanks so much, Sophia. (applause)
+The For You tab, and the Your Match score, are great examples of how we can help you stay in the know
+and choose places with confidence. Now, another pain point we often hear from our users is that planning with others can be a real challenge.
+So, we wanted to make it easier to pick a place together. Here's how. Long press on any place
+to add it to a short list. Now, I'm always up for ramen, but I know my friends have lots of opinions of their own,
+so I can add some more options to give them some choices. When you've collected enough places that you like
+share the list with your friends to get their input, too. You can easily share, with just a couple of taps,
+on any platform that you prefer. Then, my friends can add more places that they want to, or just vote with one simple click so we can quickly choose a group favorite.
+So now, instead of copying and pasting a bunch of links and sending texts back and forth, decisions can be quick, easy, and fun.
+This is just a glimpse of some of what's coming to Maps on both Android and iOS later this summer.
+And we see this is just the beginning of what Maps can do to help you make better decisions on the go and to experience the world in new ways,
+from your local neighborhood, to the far-flung corners of the world.
+This discovery experience wouldn't be possible without small businesses.
+Because, when we help people discover new places, we're also helping local businesses be discovered by new customers.
+These are businesses like the bakery in your neighborhood, or the barbershop around the corner. These businesses are the fabric of our communities
+and we're deeply committed to helping them succeed with Google. Every month, we connect users to businesses nearby
+more than 9 billion times, including over a billion phone calls and 3 billion direction requests to their stores.
+In the last few months, we've been adding even more tools for local businesses to communicate and engage with their customers
+in meaningful ways. You can now see daily posts on events or offers from many of your favorite businesses.
+And soon you will be able to get updates from them in the new For You stream, too. And, when you're ready,
+you can easily book an appointment or place an order with just one click.
+We're always inspired to see how technology brings opportunities to everyone. The reason we've invested over the last 13 years
+in mapping every road, every building, and every business, is because it matters.
+When we map the world, communities come alive and opportunities arise in places we never would have thought possible.
+And, as computing evolves, we're going to keep challenging ourselves to think of new ways that we can help you get things done in the real world.
+I'd like to invite Aparna to the stage to share how we're doing this, both in Google Maps, and beyond.
+♪ (music) ♪
+The cameras in our smartphones-- they connect us to the world around us in a very immediate way.
+They help us save a moment, capture memories, and communicate. But with advances in AI and computer vision
+that you heard Sundar talk about, we said, "What if the cameras can do more? What if the cameras can help us answer questions?"
+Questions like, "Where am I going?" or, "What's that in front of me?"
+Let me paint a familiar picture. You exit the subway. You're already running late for an appointment--
+or a tech company conference-- that happens. And then your phone says, "Head south on Market Street."
+So, what do you do? One problem-- you have no idea which way is south. So, you look down at the phone,
+you're looking at that blue dot on the map, and you're starting to walk to see if it's moving in the same direction.
+If it's not, you're turning around. - (laughter) - We've all been there.
+So, we asked ourselves, "Well, what if the camera can help us here?" Our teams have been working really hard
+to combine the power of the camera, the computer vision, with Street View and Maps to re-imagine Walking Navigation.
+So, here's how it could look in Google Maps. Let's take a look. - You open the camera... - (cheering)
+You instantly know where you are. No fussing with the phone.
+All the information on the map, the street names, the directions-- right there in front of you.
+Notice that you also see the map so that way you stay oriented. You can start to see nearby places-- so you see what's around you.
+(applause) And, just for fun, our team's been playing with the idea of adding a helpful guide,
+like that there... (applause) ...so that it can show you the way. Oh, there she goes! Pretty cool.
+Now, enabling these kinds of experiences, though, GPS alone doesn't cut it.
+So, that's why we've been working on what we call VPS-- Visual Positioning System--
+that can estimate precise positioning and orientation. One way to think about the key insight here is,
+just like you and I, when we're in an unfamiliar place, you're looking for visual landmarks. You're looking for the storefront, the building facade, et cetera.
+And it's the same idea. VPS uses the visual features in the environment to do the same,
+so that way we help you figure out exactly where you are and get you exactly where you need to go. Pretty cool.
+So, that's an example of how we're using the camera to help you in Maps. But we think the camera can also help you do more
+with what you see. That's why we started working on Google Lens. Now, people are already using it for all sorts of answers,
+and especially when the questions are difficult to describe in words. Answers like, oh, that cute dog in the park--
+that's a Labradoodle. Or, this building in Chicago is the Wrigley Building,
+and it's 425 feet tall-- or, as my 9-year old son says these days,
+"That's more than 60 Kevin Durants!" (laughter) Now, today Lens has the capability, in Google products--
+like Photos and the Assistant-- but we're very excited that, starting next week, Lens will be integrated right inside the camera app
+on the Pixel, the new LG G7, and a lot more devices.
+This way, it makes it super easy for you to use Lens on things right in front of you already in the camera.
+Very excited to see this. Now, likewise, Vision is a fundamental shift in computing for us.
+And it's a multi-year journey, but we're already making a lot of progress, so today I thought I'd show you three new features in Google Lens
+that can give you more answers to more types of questions, more quickly. Shall we take a look?
+Alright! Okay, first, Lens can now recognize and understand words.
+Words are everywhere. If you think about it-- traffic signs, posters,
+restaurant menus, business cards. But now, with Smart Text Selection,
+you can now connect the words you see with the answers and actions you need. So, you can do things like copy and paste
+from the real world directly into your phone. - Just like that. - (applause)
+Or, let's say you're looking at-- or you can turn a page of words into a page of answers.
+So, for example, you're looking at a restaurant menu, you can quickly tap around, figure out every dish--
+what it looks like, what are all the ingredients, et cetera. By the way, as a vegetarian, good to know ratatouille
+is just zucchini and tomatoes. (chuckles) - (laughter) - Really cool. Now, in these examples,
+Lens is not just understanding the shape of characters and the letters, visually, it's actually trying to get at the meaning and the context behind these words.
+And that's where all the language understanding that you heard Scott talk about really comes in handy.
+Okay, the next feature I want to talk about is called Style Match.
+And the idea is this. Sometimes, your question is not, "Oh, what's that exact thing?" Instead, your question is, "What are things like it?"
+You're at your friend's place, you check out this trendy looking lamp, and you want to know things that match that style.
+And now, Lens can help you. Or, if you see an outfit that catches your eye,
+you can simply open the camera, tap on any item, and find out, of course, specific information
+like reviews, et cetera of any specific item, but you can also see all the things, and browse around, that match that style.
+(applause)
+There's two parts to it, of course. Lens has to search through millions and millions of items, but we kind of know how to do that search.
+- (laughter) - But the other part actually complicates things, which is if they can be different textures, shapes, sizes, angles, lighting conditions, et cetera.
+So, it's a tough technical problem. But we're making a lot of progress here and really excited about it.
+So, the last thing I want to tell you about today is how we're making Lens work in real time.
+So, as you saw in the Style Match example, you start to see--you open the camera--
+and you start to see Lens surface proactively all the information instantly. And it even anchors that information to the things that you see.
+Now, this kind of thing-- where it's sifting through billions of words, phrases, places, things, just in real time to give you what you need--
+not possible without machine learning. So, we're using both on-device intelligence,
+but also tapping into the power of cloud TPUs, which we announced last year at I/O, to get this done.
+Really excited. And over time, what we want to do is actually overlay the live results
+directly on top of things, like store fronts, street signs, or a concert poster.
+So, you can simply point your phone at a concert poster of Charlie Puth,
+and the music video just starts to play, just like that. This is an example of how the camera is not just answering questions,
+but it is putting the answers right where the questions are. And it's very exciting.
+So, Smart Text Selection, Style Match, real time results-- all coming to Lens in the next few weeks.
+Please check them out. (applause)
+So, those are some examples of how Google is applying AI in Camera to get things done in the world around you.
+When it comes to applying AI, mapping, and computer vision to solving problems in the real world,
+well, it doesn't get more real than self-driving cars. So, to tell you all about it,
+please join me in welcoming the CEO of Waymo, John Krafcik. Thank you.
+(applause) ♪ (music) ♪
+Hello, everyone! We're so delighted to join our friends at Google on stage here today.
+And while this is my first time at Shoreline, it actually isn't the first time for our self-driving cars.
+You see, back in 2009, in the parking lot just outside this theater, some of the very first tests of self-driving technology took place.
+It was right here where a group of Google engineers, roboticists, and researchers
+set out on a crazy mission to prove that cars could actually drive themselves.
+Back then, most people thought that self-driving cars were nothing more than science fiction.
+But this dedicated team of dreamers believed that self-driving vehicles could make transportation safer,
+easier, and more accessible for everyone. And so, the Google Self-Driving Car Project was born.
+Now, fast-forward to 2018, and the Google Self-Driving Car Project is now its own, independent Alphabet company called Waymo.
+And we've moved well beyond tinkering and research. Today, Waymo is the only company in the world
+with a fleet of fully self-driving cars, with no-one in the driver's seat
+on public roads. Now, members of the public in Phoenix, Arizona, have already started to experience some of these fully self-driving rides, too.
+Let's have a look. (man) Okay, Day One of self-driving. Are you ready?
+Go! Oh, this is weird. (child laughing)
+This is the future. (laughing) Yeah, she was like, "Is there no-one driving that car?"
+(woman laughing) I knew it! I was waiting for it. ♪ (music) ♪
+(woman) You'd certainly never know that there wasn't someone driving this car. (man) Yo! Car!
+Selfie! Thank you, car. (giggles) Thank you, car.
+(applause) It's pretty cool.
+All of these people are part of what we call the Waymo Early Rider Program, where members of the public use our self-driving cars
+in their daily lives. Over the last year, I've had a chance to talk to some of these Early Riders
+and their stories are actually pretty inspiring. One of our Early Riders, Neha, witnessed a tragic accident when she was just a young teen,
+which scared her into never getting her driver's license. But now, she takes a Waymo to work every day.
+And there's Jim and Barbara, who no longer have to worry about losing their ability to get around as they grow older.
+Then, there's the Jackson family. Waymo helps them all navigate their jam-packed schedules, taking Kyla and Joseph to and from school,
+practices and meetups with friends. So, it's not about science fiction.
+When we talk about building self-driving technology, these are the people we're building it for.
+In 2018, self-driving cars are already transforming the way they live and move.
+So, Phoenix will be the first stop for Waymo's Driverless Transportation Service,
+which is launching later this year. Soon, everyone will be able to call Waymo, using our app,
+and a fully self-driving car will pull up, with no-one in the driver's seat, to whisk them away to their destination.
+And that's just the beginning. Because, at Waymo, we're not just building a better car.
+We're building a better driver. And that driver can be used in all kinds of applications--
+ride hailing, logistics, personal cars, connecting people to public transportation.
+And we see our technology as an enabler for all of these different industries.
+And we intend to partner with lots of different companies to make this self-driving future a reality for everyone.
+Now, we can enable this future because of the breakthroughs and investments we've made in AI.
+Back in those early days, Google was, perhaps, the only company in the world investing in both AI and self-driving technology
+at the same time. So, when Google started making major advances in machine learning,
+with speech recognition, computer vision, image search, and more-- Waymo was in a unique position to benefit.
+For example, back in 2013, we were looking for a breakthrough technology to help us with pedestrian detection.
+Luckily for us, Google was already deploying a new technique called deep learning, a type of machine learning that allows you to create neural networks,
+with multiple layers, to solve more complex problems. So, our self-driving engineers teamed up with researchers
+from the Google Brain team, and within a matter of months we reduced the error rate for detecting pedestrians by 100x.
+That's right-- not 100%, but a hundred times. - And today... - (applause)
+Thanks. Today, AI plays an even greater role in our self-driving system,
+unlocking our ability to go truly self-driving. To tell you more about how machine learning
+makes Waymo the safe and skilled driver that you see on the road today, I'd like to introduce you to Dmitri. Thanks.
+♪ (music) ♪ (applause)
+Good morning, everyone. It's great to be here. Now, at Waymo, AI touches every part of our system,
+from perception to prediction to decision-making to mapping, and so much more. To be a capable and safe driver,
+our cars need a deep semantic understanding of the world around them. Our vehicles need to understand and classify objects,
+interpret their movements, reason about intent, and predict what they will do in the future. They need to understand
+how each object interacts with everything else. And, finally, our cars need to use all that information
+to act in a safe and predictable manner. So, needless to say, there's a lot that goes into building a self-driving car.
+And today I want to tell you about two areas where AI has made a huge impact--
+perception and prediction. So, first perception. Detecting and classifying objects is a key part of driving.
+Pedestrians, in particular, pose a unique challenge because they come in all kinds of shapes, postures, and sizes.
+So, for example, here's a construction worker peeking out of a manhole, with most of his body obscured.
+Here's a pedestrian crossing the street, concealed by a plank of wood. And here...
+we have pedestrians who are dressed in inflatable dinosaur costumes. (laughter)
+Now, we haven't taught our cars about the Jurassic period, but can still classify them correctly. We can detect and classify these pedestrians
+because we apply deep nets to a combination of sensory data. Traditionally, in computer vision,
+neural networks are used just in camera images and video. But our cars have a lot more than just cameras.
+We also have lasers to measure distance and shapes of objects, and radars to measure their speed.
+And, by applying machine learning to this combination of sensor data, we can accurately detect pedestrians in all forms, in real time.
+A second area where machine learning has been incredibly powerful for Waymo is predicting how people will behave on the road.
+Now, sometimes, people do exactly what you expect them to, and, sometimes, they don't.
+Take this example of a car running a red light.
+Unfortunately, we see this kind of thing more than we'd like. But let me break this down from the car's point of view.
+Our car is about to proceed straight through an intersection. We have a clear green light, and cross traffic is stopped with a red light.
+But, just as we enter the intersection, all the way in the right corner, we see a vehicle coming fast.
+Our models understand that this is unusual behavior for a vehicle that should be decelerating.
+We predict the car will run the red light. So, we preemptively slow down-- which you can see here with this red fence--
+and this gives the red light runner room to pass in front of us while it barely avoids hitting another vehicle.
+We can detect this kind of anomaly because we've trained our ML models using lots of examples.
+Today, our fleet has self-driven more than 6 million miles on public roads,
+which means we've seen hundreds of millions of real world interactions. To put that in perspective, we drive more miles each day
+than the average American drives in a year. Now, it takes more than good algorithms
+to build a self-driving car. We also need really powerful infrastructure.
+And, at Waymo, we use the TensorFlow ecosystem and Google's data centers, including TPUs,
+to train our neural networks. And with TPUs, we can now train our nets up to 15 times more efficiently.
+We also use this powerful infrastructure to validate our models in simulation. And in this virtual world,
+we're driving the equivalent of 25,000 cars all day, every day.
+All told, we've driven more than 5 billion miles in simulation.
+And with this kind of scale, both in training and validation of our models, we can quickly and efficiently teach our cars new skills.
+And one skill we started to tackle is self-driving in difficult weather,
+such as snow, as you see here. (applause) And today, for the first time,
+I want to show you a behind-the-scenes look at what it's like for our cars to self-drive in snow.
+This is what our car sees before we apply any filtering. (laughter) Driving in a snowstorm can be tough
+because snowflakes can create a lot of noise for our sensors. But when we apply machine learning to this data,
+this is what our car sees. We can clearly identify each of these vehicles,
+even through all of the sensor noise. And the quicker we can unlock these types of advanced capabilities,
+the quicker we can bring our self-driving cars to more cities around the world, and to a city near you.
+We can't wait to make our self-driving cars available to more people, moving us closer to a future
+where roads are safer, easier and more accessible for everyone. Thanks, everyone.
+(applause)
+Now, please join me in welcoming back Jen to close out the morning session. ♪ (music) ♪
+Thanks, Dmitri. It's a great reminder of how AI can play a role in helping people in new ways all the time.
+I started at Google as an engineering intern almost 19 years ago.
+And what struck me from almost the very first day I walked in the door, was the commitment to push the boundaries
+and what was possible with technology, combined with a deep focus on building products
+that had a real impact on people lives. And, as the years have passed, I've seen, time and again,
+how technology can play a really transformative role, from the earliest days of things like Search and Maps,
+to new experiences, like the Google Assistant. As I look at the Google of today, I see those same early values
+alive and well. We continue to work hard, together with all of you,
+to build products for everyone, and products that matter.
+We constantly aspire to raise the bar for ourselves even higher and to contribute to the world and to society
+in a responsible way. Now, we know that to truly build for everyone,
+we need lots of perspectives in the mix. And so that's why we broadened I/O this year to include an even wider range of voices.
+We've invited additional speakers over the next three days to talk to you all about the broader role that technology can play
+in everything from promoting digital wellbeing, to empowering NGOs to achieve their missions,
+along with, of course, the hundreds of technical talks that you've come to expect from us at I/O and that we hope you can enjoy and learn from as well.
+Welcome to I/O 2018. Please enjoy, and I hope you all find some inspiration in the next few days
+to keep building good things for everyone. Thank you. (applause)
+♪ (electronic pop) ♪

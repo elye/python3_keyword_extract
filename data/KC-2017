@@ -1,0 +1,354 @@
+hello
+that is awesome welcome to calling coughs are you happy
+to be here yeah so this is our first ever callin
+conference and I'm really really excited to say that we've actually sold out and
+so next year we got to figure out what we're going to do and before you get
+started I wanted to say a few words of thank you we've got the Kotlin Kampf team at JetBrains and tri fork who have
+helped organize this event for us and we've been working very very hard to make sure everything goes well there's
+the program committee we had over a hundred and fifty submissions for talks from one hundred and ten speakers we
+actually had to add an additional track to bring more people in there and of
+course the speakers without whom you know none of the well we could just have a big party we should just have a
+conference no no speakers just party anyway and also of course our partners
+thank you very much for them being here and their support means a lot to us so please take your time to go upstairs at
+some point and you know thank them and see some of the amazing things that they're offering the official this is
+probably the most important slide in this keynote is the hashtag for the conference is Kotlin Kotlin 417 and once
+the Wi-Fi is with working back as ill yeah you can start to tweet now I wanted
+to say you know I'm gonna welcome on someone and I and this hello
+yep this person hasn't hasn't been to public but he's someone that from the
+very early on believed in Kotlin believed in the project and none of this
+and none of Kotlin would have been possible without him so please help me welcome on max you fear of jarring CEO
+thank you thank you hearted hello everyone is should I said I'm
+impressed for the with this room the room full of developers in presume right
+and added brains we are developers as well as you know we build products for
+our users users just like you help you and just like you we try really hard to
+provide the best experience we can for our users but you know sometimes we fail
+sometimes it doesn't work out willable well just like you I guess right well
+but sometimes we seem to do it right that's it it's a wonderful feeling I
+have done in this room so thank you Dan for that well we have our wonderful one
+and moments with this you know getting things right it's really hard for any
+product for but for coupling it was especially difficult because you have to go through so many of insides of how
+people are using you're supposed to be using a programming language in real life use cases and but frankly we
+enjoyed this process very much maybe that's why it took six years to release the first version of it well of course
+I'm joking took us six years to properly validate all of the design choices with
+me mate for instance we made three or four attempts to get the interval just alright and community was really helpful
+here but in some cases community is not about validation but more about
+inspiration or showing us new ways or new possibilities and let me share a
+rather funny story with you and did you know that when we first started working
+on Kirkland we didn't even think of Android because we don't do any mobile applications also such an brands well
+just yet maybe and then someone's comes up and says well can I use it
+or use it won't wear it and be so well technically you should be because it's the same but also you can run in but you
+are the first one so go and try and it didn't work out actually but at this
+point we took a chance to invest into supporting Android circuit and as you may know for sure it did work out a
+little oh nice isn't of course it's not
+only undraw its community but also people wonderful people from Gradle
+pivotal verdicts Corder and so many others helped us drive Kotlin to a
+barrel yesterday 1200 people for the very soft Kotlin conferencing isn't
+press afraid it is awesome but even more numbers show that Kotlin is getting
+popular really fast just like you we are very excited about this growth not just
+because growth is cool you know but growth provides for healthy ecosystem
+which consists of education jobs
+libraries frameworks and what not all of this is possible only because of you you
+here and those who could not make it today with function and our JetBrains
+we are fully committed to play our part in making Catalan even better to make
+that happen and to bring the experience of Kotlin to you we like to bring the experience of Kotlin to you anywhere in
+it and to dive deeper into the strategy and we saw some cool things that we've been working on lately please help me
+welcome on stage Kotlin project lead and repress loss and race
+Thank You max hello everyone that's so many people I'm really glad to see here
+so nervous don't know what to say well actually I do oh so we are actually
+working on bringing Colm anywhere you need it and in the modern world it
+includes all the components of a distributed application server mobile
+client web client so let's go over those parts one by one so this one is the
+easiest server Cullens compiled to JVM by codes and everyone knows how good JVM is on the
+server so our story is pretty good there Kotlin has 100% interrupts with the java
+programming language so you can use all the libraries available all the ecosystem is there for you and on top of
+that you can get rid of some annoyances like I cannot point to exceptions for example with Kotlin so it's the same
+great experience a little bit improved by our language but it doesn't end there
+in common 1.1 wouldn't use something called co-routines it's actually a
+language mechanism of that allows you to resync asynchronous code well it doesn't
+actually change the way you think about code because code teens make asynchronous code the mental model be
+like normal sequential execution no callbacks needed no complex functional
+abstractions are involved the compiler figures out all the difficulties for you and you simply think about the business
+logic and here's the place to speak about Kate or this is our new web
+framework built entirely in comment from the ground up on coroutine so it's 100% of synchronous it's a great showcase for
+using cortines to build complex asynchronous systems considerable size of the API so check it
+out as an example and it's a very useful tool for your web applications there is
+one thing to clarify here about proteins we've announced them as an experimental
+feature in 1.1 and they stay experimental still but we keep using them in production and other people are
+like verdicts is already using quarantines spring is experimenting with cortines and it's time for all of us to actually
+go and use them because experimental doesn't mean unstable or not usable or something Cortines or production-ready
+but it's a very new paradigm so we don't know how people will use them so we
+allow us a little bit of time to finalize the design to be sure that it's
+exactly right meanwhile it's time to use core genes now so go ahead and give us feedback so
+that's the story for the server JVM plus the power of core genes and it of course
+doesn't end there proteins for example are of course available everywhere clients as well and let's look into the
+clients so let's start with web web clients are about JavaScript right and
+we all love javascript for its safety its robustness the reliability of the
+applications you know it's so great and it's almost not an a joke if the
+javascript is generated through calling j/s our compiler back-end that transpires call into javascript so you
+get all the types safety of Kotlin and the execution power of JavaScript so
+this has been around for a while and there is a very good interrupt story here as well every platform is in drop
+so for JavaScript we support all the popular runtime module systems we added
+dynamic types on the Java in in common areas to talk to JavaScript directly in
+its tongue but also you can use type headers that definitely typed a
+declarations to access popular JavaScript libraries in a type safe way and get the current experience out of it
+to show you more of how JavaScript works for Kaitlin I invite here in stage coven
+ID and tooling team lead meter shimmers
+hello everyone so yeah doing the live demos in front of more than a thousand people what could go wrong but yeah let's give it a try so
+we have built a tool that allows you to create modern web applications using
+Kotlin yes very easily the name of the tool is create Kotlin react app or I'm not sure
+if I'm getting the words in the right order but still you can install it from NPM like this so I have the tool install
+the Radian now I'm just going to create in your application and I'm running this
+in the offline mode so that oh it's actually not a fine mode yeah live demos
+Wi-Fi no Wi-Fi did you try this again my colleagues
+told me it was supposed to detect that I'm running offline and not just not try to download anything but apparently this
+doesn't actually work okay so lets me
+try to do something else and namely houston tells you local history to bring back the code that i did using
+during the previous runs of the demo so maybe i will be able to show you something ok this is it doesn't actually
+show this
+so sometimes demos don't work it's alright well just proceed you the next part no come on
+oh okay okay so we're doing a JavaScript demo with
+the cell phone
+let's see if this works
+yeah it works so yeah thankfully does
+have something cached locally so it does not actually have to download the other half of the Internet which was not downloaded by me even into my repository
+but yeah it takes a little bit of time to do its magic yeah that's the
+JavaScript ecosystem of course there must be left pad somewhere in this list of packages that is downloading right now and now let me open the project that
+it has been that has been created for me so first of all let's look at the
+contents of the project has been that has been created as you can see there is no JavaScript there at all so this is
+entirely Kotlin code and now let me try to run this so it started using NPM and
+it actually takes a little bit of time to compile the code and we can use that time to take a look at what's in there
+in the app so as you can see we are not
+using JSX so in order to create which the HTML markup we're using the Cotten's
+cause an HTML DSL and this is fully statically typed you get code completion
+and all the other stuff but to completion for HTML tags is not that interesting the interesting part here is that you
+can actually create abstractions very easily so for example yeah first let's check what we have here so we have
+welcome with two reactors cause it it's not actually where I'd like to rear well compete we are at Kotlin conf so let me
+welcome people to Kotlin cons but we need before that I'm going to apply
+refactoring here so I'm going to try this into a metal pole greeting and and
+this is not exactly that easy to do this kind of stuff with JSX templates and now
+I can finally change the code Kotlin concrete react and now I'm seeing the
+file it automatically detects that I have made the changes so just like the this is the kind of experience that JavaScript developers I use
+- and we are providing the same experience with with Kotlin Jas and you can see that the browser window has been
+reloaded automatically and now it says welcome to Kotlin confused react now
+let's see if we can debug the code obviously we can because this is my ID right so let's move to the ticker class
+and we are going to break we put a breakpoint in the method which where the the component is being rendered to the
+way the component is being rendered so I'm going to start the debugging in Chrome it connects to the browser and
+because the pages are out there spinning it will stop it stops at the breakpoint immediately and here we can use the
+debugger just as usual to inspect the state of our code so for example we can see how many seconds have to have elapsed here we are going to expand this
+ticker and in this instance of the application there are just 0 seconds elapsed now just we can run it again and
+after a second we'll hit the breakpoint again and now it's just 1 second to last of course the power of the react echo
+system is the is in all the third-party components that are available for it I'm
+not I'm kind of worried about trying to demo this part to you because I will need to run another package installation again so please apologies if this
+doesn't work but I'm going to give it a try and the break I'm the brave guy here so I'm going to hit terminal again and I'm
+going to add this component called our C progress so once again I'm using JavaScript tools
+even though the code is fully Kotlin I'm using JavaScript tools and accessing the packages that are part of the JavaScript
+ecosystem now to make this accessible it took oven code I'm going to add a bit
+of code that has the Declaration of this so essentially I'm adding a reference to
+an external module called RC progress and I'm ex and I'm using the dynamic
+type to represent the instance of this component so this means that I can just access any properties that are defined there and just for the interesting part
+for the state of the component I'm actually defined I actually define an interface to represent this as a Kotlin class and now I'm going to replace this
+render method with something else and specifically with with any with with a
+bit of code that will render instance of this component
+now another recompile let me see if let me switch to the run window to see if
+did pick up my changes and now I'm going to go back to the browser and try to refresh it and you see that now there
+instead of a text base the ticker there is now progress bar which is rate which is a react component that I have just downloaded from the internet okay so
+that's our web client development story of course the web is not the only client
+that is out there there's another major one that you're probably many of you are using and we have some information to
+share about that too I started using
+columns the ability Android apps before I joined Google Kotlin allows you to express the same ideas in your app using
+less lines of code the more you use the language the more you unlock its power and the more fun it becomes to use as a
+result good was supporting Kotlin as another programming language for Android because we want to do what's best for
+developers supporting another programming language is a ton of work but we feel it's the right thing to do
+for the community my name is Dan Kim and I'm an Android programmer here at Basecamp in Chicago I had been writing
+Java for many many years and in February issue of 2016 at Basecamp
+we decided to take a deeper look at Kotlin when we heard the announcement at Google i/o that Kotlin was going to be a
+first class language we were super excited but we knew that that meant for us better support for the tooling and
+everything was kind of getting it better for Kotlin first and foremost those items they were absolutely insane when we
+first started using it it's been really fun to see how all those pain points early on I'm kind of dissipated and now
+the build times are something that we don't even have to talk about or argue about with a bunch of other developers one of the things that we were surprised
+about is how easy it is to quantify Holland's benefit to our code base as we were fully migrated it from fully Java
+to fully call it we would get to the status quo of zero most months and then maybe there were some abnormal months
+where you would have one serious issue or at most - but but the expectation after we converted it was that it would
+be zero and so that graph just kind of bottomed out a much more stable code base there's been two key improvements
+one is the broader support and use of Kotlin in the development community means that there's many more resources
+libraries tools even articles being written that help us to learn more and get better and faster now that the
+language is stabilized we're all much happier using Kotlin instead of Java for what we do the one thing that we can
+measure is that the code is certainly more concise and clear and so we're writing less code overall so I would say
+that we write somewhere between 15 to 25% less code overall than we would with Java the biggest thing is that it's made us
+really happy to work with it's really fun and interesting exciting to work with it and it's just not something
+we've ever felt with other languages and I've certainly never felt that with another language
+thank you so now please help me welcome here on stage our very special guest Stephanie Kahn person of Google
+hi I'm Steph I'm on the Android team earlier this year Android announced
+first-class support for Collin if you've ever written Kotlik code you already know why it's been about six months
+since that announcement and since then what we've seen is a growth and acceleration in Collin on Android
+already when we look at apps in the Play Store the number of apps on Play del
+more than doubled just in the past six months and when we look at Android studio 3.0 this is our official IDE the
+newest version includes bundled Kotlin support already 17% of projects are
+using Collin and for us Kotlin growth is accelerating meanwhile we continue to
+expand our investment in the language today I'll walk through four recent launches to enhance Kotlin on Android
+Android studio 3.0 android support library 27 with new api annotations the
+android Kotlin guides thanks to Jake Wharton and Android documentation Android studio 3.0 launched just last
+week and in three todo you'll find Kotlin support bundled out-of-the-box so this means you get all the amazing
+features of IntelliJ refactoring code completion the new Kotlin Android
+extensions easy to use conversion for files and even code snippets we've also added our own lint support so you get
+Android lint support out of the box in the IDE and in the future we'd love to expand that so you'll have lint support
+on the command line and with CI build service you'll also find that three auto has Android specific templates for both
+new projects and when you want to add activities to existing projects second you'll find we've started annotating
+androids api's to make them Kotlin friendly last week we announced support library 27 we added an ability or sorry
+no ability annotations to take advantage of Collins null safety and help you avoid null pointer exceptions we also
+want to expand our our work here both to annotate more platform api's and in the
+future take advantage of more of the annotations we get with Collin it's just a beautiful language third if you're
+looking for coding guidelines you'll now find the Android Collin guides on github both style guides and
+operability guides these are useful for consistency and readability as refining Kotlin growing and expanding into more
+very mature code bases you'll find style guides addressing proper naming conventions formatting structure of
+source contents and more and the interoperability guides are very useful as you're creating api's and Kotlin and the java programming languages so the
+new api's you create will feel idiomatic and natural for us we know you want first-class scotland Docs so you'll find
+we're expanding the Kotlin Docs for the platform and api and guided documentation and also samples we're
+going to start with the ones that are most familiar so things like the topeka app runtime permissions the new
+architecture components have been very popular so we have lots more to do on those and we want to keep expanding we
+will keep expanding our support for Kotlin we know and we feel it's a beautiful addition to our programming
+languages we want to support developers which is why androids always embrace developer friendly languages from the start whether it was the java
+programming language or c++ our commitment to those two languages remains unchanged and will keep
+expanding support there as well we really look forward to seeing Kotlin become as popular as those two and by
+the way I think of it as as popular as it is fun to use the official way the best way and the most performant way to
+do Android development is using our official languages and our official frameworks support library the Android API is and Play services will continue
+to expand investment in all these across the board we find Android though is an
+incredible fit Kotlin is an incredible fit for Android because it is so mature and production-ready
+like the languages that we already support Pinterest Basecamp and Expedia talks about their support there are so
+many more apps now using Kotlin in production from startups to Fortune 500 companies whether it's Netflix Flipkart
+Robin Hood Square cash Evernote American Express WordPress New York Times with
+more than 2 billion devices and the huge installed codebase we really value the interoperability the Kotlin brings we
+also love the incredible IDE support and the open source nature which means there's an open ecosystem and an open
+community and we look forward to seeing Kotlin continue to expand to more and more platform
+on Android we feel like there's so much more that we can do from continuing to optimize build times adding IDE support
+and continue to enhance the runtime performance of all of our languages but we're very grateful to max - Andre to
+the entire team and really to the community who told us in the first place that Kotlin would be a wonderful addition to Android so thank you very
+much with that I'd like to hand it back to Andre Thank You Steph has been great
+and great work you're doing there to make all an awesome Android so we've
+been over this picture server mobile and web clients all written in the same
+language this makes a project a truly multi-platform one and for example of
+such a project some of you probably already have installed our official Cullen conference app which is actually
+all written in Kotlin we have cosmic JVM on the server using CAD or we'll have Kotlin on Android in
+your pockets we even have browser clients in Kedah is not giving you a link now not to get it get you
+distracted but it will be made available soon so let's talk more about this when
+you write a multi-platform project and hero I'll have the client server saying server in the web client you have a part
+of an application written for the JDM for example and in other parts for Jas but the real fun of having it all in the
+same language begins when you one two intersected to share some code between server and the client
+so this JVM part consisting of Cullen and Java files will be compiled to class
+files then the calling GS part will be compiled to JavaScript in the intersection the common code will be
+compiled to both so this is where your data objects belong your business logic
+many other things actually so such projects multi-platform projects we are happy to announce tooling support
+for now it's experimental but still we are making progress there multi-platform
+projects have two types of modules and common module that hosts the shared code
+only those API is available on both platforms are accessible in Disco so it's like an
+intersection area but then next to them there are platform ah jewels that can use the entire API surface of a platform
+and can call into the common modules to use the shared code so that's the
+balance between the portability and the availability of the API but also there
+is a very interesting story where the common code wants to call into platform code and there we're introducing
+experimental again support for something we call expected actual declarations so
+my common module if it wants to call into platform can say that it expects some declaration to exists it expects a
+function to be there or expects a class to be there and platform modules will provide actual functions and classes for
+it to work on let's look at an example in our conference app we have this date class that's declared in common code is
+expected so common code is expecting there to be a date class with a get full year method and then on the JVM we have
+an actual date class that's implemented through a calendar and a Java Script the actual day class is actually done
+somewhere in JavaScript code and comments simply declares as an external but still provides an actual declaration
+for the common code so this completes the story of sharing the code and making
+all the platform ap API is available to your applications another nice bit of
+multiplier for projects you can do multiply from tests so you can test your
+common logic you buy from logic and the idea will pick it up and run on the appropriate platform so that's the story
+of sharing code but this picture is missing one piece don't you think we
+have server you have Android client who have browser client but there is one more client that's really important
+isn't it talking about iOS
+thank you I like it too so those of you
+have the conference app have it running on the iOS as well and it's entirely written in Scotland with a technology
+called Cullen native so you all know that JVM is not practically available on
+iOS so we're using some different technology to make all unavailable there we use LLVM to compile calls went down
+to native binaries that don't require a VM to run this is the same tool chain that's used to compile C++ or
+objective-c or Swift and we use a lot of it a lot of compiler optimizations are
+available to us for free and of course Interop is still a very important story on a native platform so common has an
+interplay ER for C and Objective C you can call into native libraries of iOS
+and C libraries as well so the whole world that's available for iOS
+developers is available for cata now I have the story of two phones Android and
+iOS both written columns wouldn't it be great to share the code what do you
+think yeah so this is where we are headed we're not there yet but we're
+working on it stay tuned so the technology that makes calling the iOS possible
+it's called column native but it can't do much more than just a OS it it's early stage we started the journey a
+year ago and it's still technology preview phase but we have so many operating systems already supported I
+can do Mac OS Windows Linux Android NDK and even web assembly how cool is that
+so to demonstrate that would raise another app so next to the conference app there is this one it's a column
+spinner application you have the link in your handouts it's a small game you can
+spin the cube and gain scores for your team you get a team assigned randomly so we decided to turn it into a competition
+so spin away for your team gain scores and by 3:00 p.m. on Friday we'll be
+handing out prizes to the top ten spinners of the women team
+at the JibJab brains booth so come pick up your prize so in this video we saw a
+common native running on iOS and let's look at the big picture we keep the scores on the servers it's
+running cause a native of course we run common native on Android through an
+decay and native activity of course iOS has call a native and even the browser
+can run column native through web assembly so the web client that shows the scores on our rotation screens is
+not web assembly because it's not production ready but we have it in the example wrapper and now I would like to
+demonstrate the tooling we're working on for column native and I invite my tree back on stage to show you that ok so
+this one should not actually require an internet connection so I'm hoping it will run a bit little bit more smooth
+more smoothly so the Kotlin native technology relies
+to a very large degree on the native tool chain so by using LLVM to compile
+the code we are using LOD B to debug the code and of course we have a product
+that includes support for LD be and other native piece already and that product is sealion ours ID for C and C++
+development and so in order to provide ID support for Kotlin native we have ported the Kotlin plug-in into sealion
+so that it now it includes both the color both the entire functionality of
+the Kotlin begin for IntelliJ IDEA as well as the integration with the native tool chain so what I have here right now
+on a yeah before that I should mention one more thing so what about the build system so Kotlin native supports
+multiple different build systems but in the key if you want to use the tooling support then you should build your
+project we see make so this is the C make file that controls the build of the
+coffin spinner app as you can see it relies on many native components such as SQLite and micro CT PD so we have full
+support in trouble interoperability with C code here so now let's try running this under a
+debugger so I'm going to put a breakpoint here in the server and I'm
+going to start the debugger now so it says the parks which work now and now
+I'm connecting to the server and it actually stops on a breakpoint and we
+can step through the code a little bit and see how it works so the coolest
+thing here is that you can actually see the variable at the values of the various variables directly in the editor
+just like in the Kotlin plug-in on for IntelliJ IDEA and of course you have call texture and all the regular are the
+regular debugger functionality of course
+to make sure that your code works you don't just need a debugger you also need tests and salon includes full support
+for running your tests running tests of your caught in native code so I'm going to run the test now and you can see that
+the next part here is there is no JVM startup overhead so this 130 milliseconds is the actual time it takes
+to run the test suite for this project district with the JVM it's probably not really feasible so and of course there's
+also full support for all the stuff that the cousin plugin for IntelliJ IDEA also supports like for example refactoring so
+I have this function here and I want to convert it into an extension function
+and in order to do that I'm using the convert parameter to receiver intention
+and IntelliJ IDEA automatically makes this into an extension function and
+updates all the calls so that they will also they also remain valid and other stuff like find usages also work so for
+example I can there's this method here it's used both in client and the server code and the find usages view shows me
+that so there are usages there are usages in the client code and there are uses just in the server code so coughlin
+is actually the so Kotlin is actually anywhere and you can use it to share
+code between your platforms in your native applications now there's a lot more to little that you can learn about tools
+and I have actually an entire session dedicated to that I'm going to talk a lot about multi-platform project support
+and a little bit about other cool new stuff that we are working on so please come to my session at 11:15 so later
+today before the right before lunch and with that I welcome Android back on stage thanks me drink nice demo so it's
+time to summarize and Kotlin is approaching 1.2 and i'm happy to
+announce that the release candidate built is already available today the flagship feature for this release is
+multi platform project the experimental support I was talking about the common modules and expect actual functionality
+we're also working on many other things and that includes language improvements
+performance improvements tool chain improvements so on so forth it's only the blog posts check it out
+we've been working hard to bring you this release and as a conclusion speaking about the future our main
+directions of growth are now multiplied from projects of course and there will be working on multiply from libraries
+providing i/o network installation dates support on all platforms as common code
+so that your shared code can use it we're working on common native technology preview stage now lots of
+work to be done compiler and the IDE to make it awesome on iOS and other platforms and still we're not forgetting
+all the other directions there will be language features library features tooling features and so many things
+exciting about talent so thank you very much for your attention and have a nice Kotlin I'm welcome Katya back on stage
+Thank You Andre so yeah so that's it just a few more things before you start
+we'll go to the conference we have office hours upstairs and where the
+exhibit area is as I mentioned so you can go there and fix your issues and if
+you've had bugs that you've locked for many years that have been ignored by the team now's your chance to get them all
+in a corner and say fix this now not later now we have sessions as you know
+obviously this is what it's about we have three different capacities we've tried to accommodate based on the polls
+and the feedback we've received but if you do not make it into the session please don't get too upset everything is
+going to be recorded so we'll be releasing the older all of the videos afterwards and we have voting boxes
+please do votes you have the conference application right so that that's
+available for iOS and Android but apparently the iOS version had today an
+inverted boolean bug so the voting buttons disappeared right as Max was
+pointing out sometimes we yeah anyway so we've got the back up boxes so if you do
+manage to vote with the app vote with the app if not just use one of those boxes tonight we have the party keynote
+with Michael Carducci who is a developer or magician turned developer developer turn magician it's going to be awesome
+anyway that will be down here and then afterwards the party will be upstairs okay so with that have a wonderful
+conference thank you
+
