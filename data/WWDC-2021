@@ -1,0 +1,996 @@
+Introduction
+[person] For me, WW is the Super Bowl. [person] You can feel the energy. [person] It's like really deep insights
+of what it feels like being a developer.
+[person] Really? [person] Wow. [laughs]
+[person] Okay, we open on black. The curtain slowly opens.
+Have a DeLorean on the stage. Tim Cook gets out of that DeLorean,
+showing the phone's flux capacitor. [person] I would probably not start there.
+I think it's kind of geeky. [person] Cut! [person] Are we going to go again?
+[person] So we open on black. [person] Does it have to be black? [person] It doesn't have to be black.
+[both] It could be yellow. [person] Now my mind goes into, like, a cartoon. [person] Imagine someone on their computer,
+you know, they have an idea. And, like, they push, like, enter, or some red button and it goes out to the world.
+And then all of a sudden, there's like millions of people around the globe that get to experience
+the thing that you've made. Are you actually able to do all this? [person] Um...
+[record scratch] [person] Maybe the title of the film should be "Our Journey Into Tomorrow."
+I see a little girl in an endless white room.
+She meets Craig Federighi. [Craig] Hi. [person] But we don't see him. We just hear his voice.
+[Craig] Not cool. [echoing] [person] Now she's older. And dressed for work.
+[person] There has to be action at this point or, like, some sort of drama. She goes to work and discovers something catastrophic.
+Someone says... [person] We have a bug. [person] So she comes in
+and pounds on the keyboard. [dramatic music]
+And the bug is fixed. [cheering] Yeah, it's like a musical. [person] Musical?
+[person] Yeah, The Bug, But A Musical. [music]
+[music continues] [music continues]
+[person] Wait a minute. Why not make arena rock of WW? [music]
+There wouldn't be any pyro usually. But I think, why not? Pyro is fun.
+[person] Do you think it would work? [person] Uh, you won't know if you don't try. [music continues]
+[chanting] [cheering]
+[Tim] Good morning. And welcome to WWDC. It's so wonderful to see so many familiar faces
+with us today. We're excited to share our latest technologies with you and with the incredible community
+of millions of Apple developers around the world. Your creativity and groundbreaking apps
+continue to deliver new and meaningful ways to enrich people's lives.
+We applaud the extraordinary work you've been able to do throughout this challenging time.
+Last year's WWDC was our most inclusive and most watched developer conference ever,
+with nearly 25 million viewers. It was exciting to have so many people join us
+and to see the impact it had on new Apple developers as we broadened our audience, welcoming more people
+from more places around the world. We've continued to look for ways to help cultivate
+the next generation of developers with an emphasis on those underrepresented in technology.
+We host entrepreneur camps for Black and female developers to foster the talents of future industry leaders.
+Our Developer Academies, including the newest in Detroit, prepare the coders of tomorrow
+with valuable tools and training. And Learn to Code offers an amazing curriculum
+for people to develop new skills and learn Swift. We are committed to being a force for change
+as we seek to make the world a better place, full of opportunity for all of us.
+This year, we're bringing you another online experience featuring over 200 in-depth sessions,
+one-to-one labs with Apple engineers, and so much more. We'll provide the tools you need
+to continue creating the world's most innovative apps, apps that inspire us in new ways every day.
+And just like last year's WWDC, this entire conference will be made available for free.
+We've got a lot of exciting news and breakthrough innovations to share with you today. So let's get started by turning it over to Craig
+to tell us what's new in iOS. [Craig] Thanks, Tim. All right, let's dive right in.
+iOS
+For many of us, our iPhone has become indispensable. And at the heart of iPhone is iOS.
+iOS powers the experiences we've come to rely on. This year, we were inspired to create
+even more meaningful ways iPhone could help you. Our new release is iOS 15.
+It's packed with features that make the iOS experience adapt to and complement the way you use iPhone,
+whether it's staying connected with those who matter to you most, finding the space to focus without distraction,
+using intelligence to discover the information you need, or exploring the world around you.
+Let's start off with features that will let you stay connected in brand-new ways.
+In a year when figuring out how to get face-to-face has felt more essential than ever,
+we've all found ourselves using video calling for just about everything, and when it comes to making calls that are easy,
+spontaneous, and connect us with the people who matter most, FaceTime is a standout.
+With its incredibly intuitive design and end-to-end encryption since day one, FaceTime is how we catch up with friend around the world
+and how we stay close to family members when we're apart. Enjoying these deeply personal moments over video
+can bring so much joy, but it also has its challenges. When talking in person, our brains process
+hundreds of social, auditory and visual cues. When talking on a video call,
+many of those signals can get lost, leaving us feeling drained. So this year, we've set out to make FaceTime calls
+feel more natural, comfortable, and lifelike. First is a feature that makes FaceTime calls
+sound like you're sitting in the very same room. We're bringing spatial audio to FaceTime,
+creating a sound field that helps conversations flow as easily as they do face-to-face.
+Now your friends' voices are spread out to sound like they're coming from the direction in which they're positioned on the video call,
+making your calls more comfortable and more natural. Next, let's talk about two powerful new options
+for your microphone. The first is voice isolation. When you're on a FaceTime call,
+your mic is picking up a cacophony of sound, so in voice isolation, machine learning distinguishes those sounds,
+blocks out the ambient noise, and prioritizes your voice so that it comes through crystal clear.
+Check it out. [person] I wish I could be there! [person] Me too! Let me fix this.
+Better, right? [person] Yeah. [person] Got what she wanted for her birthday.
+[Craig] Sometimes, though, we want every bit of sound to come through, and that's when you switch to wide spectrum.
+In wide spectrum, your mic picks up an entire symphony's worth of sound: your voice and everything around you.
+Next, let's turn to video. When you want to see every face in the room,
+you can now turn on grid view, giving you another way to view your group FaceTime calls. Here, you see people in the same size tiles,
+and you'll be able to clearly identify who's speaking while seeing everyone else's reactions.
+And to make your FaceTime video capture more beautiful than ever, we're introducing portrait mode,
+where we've taken inspiration from iPhone's stunning portrait photos. In FaceTime, portrait mode blurs the background
+and naturally puts the focus on you. Next, to help you schedule your FaceTime calls,
+we've created FaceTime links. Now you can generate a link for a FaceTime call
+and share it anywhere. It's a terrific way to plan ahead for a call.
+You can send the FaceTime link in places like Messages, email, WhatsApp, or jump into Calendar
+and make an event for your FaceTime call so everyone will know exactly where to meet and when.
+And it's not just Apple devices that can use a FaceTime link to join your call. Your friends with Android and Windows devices
+can use your FaceTime link to join the call right from their browser, and even on the web,
+FaceTime calls are still end-to-end encrypted, so your privacy is never compromised.
+Some of our favorite ways to connect involve more than just talking, like getting together for a weekly movie night
+or listening to an album with a friend that brings back amazing memories. We love enjoying shared experiences,
+and so we built SharePlay. SharePlay is a powerful new set of features
+for shared experiences that you can enjoy when you're on a FaceTime call. With SharePlay, you can bring music into your call
+for a shared listening experience unlike any other, watch movies and TV shows
+while having rich, real-time connection with your friends. And share your screen,
+giving you limitless possibilities for bringing apps right into your FaceTime calls.
+Let me show you how this works, starting with listening together. Say you're hanging out on a FaceTime,
+talking about a new album that came out over the weekend. With SharePlay, you could bring that album right into the conversation.
+When you're on a call, all you need to do is press play in Apple Music, and you can choose to listen together.
+And like magic, high quality music playback will start in sync for everyone on the call,
+and you're still connected with FaceTime while listening. Everyone on the call can add songs to a shared queue,
+and shared playback controls let anyone press play, pause, or jump to the next track.
+Now let's check out what it's like to watch together. When you're on a FaceTime call, jump to streaming app and press play.
+and boom, you and your friends are watching the same video totally in sync.
+SharePlay is unlike any other shared content experience out there because it moves fluidly throughout the whole system.
+Maybe you want to order takeout while you watch. Picture in Picture lets you see your friends and the video you're enjoying together,
+and controls are always accessible with just a tap. And if the group wants to stay connected
+with no interruptions to the video's sound, you can jump into Messages and keep the conversation going there.
+And when the moment calls for a bigger screen, you can extend the video to your Apple TV
+and watch it there while sharing the moment with your friends over FaceTime on your iPhone.
+Even when you're using SharePlay across multiple devices, everyone will remain in sync.
+We wanted to make sure you have a ton of incredible experiences to share in FaceTime, so in addition to Apple Music and the TV app,
+SharePlay is designed to work with your other favorite apps and streaming services. With an API built for easy adoption,
+developers can bring their own apps right into FaceTime. And today, we're so pleased to announce
+that we're already working with some incredible partners. Watch blockbuster movies with your friends on Disney+,
+and hit TV shows on Hulu. Catch originals from HBO Max. And see your friends react live to a buzzer-beater
+in the NBA app. Or a speed run on Twitch. Jump on TikTok to watch the funniest videos of the week,
+learn a new skill with a friend on MasterClass, and so much more. Finally, check out screen sharing.
+You can use it to browse Zillow listings live with your future roommates or show off a tricky move in your favorite game.
+Screen sharing is also a simple and super effective way to help someone out and answer questions right in the moment.
+And it works across Apple devices. So that's SharePlay, a whole new way in FaceTime
+to connect and share experiences with the people you love. Next, when it comes to staying connected throughout the day,
+our go-to is Messages, and these days, so many of our conversations
+are inspired through sharing articles, photos, and more. So this year, we're introducing great new ways
+to enjoy all of this amazing shared content and the exchanges that follow.
+Here's Mindy to show you how it all works. [Mindy] Thanks, Craig. I'm so excited to show you what's new in Messages.
+Let's check out my family's conversation. Everyone's sending me pictures from our fun trip down to Joshua Tree.
+Look at this brand-new collage design. And this cool stack with even more photos from Taylor.
+I can quickly swipe through them, tap to view the full bunch, and add a quick Tapback.
+Now, let's see what's going on with my friends. They're always sending me all kinds of things, like this fun playlist from Leah
+and this mission critical article from Casey about what type of pizza is best. The thing is, the time when I receive this great content
+is often different than when I'm ready to enjoy it. For example, I'm not going to read this right now,
+but I'd love to the next time I catch up on the news. Let me show you something we designed just for that
+called Shared with You. So now, if I head over to the News app, there's a new Shared with You section
+that conveniently surfaces that pizza article and a few from my other friends. Now that I'm ready to learn more, I can take a look,
+and check this out. Up top, it shows me who it's from. And I can tap "from Casey" to pick up our conversation
+and remind her that deep dish is obviously the best kind of pizza, and then get right back to browsing.
+So now, if I want to check out that playlist Leah sent earlier, I can head over to Apple Music.
+And it's right here. Let's take a listen. [percussive music]
+Love it. Definitely adding this one to my library. Now, one I really love is photos.
+Remember those great pictures from my family's trip to Joshua Tree? Well, over in the Photos app, the new Shared with You section
+makes it super easy to get back to them. They'll also appear in my featured photos and memories.
+And what's really cool is, they're automatically brought over to my library too. So if I scroll back to that Joshua Tree trip,
+and drill in, you can see all the great photos my cousin sent are right here with the ones I took,
+making my collection so much more complete with zero effort. And Photos is smart enough to only bring over the ones
+I actually care about, like the ones I was there for, so I don't have to worry about screenshots or memes cluttering up my library.
+So that's sharing in iOS 15. Back to you, Craig. [Craig] In addition to Photos, Apple Music, and News,
+we've built Shared with You into Safari, Apple Podcasts, and the Apple TV app.
+And if something especially important comes through, you can quickly pin it, and it will be elevated in Shared with You
+and places like search. So that's Messages with Shared with You, bringing connection to the places
+you love to enjoy content. Together with SharePlay and other powerful updates to FaceTime,
+we're giving you even more meaningful ways to connect. Of course, that means making the time for it,
+so we have new tools to help you focus on what matters most. Today, iPhone plays so many roles in our lives.
+It's where we get information, how people reach us, and where we get things done.
+This is great, but it means our attention is being pulled in so many different directions,
+and finding that balance between work and life can be tricky.
+We want to free up space to focus and help you be in the moment, and that starts with notifications.
+They have a fresh new look, contact photos for people, and larger icons for apps, making them even easier to identify.
+Notifications are useful, though they can pile up throughout the course of a day, breaking your focus in those moments
+when you're trying to get in the zone. And the truth is, while some notifications require your immediate attention,
+others could be dealt with later. To help you engage on your own time, we're introducing the notification summary,
+a helpful collection of your notifications you can schedule to be delivered at any time you choose,
+like in the morning and evening. We use on-device intelligence based on how you interact with your apps
+to arrange the summary so it's easy to quickly catch up. Notifications in the summary are ordered by priority,
+with the most relevant ones rising to the top. Notifications from people will not end up in the summary,
+so you won't miss important messages as they come in. If now really isn't a good time,
+you can use Do Not Disturb to silence all notifications. And it turns out, it's even easier to step away and focus
+if people know we're busy, so we created an easy way to signal to others when you're doing that.
+Now when you're using Do Not Disturb, your status is automatically displayed in Messages.
+When you reach out to someone who's indicated they don't want to be disturbed, you'll be reminded in that moment.
+And for truly urgent messages, there's a way to get through. While an important part of finding focus
+is about reducing distraction from others, it's also about drawing boundaries for yourself.
+There may be periods in your day when you want to be totally focused on work, or maybe you just want to be fully present
+with your family at dinner. In these moments, you can use Do Not Disturb or strike more of a balance with Focus.
+Focus is a new way to match your device to your current mind-set. With Focus, all you have to do
+is choose what you want to focus on. You can carve out time in your day for work or your personal life.
+When setting up a Focus, we use on-device intelligence about your past activity to suggest the apps and people
+to allow notifications from. So if you're at work, you could choose to only be notified by coworkers
+or apps like Mail, Calendar, or Slack. You can even dedicate a page on your home screen
+to match your focus and organize your apps and widgets in a way that reduces temptations by making only your work apps visible.
+For personal life, we'll suggest being notified only by friends and family or apps like Calm.
+And for a home screen to match, you can have your favorite entertainment apps like YouTube or widgets for keeping up with your friends and family.
+We'll even intelligently suggest using a Focus based on your context, using different signals like location or time of day.
+Of course, you can create a custom Focus too. And when you use a Focus on one device,
+it automatically sets on all your other devices. We think together, these tools
+are a really powerful way to help you find balance. Not only does iOS give you space to focus,
+it also uses intelligence to elevate your experience, helping you discover more in your photos,
+quickly find what you're looking for, and even relive special moments. Let's get started with a feature we call Live Text.
+Today our photos are full of rich and useful information, from photos of places we visit
+to handwritten notes of family recipes. And now Live Text unlocks this information
+in a way that's really natural. It starts with the camera. Let me show you.
+Let's say I just finished a meeting with the team, and I want to capture my notes from the whiteboard.
+I can now just point the camera at the whiteboard and an indicator appears here in the lower right.
+When I tap it, the text just jumps right out. I can use my normal text selection gestures.
+Just drag and copy. Now I can switch over to Mail and paste those in
+and then send this off to Tim. How cool is that? And this is great for photos already in your photo library.
+Here's a photo of a friend. You may notice that here at the top there's some text. Now, I can just select it, like this,
+and I have the option to use Look Up to find out more about this restaurant and even look up its location.
+Oh, and here's a picture from a friend. Now, you may notice here in the background, is a phone number.
+I can just zoom in, and with Live Text, it's recognized with a link. I can just tap it and give this place a call,
+just like that. [person] Hi, Wanderlust Creamery. [Craig] Oh, uh, whoops. Sorry. Uh, just applying a deep neural network here
+to a photo of your shop. No actual need for ice cream at this time. Uh, gotta drop. Bye.
+Live Text works with photos across the entire system, including screenshots, Quick Look,
+and even photos on the web. And it understands seven languages, including simplified and traditional Chinese,
+and works across iPhone, iPad, and Mac. And it's not just text.
+You can also look up information on recognized objects and scenes. Just tap, and you can look up information,
+like the breed of a dog or type of a flower. And this works for art, books, nature,
+pets, and landmarks. We're also making it easier to search for your photos by adding photos to Spotlight.
+Spotlight is the universal place to start all of your searches. Now, with photos search in Spotlight,
+you can quickly find your photos right from the home screen. Spotlight leverages intelligence from the Photos app,
+so you can search by people, scenes, elements in your photos, or location, like San Francisco,
+And leveraging Live Text, Spotlight can even find text in your photos, which is great when you're looking for a photo
+of a recipe, a receipt, or even a handwritten note. We've also added all-new rich results for contacts.
+You'll have quick access to call, text, FaceTime, or email them and Spotlight intelligently includes
+everything related to them: their location, if shared through Find My, recent conversations, shared photos,
+calendar appointments, notes, and files. And we've added all-new rich results
+for actors, musicians, TV shows, and movies as well. That's Spotlight.
+Next, let's talk about how Photos uses its deep understanding of what's in your library
+to enable powerful, emotional features like Memories. Memories intelligently curates your favorite moments,
+stitching photos and videos together into heartfelt movies. To take a closer look at what's new, here's Chelsea.
+[Chelsea] Thanks, Craig. This year we've got the biggest update ever, including bringing Apple Music into your Memories
+for the first time. Let me show you. Here in the Photos app, I can tap on the For You tab,
+and my Memories are right at the top. Check out this beautiful new animated title card.
+Let's watch this one of my climbing adventures. You'll hear a relevant, personalized song from Apple Music that brings the memory to life.
+[light acoustic music]
+These new memories are built on the fly. They're interactive and alive and are paced to the beat of the music.
+I can tap and hold to pause, and the music continues to play. When I let go, the pacing adjusts to get back on beat.
+And to see a photo again, all it takes is a swipe. To customize my memory, I'll use a new feature
+called Memory Mixes. I can tap to bring up the controls then tap this button to jump in.
+Swiping on this carousel lets me try out different mixes with intelligently chosen songs, pacing,
+and a look to match. [upbeat music] [Kacey Musgraves' "Oh, What a World" playing]
+Notice how the feel of the memory changed with a calmer song, slower transitions, and a black and white look.
+[singing] It's hard to believe [Curtis Harding's "On and On" playing] [singing] I gotta get into...
+[Chelsea] This faster song has a more energetic feel. And these looks aren't just filters.
+We analyze each photo and apply consistent color and contrast, just like a colorist at a film studio.
+To check out more intelligent song suggestions, I'll tap on the music button. You'll notice these top suggestions
+are a great fit for my climbing Memory. With tens of millions of songs in the Apple Music Library,
+experts have curated sets of songs that are combined with my music tastes and the knowledge of what's in my photos
+to create personalized recommendations just for me. I can search for a specific song by tapping on the magnifying glass,
+but I'm gonna go with something from my listening history. This song from Imagine Dragons will be perfect.
+[singing] 'Cause I'm on top of the world, hey I'm on top of the world, hey Waiting on this for a while now
+Paying my dues to the dirt I'm on top of the world.
+And I can keep watching related memories, personalized with my favorite songs from Apple Music.
+And now back to Craig. [Craig] With Live Text, Look up, Spotlight, and Memories,
+iOS 15 elevates the iPhone experience with on-device intelligence. Next, let's talk about how iOS helps you better understand
+and explore the world around you, with some great updates to Wallet, Weather, and Maps.
+To tell us about what's new in Wallet, here's Jennifer. [Jennifer] With the Apple Wallet app,
+we set out to replace your physical Wallet. Starting with Apple Pay, we added payment cards to make payments safer and more secure.
+Next, we brought transit cards with Express Mode to your iPhone. You just breeze through the turnstiles in San Francisco,
+New York, Beijing, Tokyo, and more. And just recently, Walt Disney World
+added their park passes, creating magical moments as you tap to enter, ride, and explore.
+You can never leave home without your keys, so we're continuing to add keys to Wallet and making them even better.
+We started with car keys, which we're improving with Ultra-Wideband support for an unlock and drive experience.
+No need to take your iPhone out of your bag or pocket. BMW and others will ship cars with UWBs
+starting later this year. With iOS 15, we're bringing keys for your everyday places
+to Wallet, starting with where you live. We're creating the fastest, most secure way to unlock your house, apartment, or flat,
+and where you work. Just add your corporate badge and tap to enter your building or office.
+And where you travel, with hotel keys. You'll automatically receive your key when your room is ready,
+even before you arrive at the hotel. Starting this fall, Hyatt hotels will start rolling this out
+to over 1,000 properties worldwide, creating a faster and safer experience for their guests.
+Anywhere you go, just tap to unlock. An incredible range of partners for locks and access systems
+have signed on to support keys for all the places you go. However, to be fully free of your physical wallet,
+there's one more thing we need to bring to iPhone, and that's your ID. So we're bringing identity cards to Apple Wallet.
+This fall, you'll just scan your driver's license or state ID in participating US states.
+It's that easy. Your ID information is now in Wallet, encrypted and safely stored in the Secure Element,
+the same hardware technology that makes Apple Pay private and secure.
+And the TSA is working to enable airport security checkpoints as the first place you can use your digital ID.
+When you present your ID, you'll know what specific information is requested and securely presented.
+With just a tap, you're off to your flight. So that's Wallet on your iPhone and Apple Watch.
+Back to you, Craig. [Craig] Next up, weather. The Weather app is incredibly popular,
+and it's getting a huge update. First, we're introducing a beautiful new design
+with data and layouts that change based on conditions such as wind and rain, unhealthy air quality,
+or sunny skies. We've also added new weather graphics to help users better understand conditions
+like wind, UV index, and barometric pressure. And we've completely redesigned
+the gorgeous animated backgrounds. There are now thousands of variations that more accurately represent
+the sun position, clouds, and precipitation. And Weather app in iOS 15
+includes full-screen, high-resolution weather maps. These maps show temperature,
+animated precipitation, and air quality that provide a whole new way to see the weather around you.
+Next, we have some really big updates for another app our users depend on every day.
+Apple Maps. Apple Maps is the best way to navigate your world. It's easy to use and beautifully designed,
+while providing the confidence that your privacy is protected. Here's Meg to tell you more.
+[Meg] Two years ago, we started rolling out our new map, offering richer details and more accurate navigation
+to help you get around. Built from the ground up, we've launched our new map so far in the U.S., UK, Ireland, and Canada,
+and we're excited to announce we're bringing the new map today to Spain and Portugal, and later this year,
+we'll add Italy and Australia. Our goal has always been to build the world's best map.
+So we looked at everything we've done so far, and we asked ourselves, "How can we push things even further?"
+We started by building a gorgeous, interactive globe that invites users to tap and explore.
+This is a whole new way of looking at the world. But it's in cities where we're taking Apple Maps to an entirely new level.
+Our current map is great, and our users have told us it's a lot more useful for navigation and exploration,
+but in iOS 15, Maps will offer incredible new details for commercial districts, marinas, buildings,
+and so much more. We've added things like elevation, new road colors and labels,
+as well as hundreds of custom-designed landmarks for places like Coit Tower and the Golden Gate Bridge.
+And we built a beautiful new nighttime mode with a moonlit glow. We think all of these improvements
+are going to make exploring a city so much fun for Maps users. And when a user is ready to go somewhere,
+Maps in iOS 15 will make getting there way better. Let's start with driving.
+We've added a great deal of new road details to the map so we can help drivers as they move throughout a city,
+to better see and understand important things like turn lanes, medians, bus and taxi lanes, and more.
+This outstanding attention to detail, including the addition of crosswalks and bike lanes,
+will help drivers more safely navigate complex intersections. And when driving on highways, Maps now renders
+overlapping, complex interchanges in three-dimensional space, making it much easier to see upcoming traffic conditions
+or to know which lane you need to be in. And of course, we'll be bringing this driving experience
+to CarPlay later this year. But it's not just driving.
+We've also made big improvements for transit riders by helping them easily find nearby stations.
+Users can pin their favorite lines to the top and even keep track on their Apple Watch so there's no need to take your phone out of your pocket.
+Maps also automatically follows your transit route, notifying you it's time to disembark
+as you approach your final destination. And if you've ever exited a station, unsure of which direction you need to go,
+Maps will help get you back on track. Simply hold up your iPhone, scan the buildings in the area,
+and Maps will generate a highly accurate position, delivering detailed directions in augmented reality
+to help you complete your journey. We're launching this beautiful new three-dimensional experience
+in these cities by the end of 2021, with many more to come next year.
+And that's the all-new Apple Maps. Back to you, Craig.
+[Craig] So that's just some of what's new in Apple Maps. An incredible new way to explore the natural beauty of the world,
+and an amazing new three-dimensional city experience with improved navigation.
+iOS 15 is a great release that helps you stay connected, find focus, discover more with on-device-intelligence,
+and explore the world. And there's more, including Voice Search in Safari, powerful support for cross-app drag and drop,
+and new outfit options for Memoji. So that's iOS 15,
+with powerful new features that enhance how you use iPhone. And of course, one of the most popular
+accessories for iPhone is AirPods. To tell you more about what's new, here's Gagan.
+AirPods
+[upbeat music] ♪ ♪ [singer] ♪ Party for you ♪
+[Gagan] AirPods have helped us enjoy music like never before, and they've helped us stay connected
+in so many different ways, whether to friends and family, to our devices, or to our favorite entertainment.
+With iOS 15, we have some great new features coming to AirPods, starting with Conversation Boost,
+which is designed to help people with mild hearing challenges stay more connected in conversations.
+Through computational audio and beamforming microphones, Conversation Boost focuses your AirPods Pro
+on the person talking in front of you, making it easier to hear and follow along in a face-to-face conversation.
+And to help you hear the conversation even better, you can also reduce the amount of ambient noise.
+Next, when you can't reach for your iPhone, Announce Messages with Siri helps you stay connected.
+iOS 15 takes this further with Announce Notifications. Now Siri can automatically read
+your important, time-sensitive notifications to you, like when your dinner has been delivered.
+And when you set a location for your Reminder, like the grocery store, Siri will read your shopping list to you
+right when you need it. You can easily choose which Apps to enable and select Do Not Disturb when you don't want to be interrupted.
+And if you're using the new Focus feature, your notification preferences are already taken into account.
+Next, we have significantly improved how AirPods work in Find My. With iOS 15, you can locate your AirPods Pro and AirPods Max
+using the Find My network. Your AirPods simply send out a secure Bluetooth beacon that can be detected by other Apple devices.
+They can relay your AirPods' location to the network and then back to your Find My app. And if they're nearby, just choose Play Sound.
+Listen for the chirp, whether they're in their case or out. [chirping] And the new proximity view in the Find My app
+lets you know when you're getting close. [chime] To make it even less likely to lose your AirPods,
+you can now receive a Separation Alert to notify you if you leave your AirPods behind.
+Finally, last year, we introduced spatial audio with dynamic head tracking for AirPods Pro
+and then elevated the experience even further with the high fidelity audio of AirPods Max.
+Enabled by computational audio, the three-dimensional theater-like sound really makes movies come to life.
+This fall, we're excited to extend spatial audio to tvOS. So now you can enjoy the full surround experience,
+tuned for the big screen in your living room, without disturbing the rest of the house. And with dynamic head tracking,
+it properly responds as you move about the room. We're also bringing spatial audio with dynamic head tracking
+to macOS on our new M1 powered Macs so you can enjoy spatial on all of your devices.
+In addition, we recently announced spatial audio for Apple Music with the incredible multi-dimensional sound experience of Dolby Atmos.
+And we're excited that it's available starting today with albums from some of your favorite artists, like Ariana Grande, The Weeknd, J Balvin, and Kacey Musgraves.
+With the benefits of Conversation Boost, the convenience of Find My, and the enhanced experience with spatial audio,
+there are some great new features coming to the AirPods family. Now back to you, Craig.
+iPadOS
+[singer] ♪ Just like magic, oh, yeah ♪ [Craig] It's time to talk about iPadOS.
+iPad is an incredibly versatile device, with its unique blend of mobility, innovative technologies, and touch-first user experience,
+and this experience is powered by iPadOS. With iPadOS, we build distinct capabilities
+that make it possible for iPad to become whatever you need it to be, like when you're browsing your photos
+and iPad becomes an album of your most precious memories, held right in your hands; or when you pick up Apple Pencil
+and it becomes your notepad, a markup tool, or a canvas for new artwork; or when you attach a keyboard and trackpad,
+and it becomes a powerful new way to work on your most important documents. This unique set of capabilities
+mean you get things done right in the moment and can seamlessly move from capturing and working on your ideas
+to sharing them. With iPadOS 15, we're taking this versatility further,
+making iPad even more capable and more intuitive, and we started right on the home screen with widgets.
+They offer beautiful, glance-able information at just the right moments, and this year, we have a big update.
+Now you can freely place widgets among the apps on your home screen. This is a huge deal!
+Let me show you how it works. Okay. Here I am on the home screen.
+You can see that I already have a few widgets placed along the top. Let's start by adding a widget.
+I'll bring up the widget gallery. Here you'll notice some new widgets like the beautiful new Find My widget
+and the Contacts widget which helps you reach family and friends with just a tap. Let's find a good spot for this, towards the top here.
+Now, I'll go back to the gallery and grab the Parcel widget for tracking my incoming packages
+right on the home screen. Perfect. Now, of course a bigger canvas means more room for widgets,
+so we're adding a new, larger format for widgets designed just for iPad's larger display.
+Here's the new Apple TV widget. I can easily dive into my favorite shows with a tap, and here's my gaming page.
+The new Game Center widget lets me jump into my games faster and discover what to play with friends.
+And check out the new large-size Photos widget. It really puts my favorite photos front and center,
+and with this larger Files widget, I can keep tabs on all of my work projects. Now, with pages full of these great widgets,
+some of my less frequently used apps have gotten pushed to later pages. We wanted to make it easier to get to all of your apps,
+so we brought App Library to iPad. You can see all my apps are here,
+automatically categorized for me. And what's really cool is we built access to App Library
+right into the Dock, no matter where you are, you can always get to your apps.
+And now that you have App Library, you can hide pages that you no longer need...
+just like this. And even reorder them right from here.
+That's widgets and App Library. We think this is going to change how you get information and access all your apps on iPad.
+We also have a major update for another key part of the iPadOS experience: multitasking.
+This year, we've made it easier to discover, easier to use, and even more powerful.
+To give you a closer look, here's Shubham. [Shubham] Thanks, Craig. In iPadOS 15, there's a new control
+that appears at the top of your apps. Tapping on it reveals the multitasking menu.
+From here, I can take an app, full-screen, or work with two apps at the same time by creating a Split View or Slide Over.
+I'll tap on the Split View icon, and the app slides to the edge of the screen, giving me quick access to my home screen,
+where I can easily select from any of my apps. I've been working on a podcast, so I'll choose Ferrite.
+And now I can work with Ferrite and Notes at the same time in Split View. It's also really easy to switch apps in Split View.
+If I want to replace Ferrite, I just swipe down, and Notes moves aside, letting me pick another app from the home screen.
+Let's select Mail. This works exactly the same way to choose a new app from either side of the screen.
+And we brought the same ease of multitasking to apps with multiple windows. In Mail, I can touch and hold on this message
+to open it centered on my screen. This allows me to read the entire email
+without leaving my current view. And I have the same multitasking controls here, too,
+so I can easily move this into Split View or Slide Over. But I want to save this email and come back to it later.
+So I can just swipe down to minimize it into a new area we're calling the Shelf.
+The Shelf gives me easy access to all open windows of an app. Let's go to Safari, and you'll see that
+the Shelf appears automatically when I switch apps. I often have a lot of Safari windows open,
+many in Split View paired with other apps, and now I can just tap to quickly switch between them.
+I can also add or remove windows right here from the Shelf. We've also made the App Switcher even more powerful.
+I can now create a Split view just by dragging one app over another.
+So that's multitasking in iPadOS 15. Now back to you, Craig. [Craig] Thanks, Shubham.
+These new multitasking features will help our users be more productive and do even more on their iPad,
+and what's really cool is we now have a new set of keyboard shortcuts that let you do all of this without lifting a finger.
+iPadOS 15 also gives you more powerful ways to capture and organize your information with Notes.
+This year we're adding powerful new features for collaboration and organization. First, we're adding mentions.
+Just mention someone in a shared note and they'll get a notification linking them back. There's also an all-new Activity View
+that quickly shows you what's changed in a shared note while you were away. And to give users new ways to organize their notes,
+we're adding tags. You can add a tag anywhere in your note then use the new Tag Browser to quickly find your notes.
+But sometimes you just want to quickly jot down a note to remember something important for later,
+and that's why we're taking Notes system-wide with a feature we call Quick Note.
+Quick Note is a fast and easy way to get to a note, no matter what you're doing. Here's Will to show you how it works.
+[Will] Thanks, Craig. Starting a Quick Note is easy. When I swipe, the note appears
+out of the corner of the screen. Now that I've started a note, I can type or write with Apple Pencil.
+It's perfect for jotting down something like a phone number. And when I'm done, I just swipe it away.
+Let's open Safari. What's super cool about Quick Note is that it's aware of the app I'm using.
+I'll start a new Quick Note on top of Safari...
+...and now I can easily add a link from the website into my Quick Note.
+I can tap this link anytime to return to this exact site. Let's go to a website I added a link to earlier.
+A small thumbnail pops up in the corner that allows me to quickly get back to my Quick Note
+containing any useful information I found. You'll notice there's text highlighted on the page.
+And I added this text to my Quick Note. And tapping on a link from a highlight takes me right to the content on the page.
+I can add a link from almost any app I'm using, including third-party apps.
+Here's a link from Yelp, and if I tap, it takes me right to the restaurant listing.
+I can swipe across my Quick Note to see my most recent ones. And anytime I want to see all my Quick Notes,
+I can find them right where you'd expect, in Notes. Now back to Craig.
+[Craig] Thanks, Will. So that's Quick Note, a new way to capture information anywhere.
+Quick Notes can be created on iPadOS and macOS, and you can access and edit them later on iOS.
+Now let's talk about Translate. In just one year, Translate has already helped users
+make billions of translations on iOS. So we're excited to bring Translate to iPad,
+with experiences that leverage iPad's unique capabilities, like practicing handwriting in another language
+with Apple Pencil or translating right next to your document with Split View.
+And Translate was designed for conversations. So we're making conversations feel easier
+and even more natural with Auto Translate. Auto Translate detects when you're speaking,
+and in which language, so no one needs to tap a button to respond. Just speak and let Translate do the rest.
+We're also excited to announce system-wide translation. So you can translate text anywhere.
+Just select the text and tap Translate. With Live Text, you can even translate text in a photo.
+System-wide translation is available on iPadOS, iOS, and macOS, and of course, you can download languages
+to use all of these features on-device. Whether you're working on a document or meeting with someone,
+Translate makes iPad even more powerful. Now let's talk about Swift Playgrounds
+and how it's bringing a whole new dimension of productivity to iPad. Swift Playgrounds is a great way to learn to code
+through a series of Apple-designed lesson plans that are interactive and fun. This year we're taking it even further
+by adding the ability to build apps on iPad. You build these apps with Swift UI,
+which makes development easy. The code you write is immediately reflected in a live preview of your app.
+This new project type even works with Xcode on Mac. Swift Playgrounds now supports improved code completion,
+so you can just start typing and quickly add the suggestion to your code. You also have access to the whole library
+of UI components and the documentation to go with it. And if you're new to app development,
+there's a guide to creating your first app. While you're developing your app, you can run it full-screen to try it out,
+and when you're ready, you can even submit it to the App Store. This is amazing!
+You can now build apps for iPhone and iPad on iPad.
+We think this will take iPad to new places. That's iPadOS 15,
+taking the versatility of iPad even further with new widget layouts for your home screen,
+App library, and a redesigned multitasking experience, new note-taking and translation features,
+and the ability to build apps with Swift Playgrounds. Combined with the great new features we talked about in iOS,
+it's time to completely rethink what you can do with your iPad. Next, let's get into Privacy.
+Privacy
+[energetic music] ♪ ♪
+At Apple, we believe privacy is a fundamental human right. We don't think you should have to make a trade-off
+between great features and privacy. We believe you deserve both. Since the beginning,
+we've worked to help you keep your personal data under your control. And over the years, we've integrated
+powerful privacy controls into our operating systems, most recently adding Privacy Nutrition Labels and App Tracking Transparency.
+Today, privacy is more important than ever, because when you use the internet
+and third-party apps, you can be tracked by a complex ecosystem of data brokers and ad tech firms, often without your permission.
+We don't think this is right. We believe in protecting your privacy and giving you transparency and control
+over your information. And to tell you about the new ways we're giving you even more control,
+here are Katie and Erik. [Katie] Thanks, Craig.
+Let's start with Mail. If you're like me, you get a lot of marketing emails like this.
+What you may not realize is that many of these emails use invisible pixels
+to collect information about your Mail activity, like when you open a message and even your IP address.
+We think you should be able to choose whether to allow this or not. So now in the Mail app,
+we're introducing Mail Privacy Protection. Here's what it does.
+It hides your IP address so senders can't link it to your other online activity or determine your location.
+And it prevents senders from seeing if and when you've opened their email. So now you can catch up on email with greater peace of mind.
+[Erik] Safari leads the industry in protecting you against cross-site tracking with Intelligent Tracking Prevention,
+and this year, we're making it even stronger by also hiding your IP address from trackers so they can't use it
+to link your activity across different sites or learn your location. You can see which trackers are prevented from profiling you
+in the Safari Privacy Report. We wanted to bring this same transparency to apps you use too.
+[Katie] So we're introducing the App Privacy Report. This new section in Settings
+gives you an overview of how apps treat your privacy. You can see how often apps use the permission you've granted
+to access your location, photos, camera, microphone, contacts, and more, during the last 7 days.
+And to find out who your data may be shared with, you can see all the third party domains the app is contacting.
+So these are our new privacy system controls. Now let's talk about Siri.
+Siri's available across all your Apple devices, allowing you to quickly get things done
+with just your voice. And Siri is being used more than ever on over 600 million devices each month.
+We recently added more diverse Siri voice options, and they sound incredible.
+[Siri] Hi, I'm Siri. If you need anything, just ask. [Katie] Now, Siri has a ton of great new features this year,
+but today we want to focus on a major update to privacy. [Erik] Siri's designed to process
+as much data on device as possible, keeping your information private, and with the power of the Neural Engine,
+we're able to do this more than ever. Today we're introducing on-device speech recognition.
+This means that, by default, your audio is all processed right on your iPhone or iPad. This addresses the biggest privacy concern we hear
+for voice assistants, which is unwanted audio recording. And this has some great benefits beyond privacy.
+First, you can now make many requests without an internet connection: launch apps, change settings, control music, and more.
+Second, on-device processing speeds things up. Check this out. I'll do a few requests back to back.
+Open Photos. Open Calendar.
+Turn on Airplane Mode. Set a timer for 20 minutes.
+Switch to dark mode. Wake me up at 7:00 a.m.
+It's amazing how fast Siri is with on-device processing. So those are some of the powerful
+new privacy protections in Mail, Safari, and your apps, along with on-device speech recognition for Siri.
+iCloud
+Back to you, Craig. [Craig] Next, another part of our ecosystem
+that puts your privacy first is iCloud. Here to tell you about some great new updates is Mike.
+[upbeat music] ♪ ♪
+[Mike] Many of us rely on iCloud to safely store a lot of personal information, and it's important to always have access.
+So let's start off with two improvements we're making to your Apple ID. First, we're adding a new way to get back into your account
+if you forget your password or get locked out. You'll now have the option to add people you trust,
+like your family and friends, to a Recovery Contact list. They won't get any access to your account,
+but if you ever forget your password, you can call them to get the code you need to get right back in.
+It's fast, easy, and secure. Second, we're launching a new Digital Legacy program.
+We don't often think about it, but it's important that we can easily pass down information to family members or friends when we pass away.
+You'll now be able to add people to your account as Legacy Contacts. So when you're gone, they can simply request access,
+and your information can be passed along quickly and easily. iCloud has always kept your important information--
+like photos, documents, and notes-- safe, up to date, and accessible across all of your devices,
+and today, we're making some big updates. We're upgrading our paid subscription to something that we call iCloud+.
+iCloud+ combines everything you love about iCloud with some great new features,
+starting with something to help protect your privacy online. On any given day, we all use a variety of networks
+to browse the web: from the internet in our own homes. to public Wi-Fi on the go.
+And behind the scenes, network providers and websites can combine your identity and browsing history
+into a detailed profile about you. So now, in addition to everything that Safari does
+to protect you online, we are introducing a new service called Private Relay.
+It lets you browse with Safari in an even more secure and private way. And the way it works is really cool.
+It ensures that the traffic leaving your device is encrypted so that no one can intercept and read it.
+Then all of your requests are sent through two separate internet relays. It's designed so that no one, including Apple,
+can see both who you are and what sites you're visiting, and it does all this without compromising performance.
+Next, let's talk about another iCloud+ feature: Hide My Email. We've all had moments when we've thought twice
+about sharing our personal email address, like when we're filling out a form on the web. With Hide My Email, you can share a unique, random address
+that forwards messages to your personal inbox. It's built right into Mail, Safari, and iCloud Settings.
+So it's easy to set up as many addresses as you need and delete them at any time, keeping you in control.
+iCloud+ also includes built-in support for HomeKit Secure Video. More and more of us are using security cameras
+to keep an eye on our homes. With iCloud+, you can connect more cameras than ever,
+and none of the video counts against your iCloud storage. It's just a part of your subscription.
+Of course, you'll still get everything else you love about iCloud, including Photos, Backup, and iCloud Drive.
+And the best part is we're not changing our prices at all. You'll get all of iCloud plus our new Private Relay service,
+Hide My Email and expanded HomeKit secure video support for the same low price as we offer today.
+We're really excited to be giving users an even more private and connected experience with iCloud+.
+Now over to Sumbul for the latest developments in Health. [upbeat music]
+Health
+[Sumbul] Your health and the well-being of your family is always important to you, and never more so than this past year.
+Apple's commitment to health is stronger than ever. We're collaborating with medical experts to accelerate health innovation,
+and we're empowering individuals to improve their health as well as make it easier for them to participate
+in large-scale research studies. With our APIs, developers are using our devices and Health app
+to come up with ingenious ways to push things forward. Here's an example.
+[Francoise] I’m Francoise Marvel. I’m a cardiology fellow at Johns Hopkins. [Seth] Seth Martin.
+I’m also a cardiologist at Johns Hopkins. [Francoise] Seth and I spend our days
+alongside our patients at the bedside. You know, six white coats, hovering over a bed.
+And we’re trying to actually share what the patient’s condition is. How they need to improve their life.
+We use medical jargon. We speak quickly. We confuse patients. And they’re left on their own.
+There has to be a better way than just treating a patient, handing them a bunch of papers, and expecting
+that they’re gonna understand how to change their life. We thought, well, what if we completely reengineer
+the process for a heart attack patient, by using ResearchKit, CareKit, HealthKit, and then connecting it
+with an Apple Watch, so we can bring in key cardiovascular metrics that help us to know patients are doing well.
+[Seth] When Francoise was in the technology accelerator program at Hopkins, the work there led to this phone call with Apple
+and towards the end of the phone call, Francoise said to Divya at Apple, “What can we do
+to accelerate this?” And Divya said-- [Divya] You guys gotta come out to Cupertino.
+[Francoise] And we had a Silicon Valley AirBnB. And we started side-by-side coding with our iOS developers,
+and then every couple hours-- [Divya] We would talk about their vision and tools they could leverage. [Francoise] We’d go to a white board, and we’d lay out--
+[Divya] Here are the things you guys should go tackle. [Francoise] And we’d go back to our AirBnB, pour more coffee,
+you know, order some bubble teas, eat some food. And then we would go into Cupertino. [Divya] They’d come back into Cupertino, piled in a minivan.
+[Francoise] And spend like almost the full day there, getting more feedback, working with their teams. [Divya] They would leave our offices,
+and work through the night building and implementing the things we had talked about. With our tools and their vision,
+we ultimately made magic together. [Francoise] We left Cupertino invigorated, and guess what?
+Our clinical trial was able to save an incredible amount of people from having complications
+and coming back to the hospital. And it reduced hospital readmissions by 52%.
+And likely saved a lot of lives. [Divya] I remember we were just sitting outside-- beautiful Cupertino weather.
+And it was just one of those moments where it dawned on us that Corrie app was going to have an impact on so many people’s hearts around the world.
+[Francoise] This is the start of something incredible. It’s the spark, and now it’s like fire
+[Sumbul] This is just one of the many inspiring stories out there and is a testament to the innovative work happening
+in the medical community. A critical part of taking care of yourself is monitoring changes in your health,
+which can be subtle and easy to miss over time. So this year, we're offering three new features
+to help you to identify, measure, and understand those changes, and here's Adeeti
+to tell you about the first of these features. [Adeeti] Let's start with mobility.
+The way that you move and walk can indicate balance issues and gait impairment. This is the leading cause of falls in adults.
+Currently, fall risk is assessed by a care provider through a questionnaire and an in-person evaluation.
+But this can miss out on your everyday movement, so important changes can go unnoticed.
+Your iPhone already captures mobility data as you walk with scientifically validated metrics.
+We're building on this to introduce a completely new way to assess your risk of falling
+called Walking Steadiness. For the first time ever, you can get insight if your fall risk increases
+and take action early to improve your steadiness. Let's take a quick look at some of the science behind this.
+As you walk with your iPhone, the built-in motion sensors automatically measure how fast and how evenly you walk,
+the length of your steps, and the timing of each step, right down to how often you have both feet on the ground.
+Combined, these metrics provide powerful insight on changes in your balance, stability, and coordination.
+We used real-world data from the Apple Heart & Movement Study, with over 100,000 participants across all ages.
+This is the largest data set ever used to study fall risk, and it's helped create this first of its kind health metric.
+You can view your Walking Steadiness in the Health app. You'll see a classification of "OK"
+if the metrics show that you're stable while walking. You can see how your Walking Steadiness
+may change as the months go by and receive a notification if your steadiness is low or very low and you're at increased risk of falling.
+You can also learn how to improve your steadiness. There are movement exercises right in the Health app,
+and these can help you increase your strength and balance and reduce your risk of falling.
+Now back to Sumbul to tell you about another way to monitor health changes.
+[Sumbul] You can already review lab results like your cholesterol right in the Health app. In the U.S. alone, 14 billion clinical laboratory tests
+are performed each year. That is a lot of information to keep track of. When you see your own results come in,
+it can be hard to understand what these tests mean or what has changed. The Health app will now include detailed descriptions
+to help you better understand your lab data. For example, when you receive a cholesterol result,
+you can now see that the LDL is a bad cholesterol and having too much may put you at risk for heart disease.
+You can also now see whether your labs are within expected ranges. Together, these views will help you
+get even more meaning from your lab results. Many health changes happen over time,
+so to better understand your health even more holistically, we're introducing Trends.
+You'll get insight on long-term changes across areas such as steps, resting heart rate,
+blood glucose, sleep, and much more. You'll also be alerted when there's a new trend in your data, which may be something
+you want to monitor more closely or even discuss with your physician. So if you're getting more daily walks in, your health summary will show
+that your steps taken have increased over the last few months. This is a great way to celebrate progress
+towards meeting your health goals and a powerful new way to get early insight into potential health issues.
+With Trends, Walking Steadiness, and a better Labs experience, you have three new ways to see changes
+in your overall health. Another really important part of managing your health is having meaningful conversations with your doctor.
+During your visit, physicians look at your vitals and labs but will also ask you about everyday health activities
+like exercise and sleep. And patients can often have difficulty remembering all these details.
+But the Health app has all of this valuable information, so, to support this conversation,
+you can now share health data that you choose with your healthcare provider in a private way.
+For example, if you have a concern about your heart health, you can now share your heart data. This is shared securely.
+No one else, including Apple, will see this information. Your doctor can then view this data directly
+from their electronic health record system and look for important trends such as changes in activity
+and a history of alerts like high heart rate. Access to this information helps give your doctor a more complete view of your everyday health
+outside of the clinic. We're so excited about this new capability to share your data from the Health app
+directly with your doctor. These electronic health record companies in the U.S. will be the first to support this feature,
+and we look forward to expanding availability even more in the coming months.
+Now, for many of us, it's not just the changes in our own health we care about. It's the health of our family and loved ones too,
+whether they live with us or far away. For some of us, that means taking care of our kids
+and for others, it's our aging parents. And for many of us, it's actually taking care of both--
+generations above and below. To empower you to care for others, we're introducing Health Sharing,
+a private and secure way to view health data, trends, and alerts for the people most important to you.
+For example, I could set up a sharing relationship with my mom, and with her permission, I could view data like her heart rate,
+activity, and labs. And just like with my own health data, Trends proactively highlights changes in my Mom's health data
+for me. I can also receive notifications, including high heart rate alerts,
+changes in mobility, and more. And it's easy for me to connect with her about her health.
+So if I see a noteworthy change like her resting heart rate increasing, I can simply tap Messages
+and start a conversation with my mom. This is a powerful new way to stay connected
+to the wellbeing of those you love. You'll have peace of mind, and they'll know they have a trusted partner
+on their health journey. Since the beginning of our work in Health, all of our health features have been architected
+to keep your data secure and protect your privacy. Your health data is under your control
+and is encrypted in transit and at rest. The permissions built into the sharing experience give you granular control
+over which types of data you share and with whom. And you can make changes at any time right from the Sharing tab.
+Data you share is sent in an encrypted form, and Apple does not have access to any of this information.
+Privacy is fundamental in the design and development across all of our Health features. We're so excited for what's coming in Health--
+a first-of-its-kind metric to access fall risk, richer insights to understand changes in your health,
+and completely new abilities for you to privately share selected data with your doctors and loved ones.
+Now I'll hand it over to Kevin to talk about watchOS.
+watchOS
+[Kevin] Apple Watch is already the most loved watch in the world. It keeps you healthy, active, and connected.
+With features like Fall Detection, ECG, and Cycle Tracking, Apple Watch is an essential health companion.
+It motivates you to close your Activity rings and transforms the way you stay fit. And staying connected to the people and things
+you care about most is easy with Apple Watch-- all from your wrist. In watchOS 8, we're introducing more capabilities
+in each of these areas. Let's start with health. More than ever, people are realizing
+the importance of dedicating time to practice mindfulness. In fact, the Breathe app has grown in popularity,
+particularly over this last year. In watchOS 8, the Breathe app has been enhanced
+to give you more opportunities to slow down and be mindful, including a new animation that has a beautiful look and feel
+to help you center and calm as you breathe. We're also introducing Reflect--
+a new way for you to be more mindful. For example, a reflection could be "Think about something you love to do
+and why it brings you joy." A gentle animation helps you focus.
+And studies show that regular mindful moments like this can lead to increased positive emotions and overall psychological well-being.
+The Reflect and Breathe sessions live in the new Mindfulness app. This will help you reduce stress and relax your body and mind.
+With the Sleep app, we introduced an entirely new way for you to meet your sleep goals and track metrics like time asleep,
+heart rate, and even blood oxygen. In watchOS 8, Apple Watch can track another key metric while sleeping--
+Respiratory Rate. This is a vital sign that measures how many breaths you take per minute. And since your sleeping respiratory rate
+tends to be consistent over time, a change may indicate a shift in your overall wellness. You'll be notified if a meaningful trend
+in your respiratory rate has been identified. And you can see even more details in Respiratory Rate in the Health app.
+Now I'd like to turn it over to Julz to tell you what's coming to help you stay active.
+[Julz] Apple Watch is the perfect companion to motivate you to be more fit. And watchOS 8 adds two of the most popular workout types
+that are great for bringing more mindful movement to your routine. First, a new Tai Chi workout.
+This Chinese martial art is thousands of years old and is often described as meditation in motion.
+Its gentle approach can help reduce stress and find a more peaceful state of mind. And a brand-new Pilates workout type,
+which is one of the best ways to develop core strength, posture, balance, and flexibility.
+Of course, another way people are staying fit is with Apple Fitness+, the first service built entirely around Apple Watch.
+We've heard from so many of our users how it's making a positive difference in their lives. And now, Fitness+ is introducing a new series of workouts
+featuring Jeanette Jenkins, one of the most sought after fitness experts. With seven workouts focused on Strength
+and High Intensity Interval Training, she's bringing the fire and her belief that all bodies are made to be strong.
+Because music is so key to the Fitness+ experience, we're introducing a new Artist Spotlight Series.
+Each workout features an entire playlist from Lady Gaga, Jennifer Lopez,
+Keith Urban, and Alicia Keys. The Artist Spotlight Series and the new workouts with Jeanette
+will be available later this month. With new workout types and great new Fitness+ content,
+Apple Watch continues to be an incredible motivator to help you stay active and fit. Back to you, Kevin.
+[Kevin] Let's talk about some new features to keep you connected to the people you love. Photos are a great way to relive your favorite moments
+and most precious memories. On Apples Watch, the Photos face is the most popular Watch face.
+That's why watchOS 8 is bringing another great way to enjoy your favorite photos with the new Portraits Watch face.
+It takes the great portrait photos from your iPhone and uses the segmentation data to create a multi-layered face with depth.
+And you can make this watch face your own by adjusting the photo's composition and time placement to really make the subject stand out.
+This is really great to see live, so let me invite Shandra to show you a demo.
+[Shandra] Thanks, Kevin. Your photo comes to life when you raise your wrist. And as you scroll the digital crown,
+you get a view of the dynamic composition that makes this watch face extraordinary. You're gonna love how this face keeps you connected
+when you can't be face-to-face. Speaking of photos, the Photos app itself has been completely redesigned.
+It now includes memory highlights, featured photos, in addition to your favorites.
+If I tap into this memory, I can scroll through the all-new mosaic layout.
+My daughter Wesleigh and I adopted our puppy Fondue last year and are missing her during the day.
+The new Photos app makes it simple for us to quickly reminisce. This picture from my Memories is a good one.
+I'm gonna share it with Wesleigh to remind her we're not always missing Fondue's best moments. If I tap the share icon,
+you'll see that we now have support for sharing photos via messages and mail, directly from my Watch.
+Let's get this over to Wesleigh. I'm gonna tap add message to show you that we've made it even easier to compose a message.
+We can now dictate, Scribble, and add emojis in the same view. I always find it easy to dictate my messages.
+Remember this? If I tap Scribble, I can edit my text inline
+by selecting and deleting what I'd like to change. And I can use the crown to move the cursor
+and add additional text. And what message is complete without emojis to get a point across?
+By tapping the emoji icon, I can add multiple emojis while in the Scribble view.
+watchOS 8 makes it easy to send the perfect message right from your wrist. [chime] That was quick.
+Wesleigh must have the puppy on the brain too. And with GIFs now on Apple Watch, I can reply as comedically as I would from my iPhone.
+In the new app shelf, you'll find #images. You can search for the perfect GIF
+or choose from your recents. I think a face palm best captures how this photo makes me feel.
+And that's a look at what's coming in watchOS 8 to keep you connected to the people and puppies you care about most.
+And now, back to Kevin. [Kevin] We think you're gonna love these new features
+in Photos and Messages. And of course, there's so much more, including Next Hour Precipitation,
+support for Find Items, and Multiple Timers. watchOS is the world's most advanced
+wearable operating system. And watchOS 8 takes it even further with new features to help you stay healthy,
+Home
+active, and connected. And now, over to Craig. [electronic music]
+♪ ♪
+[Craig] Let's talk about the home. At Apple, we design our products for the home to embody three key attributes
+starting with being easy to use. We believe the technology in your home should work for you, not the other way around.
+And we design our products to work better together so that your iPhone, HomePod mini,
+Apple TV, and other devices can leverage each other to deliver seamless experiences.
+And everything we do is built to be private and secure, which is so important to all of us.
+With this foundation, we have a great set of features coming this year to make life at home more enjoyable.
+To tell you more, here's Yah. At the heart of your smart home is HomeKit,
+seamlessly orchestrating and controlling your smart home accessories. And it all starts at your front door.
+With our new Home Keys feature, simply tap your iPhone or Apple Watch to securely unlock the door, just like that.
+Now, sometimes when you get home, you just can't wait to watch your favorite show, so we've made that easier than ever.
+Starting this fall, you can ask Siri on HomePod mini to play something on your Apple TV--
+completely hands-free. [mom] Hey, Siri, watch the latest episode of Mosquito Coast. [Siri] Here's season one, episode seven of Mosquito Coast.
+[Yah] For many of us, the only thing better than watching TV is watching TV with friends.
+As you heard from Craig earlier, SharePlay is going to change the way you enjoy TV together.
+You can watch it all on Apple TV, in sync with your friends on FaceTime, ensuring everyone catches the movie's dramatic reveal
+or a show's punchline at the same moment. And to make it easier to see everything your friends are talking about,
+the Apple TV app will now feature a new "Shared with You" row, highlighting all the great shows and movies
+your friends are sharing in Messages. We also want to make it easier to decide what to watch as a group,
+especially if Mom's into action movies, Grandma loves sci-fi, and the teens can't get enough of comedy.
+That's why we're introducing a new row called "For All of You," with a collection of shows and movies based on everyone's interests--
+perfect for family movie nights. And you can easily fine tune the suggestions based on who's watching.
+Now, when you're ready to watch something, you want it to sound amazing. So this fall, you can select HomePod mini
+as the speakers for your Apple TV 4K. With the power of Computational Audio, HomePod mini delivers rich, balanced sound
+and crystal-clear dialogue for everything you watch.
+[Yah] HomePod mini is perfect for any room, like the Kitchen, where you can convert measurements,
+set a timer, or add to your grocery list. Of course, you can always listen to Apple music and other popular music services.
+And we're excited to add support for lossless audio, Apple Music, later this year. Because we want more people
+to experience the magic of HomePod mini, we're now making it available in even more countries and regions.
+In addition to everywhere we ship HomePod mini today, we're bringing it to Austria, Ireland, and New Zealand this month.
+And it'll be available in Italy by the end of the year. Also later this year, we'll begin bringing voice recognition
+everywhere HomePod mini ships, giving each member of the home a personalized experience.
+So each person can ask Siri to send a message, set their own reminders, or hear a playlist curated just for them.
+We believe Siri is most powerful when it's available throughout your house, which is why we're so excited to bring Siri to third-party devices.
+For the first time, HomeKit accessory makers can enable Siri in their products, so you'll be able to talk with Siri
+on even more devices. [grandma] Hey, Siri, set the Dinner scene. [Yah] We've designed it so that your Siri requests
+flow to your HomePod without going to any third-party servers, providing the privacy you expect from Apple.
+Accessories enabled with Siri will be available starting later this year. And, to make your smart home accessories
+work together seamlessly, we formed an alliance with other industry leaders to create a new smart home interoperability standard
+called Matter. It leverages the HomeKit technology we open-sourced last year, and we're excited to announce
+that support is coming in iOS 15. You can control HomeKit and Matter-enabled accessories
+with the Home app. It's available across your Apple devices, and this year, we're making it even better
+on Apple Watch. You can tap Intercom to broadcast a message
+or quickly access the accessories you're most likely to need in that moment. You can even see what's going on around the house.
+With the HomeKit-enabled doorbell, it's easy to see who's at the door and greet them right from your wrist.
+HomeKit Secure Video uses the on-device intelligence of your Apple TV or HomePod mini
+to alert you when people, animals, or vehicles are detected. And this year, we're adding Package Detection
+so you know when a package has arrived. And we're adding new ways to take advantage of your cameras on Apple TV.
+While viewing a camera, you'll now be able to control nearby accessories such as turning on the outdoor lights.
+And you can even display multiple cameras at the same time, giving you a more complete view of what's happening around the house.
+Those are just some of the great experiences we're bringing to the home this fall. With incredible new features like Home Keys,
+SharePlay for shared viewing, and access to Siri in more places than ever before, your smart home has never been more capable.
+macOS
+Back to Craig. [upbeat music]
+♪ ♪
+[Craig] Let's talk about macOS. macOS has always been about the fusion of power and simplicity.
+And with our current release, macOS Big Sur, we introduced a bold new design that gives users more control and huge updates for apps--
+all while making everything easier to use. And when combined with the M1 chip,
+Big Sur delivers unmatched levels of performance and battery life. With people using the Mac more than ever,
+macOS has become an even bigger part of our daily lives. And our next release is focused on helping you
+do even more. But what should we call it? Well, that brings us to the latest exploits
+of our crack marketing team. With their annual vision quest postponed, our merry band of nomadic namers
+wandered aimlessly through the California hills before donning their technicolor wet suits and immersing themselves in the inspiration
+of the beautiful, rich waters of Monterey. macOS Monterey gives you the power
+to accomplish more than ever and helps you work fluidly across all your devices.
+The incredible features we talked about earlier are going to be great for the ways you work on Mac,
+like the new capabilities in FaceTime which help you look and sound your best while talking to coworkers or friends.
+With SharePlay, it's just plain awesome to watch movies and shows together on your stunning Mac display
+or share an app window as you collaborate on a project. Shared with You offers a totally new way
+to discover photos, articles and more that people share with you over Messages
+right in your Mac apps. And when you're working hard on a Mac, you can choose a Focus that syncs across all your devices,
+helping reduce distracting notifications so you can get the job done. Plus, Quick Note and Notes
+give you versatile new ways to capture and organize your thoughts. These powerful features are just fantastic on the Mac.
+And we have even more new features that make it easier to work across all your devices,
+starting with Continuity. Every device we make is powerful in its own way,
+and when you use them together you unlock new experiences that feel truly magical.
+This year, we've created a completely new way to work across your devices with greater precision and speed, and we call it--
+Universal Control. With Universal Control, you can now use a single mouse and keyboard
+to move between your Mac and iPad for a seamless experience. Universal Control is so incredible,
+you just have to see it in action. Let me show it to you now. I'm putting the final touches on an illustration
+here on my iPad. It's the last piece I need to finish a presentation that I have open on my MacBook.
+Now, I'll just set my iPad down next to my Mac, and check this out.
+Without any other setup, I'm gonna simply move my Mac cursor towards my iPad,
+and the iPad automatically recognizes it. And if I move a bit further, boom--my cursor is now on the iPad.
+How cool is that? And now I can move my cursor back and forth effortlessly
+between the two. Now, it's easy to control my iPad with just the keyboard and trackpad on my Mac.
+For instance, I can click and close this document, and flick on my trackpad
+to return to my iPad home screen. And of course, I can swipe between my pages of apps,
+And I can use my MacBook's keyboard to open Spotlight and, say, launch Notes.
+And I can even use command-tab to switch right back to Procreate. This is really powerful.
+With Universal Control, I can even drag and drop files between my devices. I'm just gonna take this drawing I finished on my iPad
+and drop it into my Keynote on my Mac. Awesome.
+For our pros out there, Universal Control works with more than two devices.
+So let's add this iMac to the mix. Now I can use the trackpad on my MacBook
+to control my iMac as well. I can also switch to my iMac's keyboard and mouse.
+This is so cool. Watch this. Now, I have a title text image I've been working on here in Procreate on my iPad.
+Now I'm gonna take this image and drag it across all three devices
+and drop it into FinalCut. Just like that.
+Let's see the final product. Nice. That's a quick look at Universal Control
+on macOS Monterey. Universal Control makes it effortless
+to move between your devices so you can be more productive and focus your energy on the task at hand.
+Another way our devices work great together is with AirPlay. We all love the way AirPlay lets us watch a movie
+or share a presentation from your iPhone to a TV just like that. But there's another screen with its stunning Retina display
+that makes everything you watch simply amazing. That's why we're introducing AirPlay to Mac.
+It works just like AirPlay today, so it's instantly familiar. You can play, present, and share just about anything.
+As you draw a sketch on iPad, your colleagues can follow along on the bigger display.
+And you can even take advantage of any Mac's high-fidelity sound by using it as an AirPlay speaker.
+AirPlay brings your Mac to life in whole new ways. With macOS Monterey,
+your devices work together like never before, making it more fluid to work across them.
+And we're not just reinventing how you work between devices. We're also giving you powerful new tools
+to get more work done on your devices. The Mac has a long, deep history of automation
+with Command line, shell scripts, AppleScript, and Automator. And on iOS, we've made automation even easier
+with Shortcuts. Shortcuts takes all the taps and swipes you usually need to order your favorite lunch
+and makes it as simple as tapping a button or asking Siri. Shortcuts is all about helping you get more done--
+faster. Because you can let your device do the work for you. And this year, we're bringing Shortcuts to the Mac.
+The Mac is, after all, where we turn for so much of our creative work. And now you can automate the everyday stuff
+to achieve peak productivity. You get access to a rich gallery of pre-built shortcuts
+designed just for Mac. You can set up a shortcut to instantly share selected files with your friends so they never miss a moment.
+And with the Shortcuts Editor, you can easily link together a series of actions to design shortcuts for your specific workflows.
+For instance, if you're a designer, get right to work with a shortcut that opens Pinterest in one window,
+Affinity Photo in another, and starts your favorite playlist in Apple Music. All in one click.
+We've weaved Shortcuts throughout macOS, so you can run them no matter what app is open.
+They're in Finder, the Menu Bar, Spotlight, and of course, you can ask Siri to run them hands-free.
+Shortcuts is the future of automation on Mac, and this is just the start of a multi-year transition.
+Automator will continue to be supported, and you can import Automator workflows into Shortcuts
+beginning day one. With Shortcuts, there are more ways than ever to create, express yourself,
+and get stuff done. Finally, we have some really big news about an app that's central to the Mac experience--
+Safari. We built Safari from the very beginning to provide the best browsing experience on Mac,
+and it continues to blow the competition out of the water. Safari is the world's fastest browser.
+It makes navigating even the most complex websites lightning fast. And Safari is known for its legendary power efficiency.
+On an M1 MacBook Pro, Safari users can get up to 17 hours of browsing
+And of course, Safari sets the bar for user privacy on the web with features like Privacy Report
+and Intelligent Tracking Prevention. Our users are doing more in the browser than ever before--
+work, school, shopping, and entertainment. And that often leaves them with a lot of tabs, windows,
+and other distractions. We think using the browser should feel natural and uncluttered,
+so we've reimagined the browsing experience. We distilled the toolbar to is essential elements.
+Tabs are more compact, modern, and lightweight. And there's a completely new way to use tabs
+with Tab Groups. They allow you to easily save and manage your tabs without cluttering up your tab bar.
+I'll hand it over to Beth to show it in action. [Beth] Thanks, Craig. Let's start with Safari's
+gorgeous new tab design. All of my tabs are right here in the new streamlined tab bar.
+One of the really cool things we did this year is we built the search field right into the active tab.
+Safari is more space efficient than ever, and I can see more of the page. I can click on the active tab to see the page's full address,
+and then I can search right from here. Reader is in the tab bar whenever I need it,
+and everything else is right here in the More menu. Check this out. As I switch tabs, the tab bar takes on the color of the site that I'm viewing,
+so it feels like a part of the page. It looks beautiful. Next, I'm so excited to tell you about Tab Groups.
+Tab Groups are an easy and lightweight way to save your tabs and pick them back up later. I'll open the new redesigned side bar,
+and I have a few Tab Groups here already. Each of these groups is a whole set of tabs.
+I use them for meal planning, for news, and gift shopping.
+Here in my open tabs, I'm planning a road trip to Los Angeles, and I'm not done with my research yet. I can save these into a Tab Group
+and come back to it later. I'll click the new Tab Group button and call this Trip to L.A.
+What's so powerful about Tab Groups is that they're on all of my devices. I've got my MacBook here, and look.
+My new Tab Group is here already. As I make changes to my Tab Groups, they update everywhere.
+I'm gonna open a bunch of tabs, and my iMac just keeps up. And if I change my current tab,
+my Tab Group is always up to date, and I never miss a thing. I can't wait to share these trip ideas with my family,
+and I can just drag this Tab Group into an email and send it off.
+Once you start using Tab Groups, we know you're going to wanna get to them all the time. So we made it super easy to switch from right here
+in the tab bar. That's the new Safari on Mac. We didn't stop there, though.
+Back to Craig to tell you more. [Craig] Thanks, Beth. When we were designing the new tab experience,
+we wanted to build something that worked consistently when you switch from your Mac to your iPhone or iPad.
+On iPad, the new tabs and tab bar work just like they do on Mac. Tab Groups are especially helpful on iPad,
+and the instant syncing means that you can continue a project from anywhere. On iPhone, we've done something really special.
+We took all the thinking that went into Mac and iPad and pushed the envelope even further.
+For this smaller screen size, we're introducing something that's easier to reach and maximizes the page onscreen.
+The new tab bar appears with just a tap and fits directly under your thumb. And when you scroll, the bar moves seamlessly out of the way.
+It's now easier and more natural to access your other tabs too. You can just swipe over on the tab bar
+to quickly move between them. Or swipe up on the tab bar to reveal a brand-new grid view of all your tabs
+plus your Tab Groups. When you get to the end of your tabs, you can swipe again to open a new one,
+and the new customizable start page syncs with Mac so you have the same Safari experience everywhere.
+There's one last feature that we're really excited to share-- Extensions.
+Mac users love to deeply customize Safari with extensions like Grammarly, Honey, and Momentum.
+And now, we're bringing web extensions to iPhone and iPad. Just like on Mac, you choose what websites
+you want extensions to be active on, and developers can easily tap into and entirely new audience
+because these extensions can share code with existing Safari web extensions. This is a huge year for Safari.
+A totally new tab design and Tab Groups simplify your browsing. And Safari is more customizable than ever
+with the new start page and extensions on iOS and iPadOS. And with that,
+we have macOS Monterey. It's a fantastic release with great new features
+that help Mac users do more than ever. You can work across Mac and your other devices
+using Universal Control and AirPlay to Mac. It's easy to get productive and creative using Shortcuts
+and a totally new design for Safari, along with incredible features like SharePlay,
+Shared with You, Focus, and Quick Note. We do have more to share with you,
+Developer Technologies and App Store
+but first, let's get outta here. [upbeat music]
+Probably should've just taken the car. As I mentioned a moment ago, we've made incredible advances in macOS
+and across all of our platforms this year. These are going to be amazing for users,
+but they also create new opportunities for our developers, the heart and soul of WWDC.
+And to tell you about the new developer features, and technologies we've been building to help you take your apps to the next level,
+here's our VP of WWDR, Susan Prescott.
+[Susan] It's such a privilege to come together with our developer community and to connect with your creative energy.
+Over the course of the week, Apple engineers are gonna share all kinds of exciting new technologies and features that we think you're gonna love.
+And there are a few announcements that we just couldn't wait to share-- APIs that'll help you create even more incredible apps,
+Swift features that make the language both easier and more powerful, and App Store features
+that'll help you better connect with users. Let's start with APIs, and there are a lot of new APIs this year.
+Like the ones for SharePlay that make it possible to build new shared experiences for iPhone, iPad, Mac, and Apple TV.
+And system-level enhancements like Voice Isolation, Wide Spectrum audio, and Portrait Mode that can work in any videoconferencing app.
+New APIs for Focus and Notifications. A new extra-large widget size for iPad.
+The Screen Time API, Always-On apps for watchOS. New advanced rendering APIs in RealityKit.
+And we've gone even further in this release to make it easy for all developers to create realistic 3D objects with Object Capture.
+Object Capture is a revolutionary new API on macOS. Rather than manually creating 3D models which can take weeks,
+Object Capture uses photogrammetry to turn a series of 2D images into photorealistic 3D objects in just minutes.
+Leading developers like Maxon and Unity are already using Object Capture to unlock entirely new ways of creating 3D content.
+It's as simple as taking photos of an object on your iPhone or iPad,
+then importing them into Cinema 4D to create a lifelike 3D model. For the first time, developers can generate
+an AR preview of the model to ensure they've captured what they need while on location. And Wayfair is using Object Capture
+to develop tools for their manufacturers so they can use an iPhone and Mac to easily create a virtual representation
+of their merchandise. This will allow Wayfair users to preview more products in their homes with AR
+to make sure they choose the right product for their space. This is a massive step forward for 3D content creation.
+What used to be the most difficult and expensive part of building AR experiences and 3D scenes
+is now available to all developers in macOs Monterey. Object Capture and all the APIs we've talked about today
+are built on the Swift programming language. Swift has made a huge impact on our app ecosystem,
+and today, the majority of the top 1,000 apps are built using Swift.
+To tell you about the improvements we're making this year, here's Ted. [Ted] Thanks, Susan.
+We designed Swift to make it easy to create great apps. It has an approachable modern syntax,
+incredible runtime performance, and safety features that eliminate whole categories of programming errors.
+In recent years, we've worked with the Swift open-source community to build tons of new features
+that make Swift easier and more powerful. And this year, one of the biggest features
+we're building into Swift is Concurrency. Concurrency is one of the most requested features for Swift,
+and it's key to building apps that are responsive to user input while doing work in the background.
+Concurrency also makes it dramatically easier to write code that does work in parallel,
+so your app can take full advantage of multi-core processors. Without language features that simplify concurrency,
+you need to write "asynchronous" code that's hard to write, hard to understand, and hard to debug.
+Our approach to concurrency in Swift builds on the same core principles of Swift itself, making it easier to write fast, modern,
+safe code with fewer mistakes. We built structured concurrency deep into the Swift language
+and use the common async/await pattern combined with a technology called actors.
+This means you can write code as a simple sequence of steps with actors safely isolating parallel tasks from one another.
+So building code for concurrency goes from something complicated like this to something simple like this.
+That kind of power and simplicity is what Swift is all about, and we're excited to share more with you this week.
+Now, back to Susan. [Susan] We created Swift and all these other
+technologies and frameworks for one reason: to help you build the best possible apps.
+And the best place to discover those apps is on the App Store. To tell you about some of the exciting features
+we've been working on, here's Ann. [Ann] Since the beginning, we designed the App Store
+to be a safe and trusted place. Users can just focus on finding the right app, knowing Apple has reviewed every app
+to make sure it meets our high standards for security, privacy, and safety.
+And that's why the App Store now serves nearly 600 million weekly visitors in 175 countries and regions,
+making it a great business opportunity for all developers, and an engine for innovation and growth.
+And Apple has now paid over $230 billion to developers
+since the App Store launched. Today, we're introducing some incredible new ways
+to help developers like you reach even more users, starting with the App Product Page.
+This year, you'll be able to create multiple custom product pages to showcase different features of your app for different users.
+You can also try out different screenshots, videos, and even app icons
+to understand what users like most. These improvements will give you even more ways
+to tell the world about your app. It's also important to showcase the dynamic things happening
+inside your apps. The most popular apps and games are constantly introducing new content
+and limited-time events like Pokémon Go Fest, film premieres like In the Heights
+and Nike fitness challenges. Events across the entire app ecosystem help users find the next big thing.
+This year, we're introducing new ways to discover amazing events like these.
+We call them In-App Events. With In-App Events, the dynamic content
+and experiences within apps will be front and center on the App Store so users never miss a big moment.
+And this is huge for developers. In-App Events can be surfaced throughout the store
+to millions of users, whether they're brand-new to the app or they use it every day.
+You can showcase them on your app's product page. Users can learn more, sign up to be notified,
+or quickly join the action if it's happening now. They can discover events with personalized recommendations.
+And in Search. Our expert editors will curate the best and biggest events.
+And the new App Store widget will feature upcoming events right on the home screen. With In-App Events, the App Store continues to be
+the best place to discover what's happening in apps and games. And this will be open to all developers,
+whether they already have events, or they're just getting started. And now I'll hand it back to Susan.
+[Susan] There's something else we're doing this year, and it's going to take app development to the next level.
+It integrates the Cloud with our developer tools in a powerful new way, and it's called...
+Xcode Cloud. Today, creating an app requires multiple steps-- building, testing, and delivery--
+and a number of different tools. Xcode Cloud simplifies the workflow by bringing everything together,
+so as an individual developer, you can focus your energy on being creative and development teams can collaborate more effectively.
+Here's how it works. When you commit a change to your code, Xcode Cloud can automatically build the app.
+Because it's built in the Cloud, your Mac is free for other tasks. And for teams, everyone can see
+if the change introduces errors, so everyone can find and fix issues faster. Then Xcode Cloud runs your automated tests in parallel
+so they complete in a fraction of the time even as they simulate running on every kind of Apple device and platform.
+And the test results are displayed in Xcode, so you can easily see what worked
+and fix what didn't. Finally, once the app passes all its tests, Xcode Cloud can automatically distribute it
+to the testers on your team, and even external beta testers, with TestFlight. And all of these essential continuous integration
+and delivery features are right there in Xcode. So you can work without switching tools
+and you can stay focused on your code. Xcode Cloud is the quickest, easiest way
+to build, test, and deliver your apps. And it's built with advanced security to protect you and your projects.
+Your source code is only used in a temporary build environment, and the only things Xcode Cloud stores
+are the products of the build. Xcode Cloud and TestFlight make it easy to distribute betas to users
+on iPhone, iPad, Apple Watch, and Apple TV, and we want Xcode Cloud to be able
+to automatically distribute beta apps across all Apple platforms. To make that happen,
+we're bringing TestFlight to the Mac. So you can use TestFlight to easily test your Mac apps,
+including features like In-app purchases. Xcode Cloud is incredibly powerful, and we can't wait for you to use it
+and see how it'll help you build better apps faster. We'll be providing access to a limited beta starting today
+and expanding access to this free beta throughout the summer and fall. And Xcode Cloud will be available
+to all developers next year. We'll provide more details on pricing and availability this fall.
+We're really excited about these announcements, and these are just some of the highlights. We continue to innovate with the App Store
+and tools and technologies to help you do extraordinary things. And we're gonna be telling you even more
+in sessions throughout the week. Now, back to Tim. But first... [snaps]
+Much better. Take it home, Tim. [Tim] Thank you, Susan. And thank you, Craig.
+And thanks to all of our presenters. What a big day of announcements and innovations for our users and our developers.
+We took giant steps forward with all of our software platforms, and they will enable our users and developers
+to do remarkable things. Our OS releases will be available as developer betas today.
+And each of them will have a public beta next month. And all of this incredible software
+will be available to all of our users this fall. I'm so excited for these new releases
+and how they will make our products even more powerful and more capable. They will provide users new ways to enrich their lives
+and developers new tools to change the world. We hope you've enjoyed today's event
+and that you're excited for the week ahead. For those developers who want to take a deeper dive
+into our announcements, we have the Platforms State of the Union coming up later today.
+And we have a week full of in-depth sessions and one-to-one labs with Apple engineers.
+We will also provide Pavilions, Daily Recaps, and other experiences to help you get the most out of the conference.
+Thank you for joining us. Let's have a great week! [upbeat music]

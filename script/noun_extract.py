@@ -1,9 +1,9 @@
 import sys
 import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt', quiet=True)
+nltk.download('wordnet', quiet=True)
+nltk.download('omw-1.4', quiet=True)
+nltk.download('averaged_perceptron_tagger', quiet=True)
 from nltk.tokenize import word_tokenize
 from nltk.tag import pos_tag
 from collections import Counter
@@ -11,7 +11,7 @@ from collections import Counter
 def extract_noun_count(text):
     punctuations = "!\"#$%&()*/:;<=>?@[\]^_`{|}~"
     for punct in punctuations:
-        text = text.replace(punct, "")
+        text = text.replace(punct, "").lower()
 
     proper_nouns = extract_proper_nouns(text)
 

@@ -1,0 +1,960 @@
+[Applause]
+[Music]
+thank you I'm really glad you like that those
+words mean a great deal to us and you'll see that reflected throughout the show today
+welcome to the Worldwide Developers Conference you're going to have an incredible week this is our 24th WWDC
+it's the longest-running developer conference that we're aware of it's truly worldwide we have attendees
+this morning for over 60 countries and two-thirds of the people in the audience today are here for the first time
+no hazing from the upperclassmen we've got a great week planned for you with
+over a hundred sessions and over a hundred and twenty hands-on labs so you can bring in your code
+get some help tuning it or get just about any question answered we also have
+over a thousand engineers here this week so grab them make use of them they're here to help but don't ask them about
+future roadmaps now the developer program is incredibly
+vibrant we have over six million registered developers with one and a
+half million of those added in the last year alone demand for this show has never been
+greater we sold out in just over a minute I'm really sorry we couldn't
+accommodate everyone it's the biggest venue that we can get but we are posting sessions online every
+day so that developers can follow us remotely I'd like to get started this morning with a few updates beginning
+with Apple Retail of course our retail stores are the best place to discover
+and explore our products and over a million people per day did that last
+year this is phenomenal our stores are filled with our colleagues who work at
+our stores because they're passionate about how Apple technology can enrich people's lives our stores have become
+integral parts of the communities that they serve tens of thousands of school kids pick their local Apple store as the
+destination for their annual field trip and millions of customers come to our
+stores for personal training so that they can learn to get the most out of their Apple products we now have 407
+stores around the world we're operating in 14 countries and we've recently opened this beautiful store in Berlin it
+is really awesome it's in a 100 year old building it was originally one of the
+first theaters in Berlin we painstakingly honored the history of
+the building by restoring the facade and the original theater and added some
+classic apple touches along the way the theater is integral to the building but
+separate from the store and will be hosting many events throughout the year for the communities from music to films
+and more we had our signature crowds at the opening and we were so excited about
+this opening we made a video and I'd like to run it for you this morning
+[Music]
+[Music] [Applause]
+[Music] [Applause] [Music]
+[Applause] [Music]
+[Applause] [Music] [Applause]
+[Music]
+that's Berlin it's a fantastic store in a great location only Apple to do this
+now we also have some pretty great digital stores and I know this is
+incredibly important to those of you in the audience the app store celebrates its fifth birthday next month nothing
+like the app store existed before and it has fundamentally changed the world
+customers love the buying experience and they love your incredible apps and
+they've now downloaded 50 billion apps this is phenomenal that's a lot of zeros
+and a truly staggering number for less than five years thanks to you we now
+have 900,000 apps in the store and the catalog is very active 90% of those are
+downloaded each month we have three hundred and seventy-five thousand apps that have been designed for iPad to take
+advantage of the full beautiful canvas that still compares to just a few hundred from those other guys and we
+have five hundred and seventy-five million accounts these are most of these
+accounts have credit cards and one-click buying so it's simple and elegant to buy your apps we have more accounts with
+credit cards than any store on the internet that we're aware of now we are
+incredibly proud this morning to announce that we have now paid
+developers ten billion dollars
+and the momentum is incredible we paid out five billion of that just in the last year now to put that in context
+that's three times more than all other platforms combined one of the things we
+love about the App Store is that it levels the playing field between large
+developers and small developers Ron Conway said it very nicely the App Store
+in the iOS ecosystem give budding developers with great ideas the best
+chance for success this morning I'd like to introduce you to on key on key is
+using the iOS platform to create an entirely new category of experiences
+they're launching their company for the first time on stage today they're using
+iOS devices and the iOS platform to bring artificial intelligence and
+robotics into our daily lives I'd like to introduce Boris Othman CEO and
+co-founder of Augie to tell us about his company and their very first new product Boris
+we started Anki while working on our PhD in robotics at carnegie mellon university where we worked on everything
+from machine learning to walk in robots to autonomous vehicles with the help of iOS devices we are bringing these
+robotics and artificial intelligence technologies out of the lab and into people's lives and we're starting by
+reinventing the way people play today after over half a decade of working on
+Anki we are so excited to give you a peek at our first product on key drive
+assisting me today is Brad Newman our lead a re-engineer a donkey now we're
+going to start by sharing some the technology under the hood as we have these cars go through a few formations realize that each of them is completely
+driving themselves and our app is coordinating the entire experience over Bluetooth Low Energy the cars can
+control their speed and a steer around the track by doing the same computations your brain does when you drive they sense where they're located and
+they react to their surroundings all in real time this red car he's our hero
+a we designed him and all the other cars to be incredibly smart 500 times per
+second they're running logic descends to track their position on it adjusting their steering and speed and communicating back and forth with our AI
+engine I got iPhone now all it Aiden join his friends and tell me hit the gas watch this wait restart yep one second
+yep good
+all right here we go
+and mm-hmm all right then we're good to
+go yep
+alright here's a little camera-shy
+and joining us friends there we go all right
+so that's 18 weeks to the pack our app
+knows everything that's happening in real time it's analyzing thousands of potential actions every single second
+and not just for Aiden but for every single car we are using iOS devices not just as remote controls but is the
+brains behind an immersive real-world experience and that is what lets us bring these cars to life now let's do
+something interesting here Brad he's going to tell these other cars to try to block Aiden and just to be clear none of
+this is choreographed all we're doing is defining a new objective for each car and they figure out the rest here Aiden
+he's using the exact same logic he was using before sensing where he is and reacting to the other cars as he looks
+for an opening except now these other guys are on a mission to try to block him luckily
+luckily aiden is equipped to handle any situation this is a video
+this is a video game in the real world we can customize everything in software from the characteristics of the vehicles
+to the weapons that they can use we are taking all of the things we love about video games and programming them onto
+physical characters you can actually touch with Anki Drive we use a technology to take gaming to a whole new
+level and the real fun starts when you take control of these cars ourselves with your iPhone or iPod touch you can
+play against your friends or you can challenge take your chances against the AI we are bringing video games to life
+on the floor of your living room keep your eyes out for Anki Drive coming to Apple stores
+and Apple online this fall and we just pushed the Anki Drive out today so you can download it and get a deeper
+look we are a robotics and artificial intelligence company and what you see here is only the beginning thank you
+very much
+it's incredibly fun I think these guys are gonna be super successful I think it's a great example of the power of the
+combination of your incredible apps and the iOS devices in the ecosystem I'd
+love to show you a lot more today but we don't have time but I'd like to think on behalf of Apple I'd like to thank all of
+the developers here for making such incredible apps thank you
+next I'd like to talk about the Mac the Mac install base now is incredibly
+strong at 72 million this is double what it was just five years ago we announced
+the new iMac at the end of last year and it went on to become the number one
+desktop in the US and the MacBook has continued to define the future of the
+notebook it is the number one notebook in the u.s. in fact the Mac business has
+outpaced the PC business for several years now and if you look at the last five years the average annual growth
+rate isn't even close and if you look at the total growth over that period of
+time the Mac is up a hundred percent versus the PC a paltry 18%
+now for us it's never been about making the most we care much more that the Mac
+is number one in customer satisfied
+users are using the latest version of using our using mountain lion
+now that compares to Windows 8 which is kind of struggling to get to 5 we're
+making the best Mac's we've ever made but we're not standing still we've got
+lots of innovation left and today we want to talk to you about what we're
+doing with OS 10 to do that I'd like to invite Craig federighi up to the stage
+you're too kind good morning let's talk about OS 10 our latest release mountain
+lion is the ninth of our big cat named releases in just over a decade as we
+turn our attention now toward the tenth we've hit a real issue we do not want to
+be the first software in history to be delayed due to a dwindling supply of
+cats now fortunately we do have a
+creative group at Apple and we can think out of the box and so we thought maybe
+we could take this lion thing in a different direction so I'm proud to present to you today
+OS 10 sea lion
+okay maybe not that could be a bit of a dead end so in fact we're really excited
+about the future of the Mac and we want to set a names that are gonna carry us for at least the next 10 years and you
+know the answer really was really obvious to us it's those places that inspire us here in California in the
+place where OS 10 is designed and built
+so for our first California themed release we went just outside our back
+yard just off the coast to a place with some of the biggest waves and most
+extreme surfing in all of North America OS 10
+now Mavericks is a release with deep technology focused on extending battery
+life and providing responsiveness it has great new apps and enhancements
+for every Mac user and some features that we think are gonna really appeal to our power users and I want to talk about
+just three of them right now starting with finder tabs it sounds like
+you guys know how this is gonna work so you of course can work in the finder with multiple windows it's a very
+powerful tool but now you can draw all those windows together in tabs and each tab can have its own location its own
+View mode it's really powerful too you can actually drag contents and hover across tabs and of course now that we
+have tabs in the finder it's also a great app to take fullscreen next
+tagging yes that guy
+we're bringing tagging to the Mac so now when you save a document in addition to
+providing its location and name you can tag it and when you do it'll appear right in the Finder sidebar and in fact
+you can tag things wherever they are whether they're an iCloud or on a local file share and all those will be brought
+together and appear in finder and tags are great for really powerful search as
+well next ya next multiple display
+good Mac of course we're not giving you all the free multiple display here software so with multiple displays and
+the Mac it's always been a powerful way to spread out your work but now in Mavericks you can get at your menus
+across multiple displays you can summon your doc across multiple displays and
+when you take a window full screen on one display it doesn't mess with your desktop on the other display
+and I really love this when you pan your spaces you can do it independently on
+each of your displays finally if you
+have an airplay connected HDTV it acts as a full power separate display as well
+and I'd like to show all of this to you
+alright let's take our first look here at Mavericks and we're gonna start with
+the finder so here's a finder environment I got a lot going on a lot
+of Windows a lot of different locations I'm going to go up here to the window menu and let's merge all my windows just
+like that hop into a set of tabs now of course these tabs at different locations
+different view settings for each of those locations creating a tab is just to choose it you'd expect just click
+plus I can select another location like airdrop maybe another for this work file
+share I have going right here and now that I have multiple tabs it's a really
+great way to actually work and copy document so if I want to copy this field report I can just hover over the airdrop
+tab drop it just like that really nice and of course I can now take finder
+fullscreen next let's take a look at tagging this is really cool
+so as I go to save a document you notice I can give it a name like let's say project plan and in addition to its
+location in this case I'm gonna save it in iCloud I can also give it a tag from any of the tags I've made up so I'm
+gonna call this document important looks pretty important to me and we'll go here into the finder and you see in the
+Finder sidebar I have an important tag and I see all these documents there from different locations different applications all drawn together in
+sidebar we have other tags I've given things for things that are draft and in review now of course with tags I can
+assign multiple tags to the same document that's part of the power of tags so I go here and I'm gonna say this
+one is also in review and you notice as I sign that tag it now appears in that location as well and if I want to assign
+a totally new tag on a makeup a tag on the fly can just type it right here there's a website project I'm working on
+it says create new tag website and just like that I've created a new tag and you
+can see it right here in the finder I can give that tag a color of course and
+now that I have that tag I can also assign tags by just dragging things in
+to the tagger area in the finder so different assets from my website just drag them in and they're tagged like
+that and tags are great for searching so if I start typing let's say important
+you can find all documents that are important let's go to all my files and we'll find all documents that are both
+important and that are in review and just like that I found exactly what I'm
+looking for with tags
+next let's take a look at multiple displays I'm gonna open up some of the kind of windows that I'm often working
+with will open up iPhoto here may be a keynote presentation and I actually have a second display connected to this
+MacBook Pro let's show that up there on the display now of course with multiple displays I can just move windows across
+this place like you'd expect but now I can get up at my menu bar and the second display if I go down to the bottom I can
+summon the dock just like that if I want to open an app on the second display I can just open it on the dock here and
+here's iTunes take this app full screen just like that and as I swipe spaces
+just right back there just on that display let's take a keynote full screen as well I'm gonna go back to my first
+display here let's even take iPhoto fullscreen so now I have different full screen apps on my different displays
+it's actually a really fantastic way to work going here in the favorite travels and I can now drag assets across my full
+screen apps like that supercool and Mission Control has just been
+supercharged for multiple displays so I'm gonna go now into Mission Control and we see my different fullscreen
+spaces and desktops across applications I can drag a window from one display to
+another but I can also go and drag a full screen app right across displays
+bring preview open and now I have that full screen on this display as well
+finally I actually have an Apple TV around here let's bring that into play so here's my here's my Apple TV now this
+is this is pretty over the top so I can actually go here into airplay I'm going
+to connect to this Apple TV so now it's a full power display as well you can see
+I have my menu bar and my dock I can go over here and get my dock here and I can
+go into Mission Control even and I can go get a window across that other
+display we'll just drag keynote over here right on to my Apple TV and open it
+up there it is full displays in Mavericks
+next I'd like to talk about some advanced technologies in Mavericks you
+know our power users are increasingly doing their work on the go they want great responsiveness but they also want
+great battery life and in Mavericks we've introduced a whole host of technologies to address that challenge
+things like compress memory that make sure you have memory available very quickly when apps demand it technologies
+like app nap that actually make sure we're directing power only to those applications where you're really
+benefiting from it system-wide core animation accelerated scrolling and OpenGL 4 for super responsive graphics
+and topic I want to go into in a bit more detail now timer coalescing so you
+know when you look at battery life on your computer the real factor that software has the most influence over is
+CPU activity and it's draw on power and if you look at what your system is doing at any given time what you'll see if you
+look under the hood is not a smooth line but actually hundreds of interrupts occurring per second where the system is
+going from a power efficient sleep state up to a state of high power use and back
+down and all of those transitions actually consume a lot of power well in Mavericks we intelligently align all of
+that work reducing those number of transitions this in combination with technologies like app nap and other
+power optimizations reduce CPU utilization activity for these kinds of
+scenarios up to 72% it's pretty awesome [Applause]
+next let's talk about compress memory nothing affects the performance of your
+Mac the responsive it's more of a Mac that's under load then its ability to provide free memory to an app now
+typically when you look at your app runtime all your memory isn't active in fact a subset of your memories actively
+being used and others this memory we have to keep around but isn't being used by the app well now if you open a
+document your system is going to need to get free memory and it does that in the past by writing those inactive bits of
+memory out to disk and that's a slow process now with compressed memory we're
+able to rapidly compress the inactive memory making free space available almost instantaneously to the
+application this can have great effects on responsiveness of systems under load you see 1.4 X kinds of improvements even
+on fast SSD systems for activities like opening new documents or reactivating an application and up to 1.5 X improvement
+for waking a system from standby these are just two of many improvements to
+power and performance in Mavericks next let's talk about Safari in the last
+decade of life Safari has focused not just on providing the easiest to use the
+most elegant browsing experience but also the most innovative these are the
+kinds of innovations that Safari is broad private browsing blocking of third-party cookies for privacy making
+the web easier to read with features like reading list and the html5 audio and video tag all Safari firsts and the
+engine and Safari WebKit is used by over 1.5 billion devices well in mountain
+lion we're making Safari even better we have a great clean new homepage with top
+sites from there you can get at a great sidebar where you have access to all of
+your bookmarks and you can browse right from your bookmarks and in that sidebar
+we also have reading lists where now you can continuously scroll through your articles moving from article to article
+without ever having to click and a great new feature called us shared links where you see all
+of the links shared by people you're following on Twitter and LinkedIn you can browse them right here now in
+addition to these and user improvements there's also a lot going on under the
+hood big improvements to JavaScript a full process per tab architecture and
+memory efficient is the improvements with shared memory resource cache and a whole bunch of big power savings as well
+when you look at the effects of these changes it's pretty profound if you take a synthetic benchmark like SunSpider
+you see how Safari fares against the competition but you know researchers
+have started to look at more real-world JavaScript by sampling the JavaScript that actually occurs on sites like the
+Google homepage Facebook amazon.com and when you look at safaris performance on
+a benchmark like that j/s bench the results are really incredible [Applause]
+safari is also awesome when it comes now to memory usage using way less memory
+than the other browsers which means more memory for you to browse with more tabs and do more on your system and when it
+comes to energy use it's not even close Safari uses way less energy than Chrome
+and when you compare to Firefox it's just kind of sad so that's Safari I'd love to give you a
+demo of some of our advanced technologies in Safari right now so
+let's start with responsiveness and I'm gonna go now into mail and so here we
+have a mailbox with about a hundred thousand messages in your your inbox and I just want to show you how how you
+scroll now with that accelerated scrolling perfectly smooth incredibly fast almost 60 frames a second whenever
+you do it it's just epic and when you look here at scrolling through a conversation this is a conversation with
+26 messages in it again just super glassy smooth super fast it's really
+really nice let's take a look at that in Safari in Safari we've improved scrolling for more popular websites and
+actually optimized heavily for Retina displays so now it's just super fast
+super smooth now let's take a look at power yeah there's a fan of smooth
+scrolling right there in the front I'm a fan of smooth scrolling as well so let's
+take a look at power usage you have a power meter up here that's showing CPU activity in Safari and you notice right now it's quite low cuz we're not doing
+anything but let's go into a website that's going to use a lot of power and you notice the power meter shoot right
+up because we're doing a lot of animation here using a lot of CPU and that's ok that's what the CPUs for it's doing something cool for me right here
+but very often you'll have something like this happening in an ad off in the corner you've covered this window up and
+yet it's still draining your battery life you don't even realize it well now with this technology we call app nap we
+keep track of what's going on and what things you actually see to decide where to direct power so watch what happens
+when I bring up this iTunes window over the Safari window power drops right now that's
+extending your battery life but of course that thing is still running it's
+still available to me so if I pull it aside there it goes you can see everything happening right now the power
+goes up cover back up power goes right back down it's really gonna have to help
+your battery life next let's take a look
+at the new Safari top sights really clean really nice we'll bring out the
+new sidebar you see I have all my bookmarks here I have my bookmark folders as well if I want to bring a
+site over for my bookmarks into top sites I can just drag it out like this it's really nice I can open it up
+animates in from the sidebar we also have access to our shared links so you
+see sites that I'm following here on Twitter and LinkedIn you can click on a link that's been shared loads it up I
+can even retweet it right here if I if I wish and we now have one-click bookmarking so I'll just click this plus
+it's gonna hop right in to my reading list right there let's go take a look at my reading list see all the the articles
+I've added here to my reading list I want you to watch how scrolling works because now when I scroll and I'm
+reading through one article read this this is great really enjoying it get to the bottom there's the next article I
+can just scroll right through to the next article just like that awesome
+we also have a beautiful new look for reader here's reader and I'm going to bring up
+my I can actually close up my my sidebar here and now as I scroll reading and I
+just want to read from one article to the next it's just like that super clean and super nice and that's Safari in
+Mavericks I think you're gonna like
+so we have some more improvements that I think are going to really help you with your browsing and one of them is iCloud
+keychain you know to really be secure
+these days you want to have a different complex password for every site where you have a login but this inevitably
+brings up the question what's my password and these solutions are not recommended there is a better way with
+iCloud keychain we can remember your website logins your credit card numbers even your Wi-Fi networks and they're
+always encrypted synced across all of your systems so they're always available to you now when you go sign up for a
+website you can of course enter your own password and will remember it but as well Safari can auto suggest a password
+for you you don't have to remember that but it'll enter it in for you and then sync it across all of your systems and
+log in for you from then on
+iCloud keychain is great for your shopping as well when you come to a credit card field you can suggest any of
+your remembered credit cards select one and I'll just enter it in for you just like that along with your expiration
+date but you have to remember your own security code that's what makes it secure after all and that's iCloud keychain
+[Applause] next some improvements to notifications
+so now with notifications on the Mac if you're a Californian like me you'll
+often get this kind of notification hey want to go surf these 30-foot waves and your response surely is to mouse over
+the notification and immediately write their reply yeah sure I'm going to surf that 30 foot way you can reply right
+inside the notification and you can do this for things like email and quickly delete email you might not want to deal
+with without even having to go to mail if you get a FaceTime call you can respond saying hey I'm gonna call you
+later or remind without having to pick up the call it's really handy we also handle a new kind of notification so if
+you have an app today that sends push notifications to iOS devices well now you can sign up to
+receive those push notifications on your Mac as well whether Safari is running or not so things like your fantasy football
+alert maybe breaking news news about
+that buy on eBay and now in Mavericks
+when your machine is sleeping when you wake it up it'll tell you everything that you missed while your way right on
+the lock screen and it'll now update apps for you right in the background so
+you don't have to do it yourself
+so that's notifications next up calendar
+let's take a look absolutely no virtual
+cows were harmed in the making of this user we're gonna be adding that one to
+our environmental checklist justice so in addition to that you have your
+Facebook events right on your calendar if you wish and we have a great new inspector that's even aware of things
+like location travel time and weather and that's the calendar next Maps
+the Maps team has been making great improvements to the data and maps and Mac users are going to benefit because
+we have this fantastic new Maps app of course with your street maps you have your 3d beautiful flyover data search
+for points of interest great info cards you can get turn-by-turn directions and
+my favorite part when I have a route that I've set up on my Mac and now it's
+time to go you can just click right up here and send it right to my iPhone
+where they'll appear right on my lock screen
+and when I unlocked my phone takes me straight into navigation supercooled we're also providing a developer SDK so
+you can add mapping functionality to your apps as well so that's Maps finally
+we're bringing iBooks to the Mac so now
+you have access to the full library of 1.8 million books in the iBook store
+your full library from your iOS devices is available on your Mac as well it's a
+great environment for reading it's also a great environment for taking notes and it supports iBooks textbooks they're
+beautiful and they're interactive I'd love to give you a demo of all of this right now
+so let's start in maps so here we are in
+Paris you can just zoom in to be some comparison can zoom right in you see
+it's just so fast and fluid bringing in points of location I could pan around the map find a nice location maybe the
+Eiffel Tower right here let's go into look at that flyover data so we can see
+the Eiffel Tower can go in to tilt it over the Eiffel Tower right there
+flyover data is just beautiful and of course I can even rotate around Paris
+look you can even see through the Eiffel Tower as it rotates into the area of the city below the data is just gorgeous
+then you fly over data it's really amazing on your Big Mac display of
+course we support great search for points of interest so if I want to go to lunch maybe yet I'm told this is East Savoie will go to g-sib la we have these
+great info cards with reviews photos I can add a site to my bookmarks just like
+this and it's now synced across all my devices so this location is available to
+me course on my phone because this is a Mac I can tear these off so if I'm planning a trip I can set aside some
+things of interest I can of course get directions let's do that here directions from the Eiffel Tower and when I'm ready
+to go I can send it right to my phone like this and that's mass
+next let's take a look at the new calendar has continuous scrolling and
+what's really amazing is even without the stitching the window still sticks right there on the screen it doesn't
+fall off about the stitching it's engineering it's really great for
+creating events so if I go and create an event like this let's say I'm gonna have lunch and I'm gonna type in what I would
+I want to have for lunch so I'm gonna say I want pizza and you notice it suggests all sorts of locations nearby
+so I'm going to select Tony's Pizza and you notice I get a map I even get
+projected weather for that location so I know if I need to bring a jacket now I
+can select here and actually ask it to tell me what the travel time is expected
+from my last location so I can decide if I want to drive or walk I'm going to say I want to walk and it actually adds the
+travel time right to my calendar so I know not to schedule anything
+and I don't have to remember because I can ask to be notified when I need to
+leave and I'll get a notification both my Mac and on my phone as well so that is maps
+finally let's take a look at I book so I have all my books here of course can
+browse my color collections I've arranged we have access to the store with all of its content books of course
+it's ultimately about reading so you can get in here and read move easily between
+the pages you have access to all the controls you'd expect your bookmark search can adjust your type of font and
+type size go into a nice night mode that's relaxing for the eyes but of
+course I really love these interactive iBooks textbooks let's open one of those
+up now so I can scroll through the pages in my book see all these nice
+Interactive's and videos I can pinch right into a graphical table of contents scroll through the pages of this chapter
+you can select another chapter scroll through just like this are these
+fantastic Interactive's so if I want to understand the way the cellular structure works for instance on this
+leaf you can just drill right in see all the way through this it's just
+incredible really great way to learn
+it's also a great environment for taking notes and just select some text add a
+note ask the teacher about this take a
+note like that because it's a Mac of course I can just stretch out get sidebar where I can see all my notes in
+the sidebar which is really convenient just like this we also have a great view with a sidebar to show all your notes
+you can use them to navigate your book when it comes time to study we have these great study cards you just flip
+through them use all your notes
+and that is iBooks in Mavericks so
+Mavericks continues making your digital life follow you easily from device to
+device so now your books are available on whatever device you choose to read them on remembers what page you're
+reading we now remember your passwords so they're available to you across all your devices even now your bookmark
+location and travel routes Mavericks is a fantastic release it's full of some
+great features for power users deep technology to extend your battery life and improve system responsiveness and
+some great features for everyone for those of you developers we have a
+preview available for you today
+and for everyone else from the general public you'll be getting the final release this fall so that is Mavericks
+next I'm going to hand it over to Phil Schiller to tell you a little bit more about the Mack thank you
+oh good morning everyone I'd like to talk to you about the MacBook Air the
+MacBook Air answered the question in this age of the iPad what is the future
+of the notebook the MacBook Air really gave us a direction of work the notebook
+can go and its really become everyone's ultimate everyday notebook and that's
+why we're really pleased to tell you today that we've updated an entirely new line of MacBook Air and these new
+MacBook Airs deliver the most important feature we always want in a portable device all-day battery life
+and the MacBook Air is based on a new fourth generation Intel Core processor
+otherwise known as Haswell ult and if you don't know Haswell ult it's a great
+processor for incredible power savings there's more energy-efficient CPUs there's twice the graphics execution
+units so we can run them actually at a slower clock speed to save energy and still deliver the 40% faster graphics
+performance and the Apple engineers have worked together with the Intel an inch engineers on some great low-power States
+so we can do things like wake up in one second or have standby for up to 30 days but the biggest benefit is battery life
+so here's the current generation MacBook Air 11 inch and 13-inch the 11 inch is
+now going to go from 5 hours of battery life up to an incredible nine hours of
+battery
+and if you like that the 13 goes from 7 to 12 hours of battery-life yes true
+all-day battery life and it helps across your entire system for example if you're
+like watching movies from itunes up to 10 hours you can watch almost the entire trilogy of Lord of the Rings it's
+amazing and of course MacBook Air is based entirely on flash flash is faster up to 45 percent faster than the previous
+version and Wi-Fi is flat faster - now 802 11 AC Wi-Fi networking now AC gets
+you up to three times the performance of a total 11n at the same distance but the
+way to get that of course is you want your macbook air to talk to a Wi-Fi base station that supports a total of an AC
+so we're really happy to along with macbook air announced some new airport base stations entirely new designs there
+are actually a very small base just four inches square but extruded six and a half inches to get wider range from
+those antennas so there's a new airport extreme that does 802 11 AC there's also room in there for a hard drive so if a
+new airport time capsule as well and these are great base stations they're incredibly powerful they have a lot of
+cool features i'll just point out one beamforming even sounds cool beamforming can send
+more energy directly to an 802 love an AC device to enhance the throughput and performance so these are great base
+stations the macbook air comes in 11 inch and 13 inch sizes and the value is
+even greater than before the 11 inch starts at $9.99 with a hundred and twenty eight gigabytes that's twice the
+storage at the same price as before and the 13 inch with 128 gigs starts at
+1099 that's $100 less expensive than before and these new MacBook Airs start
+shipping today
+as we have for a while now we're really proud that we lead the industry and the most environmentally friendly products
+so we're going to make sure everyone knows how important this is that Energy Star 5.2 most products don't ap gold
+most stone arsenic-free display glass mercury fleet free displays BFR free PVC
+free and highly recyclable we lead at this so we're going to continue to so
+that's the new MacBook Air they're faster graphics longer battery life
+better value faster Wi-Fi incredible notebooks I'm going to do something
+different we don't usually do this but you're a really important audience so we'd like to give you a sneak peek of
+something we're working on would you like that only because you're 6,000 of
+my most important friends
+video editors musicians photographers graphic designers count on products like
+Mac Pro to get their work done and our most advanced users just want to get
+their hands on the fastest most expandable Mac we make and the Mac Pro
+is really important to delivering on that we didn't want to just make another version of the same old desktop idea
+that everyone's had like with MacBook Air our engineering team has spent quite a bit of time thinking about the
+technology available today and what could be possible for the future of a
+pro desktop what would be a new form factor new design new capabilities for
+another 10 years and the engineering team has come up with something truly
+revolutionary truly radical and this product is so cool well I'm going to go
+a little over the top and give it a grand introduction that is unlike any
+introduction we've ever had for product so I am really pleased to give you our
+closest friends the first glimpse of the next generation of Mac Pro
+[Music]
+can't innovate anymore my ass
+this is
+thank you this is a machine unlike anything we've ever made both inside and out the
+processor graphics memory storage are all built around a new unified thermal
+core that even sounds cool inside is state-of-the-art technology a new
+generation Intel Xeon chip up to 12 core configs 256-bit wide floating-point pci
+express gen3 this is double the cpu performance of the previous generation the fastest
+memory we've ever put in a product ECC memory 1866 megahertz ddr3 on a four
+channel controller 60 gigabyte per second bandwidth that's double the
+performance of the previous generation internal storage is based on flash not
+any old flash new pcie-based flash 1.25 gigabytes per second reads a gigabyte
+per second writes that's two and a half times faster than any flash we've ever built
+it's ten times faster than any hard drive we've put in a MacPro before all
+expansion is external you can add storage arrays you can add expansion chassis x' over the brand new
+announced Thunderbolt 2 this is 20 gigabit per second up to 6 Thunderbolt 2
+devices per port it's backwards compatible with Thunderbolt 1 and firewire and it's double the performance
+of the industry standard and industry-leading Thunderbolt 1 but the place where the team is probably gone
+the most crazy and done something we've never done before is in graphics this is the first Mac ever that comes standard
+with dual workstation GPUs AMD FirePro graphics in it you can configure it up
+to 4096 stream processors 528 gigabytes
+per second this is two and a half times the graphics performance the last generation and for those of you who use
+OpenCL and you all know you should this took over seven teraflops of compute
+power to applications of course you want to hook on the latest third-party displays and this supports 4k
+displays yes multiple streams of 4k
+displays you can have up to three 4k displays on the built-in dual
+workstation graphics the Final Cut Pro
+team is hard at work on a version of AutoCAD Pro 10 that will support all the performance and graphics capabilities of
+this machine you can be this guy it is a
+Mac unlike any we've ever made it delivers so much more performance capabilities and expansion than anything
+we've made and here it is alongside the previous generation
+the team is packed all this capability inside 1/8 the volume of the previous
+generation now one thing everyone loved about the old generation Mac Pro is those handles on the top so you can move
+it around to get access to the i/o well the entire top of the new generation Mac
+Pro is a handle just put your hand in it you can spin it around get access to the
+i/o it's all organized beautifully on the back for you there is audio 4 USB 3
+6 firewire 2 being driven by 3 fo are 2 controllers and you guys who use this
+stuff know what I'm talking about it's Gigabit Ethernet HDMI out and it
+has a motion sensor so when you turn it it even lights up to show you where the i/o is it is a stunning product this is
+without doubt the future of the pro desktop it is coming later this year it
+said as a sneak peek it is designed by brilliant engineers in California and assembled here in the USA
+guy is to see it put through its paces and what it can do we have a special
+session tomorrow a lunchtime session for all the developers here where our good friends at Pixar along with developers
+from the foundry are going to show you some amazing character animation from the upcoming movie monsters you running
+on the new generation Mac Pro and you want to check it out and that's the Mac Pro back to you Tim
+you're gonna love the Mac Pro it's it's killer next I'd like to talk about iCloud we've
+now passed 300 million iCloud accounts making iCloud the fastest growing cloud
+service ever now by comparison it took
+Facebook five years to reach this many accounts one of the most popular
+features of iCloud is iTunes in the cloud which makes all of your purchase content available on all of your devices
+we now have 300 million users of this feature and they've read out in their
+content 35 billion times now the backend
+infrastructure of iCloud allows us to provide cloud services across many of
+our products like Game Center our social gaming Network now with over 240 million
+users 60 of the top 100 games on the App Store integrate game center support
+right in their game iCloud is also has
+incredible scale like sending 800 billion iMessages or a mind-boggling
+seven point four trillion push notifications iCloud allows us to
+seamlessly integrate cloud services into so many of our products across Apple in
+both OS 10 and iOS today we want to
+share with you how we are deeply integrating iCloud into the next version
+of iWork and to do that I'd like to invite Roger Rosner up to the stage
+Roger
+hello all right let me tell you a little bit about I work I work is Pages Numbers
+and Keynote and we think it's the best way to create beautiful documents spreadsheets and presentations of course
+eirick was born on the mac and it has full support for the awesome feature set of Mac OS 10 and Mac hardware we also
+have amazingly powerful and fully multi-touch versions of these apps on the iPad and on the iPhone
+we think our multi-touch apps are the most powerful productivity apps ever created for a mobile device and later
+this year we're gonna have awesome new releases of both our Mac and our iOS Suites but today I want to introduce the
+newest member of the I work family introducing iWork for iCloud iWork for
+iCloud lets you create beautiful documents right in a browser on a Mac or
+on a PC and rather than talk about it let's just jump right into a demo
+alright I'm gonna fire up Safari on my Mac here and go straight to my iCloud homepage
+where you see three new app icons I'm gonna click on pages and here's all the
+documents I've been working on on my Mac or my iPad and saved in iCloud I can create a new document by clicking plus
+and I have a bunch of beautiful Apple design templates let's just open a document we were working on and as you
+can see it's a beautiful Pages document great fonts graphics images page layouts
+this is all happening on the web browser of course so I can just click here and type and over here I have all the
+formatting controls in our new context-sensitive format panel so I'll just select some text go up to my Styles
+choose a text style select some more text choose another I can click on some
+images you see my controls now show me image controls you can click on a bunch
+of styles choose that one now of course pages has always been great at handling
+graphics so how do I add graphics well I drag one in from my desktop drop it in
+there and drag it around [Applause]
+alright now we know we live in a world full of Microsoft Office documents so how do we work with office well I have a
+Word document here and I'm just gonna drag that in from my desktop and drop that in the pages for iCloud window it
+uploads it I open it up and Here I am
+editing a Microsoft Word document in pages for iCloud alright let's take a
+look at numbers back to my iCloud homepage click the numbers icon again a bunch of beautiful documents as you can
+see this spreadsheet has a bunch of different sheets in it great charts great tables and graphics here on the
+last sheet we have a table that hasn't been finished so I'm just going to click in a cell hit equals we get help for the
+over 250 functions that we have but I'll just type some select this column and
+there you go my chart updates if I want to fill this across the rest of the table I just drag it across a real
+spreadsheet again this is all happening in a web browser
+all right let's try keynote I will open
+this presentation here and it's a real
+keynote presentation photographs text fonts I can rearrange the slides if I
+want to I can add a new slide I'll click the plus button down here choose this
+layout let's give it a title and let's let's
+drag an image in move it around get the
+alignment guides we all love from keynote double-click to go into masking mode scale up that mask a little
+recenter it lets let's give it a photo border let's make the border a little
+thicker let's let's rotate the image this is all happening in a browser it's
+pretty incredible
+how about animations let's add a cube animation here and click play and there
+you see our beautiful keynote 3d animations in a browser window
+[Applause]
+all right I'm sure everyone wants to know how does this work on Windows well here it is this is a Windows 8 desktop I
+have ie and Chrome here I'm just gonna fire up Chrome and it's logged in as the
+same user I was logged into on the Mac so I'm gonna open that same document as
+you can see it's the same there's the slide we just made let's go in there and
+make that mask a little bit tighter and move it around a little and there you go I'm editing a keynote document on
+Windows 8
+all right that is our pride cloud now we know in a lot of cases that the best user experiences are made with native
+app technologies but I think you can see with our for iCloud you can do some pretty great stuff on the web as I
+mentioned we support ie rar we support Safari best I should say like all web sites we run best in Safari we also
+support IE and Chrome and now you have I work on all your devices you can create
+a document on your Mac you can edit on your PC and you can present from your iPhone we're gonna make this available
+starting today as a developer beta just go to iCloud and we'll expand that beta
+to include all users of iCloud later in the year thank you very much send us your feedback
+okay next we'd like to turn our attention to Iowa's iOS is the world's
+most advanced mobile operating system empowers the world's best mobile devices
+iPad iPhone and iPod Touch we have now sold over 600 million iOS devices
+it's an incredible number but it's
+extraordinary and we're proud of it but it's not what drives us we want to make
+the best products that people use more and love more than anyone elses and I'm
+really happy to tell you people are using our products substantially more than anyone elses let me show you this
+recent study from Experian showed that iPhone users use the iPhone 50% more
+than Android users use their phone now this is incredible but but maybe not
+surprising and if you look at mobile web share it's not
+even close iOS is two and a half times Android and
+if you look at iPads compared to all other tablets it's not even comparable
+iPad is over four times more now this
+shows up in a variety of ways as an example just like iOS customers buy more
+of your incredible abs they evidently also buy a lot of everything else
+according to a recent IBM survey both iPhone and iPad customers were
+responsible for materially more mobile shopping traffic than all other Android
+devices combined on the most critical day of shopping last year now it
+probably doesn't surprise you if people are using them more they love them more
+and this is what is most important to us
+iPhone was named number one in customer satisfaction by JD Power not just once
+but nine consecutive times the first time this has ever been done
+and iOS satisfaction is literally off the charts change wage recently measured
+it at 97% and if you look at those people that responded that they're very
+satisfied and really look at the detail which I'm sometimes known to do you
+would see that iOS blows out everyone else 20 points better than our closest
+competitor and almost 25 points better than Android one of the reasons for this
+is that we provide amazing software updates that provide users incredible
+new features and we do this easily and make them available to as many users as
+possible let me show you over 90% of iOS
+users are using the latest version of iOS now that's in stark contrast to the
+world of Android and by the way this is
+the most ideal state of Android it only includes US version of Android which talked to the Google Play Store so it
+doesn't include things like Kendall's and nugs but even then it's a pretty
+bleak story more than a third of Android users are using an operating system that
+was released in 2010 and if you look at
+the customers of each operating system which are using the latest version it's
+not even close now this isn't just bad for users but this version fragmentation
+is terrible for developers as many of you know in fact if you do the math you
+would find that iOS 6 is the world's most popular mobile operating system and
+in second place is a version of Android which was released in 2010
+now this is why we get so excited when we're working on a new version of iOS
+because we know that we can positively affect millions of developers and
+hundreds of millions of users and that is exactly what we've been up to the
+team at Apple has been working incredibly hard on the latest version of
+iOS and today it's a great thrilled that
+I announced iOS 7
+iOS 7 is the biggest change to iOS since the introduction of iPhone it's packed
+with amazing new features and a stunning new user interface we prepared a video
+to show you our thinking behind the design and I'd like to run it for you now
+[Applause] [Music]
+we have always thought of design as being so much more than just the way
+something looks it's the whole thing the
+way something actually works on so many different levels
+ultimately of course design defines so much of our experience
+[Music]
+I think there is a profound and enduring beauty in simplicity in clarity in
+efficiency true simplicity is derived from so much more than just the absence
+of clutter and ornamentation it's about bringing order to complexity
+iOS 7 is a clear representation of these goals it has a whole new structure that
+is coherent and it is applied across the entire system
+we've considered the tiniest details like refining the typography to much
+larger ones by redesigning NB icons and developing a grid system allowed us to
+achieve a much more harmonious relationship between individual elements
+we've also incorporated a whole new palette of colors
+distinct functional layers help establish hierarchy and order and the
+use of translucency gives you a sense of your context these plains combined with
+new approaches to animation and motion create a sense of depth and vitality
+[Music]
+[Applause] the iPhone responding to your movements
+drives the parallax to create a whole new experience of depth in many ways
+we've tried to create an interface that is unobtrusive and deferential one where
+the design recedes and in doing so actually elevates your content even the
+simple act of changing your wallpaper has a very noticeable effect on the way
+your iPhone looks and feels across the entire system
+while ios7 is completely new it was important to us to make it instantly
+familiar [Music]
+we wanted to take an experience that people know very well and actually add
+to it to make it more useful to make you more enjoyable
+to create it we brought together a broad range of expertise from design to
+engineering with what we've been able to achieve together we see ios7 as defining
+an important new direction and in many ways the beginning
+[Music]
+you are gonna absolutely love ios7 this
+thank you this major effort this major effort is only possible because of the
+incredible collaboration between Johnny and his amazing design team and Craig
+and his incredible engineering team without further ado I'd like to invite
+Craig back up to take you through iOS 7 the biggest change to iOS since the
+iPhone
+well on behalf of all of the engineers and designers who worked so hard to make
+today a reality I'm absolutely thrilled to have this opportunity to show you iOS 7 let's take a look it's
+unbelievable it's just gorgeous from the typography on this lock screen
+to the vitality of the background of an animation to the home screen with these
+icons looks so great they just look fantastic and you know a lot of us have our own
+wallpaper you know we like pictures of our family there and now that liveliness actually carries through to the home
+screen because as you move the device in your hand it actually tracks your motion and as parallax thix but you can see
+behind the icons it's really incredible and it carries over across the system
+this liveliness and we just take a look at something like weather where the motion conveys this information and
+where the edge-to-edge design just takes advantage of every pixel on that Retina display it's so nice it's great for apps
+you use every day like messages your
+calendar your email is gorgeous your
+friends never look more attractive and Game Center we just completely ran
+out of green felt and wood as well this
+has got to be good for the environment the clocks look great and even apps like
+stocks and compass I mean they just have this look of precision the sense of purpose the best way to appreciate iOS 7
+is to see it live I'd like to give you a demo right now so let's take our first
+live look at iOS 7 here it is you can see how device actually responds to the
+motion in my hand just slide out the lock screen you see how it slides in now I want you all to look away for a moment
+while I type in my okay you can look again don't tell anyone about that so
+here we are on the gorgeous new home screen let's go into weather see on
+whether it's a little cloudy today I can actually tap here the degrees get more information like humidity and rain I
+swiped through some locations clear and Sydney kind of hot in Phoenix here in a
+Big Thunder Mountain it's looking a little little rough we've got some some thunder brewing oh yeah some heavy snow
+here in the North Pole and tropical
+storm here in Gilligan's Island I hope they got off that Island so
+and it's more functional than ever if you pinch you get this gorgeous overview
+of all your cities even with the time so it's a world clock as well let's take a
+look at the calendar so clean its swipe
+from days today like this turn it into landscape see your whole week at a
+glance at a big week ahead zoom out scroll easily through your months even
+go all the way out to the year let's take a look at messages you notice as we
+scroll we have this great sort of playful motion the bubbles let's bring
+up the keyboard you slide contents of the keyboard you see the layering and transparency gives you that sense of
+context there's this gesture now from the left edge of the device it's great for using the device with one hand if I
+want to just go back I can just swipe from the edge of the display pull back like that move in out so clean and
+natural let's take a look at folders and it go here into my games folder can have
+multiple pages store hundreds
+take a look at Game Center
+some of those good-looking friends let's take a look at male the type is just so
+clean and you're drilling to a message look how you get these fullscreen edge-to-edge photos it's really great
+and that gesture for moving in and out works here too of course it's just move between messages just like this it's so
+great and if you just slide across in any item you can get it the trash and more options as well right here in mail
+finally let's take a look at Notification Center same as always we can just swipe down from the top of
+their Vice comes down with a nice thud you can see all notifications just my missed ones and we have this great new
+today view so you can see your friends birthdays current look at the weather or
+up coming in invitations your calendar your stocks and even a quick look at
+tomorrow you know what's really great is for the first time ever Notification
+Center is now available from the lock screen as well you don't even have to unlock your device so that's a quick
+look at IO s7 it's a comprehensive end-to-end redesign of the user
+experience installing iOS 7 on your phone is like getting an entirely new
+phone but when you already know how to use one that's so much more beautiful and functional than ever before but I Oh
+s7 is actually more than that it's also a major feature release as well I have
+10 features I want to talk to you about today starting with control center
+control center is something that's so simple and yet so essential you have
+those switches that you just want to get to really quickly from wherever you are well now with control center swipe up
+from the bottom of the device and there they are
+turn on airplane mode adjust your brightness play a song even get a
+flashlight and available from anywhere including your lock screen so if you
+wake up in the middle of the night you need to find something your flashlights right there and that's control center
+next let's talk about multitasking now iOS 7 has always been built on the
+industrial strength foundations of OS 10 and sending trinsic powerful
+multitasking capabilities but we had to be careful about how we've exposed these two applications because we want to
+preserve great battery life now an iOS 4 we did add support for select kinds of
+applications to do multitasking things like playing music in the background or receiving a voice over IP call while
+your app was in the background well now in iOS 7 I'm pleased to announce that
+we're going to have multitasking for all apps [Applause]
+so how does it work well imagine you have an app that you're using constantly
+throughout the day a social networking app or something and you're checking in all the time well iOS 7 is notices that
+pattern of use and is going to provide that app with frequent background activity to stay up to date let's see
+have another app you use maybe that you just check in on in the morning breakfast maybe at night after work well
+iOS 7 notices that too and it's gonna give that app background cycles just in time so it's up to date for when you
+need it now in addition to this intelligent scheduling iOS 7 does opportunistic
+updates the average user wakes their device dozens of times a day and those provide great opportunities when the
+system's already powered up to update apps in the background it also adapts intelligently to network conditions so
+if it's an you have good coverage it's a great time to fetch and it coalesces
+updates across multiple applications so once you have those radios power it up lets multiple applications take
+advantage of it for their background updates and finally iOS 7 responds to push notifications as a trigger to give
+that application time in the background so when you follow that notification the Apple are to be up to date
+now I owe 7 also has a great new user interface for moving between all the
+things you have going on on your phone now you can double click and move into
+Notification Center and just swipe between your running applications tap and move right in and that is
+multitasking in iOS 7
+next let's talk about Safari Safari is the most popular mobile browser in the
+world and in iOS 7 we're making it even better has a great new fullscreen look
+really focus on your content if you pull down or tap at the top you can now get a
+smart search field from that search field you can get it one tap access to all of your favorites
+as well as do search and access URLs and it's a great new interface for your tabs
+in addition to all of this it has parental controls and integration
+with the same iCloud keychain you saw earlier with Mavericks I'd like to give you a demo of Safari now let's take a
+look okay head on in to Safari so here
+we are and Safari I'm gonna just zoom in on this page one you watch as I scroll all the controls just recede and now you
+have that full screen for your content we've really improved the way you navigate now in Safari I'm just gonna
+tap in here to a link to a detailed story we can even zoom in of course on
+this page and that same gesture you saw earlier for going back well of course that works in Safari as well so I just
+swipe in from the edge of the display and I can navigate back and forth through my browser history just like
+that it's such a fantastic way to browse next let's look at that unified search
+field I'm just gonna tap up here at the top you see how I have one tap access to all my favorites it's really convenient
+but I'm gonna type in this case so I'll type D is and you notice I have a top
+URL hit as well as Google search suggestions as well available all right here we've really improved bookmarking
+as well I use this bookmark control down at the bottom I see my bookmark folders all my bookmarks we also have shared
+links you can see stories posted by people you follow on Twitter and my reading list and now just like you saw
+in Mavericks on iOS you can scroll tenuously from article to article without coming back to the list it's
+really awesome next let's take a look at tabs I'm gonna
+click here at the bottom into tabs unbelievable and you're no longer
+limited to just eight
+and down at the bottom are also all your iCloud taps you can see what you left open on your other devices as well and
+tabs they're really nice to use you just tap sweep into a tab back out back in
+back out it's just fantastic if you want to reorder your tabs just tap and hold just rearrange them like this and if
+you're done with a tab just swipe it off to the side and it goes away and that's
+the new Safari [Applause]
+let's take a look now at control center so I'm just gonna swipe up from the
+bottom of my display an up comes control center see have these great switches at the top you can turn on and off Do Not
+Disturb for instance access my brightness can even access a flashlight really useful at night play a song and
+of course this is available to me everywhere so if I'm in Safari for instance let's bring it up here you can
+turn off that music and you notice how it's layering and transparency take the
+personality the environment where you bring it up that's control center
+next up multitasking it's just a great way to get across all the things you're doing on your device so if I just double
+click here on my home button jump into multitasking I can just swipe across everything I have running you want to
+move into one messages double tap back out move into mail back out just like
+this it's really really nice that's multitasking in iOS 7 thank you
+so of course there's there's much much more to iOS 7 including airdrop airdrop
+is absolutely the easiest way to share with the people that are right around you so now when you're in any app that
+supports a share sheet you bring up the share sheet and your friends that are all around you just show up right there
+you tap on one and they're going to get a panel right on their display and they
+can accept what it is that you shared they accept it they're taken right into the app and you know if you want to
+share with multiple people you just tap tap tap no need to wander around the
+room bumping your phone
+now this is system-wide for any app that supports a share sheet and of course it uses peer-to-peer Wi-Fi for maximum
+speed and all your transmissions are securely encrypted because it uses the latest Wi-Fi hardware it's supported on
+the iPhone 5 the fourth-generation iPad iPad Mini and the fifth-generation iPod
+touch and that is airdrop next let's talk about the camera so now your camera
+in iOS 7 is four cameras in one you can just swipe from your video camera to
+your photo camera to your square cropped camera to your pano camera and when
+you're taking stills you now have access to live photo filters from some gorgeous
+black and whites to some classic color papers as well so with your great new
+camera I want to give you a great new way to manage your photos and it's the new Photos app you know for many users
+this is what their photo organization looks like an endless unorganized stream
+of their camera roll we've all been there but you know it doesn't have to be this way there's great information in
+those photos iOS knows where you took the photos and when you took them and that provides inherent structure that we
+can use to organize those photos and now in photos in iOS 7 we do we organize
+them into moments I'd like to give you a demo of that right now [Applause]
+so let's take a look now at the Photos app so here you see some photos that
+were taken in San Francisco and you see nothing was done to organize these
+photos explicitly and yet they have these labels like the Palace of Fine Arts Baker Beach Lombard Street it
+provides this natural organization for appreciating the photos we can go up to more trips at more time in San Francisco
+Golden Gate to San Francisco Fisherman's Wharf but then you see we have home we have photos taken at home and photos
+taken at the elementary school and around that area and now if you want to zoom back out to get a more of a
+bird's-eye view of your collection we draw these moments intelligently together into collections so see here
+how that multiple day trip around San Francisco is collected sorry about that got a little excited there into it's a
+very exciting interface into a multi-day trip in San Francisco and that time at
+home and around the school well that's one moment that's one collection as well it's a really great way to browse your
+photos you can even go all the way out to the year level look across your whole
+photo collection
+and look at how we pull out the interesting places that you went in that year like 2011 was Colorado and Hawaii
+2012 went to South America you may not remember when you did it but iOS does it's right there and you know with this
+Retina display you can even kind of make out patterns of photos and when different occasions are and of course we
+found like we had the urge that we wanted to just tap in right from here and so now in fact you can you can just
+tap and scrub and find the photo you're looking for just like that it's really
+just amazing so I can just pick a photo here whichever one I want it's kind of cute and now we can edit it because we
+have photo filters so I can go into the filters here I can try different color effects and if I find one I like maybe a
+nice black and white can do it just like that I'll ply it save that photo away we also
+have great new ways to share your photos in the photos apps let's bring up sharing we have a airdrop right here if
+any of you were running iOS 7 ICU it looks like it didn't leak so that's good you're not in there right now but you
+have airdrop you have access to other photos you can share them from right here just really handy great photo
+sharing option is iCloud photo sharing I'm going to tap on that now it's going to iCloud photo sharing and from here I
+can select the photo streams that I want to share - so I'm on Family Photos now but I'm going to drill in and I can see
+other photo streams I've set up and now other people can share into my photo
+stream as well so these are shared photo streams
+I'll just select a photo stream here and type a little message we'll post that
+photo so we've made it really easy to share and we've also made it a really great experience to experience the
+photos you and others have shared with this new shared tab at the bottom so I'm gonna go in here see my photo with a
+comment I can see the comments of other people and the photos that they've shared and now we even support sharing
+video via iCloud photo sharing and we
+have a great way to just browse those shared photos I just tilt the device in to landscape I can scroll through it
+like this and just look at how beautiful that is what a great way to experience your
+photos so that's the new Photos app in iOS 7
+so integration with Internet services is a huge part of the experience of iOS and
+never more so than an iOS 7 so to take you through some of those features I'd
+like to bring up Eddy Cue Eddy thanks
+it's great to be here so let's talk about Siri the first thing is Siri has a gorgeous new interface now as I speak
+you'll see a sound wave across the bottom and you get the results in a
+beautiful gorgeous clean way but Siri has always been a lot about you're the
+voice of Siri and we've got an all-new voice for you and you can also choose a
+male voice hi Eddy what can I do for you now we've got high quality thank you
+we've also got high quality female and male voices for French
+as well as German how's Connie 32 Nitti and we're gonna be adding other
+languages over time now Siri is also getting a lot smarter it knows how to control more of your device so you could
+say play my last voice mail or turn on Bluetooth or increase my brightness
+and it can answer a lot more questions because we've integrated some new
+services like Twitter so you can see what people are saying or what's happening we've integrated the world's
+largest encyclopedia in Wikipedia and we've even integrated web search results
+from Bing right inside of Siri and it's great for photos too and that's some of
+the new features of Siri in iOS 7 now Siri is also a big part of our next
+feature iOS in the car now 95% of the
+cars being sold today have integrated music playback and control from an iOS device but we want to take this
+integration to a whole nother level what if you could get iOS on the screen that
+is built into your car so that you can make phone calls play music go to maps
+get your AI messages right on the screen in your car or eyes free using Siri so
+now when you make a phone call it's going to look something like this call John Appleseed or play get lucky or go
+to maps get directions or even get your
+AI messages read to you and you can dictate a response all eyes free
+now all of these car manufacturers are introducing iOS integration in 2014 and
+I know which one I want to buy and that's iOS in the car next the App Store
+now the app store looks beautiful it's way easier to find apps than ever before
+we've added a new feature where you can look for apps based on your age range kids categories parents are going to
+love this and apps near me you can find the most popular apps based on your
+current location so now let's say I'm at AT&T Park in San Francisco and here are
+the apps I would see or I'm at the Louvre in Paris or I'm in Union Square
+shopping it's that easy to discover new apps it's really great now the next
+feature I know you're all going to love because every day you see something like this well no more because the App Store
+updates your apps automatically
+next let's talk about music the music app in iOS 7 is beyond a doubt the best
+music player we have ever done the first thing you'll notice is we provide you with beautiful artist images right in
+your library you just tap an artist and you see the songs but it's not just the songs on your device you see all of your
+purchase music from iCloud right in your library and if you want to hear one of
+the songs you just tap and you get our beautiful now playing screen but it's not just your purchase music in the
+video apps you get all of your movies and TV shows right for my cloud right in
+your library it's really really great [Applause]
+you turn the device sideways you see your albums you can just swipe to see more and once you see when you like you
+tap and zooms right in now the music app is the best way to listen to your music
+but today we're introducing an amazing way to discover new music and we call it
+iTunes radio
+and here's what it looks like it's built right into the music app but rather than tell you about it I'd love to show it to
+you and we'll launch the music app and
+the first thing you'll notice is we've got a set of featured stations that our programming team have created so you can
+see the songs that are trending on Twitter right now or even the songs that you guys are all going to hear this week
+at WWDC but I feel like summer songs so
+you just tap and once you have a station
+you love you can just tap the I and you could share it with a friend or even create a new station based on this
+artist or song I can easily skip to the sea what's the next song
+[Music]
+I'll go back to stations but it's not just the featured stations that we provide you can create your own stations
+here are something that I've previously created what I feel like doing something
+new now our music team is providing you with hundreds of stations based on
+alternative country classic rock but I feel like doing something a little more
+specific how about some Led Zeppelin
+[Applause] so it starts off with a great Led
+Zeppelin song let's go ahead and see what else is on this station and a great
+thing is I can always modify the station I can just tap the star and I can say play more songs like this we're never
+play this song or add it to my wish list now I like this so let's play some more songs like this now another great
+feature of iTunes radio is it keeps track of all of the songs that you're listening to across all the stations all
+your devices and you can get to them by just tapping history you can see them all here you can preview and buy right
+from there and that's iTunes radio
+so iTunes radio is built into iOS 7 it works on your iPhone your iPod Touch and
+your iPad it's also built into iTunes on your Mac and PC and even in your living
+room built into Apple TV iTunes radio is
+free with ads and if you're an iTunes Match subscriber it's completely ad free
+we're starting in the US and we'll be adding other countries over time and that's the new music app on iOS 7 it is
+the best music player we have ever done thank you [Music]
+Thank You Eddie so 10 amazing features
+in iOS 7 and a comprehensive end-to-end UI redesign and of course we're bringing
+it all to iPad as well now there's more to iOS 7 than we had time to talk to you
+about in depth here today things like FaceTime audio where you now can do audio only high quality audio
+calls over Wi-Fi on any iOS device
+notification sync so if you dismiss a notification on one device you don't have to deal with it over and over again
+on your other devices great feature for our users in China with integration of
+the popular microblogging website site Tencent Weibo and for those of you who
+have people who just won't let go phone FaceTime and message blocking also
+for our enterprise customers per app VPN now there's yeah a couple enterprise
+people in the audience alright so in addition to all this there's one feature I want to talk about in a little bit
+more detail which is activation lock so hundreds of millions of us use Find My
+iPhone to find our phone when it's just lost in the couch or maybe left at Starbucks but also when it's been stolen
+and now with activation lock if a thief tries to turn off Find My iPhone or if
+they even wipe the device entirely they will not be able to reactivate it
+because they don't know your iCloud username
+we think this is going to be a really powerful theft to turn now of course in addition to being a great release for
+our users iOS 7 is also fantastic and major release for our developers as well
+the SDK includes over 1,500 new api's can add airdrop integrate with
+third-party game controllers new api's for taking advantage of multitasking ibeacons for Bluetooth le micro location
+sprite kit for super fast power efficient game animations and you ident
+to bring physics to your UI view animations so
+so iOS 7 is available to you developers in beta on the iPhone today
+we'll have betas for iPad coming up in the near from the coming weeks and for
+everyone else a final release coming this fall so I've Iowa seven will be available for
+iPhone 4 and later iPad 2 and later the iPad Mini and the fifth-generation iPod
+touch that is iOS 7 I hope you love it
+what a morning we've seen some incredible products oh it's 10 Mavericks
+our latest release of the world's most advanced desktop operating system it's
+the best OS 10 yacht the new incredible MacBook Airs with unbelievable battery
+life they continue to define the future of the notebooks the next generation Mac
+Pro a revolutionary computer designed especially for our power users iWork for
+iCloud create beautiful documents right in your browser on a Mac or a PC iOS 7
+amazing new features and a stunning new user interface it's the biggest change
+to iOS since the introduction of iPhone and iTunes radio the absolute best way
+to discover new music we are incredibly proud of all of these products they're
+great examples of what Apple does best I'd like to thank everyone at Apple that
+work so hard to create them I get to work with the most talented and creative
+people on earth and it's a joy to serve with them thank you
+I'd like to close this morning with a reminder that our goal at Apple is to
+make amazing products that our customers love really great products that enrich
+people's lives the words you saw at the beginning of the show are more than just
+words to us they're the values we live by they drive us you've seen them
+reflected in our products over the years and just as much in the products this
+morning and you'll continue to see these reflected in the products we do in the
+future we've created an ad to help us
+express just how deeply we feel about this and I'd like to share it with you
+now this is it this is what matters the
+experience of a product how will it make
+someone feel will it make life better
+[Music] does it deserve to exist we spend a lot
+of time on a few great things until
+every idea we touch enhances each life
+it touches you may rarely look at it but
+you'll always feel it this is our signature and it means everything
+[Music]
+I'm really glad you like that you'll begin to see it on TV beginning this
+evening those words being a great deal to us and I hope they mean a lot to you
+as well have a great conference enjoy the week thank you [Applause]
+

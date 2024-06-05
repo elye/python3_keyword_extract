@@ -1,10 +1,6 @@
 import sys
 import nltk
 import noun_extract
-nltk.download('punkt')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('averaged_perceptron_tagger')
 
 from nltk.tokenize import word_tokenize
 from nltk.tag import pos_tag
@@ -14,11 +10,12 @@ def main(keyword):
     extract_from_file("./data/IO")
     extract_from_file("./data/IOD")
     extract_from_file("./data/KC")
+    extract_from_file("./data/WWDC")
 
 def extract_from_file(file_initial):
     print(f"{file_initial} Keyword: {keyword}")
     
-    for year in range(2017, 2025):
+    for year in range(2011, 2025):
         file_name = file_initial + "-" + str(year)
         try:
             with open(file_name, 'r') as file:

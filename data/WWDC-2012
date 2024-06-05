@@ -1,0 +1,1004 @@
+hello and welcome to wwdc i'm siri your virtual assistant and today i was asked
+to warm up the crowd which should be easy since the high will be 75 degrees
+thanks for that so here we are in san fran the atm of
+silicon valley if you developers need investors to finance your app i found 396 venture capital firms fairly
+close to you and hey speaking of developers how many
+developers does it take to change a light bulb none that's a hardware problem
+i see lots of familiar interfaces in the crowd looks like instagram finally accepted
+facebook's friend request hey any of you guys been working with ice cream sandwich or jelly bean who's
+making up these code names ben and cherry but seriously i am excited about the new
+samsung not the phone the refrigerator hubba hubba
+and speaking of dinner after the show if you're looking to paint the town red
+i found a number of sushi restaurants whose reviews mentioned two dollar sake bombs fairly close to you the guys at
+yelp know what i'm talking about
+wow ipad really crushed it now i want to say something straight from the cpu
+ipad can you slow it down a bit
+i love you guys and it's really hard for me to get emotional because as you can tell my
+emotions haven't been coded yet thanks for being such a wonderful crowd have a great wwdc
+and remember you guys rock
+good morning good morning
+good morning good morning thank you
+thank you we have a great week planned for you
+and some really cool stuff to show you this morning this is our 23rd wwdc
+yes it's older than many of you are it's the longest running developer conference
+that we're aware of anywhere and it's sold out in record time just an hour and 43 minutes
+two years ago it took us eight days and we thought that was really quick this is truly a worldwide conference
+there's attendees from over 60 countries here representing the vast majority of
+the world and we have a great week plan over a hundred sessions
+and over a hundred hands-on labs so you can take in your code get some help tuning it or get just
+about any question you might have answered we also have over a thousand Apple
+engineers here we've closed Apple for the week so if you have any questions
+they are here to help you please take advantage of them
+i'd like to get started this morning by giving you just a few updates on the
+app store the app store is the most vibrant app ecosystem on the
+planet and the size and momentum are just
+phenomenal we now have over 400 million accounts on
+the app store
+these are 400 million accounts with credit cards and one-click buying
+so it's simple and elegant to buy your apps this is the store with the largest
+number of accounts with credit cards anywhere on the internet that we're aware of
+and thanks to you we have over 650 000 apps in that store
+and 225 000 of these apps have been specifically designed for ipad to take
+advantage of the large beautiful canvas this compares to just a few hundred for
+a competition now customers love the buying experience
+and they love the incredible apps that you've created and i'm very pleased to announce a new
+milestone in the app store customers have now downloaded an astounding 30 billion
+apps this is a number that is so mind-boggling and was unthinkable
+not too long ago and developers have been well rewarded for this
+we've written checks for over 5 billion dollars to you guys
+it's becoming an economy in and of itself the app store now operates in over
+120 countries around the world and i'm pleased to announce that beginning later
+this month we're adding an additional 32 countries so that you can sell your apps
+in 155 countries
+now despite these blow-away numbers
+what we do together is much more important
+than any set of numbers could ever reflect for Apple
+and i suspect many of you our goal has always been to do great
+work and in doing so make a difference in other people's
+lives nothing makes us happier than to see hundreds of thousands of developers
+around the world using our hardware and our software to create and share their latest
+greatest ideas
+and there are such heartwarming stories out
+there of what the combination of our incredible devices
+and your amazing abs have made in people's lives
+we've prepared a video to highlight just a few of these
+and i'd love to run it for you this morning let's roll the video
+walking in the forest allows my brain to switch off and start dreaming
+i lived next to this huge and lovely forest but i couldn't walk in this
+forest because the problem is that i couldn't find my way
+nearest favorite 186 meters when i discovered ariatna gps
+app i could walk independently for hours and hours i think the word adventure is the best
+description a real blind adventure
+i wanted to develop an app to help blind people explore the world
+many blind people use Apple devices i didn't even think
+about choosing a different platform with my app they can have information
+about their position they could bookmark different points and can tell when they're approaching
+that point it's great people write me from around
+the world saying europe has changed my
+and life and eyes and ears and mouth and nose my class name is responsible
+champions class and happiness is our foundation
+so this is the foot you have the foot here and you have the ankle here the kids have so much trust
+in me and i have given them a commitment and if i don't deliver excellence
+and push for the transformation what am i even doing here you have joints all over your body right teaching
+anatomy to kids who are actually many grade levels behind and don't know english was quite a bit of a challenge
+for me initially before i discovered the apps that 3d4 medical makes but then after this app it's made it fun
+to learn about our own body and skeleton before i started using 3d for medical
+labs the assessment showed that only 13 of the class actually mastered human anatomy
+bringing these technologies into the classroom the mastery actually jumped to 94 percent this is called the risk and
+that's something that showed me you know the power of technology and the power of you know really really awesome
+apps what's amazing for us is that our apps
+they've been used to teach advanced level anatomy in major universities around the world and the same apps are also being used in
+elementary school in a classroom in india we originally started off as a medical
+stock image company but when the ipad came out everything changed because then we were not just
+medical reference we were also able to do medical learning all using animations that are beautifully highlighted on the
+retina display and also with the processing power we can push the boundaries of what can be
+done with the technology
+over the last three years i bet we've had 200 guests sleeping in this little
+tree house from all over the world the relationships we formed with some of
+these people i know will have for a very very long time
+airbnb makes it very easy for us to do bookings and they take care of all the
+financial aspects of it we don't really think of it as a business
+it's more like meeting new friends
+how much better of a world would we be if we all understood each other this much more because we met each other in
+person and we shared culture and ideas of stories with one another
+when we started it was in our apartment renting out air beds and before we knew it we started to get
+castles tree houses villas all these different spaces existed before us
+but we've given them one place to come together airbnb now is in 192 countries 19 000
+cities thankfully the app store is available in almost all these countries as well
+Apple makes it so easy for designers like us for engineers like us to stretch our imagination
+through the sdk through ios it it immediately opens up this world of
+possibility
+speech is somewhat difficult to understand her palette doesn't work the way that it
+should be in the world of speech language pathology the ipad is a tool that's
+definitely been embraced we use the tocobook apps to facilitate
+her describing skills it's a yellow circle good job i think the coolest
+thing about those apps are that they're so engaging and so fun kids don't realize that they're actually working on
+particular skills they've become a real toy for her a tool
+for me but a toy for a toy for her it's really fantastic to see
+what we have created has made a difference in people's lives those reactions and words we hear are
+more important than any downloads we looked at the data that was out there
+and the obvious choice was to develop for ios and ios is so intuitive for
+everyone using it regardless of age apps have the biggest impact on humanity
+right now it feels fantastic that people can find so much happiness and use for abs
+one year ago i wouldn't be able to imagine that i could walk independently for hours and hours through this forest
+it's a miracle when i will grow up maybe i can do a
+business or i can be a teacher thank you toca boca for enriching our lives
+thank you 3d for miracle for making me a better teacher thanks for bringing the world to us
+thanks for helping me get into college thanks for making bedtime easy thanks for keeping me in shape
+thanks plan grid thanks sketchbook thanks travel thank you thank you thank you gracias
+thank you for giving me my freedom back
+bye
+it's a great reminder of what it's all about and why all of us
+do what we do on behalf of Apple we would like to thank all of the
+everyone in the developer community for the incredible apps that you've done for us thank you
+now we love giving you a platform
+and a store to realize your dreams and the teams at Apple have been hard at
+work to deliver even more innovations so you can take your ideas even further
+today we're announcing exciting new changes in our notebook lineup and major releases
+of os 10 and ios the world's most advanced desktop and mobile operating
+systems making them even better so you can make even more amazing abs
+so let's get right to it i'd like to invite phil schiller on the stage to share with you some exciting changes in
+our notebook lineup phil thank you
+good morning everyone hope you're having fun i am
+well today get to talk to you about the macbook lineup we are so proud of this lineup of
+notebooks it is by far the best in the industry the macbook air and the macbook pro each
+stand out in its respective area and we have some really nice updates to each of them that i'm excited to tell
+you about first let's start with the macbook air
+as you know the macbook air has revolutionized the very idea of the modern notebook
+with this all-aluminum enclosure it's incredible unibody architecture
+it is a breakthrough and everyone is trying to copy it but they find it's not so easy our
+customers love how thin and light and capable this incredible consumer
+notebook is and it has really changed the consumer notebook market so we're going to update it with some
+really great features and updates for example the latest processors we're now updating
+macbook air with the new generation third generation intel core processors otherwise known as
+ivy bridge depending on configurations they can run up to two gigahertz of dual core i7
+speed with intel turbo boosting they can get as high as 3.2 gigahertz you can configure with up to eight gigs
+of memory and that's now faster memory 1600 megahertz memory
+and the integrated graphics that they run on are dramatically faster up to 60 percent faster it's a really nice speed
+increase and as you know the macbook air is built entirely around flash storage
+and now you can put even more in it you can put up to 512 gigabytes that's half a terabyte of glass storage
+and one of the reasons we use flash storage is it's so zippy and quick to launch your applications to boot up your
+machine to wake up from sleep but now we're making it even faster it's up to twice as fast as before that's
+over 500 megabytes of read speed i know some of you out there know what that means right it is faster than any hard
+drive that we can put in a notebook today we're also making the i o faster on it we're adding usb 3.
+and usb 3 it's really important because it's up to 10 times faster than usb2 now
+other people started to add usb 3 into their products as well and this is how they do it
+so they'll have ports on there maybe a usb 3 port a usb 2 port color code them so you can tell the difference
+that's not how we do it so here's the macbook air as you know the macbook air has a port on each side on customers
+like that and we're going to have usb 3 as well as usb 2 support so you don't have to think
+about it you just use whatever port you want
+and we're updating the facetime camera to the same camera technology that we have inside of the macbook pro facetime
+ht 720p camera so across the board a lot of really nice updates as you know the
+macbook air comes in 11 inch and 13 inch size so here are the configurations let me bring up the 11 inch first
+let me highlight some of the things that have changed so it starts with a 1.7 gigahertz dual core i5
+there's more memory at the entry config it's faster as well as up to four gigabytes of memory
+and we've got the integrated graphics now 60 faster and of course faster flash
+faster usb and the prices are 9.99 and 10.99 that's 100 less expensive than
+before and here are the 13-inch configurations you see they start with a 1.8 gigahertz
+dual core i5 faster memory faster graphics faster usb
+and 11.99 and 14.99 both 100 less expensive than before
+so that's the update to the macbook air and best of all start shipping today
+so next up we also have a really nice update to the macbook pro as you know the macbook pro it is the
+quintessential professional notebook our customers really care greatly about having the incredible speed for their
+video editing their music editing graphics and design and photography and we're doing a lot of those same
+updates as well to the macbook pro first we're updating the processors with new third-generation core processors
+otherwise known as iv bridge you can get speeds up to 2.7 gigahertz and with a
+15-inch up to quad-core i7 it can be turbo boosted up to 3.7
+the memory is also faster up to 1600 megahertz and the integrated graphics which both
+the 13 and the 15 use are also 60 faster now if you know the 15 inch also has
+discrete graphics in it and we're making that faster too we've got a new generation nvidia geforce gt650m
+you probably know it as kepler architecture graphics depending on configuration up to a gigabyte of memory
+in that and it's 60 faster than the previous discrete graphics so that's a lot faster
+too and as you might expect we're also updating the i o so it's all
+usb 3 as well as usb 2. so it comes in a 13 inch and a 15 inch
+size and let me show you those configurations here's the 13 inch highlight the changes
+it starts with a 2.5 gigahertz dual core i5 you can get 4 gigs or 8 gigs standard
+memory faster memory faster integrated graphics and of course the faster usb as well for the same 1199
+and 14.99 and here's the 15 inch in its configuration
+now it starts with quad-core processors a 2.3 gigahertz quad-core i7 four or eight gigabytes of faster memory
+that new kepler architecture and video graphics 500 or 750 gigabyte hard drive
+you notice of course the same seven hours of battery life even with all that performance just under an inch thin in 5.6 pounds the same prices as before
+1799 and 21.99 so that's the update to the macbook pro
+and it is shipping today as well
+so across the board macbook air macbook pro all updated today all with faster
+processors faster graphics faster memory faster storage faster flash
+storage faster usb 3. i mean nobody turns over their entire line as quickly
+and completely as we do at Apple we're really proud of the engineering team and the work they do to do this quick so that you can get
+the exact product you need so what's next let me make a little bit of room on the
+slide here
+you know with the macbook air the engineering team did something really bold
+with the macbook air they re-envisioned the consumer notebook and they were aggressive in embracing
+new technologies flash storage wireless networking and discarding legacy technologies that we could see trending
+out of the product line in the future built in optical drives wired networking things that eventually
+we could do without and that enabled them to do something bold that really shook up the industry and created a new
+generation consumer notebook so we've been asking the team to think about
+what would make a next generation macbook pro and it's a great question
+do i know the answer well let me start by some of the key ideas
+right you want a next generation macbook pro to have a killer new display
+i do you want it to have you want it to have
+an architecture built for the future you want it to be radically thin and light
+and of course you wanted to be bold and embrace the newest technologies and be willing to discard the old legacy thing
+so you could make something unlike any other notebook that's been made to date so would you like to see the next
+generation macbook pro let's show it to you now
+so the next generation macbook pro is the most beautiful computer we have ever made
+well the first thing you're going to notice from the front it's dominated by an amazing magnificent new display
+there's never been a notebook that is this gorgeous but really if you want to be shocked
+let's turn it around to its side and see what it looks like from the side view
+now i know it's tough to see from the audience the challenge shows something so thin
+and light and small from so far away but just to give you a little context here's my finger next to it
+right it's thinner than my finger i mean even even with its closed it is because that
+display is so radically thin it is a true breakthrough in engineering
+and there has never been a notebook this thin this light and this powerful for professional use let's bring it back
+around to the front don't worry we're going to tell you all about it in just a minute
+but we just have to enjoy for a second how incredible this is
+so close it up for now let me go up to the slides and tell you
+some more about this incredible product so the new next generation macbook pro is 0.71
+inches thin that is remarkable putting it next to
+the existing current generation macbook pro you see the difference it's a quarter thinner but it's a
+dramatic amount in fact let me bring the macbook air next to it and you see it's about as
+thin as a macbook air that is incredible and it's weight it weighs just 4.46 pounds under four and a
+half pounds it is the lightest pro notebook that we have ever made even just lighter than the 13-inch macbook
+pro today but probably the most amazing thing about it is this gorgeous display that
+it's built with it is a breakthrough in display engineering yes it is a retina display
+which means the pixels the pixels on this display are so small that from a normal working
+distance your retina cannot discern those individual pixels and to use it is absolutely stunning
+it's 15.4 inches across but it's pixel density are you all
+sitting down because this is really exciting it is 2880 pixels by 1800 that's four times
+the number of pixels in the previous generation macbook pro display their density is 220 pixels per inch and i
+know some of you are really smart out there and i've already done the math it's 5 184 000 pixels
+that is the world's highest resolution notebook display and it yes
+and it's not only amazing because the number of pixels in it but the quality of this display is the best we have ever made it
+has higher contrast ratios deeper blacks it has a higher angle of view with ips
+technology and best of all you get the benefit of the glossy display with the rich color but we've been able to reduce
+the glare and reflection by up to 75 percent makes it a joy to work on
+now it ships with os 10 lion but lion has been updated to take full advantage of that retina display
+so everything you do on it can look really sharp and beautiful so the applications we include with lion for example mail mail's been updated so
+reading your mail is like reading fine print it's gorgeous safari has been updated surfing the web
+can be like experiencing magazine print quality and many of the applications like imovie
+and iphoto have been updated in iphoto when you're looking at thumbnail photos in the events view you're going to see a
+clarity and level of detail you've never seen before in a display it's gorgeous
+and not only the included applications but we're also updating our professional applications as well to take full
+advantage of the retina display we have a major update to aperture our professional photo
+application and this this is a breakthrough for a photographer if you love working with
+photos not always the whole ui been updated in every element for the retina display but you're now looking at four
+times the resolution of your photos as you work on them it is absolutely a breakthrough event for photography
+and final cut pro 10 is being updated for it as well and this is remarkable because of the density of that retina
+display that video area you see up on the top right in final cut that is a hundred percent pixel for pixel 1080p hd
+video right there in that window that means
+there are over three million pixels left over for your magnetic timeline for your video bins for your effects
+and it also takes advantage of the amazing performance of this machine you're going to be able to have up to nine simultaneous streams of prores
+video of four simultaneous streams of uncompressed video it is incredible performance
+now applications do have to be updated to take advantage of this retina display if they aren't we can pixel double them
+and make them the proper size but they don't get the best effect until they do some extra work so we've been working
+with some key developers to give them a look of this incredible machine and this amazing display and they're doing some
+work that's phenomenal let me give you a couple examples adobe photoshop
+our the great team at adobe is doing amazing work on a version of photoshop that will just be jaw dropping the
+resolution on that retina display is just breakthrough so if you like working with photoshop this is going to be an amazing
+experience autodesk is work on a new version of autocad that takes advantage of the
+retina display and it allows a level of detailed work and design never possible
+in a notebook before and if you think it's all just hard work and no play
+there are some great games being created for it as well this is diablo 3 i know a few of you play this game
+and you're going to see a gaming experience with this resolution unlike any you have ever seen before
+so all throughout this display is a breakthrough and makes possible a next generation notebook unlike any other
+well inside is just as amazing as that display everything inside this next generation
+macbook pro has been reinvented especially to drive an incredible design and incredible performance
+let's take well before i take the bottom off isn't the bottom of our computer prettier than anyone else's top of their computer
+well let's take it off so this is the inside you're the first to see the inside of the new generation
+macbook pro it is a stunning work of engineering you're obviously can see that the inside is dominated by a
+battery pack because to drive that retina display and all the performance you're about to hear about in something so thin and light takes tremendous work
+on battery technology and luckily our engineering team understands how to do breakthrough work and asymmetric battery
+pack to take advantage of every millimeter of space well here are a few of the things on the inside what you're going to find inside
+is the fastest processes we can put into a notebook quad-core i7 processors up to
+2.7 gigahertz that you're going to find inside not only the fastest memory you can put in but more of it you can figure with up to
+16 gigabytes of 1600 megahertz memory
+inside it's of course the new generation fastest graphics we can put into a notebook the new kepler architecture
+with a gigabyte of video memory and of course it's built around flash
+storage if we're going to look forward that is the proper thing to build it around and you've just heard how much faster flash is but now you can figure
+with up to 768 gigabytes of internal flash storage
+that's three quarters of a terabyte inside of storage faster than any hard drive we can put into a notebook
+so this amazing display all these high performance components how's the battery life we're really
+proud that we're getting up to seven hours of battery life for 30 days of standby so you can really do your work
+on it let's take a look at the the ports on it
+here on the right inside the left-hand side you see an sd slot for your photos
+and videos for the first time in a mac notebook hdmi so you can plug right into your tv or projection system and go of
+course usb 3 and usb 2 on both sides the most convenient headphone port magsafe 2. well we took
+mag safe but we had to make it even thinner to fit into a design like this and now two thunderbolt ports
+and this customer is perfect for utilizing all the new things coming out supporting thunderbolt let me give you an example
+you can store all your applications and your os on the internal drive but a lot of professionals will want to have their
+work volumes externally here's a new promise drive ray drive it's flash raid
+running over thunderbolt that gets over 700 megabytes a second of read performance it's remarkable
+or cameras like this brand new camera that was just announced at nab from blackmagic it's a cinema 2.5 k camera
+it's a flash based camera and all its io is over thunderbolt it's remarkable it's the hit of nab
+and we can support legacy technology over thunderbolt ride it right on top so we're creating some adapters to help
+customers for example a thunderbolt the firewire 800 adapter yep you need that
+and a gigabit ethernet adapter as well let's look inside you're going to find
+all the things in a modern mac notebook our customers want a glass multi-touch track pad for those beautiful gestures
+beautiful backlit keyboards you can work all night long the fastest networking wireless
+networking put into a notebook 802 of an end and that's three stream for maximum bandwidth for our latest airport extreme
+base stations in bluetooth 4.0 our facetime hd camera
+dual microphones and this uses beamforming to enable a new generation of voice applications
+and the best stereo speakers we've ever put into a desktop or notebook computer this is going to
+sound absolutely beautiful of course we love this so much we couldn't help ourselves we made a video
+and i'd like to run that for you now
+to create something that's that's genuinely new you have to to start again
+and i think with great intent you you disconnect from the past if you
+never change anything then what you can really engineer is kind of incremental but when you're
+willing to change things then you kind of open up a whole new world of design
+the new macbook pro is built for the very highest levels of performance it's incredibly powerful and yet remarkably
+portable it's without doubt the very best computer that we've ever built
+we focused on the features that matter most to notebook users and we made huge leaps
+for the first time we're bringing the retina display to the mac it's the highest resolution display
+we've ever put in a notebook with a resolution of 2880x1800
+this display has over 5 million pixels that's three million more than an hdtv
+at this resolution on this screen size pixels just seem to disappear
+you see an extraordinary level of detail in your photos and typography looks amazing it's
+sharper than a printed page beyond the display the new macbook pro
+is really a powerhouse we knew that an all-flash architecture was a key part of
+driving performance flash delivers data up to four times faster and uses just 10
+percent of the space that a traditional hard drive would use when you combine that with the most powerful graphics
+chips the latest quad-core processors and the fastest ram available you end up
+with a machine that's incredibly responsive loading and working with your content is amazingly fast because we packed this
+machine with the latest i o it has two thunderbolt ports two usb 3 ports and one hdmi port with all of this
+performance the new macbook pro gets up to 7 hours of battery life and it's only 0.71 inches thin that's 25
+thinner than our previous generation macbook pro and it weighs just under four and a half pounds
+the new macbook pro would seem to be a complete contradiction it's built for extreme levels of
+performance but at the same time it's remarkably portable to create it we
+rigorously question the ways in which we've designed and built our portable products in the past
+one of the most significant challenges was completely changing our approach to
+the design of the display by building the layers of the display
+into the unibody we actually eliminated the need for a separate cover class
+and without the additional layers without the distractions you're just completely immersed in your content
+by not purchasing standard parts but by designing and engineering components from the ground up
+we can create a product that is more elegant and it's more efficient and there are many design innovations in the
+new macbook pro that users won't actually see but they'll certainly experience
+for example the thermal system which enables the machines incredible performance operates in a way that is
+nearly imperceptible to the user air is pulled into vents and propelled through
+sculpted cavities by fans with asymmetrically positioned blades
+in most fans the blades are positioned symmetrically which creates a single
+identifiable frequency we positioned ours asymmetrically to
+spread the sound over a variety of frequencies which makes it seem quieter
+and less intrusive every part of the enclosure makes a contribution that directly benefits the
+user the vents are also part of the structural system creating strong beams
+that actually increase the rigidity of the overall product it truly takes an obsessive approach to
+make a product this meticulously designed and engineered
+we've been able to optimize the software to take full advantage of the retina display and the results look simply
+amazing aperture on the new macbook pro is a total game changer for photographers
+they can now zoom in and see four times more of their image with pixel for pixel accuracy
+and fine tune even the smallest details photographers have never been able to
+work on images with this level of precision final cut pro 10 takes full advantage of
+the system's power and capabilities so you can now stream up to nine camera
+views simultaneously or view full 1080p video right in the
+project viewer and have plenty of screen space to spare no other notebook comes close to this
+type of performance with the new macbook pro
+we set out to design something extreme and this led us to rethink everything
+about our process everything about what's essential to a notebook
+and that meant that we could design the very best computer for today and for the
+future
+so the next generation macbook pro with threaten to display let me tell you about its starting configuration of
+course you can configure other items as well it begins with that retina display
+a 2.3 gigahertz quad core i7 a full eight gigs of 1600 megahertz memory
+nvidia gt 650m with a full gigabyte of onboard video memory 256
+gigabytes of that fast flash storage for seven hours of battery life and under four and a half pounds
+starting at 21.99 and of course you can configure it even beyond that
+so we are proud not only of the incredible
+quality of the products we make but also our work to make them environmentally friendly as well so i want to make sure we bring up this checklist as we have in
+the past it is now energy star 5.2 arsenic free mercury free glass bfr free
+pvc free and of course the the glass and the high grade aluminum is really
+desired by recyclers so we're really proud of how hard the engineering team works on this aspect as well
+so the new next generation macbook pro with retina display it is the future and the best thing is
+it's going to start shipping today
+so now that completes our notebook lineup a great update to macbook air
+great update to the existing architecture macbook pro and for the first time the high end of our line the
+new flagship the next generation macbook pro with retina display it's simply the best computer
+Apple has ever made well next we'd like to talk to you about os x and i'd like to bring up craig federicki to
+do that thank you good morning
+good morning so let's talk about os 10.
+on our eighth major release of os 10 continuing more than a decade of
+combining the power of unix with the simplicity of the mac and the mac has been doing great
+we have 66 million mac users now triple what we had just five years ago
+our latest release is lion and lion was the first release distributed
+electronically via the mac app store making it easier than ever to purchase
+download and install os 10 and the results have been fantastic we've had 26 million copies
+shipped to date making it our best selling release ever in fact 40
+of os 10 users are running lion and that's a level we achieved in just nine
+months as a basis of comparison windows 7 took 27 months to get to that same level
+and now less than one year later we're here to announce mountain lion
+with mountain lion our mission remains the same to deliver the world's most advanced
+operating system for notebook and desktop computers with an interface optimized for multi-touch track pads
+and mice and at the same time line makes it more natural than ever to
+work with the other new devices in our lives now mountain lion is a major release
+with over 200 new features and this morning i'd like to detail just
+eight for you and we're going to start with icloud now since its introduction in october
+icloud has taken off like a rocket with 125 million registered users
+with mountain lion we have the opportunity to build support for icloud right in so when you sign
+into your new mac with your Apple id we automatically configure all of these applications to work with icloud
+and so whether you're working in your mail with your contacts your calendar
+all of your content is up to date across all of your devices and with mountain lion we introduced
+three great new apps optimized for icloud messages which brings imessage for the
+first time to the mac reminders and nodes
+but we're also bringing integration for your document based apps in mountain
+lion with a feature we call documents in the cloud now documents in the cloud does two
+important things first it makes it provides a simple new way
+to access your and organize your documents when you launch an app like pages
+it comes up with a document library of all the pages documents you have in the cloud organized chronologically so the
+newest ones are easy to find right at the top and second documents in the cloud makes these document libraries available and
+up to date across all your macs and all of your ios devices now we've adopted documents in the cloud
+on all of our key document-based applications like pages numbers
+and keynote and system apps like preview and text edit and we have a developer
+sdk so that developers can add the support in their apps as well
+well that's icloud and i'd like to give you a quick demo now
+so this is our first look at mountain lion you see we have a gorgeous new desktop
+image and a beautiful new glass dock you'll notice a couple new items on that
+dock including a new reminders app and this is really
+handy if you're taking to-do's for yourself on the go you can find them all automatically right here via icloud
+you can use multi-touch gestures to page between your reminders
+we support location-based reminders for the first time in the mac so now for instance when i arrive at work
+i'll get a notification for my dad to send him a father's day card and i just miss a notification
+they just fly away now we have a great little notes app in mountain lion as well so all the notes i
+take on my ipad they're available right here we support of course images and links
+and of course you can open up notes in separate windows if you want to keep them around on your desktop for
+easy access but i think the really huge one here is messages
+because with messages we brought imessage to the mac so now if you're sitting using your mac
+and your phone uh buzzes with a new imessage coming in we can respond right
+on your mac and all of the conversations that you had while on the go well they'll they're
+up to date right here creating a new conversation is super easy
+you just start typing the name of one of your contacts and you can send them a message on their
+to their phone via Apple id or via other legacy chat services
+as well and imessages sorry
+it's all about imessage come on so imessage lets you send rich messages
+with images attachments up to 100 megs in size
+and even hd video
+and that's imessage next i want to show you documents in the cloud because it makes it really easy to
+find the documents you're looking for so if i want to find numbers documents where would i go well i'd launch numbers
+of course and i'm presented with my document library right there with all my numbers documents if i want to get it
+pdfs for instance launch preview and there are all of my pdfs and if i want to add a document to
+that cloud library for instance one in my download stack i can just drag it right in
+now it's available across all of my devices now i'm going to launch
+pages and i'm working here on a poster so i'm going to open that up
+now it turns out of course because this is in my cloud library that it's also available to me on my phone
+where i also have a copy of pages running and so here on my phone i can
+actually not only view but also make changes to this document and what i want you to do is watch what happens on the
+mac as i actually go in here and go into my photo roll make a change replace the picture
+and the mac will actually update automatically for me
+there it is
+and that's just a little preview of life in mountain lion with icloud
+next is a feature i think you're really going to love notification center it's coming to the mac
+so sometimes when you're using your mac it can decide that it has something to tell you and in the past each application had its
+own unique way of getting your attention and some of them were somewhat disruptive
+well with mountain lion we've replaced all of this with a consistent and elegant
+system based on banners and alerts so banners slide down from the top of
+the screen right there into the upper right hand corner and if you ignore them they just slide out of the way
+but you can always get back to them with two fingers from the right hand side of your track pad can slide out and reveal notification
+center with notifications from all of your applications when you're done you just
+slide it back now alerts are for things that you want to make sure you don't miss so they come
+in in the same elegant way but they stay around until you dismiss them explicitly
+now sometimes you may be doing something where you don't want to be interrupted by notifications a notification center
+provides a nice little switch so you can temporarily disable those banners and notifications and if you're
+presenting and you connect to a projector will do it for you automatically
+so that's notification center
+next up dictation we're bringing dictation to the mac
+so everywhere on your mac where you can type you can now talk and the mac will
+do the typing for you and because it's built into the system it works everywhere can talk into your
+facebook web page if you want or even in third-party applications like microsoft
+word that's dictation it's that simple
+next is sharing mac users love to share links
+images videos and now in mountain lion we've made it easier than ever to share right from
+within the app where you're working there's a share button right there on the toolbar if you click it we present all of your
+sharing options if i want to share to twitter for instance just select it get a cute little tweet sheet type
+whatever it is i find necessary to share with the outside world click it and like that it's on its way
+and we built sharing in across the system so if you're in preview for instance and you want to share the pdf
+you're looking at over messages you can do it if you're in any app where you can quick look for instance you're quick looking
+at image you can post it up sharing over flickr and our support for
+sharing is more than skin deep in mountain lion support for sharing services like twitter is built right
+into the operating system so when you go into system preferences and enter your login information enter it just once
+and any application you've authorized can access and connect to those social services
+so that's sharing next is the new safari
+the new safari in mountain lion has the fastest javascript engine of any browser
+on the planet but the first thing you'll notice when you use safari is the new unified smart search field
+you type in it whatever you're looking for and safari will present you with a well chosen top hit yes this is a very
+useful feature search suggestions and even matches automatically from your bookmarks
+and your browsing history now sometimes what you're looking for is something that you were browsing earlier
+maybe on one of your other devices well now safari has a feature called
+icloud tabs you just click the cloud button on your toolbar
+and you get a list of all of the pages you have open across all of your other devices including your macs
+you just click it and you pick up your browsing right where you left off now we also have a fantastic new feature
+we call tab view it lets you use gestures to visually navigate your tabs
+i'd like to show it to you now
+so let's take a look at the new safari
+you can see of course we have our unified search field right here at the top i can type a few characters and safari
+presents me with a top hit as well as search suggestions and bookmark and history matches
+i can click we get some safari's new lightning fast page loading
+safari also has a new scrolling architecture built on core animation which makes scrolling
+just smooth and lightning fast it's really awesome now if you want to
+open a tab that you had open for instance on another computer i can just click the icloud tabs button
+you see all of them right there documents i'd open on my ipad as well as on my iphone
+i click one i can keep browsing right from where i left off now lion has a feature where of course
+you can use multi-touch gestures to zoom in on your web page so for instance i zoom in like this i
+can zoom back out but now what happens when i zoom even further out watch
+i'm pulled into the tab view where i have a live view across all of my tabs
+i can use multi-touch gestures to scroll through them select a tab
+pinch and back out it's a fantastic way to browse your tabs
+in safari
+next i want to show you how easy it is to share in mountain lion you can select here on the share button let's say i want to
+tweet about this page i click get this beautiful little animation
+i'll just say heading down the coast
+and i've sent a tweet on its way but sharing works really well also in
+full screen apps for instance i'll just pan over here to full screen iphoto let's open up a photo that i want to
+share and i'm going to share this to imessage but i don't have to leave this full screen experience to do that i click on
+the system wide share button select messages and i get a little messaging sheet
+right here i select the person i want to send to
+and just like that i've sent a message now this is where notification center
+comes in because if i'm working in a full screen app and maybe someone responds back to that message i sent
+back out it'll actually appear as a notification right there on my screen
+there it is and if i ignore it of course it'll just slide away but if i want to get back to it that's
+easy too i take two fingers from the right hand side of my track pad and i can just sweep out notification
+center it's completely fluid gesture and if i want to get at any of these things
+i can click for instance on this message and it takes me right to the conversation
+back in messages now notifications also support notifications
+from internet services like twitter so if i get a twitter direct mention a direct message or a mention
+it'll come in as a notification for me and
+if i ever want to tweet at any time some bright idea occurs to me i can just go
+right into notification center and i can summon a tweet sheet right
+here and of course i can use dictation to enter my tweet
+having a great time showing off mountain lion at wwdc
+and there it is tweeting from notification
+so next i want to introduce you to a new technology in os 10 that we call power
+nap it's a great name isn't it so you know we all love using
+our macs but wouldn't it be great if when we weren't using them they were still
+working for us well now with power and app they will because powernap keeps your mac up to
+date while it sleeps it fetches your email keeps track of calendar and reminder
+updates and even fetches your photo stream
+and it gets better if you've ever brought your mac home and just plugged it into charge for the night well now
+it'll also back itself up to your time capsule and even download app store and system
+software updates automatically
+so power nap automatically refreshes data its operation is entirely silent it
+doesn't even spin up your fans it goes easy on your battery and it's compatible with recent macbook airs as
+well as that gorgeous new macbook pro with retina display that's power nap
+next is airplane mirroring airplay mirroring yes airplay mirroring
+is absolutely the easiest way to get whatever's on your mac up on a projector
+or television you just go up to your mac to the airplay menu in your mac menu bar it shows you any Apple tvs
+that are nearby you select one and instantly you're mirroring that content in up to pixel for pixel 1080p
+resolution this is fantastic for the classroom for the meeting room
+of course for your family room and we also support sending audio to airplay-enabled stereo
+receivers and speakers that's air play and finally
+gonna be really nice finally
+game center you know with the introduction of the mac app store we've experienced a
+renaissance of gaming on the mac and we're making it even better by bringing game center from ios
+to the mac and with game center on the mac you have your same game center account with all
+of your game center friends where you can track all your achievements and also keep track of all your games
+both ios 10 and ios games but of course game center is ultimately
+all about gaming and we support both turn-based and head-to-head gaming
+both mac to mac and cross-platform ios to mac over game
+center
+i'd like to give you a little demo of airplay and game center now
+so the first thing i'd like to do is show my mac screen and then let's also summon my Apple tv
+so you can see that as well and you'll notice up here on my mac's menu bar
+i have an airplay menu and i can select this Apple tv when i select it
+instantly my mac display is mirrored to the Apple tv in 1080p
+now the rest of this demo is going to be viewing this content entirely over airplay
+of course i can do anything i would normally do on my mac when i'm on airplay for instance launch game center
+and here i see my game center account as well as
+all of my yeah as well as all my yeah
+like i chose that right uh and i can also see all of my game center
+friends i've got one here uh mr x who's been meaning to play me in this new game that's coming out
+called uh csr racing um so we'll see if we can summon him to the stage for a little competition
+okay this is looking a little more serious
+than i was anticipating so uh mr x here is actually working on an ipad
+and on his ipad he can invite me to play this game csr racing which is an
+upcoming title from natural motion uh and when he does you notice i get of course a notification and notification
+center i click on it and i'm instantly launched into the game
+now natural motion was originally developing this just as an ios title but they found it so easy to bring it to the mac and
+integrate game center they'll be simultaneously releasing it for ios and mac this summer
+all right looks like we're up to race i'm in the red racer os 10 on the right in white here
+we go again this is over airplay everything you're seeing let's go
+all right i think i got you oh
+well i guess with an outfit like that he
+was sure to win okay so
+this is just a quick overview of mountain lion and in addition to these major features there's so much more
+there things like vips in mail where you can mark any people that are important
+to you and new incoming messages will show up as notifications for you search in launchpad
+gatekeeper to help keep your system free from malware and offline reading list where in safari if
+you add things to your reading list you can still read them later even when you're disconnected from the internet
+but one area i want to highlight especially are some features we're adding for china the mac has been
+growing fantastically in china and we have some wonderful features that we think are going to make it even more popular there
+we're really improving our chinese input method for pinyin we're providing a new chinese dictionary
+we're adding eight new fonts that are great for creating beautiful documents
+in safari we're adding support for baidu as an optional search provider and adding
+sharing support for the cena micro blogging website as well as video sharing to yoko
+and tudo and finally we're making it really easy to set up your mac with china's top
+email services so those are a few features for china but of course yeah
+it's going to be important get your apps ready for china
+so mountain lion is also a fantastic release for developers with over
+hundred new apis so you can add sharing game center support notification support
+new high dpi apis and gesture apis to add those great multi-touch swipes to
+your apps so mountain lion we're going to be delivering it to customers
+next month via the mac app store and you know while lion was priced i
+think very aggressively at 29.99 we want even more people to get their hands on mountain lion it's
+going to be just 19.99
+and this price is for upgrades both from lion and all the way from snow leopard
+and your single purchase will upgrade all of your personal macs
+finally for those of you who buy a new mac starting today i bet they're going to be a few
+your upgrade to mountain lion will be free and all of you wwe dc developers today
+you get access to a near final developer preview so you can get all your your
+apps ready for mountain lion when it ships next month that's
+mountain lion
+thank you next up i'd like to hand it over to scott forstall to give you an update on
+ios
+all right let's talk about ios i find it incredible
+that through the end of march we have already sold more than 365
+million ios devices and what i find almost equally amazing
+is that more than 80 percent of our customers are running the very latest version of
+ios ios 5. now if you compare that to the competition
+they released a dairy product 4-0 about the same time
+that we released ios 5 and about seven percent of android
+customers are running the latest version versus more than 80 percent
+the latest version of ios ios 5. now let me give you a quick update on a few of the features of ios 5 that made it a
+great release starting with notification center already 84 of the top 100 social apps
+are pushing notifications in fact we're sending around seven
+billion push notifications every single day we've already sent more than 1.5
+trillion that is trillion first time i think we've seen this number up here
+more than one and a half trillion push notifications already it's just amazing
+notification center next is imessage we have more than 140
+million imessage users they've sent more than 150 billion messages
+and are currently sending more than a billion messages every single day
+next is twitter we integrated twitter directly into ios5
+and they've already seen a three times growth increase from the number of people on ios using twitter
+those customers have sent more than 10 billion tweets from ios 5 and
+nearly half of all the photos being shared with twitter's photo sharing service
+come from ios 5. it's a great integration
+next is game center game center is a great gaming network we have more than 130 million people
+using it they submit 5 billion scores every single week
+and two-thirds of the top 100 games integrate with game center
+and all of this results in some very very satisfied customers
+more than 75 percent of our customers check the top box from very satisfied
+compared to less than 50 percent for the competition
+now one of the reasons that our customers are so satisfied is that every single
+year since the original iphone we come out with a new os full of
+great quality amazing features and this year is no exception so i'm very happy to announce
+ios 6.
+ios 6 is a fantastic release it has more than 200 new features starting with some
+significant enhancements to siri i'll walk you through a few let's start with siri
+as you all know siri's only been out for eight months and already does so much for you you can send text messages
+get all sorts of answers set alarms find out about the weather make phone
+calls create a reminder for kids they're my kids you can just chat with it for a while
+siri is fantastic but in these eight months siri has been studying up and learning a lot more so
+let me just go ahead and show you what siri can do now in ios 6.
+so here i have a phone running ios 6. the first thing that siri has learned in
+the last eight months is all about sports so you can ask questions like
+what was the score of the last giants game
+the giants were downed by the rangers yesterday the final score was 5-0
+so this looks great we have this great scoreboard i have to say i uh i like the scores against texas a little
+better during the world series but great sports scores ask of siri you
+can also ask about individual players like this what is buster posey's batting average
+buster posey has a batting average of 290. so you can see
+you get player cards and player stats it's very cool you can also ask about standings
+what are the national league standings
+here are the standings for the national league scroll down here see the giants there in
+second place so siri knows about baseball so here
+also knows about basketball so i can ask who is taller lebron or kobe
+lebron james appears to be slightly taller
+so you see his player cards there's lebron james who is six eight if i scroll down to kobe's card six foot six
+now it's not football season right now but siri also knows about football so i can ask
+when is the san francisco 49ers first game of the season
+the 49ers hackers game is september 9 2012 1 15 pm
+so the entire schedule right there is just awesome so siri knows about sports
+next up series learned a lot more about restaurants so i can ask
+find a great place for dinner
+i found 15 restaurants 14 of them are fairly close to you i've sorted them by rating
+so you can see we have a lot more information about restaurants now the average price of menu item the type of
+restaurant if i go ahead and choose one of these i'll choose millennium you can see all sorts of information
+about the restaurant we have maps here we've partnered with yelp so you can see
+reviews right in here tap on that and here's the reviews if you want even more information just tap on any of these
+reviews and it'll take you right to the yelp app from the app store i'll go back we've also partnered with
+opentable so i can tap here to make reservations takes me again to the open table app
+right from the app store you can choose a date number of people
+and make a reservation it's that easy so siri knows a lot about restaurants now
+next up series becomes something of a movie buff so you can ask all sorts of questions
+like what movies are playing at the metreon
+okay i found eight movies at the metreon so i can tell you what movies they're
+playing i'll go ahead and choose one marvel's the avengers you see uh we've integrated with rotten
+tomatoes so you can see ratings and reviews you can even tap to watch the trailer right here in syria
+war has started and we are hopelessly outgunned
+so really really cool you can also ask questions about directors or actors so i can say
+show me movies starring scarlett johansson
+i found several movies starring scarlett johansson so to find current movies in the theater as well as previous catalog
+just fantastic let me show you one more thing siri's learned and that is how to launch apps
+so now
+you've all been creating incredible apps now it's so easy to get to them if you're like me i have hundreds of apps
+on my phone let's say i want to play a game i can just ask siri now play temple run
+and it's just like that
+and those are just a few of the things that siri has learned in ios 6.
+so before siri did so much but now it's just incredible sports scores so
+you can ask for football scores or basketball both pro and college you ask about baseball hockey
+also soccer we do a lot of leagues including the english premier league so sports
+you can ask about movies you can launch apps make dinner reservations you can now tweet just by talking to your phone
+and there's this thing we're calling eyes free now you've heard of hands-free before
+hands-free allows you to keep your hands on the steering wheel while you use your phone
+we want to integrate siri even better with the car and so we're working with a number of car manufacturers to enable use to use a
+button right on the steering wheel to bring up siri now since
+siri can talk back to you you don't need and we don't light up the screen of the iphone so you keep your
+hands on the wheel and your eyes in the road and use siri
+now a number of auto manufacturers have already committed to delivering eyes-free siri integration
+in the next 12 months
+we are also taking siri much more international when we launched siri we launched it in
+english in the united states great britain australia and we had french and
+german recently we added japanese and now
+in ios 6 we're adding english and french tune for canada
+we are a
+we are adding spanish tune for spain
+mexico and the united states we're adding italian
+for switzerland we're adding italian french and german writing korean
+60 countries represented here we're adding mandarin tuned for taiwan
+cantonese tuned for hong kong and both mandarin and cantonese tune for mainland china
+now as part of making siri more international we're now taking local search which was us only in ios 5 around
+the world
+so you can now do local search even in china and for the first time
+we're taking siri beyond the iphone 4s we're bringing it to the new ipad
+and these are just a few of the enhancements for siri and ios 6.
+next facebook integration
+we have been working very closely with facebook to create the best facebook experience
+ever on a mobile device we are integrating facebook right in to
+ios 6. you can now go to the settings app and enter your username and password
+and now you're ready to go you don't need to re-login when you go to an app from the app store
+including facebook's app we're also making it really easy to post to facebook for many of our apps so you
+can post photos from the photos app post about websites from safari
+post locations from maps you can talk about your favorite app your own app in this case from the app
+store you can talk about movies tv shows and movies from the itunes store you can
+talk some smack from the game center we've also integrated it right in with
+notification center so anywhere you are just drag your finger down from the top
+of the screen to reveal notification center and you can tap to post to facebook and we've added twitter right
+into notification center as well we've also integrated facebook with siri
+so you can just talk to your phone now to post to facebook and we've taken this deep integration
+and made it a public api so it's easy for apps on the app store to integrate with facebook
+but we didn't stop there we've also integrated it with the app store so now you can like apps
+and see which apps your friends like and you can also do that for the itunes store
+with music tv shows and movies and if your friends are sharing say a phone
+number or an email address from facebook those will appear in your contact list
+now right on your iphone and your ios devices
+also your facebook events will now appear in calendars along with birthdays
+so we've taken a deep integration of facebook right into ios 6 and we've taken that same integration
+and brought it to the mac and that is facebook integration
+next are some really nice enhancements to the phone app now
+you've probably been in a meeting before where you receive a phone call and you can't answer it right then
+and you wish it was easy to quickly text a message back to the person or be reminded to call them back later
+when ios 6 there's a new control on the right hand side of the incoming call and if you slide that up you get two new
+options you can reply with a message or be reminded to call the person back later
+if you choose remind reply with a message just tapping on any of these buttons will send a text message or an
+imessage right to the caller and if you choose remind me later
+you can rewind it in an hour my favorite actually is the second one remind me when i leave
+that'll set up a geofence around your current location so when you leave the meeting or leave
+the building your phone will pop up an alert reminding you to call that person back so remind me later
+next up is something we're calling do not disturb now
+i can see many of you are like me and you've been awakened in the middle of the night by a text message or a push
+notification or an unwanted phone call and do not disturb allows you to tell your phone not to bother you with such
+interruptions now those push notifications and text messages they'll still come to your
+phone it just won't light up the screen or make a sound to wake you up they'll be there for you in the morning
+now you also with do not disturb get fine grain control over which phone calls you'll receive
+so you can choose to receive no phone calls at all or
+just phone calls from your favorites or from a group that you create in your contact list
+and if you choose this last setting here repeated calls if someone
+really wants to get a hold of you and they're persistent they call you back within three minutes because it's an emergency that second call will come
+through
+so some great enhancements to the phone app next is facetime
+facetime is the best way to have a video conference with someone
+but there's one catch it only works over wifi so what happens if you're somewhere
+where there isn't wi-fi on ios 6 we're enabling facetime over
+cellular
+so if you have either a wi-fi or a cellular data connection you can have a facetime call also we're unifying
+your phone number and your Apple id so if someone
+some people already know what's gonna happen uh so if someone calls you on your phone number with a facetime call
+you can answer that call on your ipad or even your mac
+and we're doing the exact same thing with imessage so if someone says and i messaged your phone number you can
+receive that and reply on your ipad or your mac that's facetime
+next up is safari safari is the best and the most popular
+mobile web browser on the planet about two-thirds of all mobile web
+traffic comes from safari on ios and we are making it even better as you heard
+earlier we're adding icloud tabs so from say your ipad you can see all the safari
+windows and tabs that are open on any of your other ios devices or your macs
+we're also adding offline reading list so in ios 5 we added reading list which is
+a great way for you to save a story a web story away to read it later and now as soon as you add it
+to the reading list we'll download and cache the story so you can go and read that even if you
+later don't have internet connectivity we're also adding the ability to upload photos right from safari to your
+favorite websites
+we're adding something we call smart app banners now a lot of you have built great
+apps that are in the app store and you also have websites with smart app banners if someone goes
+to your website safari can optionally put up a banner letting them know about your native app in the app store
+tapping this
+so tapping that banner takes them right to the store to download your app and
+if they've already installed your app and they happen to come upon your website well tapping on that will just switch right
+to your app store app and the website can even tell the app what the person was doing on the website
+so they can pick up in the app right where they left off on the website really cool
+we're also adding full screen supports in landscape on the iphone to take full advantage of the
+large retina display some great safari features next up
+is photostream photostream is one of the really nice free features in icloud
+it is the best way to get all of your photos to all of your devices ios devices and your macs
+and now in ios 6 we're adding shared photo streams
+now shared photo streams is a really easy way for you to share photos with your friends it's really simple just
+choose the photos you'd like to share choose the friends with whom you'd like to share them
+and that's it you're done your friends will receive a push notification with those photos
+the photos will appear in an album right in the photos app
+and you and your friends can all even comment on the photos
+in addition to ios shared photo streams go to your mac
+with iphoto and aperture you can view them in a web browser on windows and you
+can even view them on your television using Apple tv
+and that is shared photo streams
+next are some great enhancements to mail starting with vips vip allows you to mark someone whose
+messages you really want to be notified about so once you mark someone as a vip and
+they they send you an email you'll get a notification right in the lock screen of that email the same way you would for a
+text message it's also really easy to find messages from your vips when you're looking at
+the message list they have a star next to them and we've added a vip mailbox which
+gathers together all of those messages from your vips and for those of you who like to flag messages we've also added a
+flagged mailbox as well
+we've also made it really easy for you to insert photos and video right in the compose window
+and you can now open password protected office docs right on your ios device
+this last one we added a fun new animation to pull and refresh your message list
+so some great features for mail next up is a brand new app we're calling
+passbook now passbook is the simplest way to get all of your
+passes in one place there are a lot of really great apps in the app store that
+are starting to put passes boarding passes and tickets into the apps
+there are some airline apps like this one from united where you get your boarding pass right in the app
+there's some store card apps like this one from starbucks where you get the store card right in the app and you can
+use it to scan and pay for your coffee and there are some movie ticket apps like this one
+where your movie ticket goes right into the app now this is great but the problem is
+when you get to the movie theater or to the airport you have to fumble around to find the app and then find the ticket
+or the pass within the app so passbook takes all of these passes
+and combines them together in one place and integrates it right into the os
+and they are beautiful here's a movie ticket from fandango we've created templates to make it
+really easy for all of you developers to build these great passes and tickets
+and it integrates right in with a lock screen so when you get to the movie theater
+your ticket automatically pops up on the lock screen slide across here scan it in
+go in
+let me go ahead and give you a quick demo of passbook
+alright so here's passbook i've got some tickets so here's a fandango ticket for a movie
+again these are beautiful i have a nice uh ticket for a giants game here
+we have store cards here's a card for starbucks the agency has the balance there when you use this to scan and pay
+for your coffee the balance automatically gets updated here's a store car for the Apple store
+we have boarding passes here's one for amtrak
+and here are a couple for united airlines and again we have two we group them together
+here's a coupon for target here's an express checking card for a
+hotel now when when you're done with a card just flip it over there's a trash can at
+the top left we had a little bit of fun with this uh deleting your cards
+now as i said this is all integrated in with the phone with the lock screen so if i have my phone locked
+and i go to my favorite starbucks up comes my starbucks card slide across it brings on my card scan
+pay for my coffee and i'm out it's that easy and all these cards are actually live
+so if my gate change that's got an update for my united airlines gate changed it comes up i slide across here there's
+my boarding pass updated right in the app
+so that is passbook the best way to get all of your passes
+tickets together in one place next is guided access
+we set out to make the most accessible devices
+of anyone for all of our customers and we're really proud of how the accessibility community has been
+adopting ios devices now we've been surprised by the number of children with autism who've been
+flocking to our devices especially our ipads and we want to make that experience even better
+there are a lot of great apps on the app store like this one that are designed specifically for children with autism
+the problem is there are some controls some settings and other controls in the app that you don't want the child to tap
+while they're using the app so guided access allows you to just circle those controls with your finger
+we'll figure out which ones you mean and we'll disable those controls for you the child now can use the app without
+accidentally hitting those and we lock the device into a single app mode so hitting the home button doesn't
+leave the
+app guided access is great it allows children with autism to learn independently
+on their ipad now this is great beyond children with autism it's really single app mode and single
+app mode has a lot of applications there are a lot of schools who have been adopting ipads and some are starting to
+actually administer tests on their ipads well single app mode allows the teacher to lock that ipad into the test
+so the students can't go look up the answers in safari
+and this also works great for museums who use ipads and ipod touches for
+guided tours so single app mode and guided access
+next is maps
+in ios 6 we have built an entire new mapping solution from the ground up and
+it is beautiful this is what lake tahoe looks like we're doing all
+the cartography ourselves here's new york city
+san francisco this is a worldwide effort we're covering the world
+here's italy new zealand singapore
+norway paris i'm going to go through every city
+beautiful beautiful maps now part of maps is local search
+you have to be able to find businesses and points of interest and so we've already ingested more than
+100 million business listings around the world to make a great local search
+once you find a business bring up the info card and it's beautiful we've integrated with yelp so you get
+reviews and ratings and lots of photos right in the card
+we're also building a traffic service we have this great traffic view so it's easy to see where the incidents are
+or where the the slow traffic is and on top of that we overlay the incidents
+so it's easier for you to figure out whether traffic's likely to speed up in a given location anytime soon
+in addition to other data sources we're using anonymous real-time crowdsourced data right from
+our ios users to keep this traffic fresh and up-to-date
+we are also building in turn by turn navigation
+it's really simple once you find a place you'd like to go just tap on that quick route button
+and you're on your way as you're going we'll be monitoring the traffic we'll
+give you your eta if the traffic slows down in front of you we'll update your eta and then we'll
+start looking to reroute you around it to find a faster route if we do offer it to you and again you're on your way
+around the traffic all of this works from the lock screen as well if you have
+it plugged into your car
+and of course we've integrated it with siri so you just ask siri to take you somewhere and you're on your way
+you can ask questions along your route like where can i get gas and it'll look for convenient gas stations along your
+route and of course the kids can ask the age-old question
+now a really fun feature that we're adding to our maps is something we call flyover
+we have been flying major metropolitan areas around the world in helicopters
+and in planes and we've been building up a 3d photographic model of these places
+and it is gorgeous this is what it looks like on the iphone looks great on the ipad
+let me just go ahead and give you a demo of our maps
+all right so here's our maps they're all vector based so everything is really fast to zoom in and out
+you can rotate and we rotate all the labels
+when you zoom in far enough you'll see buildings start to appear you can tap on a point of interest here's moma
+get the info card again beautiful get reviews and ratings from yelp
+lots of photos we also do 3d so i can zoom in and see just what
+moment looks like zoom out a little bit here
+sort of move around the city rotate around
+let me zoom back in there beautiful i'll go back to 2d
+we have satellite view of course here's our satellite view
+but what i really want to show you is flyover let's go ahead and choose the transamerica pyramid
+now this is not a movie this is being rendered in real time so i can go ahead and rotate this myself
+i can change the camera angle fly through it myself
+just beautiful let me choose another place how about
+the sydney opera house
+and again i can rotate this let's turn it so i can look back at the city right behind the opera house i'll zoom
+out a little bit change the camera angle
+and that is flyover
+now the last thing i'd like to show you is turn by turn directions so switch to the other device
+we can't all go and get in the car and drive around so we have a simulator of our turn by turn directions here
+i'll go ahead and choose coit tower i'll tap on the quick route button
+gives me three different options i'll choose route 2. let's go ahead and start
+starting route to coit tower in 750 feet turn right onto greenwich
+street turn right onto greenwich street then turn left onto grant avenue
+now you can watch this adaptive cinematic camera angle as we go through corners
+in 400 feet turn left onto grant avenue when two turns are close together we put
+both signs up for you in 300 feet turn right onto lombard
+street see what the the footprint of all these buildings correct
+in a quarter mile arrive at your destination now any point i can get the eta up top
+it says one minute simulator is going a lot faster than you should drive in san francisco we'll get there faster
+i can also just tap on overview which allows me to zoom out i can see any part
+of the route at any time zoom in over here to sort of pan around or at any point just tap to resume
+see it coming around telegraph hill here arrived at coit tower
+and that is turn by turn directions
+so a brand new mapping solution from the ground up in ios 6.
+and these are only 10 of the more than 200 new user features
+in ios 6. there was so much more in here they're game center challenges so now if you hit
+an achievement or a high score it's easy to challenge your friends to try to beat you
+we've improved the privacy controls so you can manage whether an app has access to your contacts calendar or photos
+we've completely redesigned the stores to make them just gorgeous and fluid and better promote your apps
+we're working on made for iphone hearing aids we want the experience of people with hearing aids to be the best it's
+ever been on an iphone we've added per account signatures in
+mail so if you have a personal mail account and a work mail account you can have different signatures for each
+we've added lost mode to find my iphone so if you've lost or misplaced your
+iphone or ipad or your iphone in this case you can send
+a phone number directly to that phone like your home phone number or your
+spouse's phone number and now if someone finds it they can just tap on there and it'll call that
+phone number back making it that much easier for you to get your phone back and
+all those features you heard about for china for os 10 we've added all of these to
+ios 6 as well so ios 6 is a phenomenal release
+for our customers it is also an incredible release for all of our developers we continue to strive
+to build the best platform on the planet for developers
+there's apis for past kit so all those passes you saw for passbook are really simple to build without api there's a
+reminders api we have in-app content purchases so if your app today links out say to itunes
+to buy music that someone heard in your app you can now sell that music right in your app
+with an in app content purchase sheet transit apps
+when building maps we looked around and realized the best transit apps
+for metros for hiking for biking are coming from our developers and so instead of trying to build those
+ourselves we're going to integrate and feature and promote your apps for transit right within the
+maps app and ios 6.
+so ios 6 is a great release for all of our developers and
+we're giving out a beta of ios 6 to our developers today
+ios 6 was shipped this fall it'll support the iphone 3gs and later
+the second and third generation ipad and the fourth generation ipod touch and that is ios 6.
+now i'd like to turn it back over to tim thank you
+so what do you think incredible
+you've seen some incredible products this morning let's review
+the new macbook pro delivers extreme performance in a radically thin and light design with this stunning retina
+display the world's highest resolution display it's the most advanced mac we have ever
+built os-10 mountain lion the ninth major release
+of the world's best desktop operating system with icloud and the new
+notification center messages dictation facebook integration it's the best os 10
+yet ios 6 with 200 new features to the world's
+most advanced mobile operating system with an entirely new maps app that's
+incredible facebook integration shared photo streams passbook and much much more
+only Apple could make such amazing hardware
+software and services we are so proud of these products
+as they are perfect examples of what Apple does best
+and ultimately it's why people choose to come to work at Apple
+and with Apple to do the very best work of their lives
+to create products that empower people to do great things
+to make a difference in the lives of so many people around the world
+the products we make combined with the apps that you create
+can fundamentally change the world
+and really i can't think of a better reason
+of getting up in the morning it's i hope you have a fantastic week
+i want to to wish you the best week ever the best conference ever thank you very
+much for coming and joining us
+you
