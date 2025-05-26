@@ -1,0 +1,974 @@
+Opening
+[MOUSE CLICKING]
+[MUSIC PLAYING]
+- This town ain't seen nothing yet. [NEW RADICALS, "YOU GET WHAT YOU GIVE"]
+Introduction
+[APPLAUSE, CHEERING]
+SUNDAR PICHAI: Wow, cool video. Looks like the team has been having some fun. Hello, everyone.
+Good morning. Welcome to Google I/O. [APPLAUSE, CHEERING]
+So good to see everyone here in Shoreline. And hello to everyone joining virtually around the world.
+I learned that today is the start of Gemini season. I'm not really sure what the big deal is.
+Every day is Gemini season here at Google. Normally, you wouldn't have heard much from us
+in the weeks leading up to I/O. That's because we'd be saving our best models for this stage.
+But in our Gemini era, we are just as likely to ship our most intelligent model
+on a random Tuesday in March or a really cool breakthrough like AlphaEvolve just a week before.
+We want to get our best models into your hands and our products ASAP.
+And so we are shipping faster than ever. We have announced over a dozen models and research
+breakthroughs and released over 20 major AI products and features, all since the last I/O.
+I'm particularly excited about the rapid model progress. You can see the step function change here.
+Elo scores, one measure of progress, are up more than 300 points since the first generation
+of Gemini Pro. And today, Gemini 2.5 Pro sweeps the LMArena leaderboard
+in all categories. [APPLAUSE, CHEERING]
+It is state of the art on many, many benchmarks. And we have also made rapid progress in coding.
+Our updated 2.5 Pro reached number one on WebDev Arena, and now surpasses the previous version by 140 Elo points.
+It's getting a lot of love across the top coding platforms, thanks to all of you. On Cursor, the leading AI code editor,
+Gemini is the fastest growing model of the year, producing hundreds of thousands of lines
+of accepted code every single minute. Now, this last milestone might be the most impressive, at least
+in some circles. A couple of weeks ago, Gemini completed "Pokémon Blue."
+[APPLAUSE, CHEERING] It earned all eight badges, traveled to Victory Road,
+defeated the Elite Four, and the champion, bringing us one step closer to achieving API, Artificial
+Pokemon Intelligence. [APPLAUSE, CHEERING]
+All of this progress is enabled by our world-leading infrastructure, the foundation of our full stack approach to AI.
+Our seventh generation TPU, Ironwood, is the first design to power thinking and inference at scale.
+It delivers 10x the performance over the previous generation and packs an incredible 42.5 exaflops of compute per pod.
+Just amazing. And it's coming to Google Cloud customers later this year. [APPLAUSE]
+Our infrastructure strength down to the TPU is what helps us deliver dramatically faster models.
+Of the top models on the LMArena leaderboard, Gemini holds the top three spots for highest output tokens
+generated per second, all while model prices are coming down significantly.
+There's a hard trade off between price and performance, yet over and over, we've been able to deliver the best
+models at the most effective price point. Not only is Google leading this parade of frontier,
+we have fundamentally shifted the frontier itself. The result, more intelligence available for everyone,
+everywhere. And the world is responding and adopting AI faster than ever
+before. It's one marker of progress. This time last year, we were processing 9.7 trillion tokens
+a month across our products and APIs. Now we are processing 480 trillion monthly tokens.
+That's about a 50x increase in just a year. [APPLAUSE]
+We're also seeing a wave of adoption across our developer AI tools. Today, over 7 million developers have built with the Gemini API
+across both Google AI Studio and Vertex AI, over 5x growth since last I/O. And Gemini usage on Vertex AI is
+up more than 40 times since last year. AI adoption is increasing across our products.
+The Gemini app now has over 400 million monthly active users. We are seeing strong growth and engagement, particularly
+with 2.5 models. For those using 2.5 Pro in the Gemini app,
+usage has gone up 45%. You will hear a lot more about the Gemini app later.
+We are also seeing incredible momentum in Search. Today, AI Overviews have more than 1.5 billion users
+every month. That means Google Search is bringing generative AI
+to more people than any other product in the world. And along with AI Overviews, AI Mode
+is the next big step for search. You'll hear more about this later.
+What all this progress means is that we are in a new phase of the AI platform shift,
+where decades of research are becoming reality for people all over the world.
+I want to share three examples of how research is transforming our products today--
+projects Starline, Astra, and Mariner. We debuted project Starline, our breakthrough 3D video
+technology, at I/O a few years back. The goal was to create a feeling of being in the same room
+as someone, even if you were far apart. We've continued to make technical advances,
+and today we are ready to announce our next chapter. Introducing Google Beam, a new AI first video communications
+platform. Beam uses a new state of the art video model to transform 2D
+video streams into a realistic 3D experience. Behind the scenes, an array of six cameras
+captures you from different angles. And with AI, we can merge these video streams together
+and render you on a 3D lightfield display, with near perfect head tracking down to the millimeter and at 60
+frames per second, all in real time. The result, a much more natural and deeply immersive
+conversational experience. We are so excited to bring this technology to others.
+In collaboration with HP, the first Google Beam devices will be available for early customers later this year.
+HP will have a lot more to share a few weeks from now. Stay tuned. [APPLAUSE, CHEERING]
+Over the years, we've been bringing underlying technology from Starline into Google Meet.
+That includes real-time speech translation to help break down language barriers.
+Here's an example of how this could be useful when booking a vacation rental in South America
+and you don't speak the language. Let's take a look. [VIDEO PLAYBACK] - Hi, Camilla.
+Let me turn on speech translation. It's nice to finally talk to you.
+- [NON-ENGLISH SPEECH] - [NON-ENGLISH SPEECH]
+- You're going to have a lot of fun, and I think you're going to love visiting the city. The house is in a very nice neighborhood
+and overlooks the mountains. - That sounds wonderful. Is the house-- - [NON-ENGLISH SPEECH]
+- [NON-ENGLISH SPEECH] - There's a bus nearby, but I would recommend renting a car
+so you can visit the nature and enjoy it. - That sounds great [NON-ENGLISH SPEECH]
+[END PLAYBACK] [APPLAUSE]
+SUNDAR PICHAI: You can see how well it matches the speaker's tone, patterns, and even their expressions.
+We are even closer to having a natural and free flowing conversation across languages.
+And today, we are introducing this real-time speech translation directly in Google Meet.
+English and Spanish translation is now available for subscribers, with more languages rolling out
+in the next few weeks. And real-time translation will be coming to Enterprises later this year.
+[APPLAUSE]
+Another early research project that debuted on the I/O stage was Project Astro.
+It explores the future capabilities of a universal AI assistant that can understand
+the world around you. We are starting to bring it to our products. Today, Gemini Live has project Astro's camera
+and screen sharing capabilities so you can talk about anything you see. People are using it in so many ways,
+whether practicing for a job interview or training for a marathon. We've been appreciating the feedback
+from our trusted testers and some who are a little less trusted. Take a look.
+[VIDEO PLAYBACK] - That's a pretty nice convertible.
+- I think you might have mistaken the garbage truck for a convertible. Is there anything else I can help you with?
+- What's this skinny building doing in my neighborhood? - It's a street light, not a building.
+- Why are these palm trees so short? I'm worried about them. - They're not short. They're actually pretty tall.
+- Sick convertible. - Garbage truck again. Anything else?
+- Why do people keep delivering packages to my lawn? - It's not a package. It's a utility box.
+- Why is this person following me wherever I walk? - No one's following you.
+That's just your shadow. [END PLAYBACK] [APPLAUSE, CHEERING]
+SUNDAR PICHAI: Gemini is pretty good at telling you when you're wrong. We are rolling this out to everyone
+on Android and iOS starting today. [APPLAUSE, CHEERING]
+Next, we also have our research prototype Project Mariner. It's an agent that can interact with the web and get stuff done.
+Stepping back, we think of agents as systems that combine the intelligence of advanced AI
+models with access to tools. They can take actions on your behalf and under your control.
+Computer use is an important agentic capability. It's what enables agents to interact with and operate
+browsers and other software. Project Mariner was an early step forward
+in testing computer-use capabilities. We released it as an early research prototype in December,
+and we have made a lot of progress since. First, we are introducing multitasking,
+and it can now oversee up to 10 simultaneous tasks. Second, it's using a feature called Teach and repeat.
+This is where you can show it a task once and it learns a plan for similar tasks in the future.
+We are bringing project Mariner's computer-use capabilities to developers via the Gemini API.
+Trusted testers, like Automation Anywhere and UiPath, are already starting to build with it,
+and it will be available more broadly this summer. Computer-use is part of a broader
+set of tools we will need to build for an agent ecosystem to flourish, like an open Agent2Agent protocols
+so that agents can talk to each other. We launched this at Cloud Next, with the support of over 60 technology partners, and hope
+to see that number grow. Then there is the model context protocol introduced by Anthropic
+so agents can access other services. And today, we are excited to announce that our Gemini SDK is
+now compatible with MCP tools. [APPLAUSE]
+These technologies will work together to make agents even more useful. And we are starting to bring agentic capabilities to Chrome,
+Search, and the Gemini app. Let me show you what we are excited about in the Gemini app.
+We call it Agent Mode. Say you want to find an apartment for you and two roommates in Austin.
+You've each got a budget of $1,200 a month. You want a washer/dryer, or at least a laundromat nearby.
+Normally, you'd have to spend a lot of time scrolling through endless listings. Using Agent Mode, the Gemini app goes to work behind the scenes.
+It finds listings from sites like Zillow that match your criteria and uses Project Mariner,
+when needed, to adjust very specific filters. If there's an apartment you want to check out,
+Gemini uses MCP to access the listings and even schedule a tour on your behalf.
+And it'll keep browsing for new listings for as long as you need, freeing up to do the stuff you
+want to do, like plan the housewarming party. It's great for companies like Zillow bringing in new customers
+and improving conversion rates. An experimental version of the Agent Mode in the Gemini app
+will be coming soon to subscribers. This is a new and emerging area, and we
+are excited to explore how best to bring the benefits of agents to users and the ecosystem more broadly.
+The best way we can bring research into reality is to make it really useful in your own reality.
+That's where personalization will be really powerful. We are working to bring this to life with something
+we call personal context. With your permission, Gemini models can use relevant context across your Google apps
+in a way that is private, transparent, and fully under your control. Let me show you an example in Gmail.
+You might be familiar with our AI-powered Smart Reply features. It's amazing how popular they are.
+Now imagine if those responses could sound like you. That's the idea behind Personalized Smart Replies.
+Let's say my friend wrote to me looking for advice. He's taking a road trip to Utah, and he remembers
+I did this trip before. Now, if I'm being honest, I would probably reply something short and unhelpful.
+Sorry, Felix. But with Personalized Smart Replies, I can be a better friend.
+That's because Gemini can do almost all the work for me,
+looking up my notes and drive, scanning past emails for reservations, and finding
+my itinerary in Google Docs, trip to Zion National Park. Gemini matches my typical greetings from past emails,
+captures my tone, style, and favorite word choices,
+and then it automatically generates a reply. I love how it included details like keeping driving time
+under five hours per day, and it uses my favorite adjective, exciting.
+Looks great! Maybe you want to make a couple of changes to it and hit Send.
+This will be available in Gmail this summer for subscribers. [APPLAUSE, CHEERING]
+And you can imagine how helpful personal contacts will be across Search, Docs, Gemini, and more.
+Today, I've talked about intelligence, agents, and personalization.
+These are a few of the frontiers where we will make progress. And you'll hear more examples throughout the keynote.
+But first, I want to invite someone who can share more about the intelligence driving our future innovation.
+Last year, I introduced him as Sir Demis. This year, we can add Nobel laureate to his list of titles.
+Come on out, Demis. [MUSIC PLAYING]
+Google DeepMind + Gemini for Developers
+DEMIS HASSABIS: Hey, everyone. It's really great to be back here at I/O. We're living through a remarkable moment in history,
+where AI is making possible an amazing new future. It's been a year of relentless progress for us.
+As Sundar said, people love interacting with Gemini 2.5. We've seen you vibe code with it,
+building games and apps in a single shot. You've used its vast reasoning powers on everything,
+from unpacking scientific papers to understanding YouTube videos. And you've told us how collaborative, insightful,
+and genuinely helpful you found using Gemini. It's so exciting for us to see the awesome things you've all
+been doing and building with it. Gemini 2.5 Pro is our most intelligent model ever
+and the best foundation model in the world. Just two weeks ago, we shipped a preview of an updated 2.5 Pro
+so you could get your hands on it and start building with it right away. We've been really impressed by what you've created,
+from turning sketches into interactive apps to simulating entire 3D cities.
+The new 2.5 Pro tops the popular coding leaderboard WebDev Arena.
+And now that it incorporates LearnLM, our family of models built with educational experts, 2.5 Pro
+is also the leading model for learning. And it's number one across all the leaderboards on LMArena.
+Gemini Flash is our most efficient workhorse model. It's been incredibly popular with developers who
+love its speed and low cost. Today, I'm thrilled to announce that we're releasing an updated
+version of 2.5 Flash. The new Flash is better in nearly every dimension,
+improving across key benchmarks for reasoning, code, and long context. In fact, it's second only to 2.5 Pro on the LMArena leaderboard.
+I'm excited to say that Flash will be generally available in early June, with Pro soon after.
+[APPLAUSE, CHEERING]
+We're making final adjustments based on your feedback, but you can go try out the preview now
+in AI Studio, Vertex AI, and Gemini app. As always, we're looking to push the state of the art
+relentlessly forward, and we're excited about our latest research advances. To tell you more, I'd like to welcome Tulsee to the stage,
+but first, let's take a look at what you're building with Gemini today. [VIDEO PLAYBACK]
+[MUSIC PLAYING]
+- Can you make a bunch of confetti circles explode out of my mouse?
+- I've updated the sketch.
+- OK, what should we build next? - OK, here's another 30 ideas for you.
+[END PLAYBACK] [APPLAUSE, CHEERING]
+TULSEE DOSHI: Thanks, Demis. I'm so excited to share the improvements we're creating to make it easier for developers like all of you
+to build with Gemini 2.5, all based on your feedback, with improved capabilities, enhanced security
+and transparency, better cost efficiency, and more control.
+First, in addition to the new 2.5 Flash that Demis mentioned, we are also introducing new previews for text to speech.
+These now have a first of its kind multi-speaker support for two voices built on Native Audio Output.
+[AUDIO PLAYBACK] - This means the model can converse in more expressive ways.
+It can capture the really subtle nuances of how we speak. (WHISPERS) It can even seamlessly switch to a whisper,
+like this. [END PLAYBACK] TULSEE DOSHI: This works in over 24 languages,
+and it can easily go between languages. [AUDIO PLAYBACK] - So the model can begin speaking in English, but then--
+[NON-ENGLISH SPEECH] --and switch back,
+all with the same voice. [END BLAYBACK] TULSEE DOSHI: That's pretty awesome, right? [APPLAUSE]
+You can use this text-to-speech capability starting today in the Gemini API.
+[APPLAUSE, CHEERING] The Live API will also have a 2.5 Flash preview
+version of Native Audio dialogue later today. So you can directly build conversational experiences
+with a more natural Gemini. It's even able to distinguish between the speaker and background voices.
+So it knows when to respond. And Logan and Paige will show you more in the developer keynote.
+Second, we've strengthened protections against security threats like indirect prompt injections.
+So Gemini 2.5 is our most secure model yet.
+And in both 2.5 Pro and Flash, we're including thought summaries via the Gemini API and Vertex AI.
+Thought summaries take the model's raw thoughts and organize them into a clear format with headers,
+key details, and information about model actions like tool calls. This gives you increased transparency
+for what the model is thinking, which is especially useful for high-latency tasks while also
+just being easy to debug and consume. You also asked us for more efficiency.
+So today's 2.5 Flash is even more efficient, reducing the number of tokens the model
+needs to use for the same performance, resulting in 22% efficiency gains on our evals.
+Finally, we launched 2.5 Flash with thinking budgets to give you control over cost and latency versus quality.
+And the response was great. So we're bringing thinking budgets to 2.5 Pro, which will roll out in the coming weeks,
+along with our generally available model. With thinking budgets, you can have more control over how many tokens
+the model uses to think before it responds, or you can simply turn it off.
+Now, as you heard from Demis, Gemini 2.5 Pro is incredible at coding.
+So now let me show you how you can take any idea you have and bring it to life.
+So if you've ever been to the American Museum of Natural History in New York City, it has a set of amazing exhibits.
+So to bring that to you today, I got 2.5 Pro to code me a simple web app in Google AI Studio
+to share some photos and learn more. So here's what I have so far, but I want
+to make it more interactive. And I'm still brainstorming the design, but I've got some ideas.
+You've seen something like this before. Someone comes to you with a brilliant idea scratched
+on a napkin. As a PM, I'm often this someone. Now, standard two-dimensional web design is one thing,
+but I wanted to make it 3D. And I learned that jumping into 3D isn't easy.
+It requires learning about all kinds of new things-- setting up a scene, camera, lighting, and more.
+Luckily for me, 2.5 Pro can help. So here, what I'm going to do is I
+am going to add the image I just showed you of the sphere,
+and I'm going to add in a prompt that asks 2.5 Pro to update my code based on the image.
+So we'll let 2.5 Pro get to work. And as you can see, it's starting to think,
+and it's going ahead and creating a plan based on what I asked for. And it'll apply it to my existing code base.
+Because Gemini is multimodal, it can understand the abstract sphere sketch and code beautiful 3D animations,
+applying them to my existing app. So this takes about two minutes. So for the purpose of time, we're
+going to do this baking-show style. And I'm going to jump to another tab that I ran right before this keynote, with the same prompts.
+And here's what Gemini generates. Whoa! [APPLAUSE]
+We went from that rough sketch directly to code, updating multiple of my files.
+And actually, you can see it thought for 37 seconds. And you can see the changes it thought through and then
+the files. It updated. We did all of this in AI Studio. So once I finished prototyping, I
+can simply deploy the code along with my Gemini API key. So here's our final app in Chrome.
+Look at these animations. And I didn't need to have advanced knowledge of Three.js
+libraries or figure out the complex 3D math to build this. I know it would have taken forever to do this by hand,
+and instead, I was able to create this just based on a sketch.
+I can make this experience even richer with multimodality. So I used 2.5 Flash to add a question to each photo,
+inviting you to learn a little more about it. But what if it talked?
+That's where Gemini's Native Audio comes in. [AUDIO PLAYBACK] - That's a pangolin.
+And its scales are made of keratin, just like your fingernails. [END PLAYBACK] TULSEE DOSHI: Wow.
+Now we're talking. You can hear how you can add expressive audio right
+into your apps. And before I share more, I'll leave this demo with another fun layout that 2.5 Pro coded just for us.
+[APPLAUSE]
+We've put the starter code for anyone to build on top of this demo in Google AI Studio, so go try it out.
+And this is just one example of how Gemini 2.5 is changing how we build, and how you can leverage
+the incredible capabilities to integrate vision, speech, and coding into your own applications.
+2.5 Pro is available on your favorite IDE platforms and in Google products like Android Studio, Firebase Studio,
+Gemini Code Assist, and our asynchronous coding agent, Jules. [APPLAUSE]
+Just submit a task, and Jules takes care of the rest, fixing bugs, making updates.
+It integrates with GitHub and works on its own. Jules can tackle complex tasks in large code bases that
+used to take hours, like updating an older version of Node.js. It can plan the steps, modify files, and more in minutes.
+So today, I'm delighted to announce that Jules is now in public beta, so anyone can sign up at Jules Google.
+[APPLAUSE]
+And like Demis said, we're always innovating on new approaches to improve our models,
+including making them more efficient and performant. We first revolutionized image and video generation
+by pioneering diffusion techniques. A diffusion model learns to generate outputs
+by refining noise step by step. Today, we're bringing the power of diffusion
+to text with our newest research model. This helps it excel at tasks like editing,
+including in the context of math and code. Because it doesn't just generate left to right,
+it can iterate on a solution very quickly and error correct during the generation process.
+Gemini Diffusion is a state of the art experimental text diffusion model that leverages this parallel generation
+to achieve extremely low latency. For example, the version of Gemini Diffusion
+we're releasing today generates five times faster than even 2.0 Flash-Lite, our fastest model
+so far, while matching its coding performance. So take this math example.
+Ready? Go. If you blinked, you missed it.
+[APPLAUSE]
+Now, earlier we sped things up, but this time, we're going to slow it down a little bit.
+Pretty cool to see the process of how the model gets to the answer of 39.
+This model is currently testing with a small group. And we'll continue our work on different approaches,
+lowering latency in all of our Gemini models with a faster 2.5 Flash-Lite coming soon.
+And now, for more on the future of Gemini, back to you, Demis. [MUSIC PLAYING, APPLAUSE]
+DEMIS HASSABIS: Thanks, Tulsee. We've been busy exploring the frontiers of thinking capabilities in Gemini 2.5.
+As we know from our experience with AlphaGo, responses improve when we give these models more time to think.
+Today, we're making 2.5 Pro even better by introducing a new mode we're calling
+Deep Think It pushes model performance to its limits, delivering groundbreaking results.
+Deep Think uses our latest cutting-edge research in thinking and reasoning, including parallel techniques.
+So far, we've seen incredible performance. It gets an impressive score on USAMO 2025,
+currently one of the hardest math benchmarks. It leads on LiveCodeBench, a difficult benchmark
+for competition level coding. And since Gemini has been natively multimodal
+from the start, it's no surprise that it also excels on the main benchmark measuring this, MMMU.
+Because we're defining the frontier with 2.5 Pro Deep Think, we're taking a little bit of extra time to conduct more frontier safety evaluations
+and get further input from safety experts. As part of that, we're going to make it available to trusted testers via the Gemini API
+to get their feedback before making it widely available. You'll hear more about our plans for 2.5 Pro Deep Think from Josh
+later today. Over the past decade, we've laid a lot of the foundations
+for the modern AI era, from our pioneering work inventing the transformers architecture, which today underpins
+all large language models, to agent systems like AlphaGo and AlphaZero.
+We continue to double down on the breadth and depth of our fundamental research to invent
+the next big breakthroughs that are needed for artificial general intelligence.
+Gemini is already the best multimodal foundation model, but we're working hard to extend it to become
+what we call a world model. That is a model that can make plans and imagine
+new experiences by simulating aspects of the world, just like the brain does.
+This is something I've always been passionate about, having thought about virtual worlds since my early days,
+developing AI for simulation games like "Theme Park." We've been taking strides in this direction for a while
+through our pioneering work, training agents to master complex games like "Go" and "StarCraft," to most recently,
+our Genie 2 model, capable of generating 3D-simulated environments that you can interact with just from a single
+image prompt. You can already see these capabilities emerging in the way Gemini can use its world knowledge and reasoning
+to represent things in nature. And in Veo, our state of the art video model,
+which has a deep understanding of intuitive physics, like how gravity, light, and materials behave.
+It's really incredible how well Veo maintains accuracy and consistency across frames.
+It knows what to do even when the prompts get a little creative, like this person made out of life rafts.
+Understanding the physical environment will also be critical for robotics. AI systems will need world models
+to operate effectively in the real world. We fine tuned a specialized model, Gemini Robotics,
+that teaches robots to do useful things like grasp, follow instructions, and adjust to novel tasks on the fly.
+For those of you here today, you can play around with the robots in the AI Sandbox.
+[APPLAUSE, CHEERING]
+Making Gemini a full-world model is a critical step in unlocking a new kind of AI, one that's helpful in your everyday life,
+that's intelligent and understands the context you're in and that can plan and take action on your behalf
+across any device. This is our ultimate vision for the Gemini app, to transform it into a universal AI assistant, an AI that's
+personal, proactive, and powerful, and one of our key milestones on the road to AGI.
+This starts with the capabilities we first explored last year in Project Astra, such as video understanding, screen sharing, and memory.
+Over the past year, we've been integrating capabilities like these into Gemini Live for more people to experience today.
+Of course, we continue to relentlessly improve and explore new innovations at the frontier.
+For example, we've upgraded voice output to be more natural with Native Audio. We've improved memory and added computer control.
+Let's take a look. [VIDEO PLAYBACK] - I'm here with the latest research prototype of Project Astra, and we're going
+to see how it can help me fix my bike. [MUSIC PLAYING]
+Hey, go online and look for a user's manual for a Huffy mountain bike.
+- I have found a user manual for you. What would you like to know about it? - OK, cool. Now scroll until you find the section about the brakes.
+- Sure thing. Looking for that page now. - I think I stripped this screw.
+Can you go on YouTube and find a video for how to fix that? - Of course. I'm opening YouTube now.
+This looks like a good video. - Place a rubber band over the head of the screw-- - Oh, nice. Nice.
+Can you go through my emails with the bike shop and find which size hex nut I need? - Sure.
+According to the email from Bicycle Habitat, you need a 3/8 inch hex nut for your sprocket.
+I've highlighted the correct bin for you. - It seems like I need a spare tension screw.
+Can you call the nearest bike shop and see what they have in stock? - Yep. Calling them now. I'll get back to you with what they have in stock.
+- I think my brake pads are wearing down. Can you check the manual again and see if it talks about them anywhere?
+- According to the manual, if you look on page 24-- - Hey, do you want to get lunch?
+- Yeah. Give me five minutes. Can you finish what you were saying? - As I was saying, if you look on page 24, section 2,
+you'll see how to replace the brake pads. - Hey, any updates on that call? - Yep.
+I just got off with the bike shop. They confirmed they have your tension screw in stock. Would you like me to place a pickup order?
+- Could you show me some examples of dog baskets I could put on my bike? - Sure. I can help you with that.
+Just give me a moment. Here are some options. I think Zuka would look really great in these.
+[END PLAYBACK] [APPLAUSE, CHEERING]
+DEMIS HASSABIS: A universal AI assistant will perform everyday tasks for us. It will take care of mundane admin
+and surface delightful, new recommendations, making us more productive and enriching our lives.
+We're gathering feedback about these new capabilities now from trusted testers and working to bring them to Gemini Live, new experiences in Search,
+and the Live API for developers, as well as new form factors like Android XR glasses.
+You'll hear more on this later today. My entire career, at its core, has
+been about using AI to advance knowledge and accelerate scientific discovery. At Google DeepMind, we've been applying
+AI across almost every branch of science for a long time. In just the past year, we've made some huge breakthroughs
+in a wide range of areas, from mathematics to life sciences. We've built AlphaProof that can solve Math Olympiad problems
+at the silver medal level, coscientists that can collaborate with researchers, helping them develop and test novel hypotheses.
+And we've just released AlphaEvolve, which can discover new scientific knowledge and speed up AI training itself.
+In the life sciences, we've built AMIE, a research system that could help clinicians with medical diagnoses, AlphaFold 3, which can predict
+the structure and interactions of all of life's molecules, And Isomorphic Labs, which builds on our AlphaFold
+work to revolutionize the drug discovery process with AI and will one day help to solve many global diseases.
+In just a few, short years, AlphaFold has already had a massive impact in the scientific community.
+It's become a standard tool for biology and medical research, with over 2.5 million researchers worldwide using it
+in their critical work. As we continue to make progress towards AGI,
+I've always believed, if done safely and responsibly, it has the potential to accelerate scientific discovery
+and be the most beneficial technology ever invented. [APPLAUSE, CHEERING]
+Taking a step back, it's amazing to me that even just a few years ago, the frontier technology
+you're seeing today would have seemed nothing short of magic. It's exciting to see these technologies powering
+new experiences in products like Search and Gemini, and also coming together to help people in their daily lives.
+For example, we recently partnered with Aira, a company that assists people in the blind and low-vision community
+to navigate the world by connecting them via video to human visual interpreters.
+Using Astra technology, we built a prototype to help more people have access to this type of assistance.
+We're getting ongoing feedback from users, while Aira's interpreters are actively supervising
+for safety and reliability. [APPLAUSE, CHEERING]
+With this and all our groundbreaking work, we're building AI that's more personal, proactive,
+and powerful, enriching our lives, advancing the pace of scientific progress,
+and ushering in a new golden age of discovery and wonder.
+[VIDEO PLAYBACK] - I remember as a child playing till it got dark outside
+to make sure I could still play guitar without being able to see.
+I was diagnosed with retinitis pigmentosa when I was probably about four years old. My vision is actively deteriorating,
+but music has been something that I can continue to do with the closing in of my visual reality.
+I feel free when I'm playing music. If Project Astra can help me be more independent,
+it would be the greatest thing ever. [MUSIC PLAYING]
+Touring, for example, I love it because I get to go out and go to places I've never been before
+and meet new people, but it definitely is becoming more difficult. - Hello there. - Hello.
+Can you tell me what you see in this green room while I scan around?
+- I see a sign on the wall in the direction you're facing. The sign says, Wi-Fi network, The Gray Eagle.
+And the password is LIVEMUSIC. - Thank you very much. Can you help me locate a microphone stand?
+- Sure, I can help with that. Do you mind if I turn on the flashlight? - Yes, please.
+- I see a wall with several coiled cables and what look like mic stands towards the top right
+in the video. - The most powerful thing I can do is to get on stage,
+pick up my guitar, and play. Helps people understand that there's more than just blind or not blind, disability and ability.
+If Project Astra could help me along the way, I'm all for it.
+- Have a great time at your show. [END PLAYBACK] [APPLAUSE]
+Search
+SUNDAR PICHAI: Thanks, Demis. It's amazing to see the possibilities for Project Astra to help with accessibility.
+It's another exciting example of how AI is advancing our timeless mission to organize the world's information
+and make it universally accessible and useful. No product embodies our mission more than Google Search.
+It's the reason we started investing in AI decades ago and how we can deliver its benefits at the scale
+of human curiosity. Our Gemini models are helping to make Google Search more intelligent, agentic, and personalized.
+One great example of progress is our AI Overviews. Since launching at I/O last year,
+they have scaled up to over 1.5 billion users every month in more than 200 countries and territories.
+As people use AI Overviews, we see they are happier with their results, and they search more often.
+In our biggest markets, like the US and India, AI Overviews are driving over 10% growth in the types
+of queries that show them. What's particularly exciting is that this growth
+increases over time. It's one of the most successful launches in search in the past decade.
+[APPLAUSE]
+AI Overviews are also one of the strongest drivers of growth for visual searches in Google Lens.
+Lens grew 65% year over year, with more than 100 billion visual searches already this year.
+So people are asking more queries, and they're also asking more complex queries.
+With our latest Gemini models, our AI Overviews are at the quality and accuracy you've
+come to expect from search and are the fastest in the industry. For those who want an end-to-end AI Search experience,
+we are introducing an all new AI Mode. It's a total reimagining of Search.
+With more advanced reasoning, you can ask AI Mode longer and more complex queries like this.
+In fact, users have been asking much longer queries, two to three times the length of traditional searches.
+And you can go further with follow-up questions. All of this is available today as a new tab right in Search.
+I've been using it a lot, and it's completely changed how I use search. And I'm excited to share that AI Mode is coming to everyone
+in the US starting today. [APPLAUSE, CHEERING]
+AI mode is where we will first bring our frontier capabilities into Search. And starting this week, Gemini 2.5, our most intelligent model
+series, is coming to Search. To share a whole lot more, here's Liz. [MUSIC PLAYING, APPLAUSE]
+LIZ REID: Thanks, Sundar. In just one year, there's been a profound shift in how people are using Search.
+For years, people have come to Google to ask questions like this.
+And now, they're also asking questions that look more like this. They're asking longer questions, harder ones,
+and as you just heard from Sundar, lots more of them. They're experiencing what AI powered search can
+do, as we bring together our Gemini model's advanced capabilities with Search's
+unparalleled understanding of the web and the world's information. Today, you'll see how you can ask anything.
+And a more intelligent, agentic, and personalized search will take on your toughest questions
+and help you get stuff done. This is the future of Google Search,
+a search that goes beyond information, to intelligence. And you're starting to see this come to life already
+with AI Overviews. And AI Mode takes this to the next level.
+AI Mode is Search transformed, with Gemini 2.5 at its core.
+It's our most powerful AI search, able to tackle any question.
+And as Sundar announced, we're excited to start rolling out AI Mode for everyone in the US, starting today.
+[APPLAUSE]
+You'll find it as a new tab directly in search or right from your search bar. AI Mode will be loaded up with all of our best AI features
+and capabilities, but it's even more than that. It's a glimpse of what's to come.
+Over time, we'll graduate many of AI Mode's cutting-edge features and capabilities directly into the core search experience.
+That starts today, as we bring the same models that power AI Mode to power AI Overviews.
+So you can bring your hardest questions right to the search box. Today we'll give you a tour of AI Mode,
+and you'll see how it works and how it's getting even better, with personal context, deeper research, complex analysis
+and visualization, live multimodality, and new ways to shop. Now, that's a lot because AI Mode can do a lot.
+So let's dive in. First, with AI mode, you can ask whatever is on your mind.
+And as you can see here, Search gets to work. It generates your response, putting everything together
+for you, including links to content and creators you might not have otherwise discovered,
+and merchants and businesses, with useful information like ratings. Search uses AI to dynamically adapt
+the entire UI, the combination of text, images, links, even this map just for your question.
+And you can follow up conversationally. Now, AI Mode isn't just giving you information,
+it's bringing a whole new level of intelligence to search. What makes this possible is something
+we call our query fanout technique. Now, under the hood, Search recognizes when a question
+needs advanced reasoning. It calls on our custom version of Gemini to break the question into different subtopics,
+and it issues a multitude of queries simultaneously on your behalf. It searches across the entire web,
+going way deeper than a traditional search. And it taps into all of our data sets of real-time information,
+like the knowledge graph, the shopping graph, and in this case, local data, including
+insights from our Maps community of over 500 million contributors.
+Search pulls together a response, and it checks its work to make sure it meets our high bar for information quality.
+And if it detects any gaps, it issues even more searches to fill them in.
+That means, with AI Mode, you get all of this from just a single search. And you get it fast.
+Now, let's take a look at what's coming next to AI Mode, starting in labs. Soon, AI Mode will be able to make your responses even
+more helpful, with personalized suggestions based on your past searches.
+You can also opt in to connect other Google apps, starting with Gmail. We call this personal context.
+And you'll see when AI mode is bringing yours in to help. So now, based on your recent restaurant bookings
+and searches, it gets that you prefer outdoor seating. And since you subscribe to those gallery newsletters,
+it suggests some cool art exhibits to check out while you're in town. But that's not all, because your flight and hotel confirmations
+are in your inbox. You get event ideas that sync up with when you'll actually be in Nashville, with many nearby where you're staying.
+You can see how personal contacts in AI Mode make search really yours, with recommendations customized just
+for you. Now, this is always under your control, and you can choose to connect or disconnect at any time.
+Personal context is coming to AI Mode this summer. [APPLAUSE, CHEERING]
+Next, for questions when you want an even more thorough response, we're bringing deep research capabilities into AI Mode.
+You already come to search today to really unpack a topic, but this brings it to a much deeper level, so much so
+that we're calling this Deep Search. Deep Search uses the same query fanout technique
+you just heard about, but multiplied. It can issue dozens or even hundreds of searches on your behalf.
+It reasons across all those disparate pieces of information to create an expert level, fully-sighted report
+in just minutes. It includes links to the web throughout, so you can easily explore and take action.
+Now, that's a core part of how we've built AI Mode overall and how we've always thought about AI in Search.
+Because we believe AI will be the most powerful engine for discovery that the web has ever seen,
+helping people discover even more of what the web has to offer and find incredible, hyper relevant content.
+You're starting to see how search is becoming more intelligent. And we've got more to show you.
+So I'll hand it over to Rajan, who will share how AI Mode is helping analyze complex data for one of his passions, sports.
+[MUSIC PLAYING, APPLAUSE]
+RAJAN PATEL: Thanks, Liz. OK, so I'm a huge baseball fan. And lately there's been a lot of buzz
+about these new torpedo bats. If you don't follow baseball, it's a new bat design where more of the weight of the bat
+is in the sweet spot. As you can see, I've been digging in on whether it's making a real impact on the game.
+And now, I'm wondering what the numbers say. So I'll ask, show the batting average and on base
+percentage for this season and last for notable players who currently use a torpedo bat.
+Think about it. There are so many parts to that question. Search needs to understand who the notable players are,
+which ones are using torpedo bats, and their stats. I get this helpful response, including
+this easy-to-read table. And I know that this is fresh and accurate
+since it uses our sports data that's continuously updated down to the last strike.
+Search even brings in important context, like that it's still early in the season.
+I can follow up and ask, how many home runs have these players hit this season? And just like that, I get this graph.
+This goes back to what Liz mentioned about AI Mode dynamically generating the right UI for each response.
+Search figured out that the best way to present this information is a graph, and it created it.
+It's like having my very own sports analyst right in Search. Complex analysis and data visualization
+is coming this summer for sports and financial questions. [APPLAUSE]
+So all this talk about baseball made me want to get closer to the game, like at the next game close, but finding the perfect tickets
+can be a chore. So I'm excited to share that we're bringing Project Mariner's agentic capabilities into AI
+Mode. You've already seen how AI mode is becoming more intelligent and personalized,
+and here's where you start to see Search getting more agentic. Search can take work off my plate while still
+under my control. I'll say, find two affordable tickets for this Saturday's Reds
+game in the lower level. Search kicks off a query fanout, looking across several sites
+to analyze hundreds of potential ticket options, doing the tedious work of filling in forms
+with all the criteria I asked for. And it puts it all together, reasoning across the results
+to analyze real time pricing and inventory. Then, right here, task complete.
+I get great ticket options with helpful context. So I can make an informed decision.
+Looks like these seats have a good view and at a reasonable price. Search helps me skip a bunch of steps,
+linking me right to finish checking out. Tickets secured. [APPLAUSE]
+Search will help with tasks like this soon, starting with event tickets, restaurant reservations, and appointments for local services.
+Next, let's talk about multimodality. We've been blazing the trail for multimodal search
+since before it was really even a thing. We introduced Google Lens on this very stage back in 2017.
+And since then, we've made it even easier to search what you see. Snap a picture with Google Lens, or simply circle the search,
+and you can get an AI overview instantly. Like Sundar mentioned, Visual Search is on fire.
+And today, I'm excited to share that Lens has over 1.5 billion users every month.
+[APPLAUSE]
+Now, we're taking the next big leap in multimodality by bringing Project Astra's live capabilities into AI Mode.
+Think about all those questions that are so much simpler to just talk through and actually show what you mean, like a DIY home repair, a tricky school
+assignment, or learning a new skill. We call this Search Live. And now, using your camera, Search can see what you see
+and give you helpful information as you go back and forth in real time. It's like hopping on a video call with Search.
+I have three kids, and they ask about a million questions a minute. And with summer right around the corner, the team
+and I decided to put Search Live to the ultimate test, helping us and our kids, tackle something new.
+We recorded at home with our families just this past weekend. Let's take a look.
+[VIDEO PLAYBACK] - It looks like you're about to do a fun science experiment. - All right. Ready, Anja?
+Ready, Addy? - Yep. - OK. - Are you ready for your science experiment? - Yeah. - Can you guess which experiment I'm trying to do?
+I have hydrogen peroxide, and dish soap, and yeast. - You're likely going to make elephant toothpaste. - I know which one of these strawberries is ready to eat.
+- I'm trying to get this remote to work. - It looks like someone is ready to get their hands dirty and plant a green bean seedling.
+Pop it to about 50 pounds per square inch, but don't go over 90 PSI. - I mixed the baking soda.
+What do I do next? - It looks like someone tried dipping a finger into the cinnamon water. - What should I do to make this even more impressive?
+- You could try using a different catalyst. Potassium iodide is a good option. - Whoa, why is it doing that?
+- A ripe strawberry will also have a sweet smell. The green leaves at the top should look fresh and vibrant.
+- The chemical reaction is going well. - This is awesome. Thanks. - Whoa. - Whoa. - Can we do it again?
+- Go. - Oh, boy. How do I get strawberry stains out of her shirt?
+- Try using a mix of 1 tablespoon white vinegar, half a teaspoon liquid laundry detergent. [END PLAYBACK]
+[MUSIC PLAYING, APPLAUSE]
+VIDHYA SRINIVASAN: With AI Mode, we are bringing a new level of intelligence to help you shop with Google.
+As you heard earlier, AI Mode brings in information from the web and our real-time data.
+In this case, that means you get the visual inspiration of Google Images and the world's most comprehensive set of products
+and retailers from our shopping graph, which has over 50 billion
+product listings that get constantly updated. Let me show you how this comes together.
+So I have been on the hunt for a new rug for my living room. I'll say, I have a light gray couch, and I'm looking for a rug
+to brighten the room. What I need first is visual inspiration.
+Search dynamically generates a browsable mosaic of images and some shoppable products
+personalized just for me. I see rugs from some of my go-to brands and some more
+modern options, since I often search for things in that style. Now, these are nice, but I know most of them
+wouldn't survive a day in my home. So I'll add, I have four active kids
+and they like to have friends over. Search understands this involves plenty of messes.
+It recommends a low pile and washable rug made from durable materials, along with some products
+that I can shop. But I don't know a lot about rugs. So luckily, Search points out some things to consider.
+And with helpful follow ups like these, taking a few days of research down to just a few minutes.
+You can imagine how helpful this new experience in AI Mode will be for all of your shopping needs.
+Speaking of, I want a few new dresses for summer. Search gave me some great options,
+but now, I'm faced with the classic online shopping dilemma.
+I have no clue how these styles will look on me.
+So we are introducing a new try-on feature that will help you virtually try on clothes so you
+get a feel for how styles might look on you. Let me show you a live demo.
+So I looked at many dresses, and I really like this blue one.
+I click on this button to try it on. It asked me to upload a picture, which
+takes me to my camera roll. I have many pictures here. I'm going to pick one that is full length and a clear view
+of me. And off it goes. While it's processing, I'll show you what's
+happening behind the scenes. To create a try-on experience that works at scale,
+we need a deep understanding of the human body and how clothing looks on it.
+To do this, we built a custom image generation model specifically trained for fashion.
+Wow. And it's back. [APPLAUSE, CHEERING]
+I have to say, I love a live demo when it works.
+All right. More on how it works. It brings in advanced 3D shape understanding,
+which allows us to perceive perceived shapes and depths more accurately, helping us better visualize the human body.
+Our try-on experience works with your photo. It's not some pre-captured image or a model
+that doesn't look like you. And then, when it comes to clothes that you're interested in, the AI model
+is able to show how this material will fold, and stretch, and drape on people.
+This technology is the most state of the art in the industry at scale. And it allows us to visualize how billions of apparel products
+look on a wide variety of people. And you can see it here how it really gives me
+a feel for how this dress might look on me. All right. So I'm now set on the dress.
+And Search can help me find it at the price that I want and buy it for me with our new agentic checkout feature.
+So let me get back here to the dress. And I'm going to click this thing to track price.
+I pick my size. Then I have to set a target price. I'm going to set it to about $50.
+And tracking is happening. Search will now continuously check websites
+where the dress is available and then let me know if the price drops. So now let's switch out of our live demo mode,
+and then I'm going to sprinkle some I/O magic. And let's assume the price is now dropped.
+When that happens, I get a notification just like this.
+And if I want to buy, my checkout agent will add the right size and color to my cart.
+I can choose to review all my payment and shipping information or just let the agent just buy it for me.
+[APPLAUSE, CHEERING]
+With just one tap, Search security buys it for me with Google Pay.
+And of course, all of this happened under my guidance, from inspiration to purchase.
+Our new intelligent capabilities bring the best of shopping together with the best of AI right here in Search.
+Our new visual shopping and agentic checkout features are rolling out in the coming months,
+and you can start trying on looks in labs beginning today. [APPLAUSE, CHEERING]
+And now back to you, Liz. [MUSIC PLAYING]
+LIZ REID: Thanks, Vidhya. As Sundar mentioned, this all gets an even bigger upgrade
+later this week, when we bring a custom version of Gemini 2.5 to both AI Overviews and AI Mode.
+This is the next frontier of Google Search, where AI Overviews bring the helpfulness of AI
+to everyone in the main search experience. And as you've seen today, AI Mode
+is a totally reimagined AI Search, with all our most cutting-edge AI features and capabilities.
+We couldn't be more excited about this chapter of Google Search, where you can truly ask anything.
+And we mean anything. Your simplest and your hardest questions,
+your deepest research, your personalized shopping needs, your just-take-it-off-my-plate tasks,
+all you have to do is ask. [VIDEO PLAYBACK]
+[MUSIC PLAYING]
+- What else should I do to make it stronger? - To make it stronger. Consider adding more triangles to the design.
+[MUSIC PLAYING]
+[END PLAYBACK] [MUSIC PLAYING, APPLAUSE]
+Gemini
+JOSH WOODWARD: For years, people have pursued building an AI assistant that doesn't just respond but understands, one that doesn't just
+wait but anticipate, a truly universal assistant that empowers you.
+And today, we're taking a new step forward to that future. And we're using the Gemini app to get there.
+Our goal is to make Gemini the most personal, proactive,
+and powerful AI assistant. And it starts with being personal.
+What if your AI assistant was truly yours, truly yours, an assistant that learns you, your preferences,
+your projects, your world, and you are always in the driver's seat? And with your permission, you could share relevant Google
+information with it, making it an extension of you. We call this personal context.
+And we've already made it possible for you to connect your search history with Gemini, so it can understand that you've searched for recipes in the past
+and craft responses like this. Starting soon, you'll be able to add even more personal context
+from across Google to Gemini. So it will be uniquely helpful.
+You can choose to turn this on, and you'll always be in control of the experience. You can view and manage your information
+as well as connect and disconnect different Google apps. This level of personalization gives you
+a more proactive AI assistant, and this changes a lot.
+See, today, most AI is reactive. You ask, it answers.
+But what if it could see what's coming and help you prepare even before you ask?
+Imagine you're a student. You've got a big physics exam looming. And instead of scrambling, Gemini
+sees it on your calendar a week out. But it doesn't just remind you. It comes with personalized quizzes crafted
+from your materials, notes from your professor, even photos, handwritten notes. That's not just helpful.
+It's going to feel like magic. And imagine the step beyond that, where Gemini can go off and make custom explainer videos based
+on your interests so you can understand a topic better. In this case, Gemini knows that I'm into cycling,
+so it explains this concept of thermodynamics to me using an analogy I'll understand.
+This is where we're headed with Gemini. And it's all possible because of the powerful capabilities
+and the underlying model. Last month, we shipped our latest 2.5 Pro model in the Gemini app.
+And it wasn't just an upgrade, it was a leap forward. People are doing extraordinary things in the app.
+They're not just vibe coding. They're inventing entire games and making fully-featured websites in minutes.
+They're thinking things into existence. And it's fun to write software for the first time
+or create a video with our Veo model, to generate and edit images. It's a new superpower for everyone.
+And so these three Ps-- personal, proactive, and powerful--
+these are the frontiers of AI assistants. And thanks to 2.5 Pro, we're making big strides
+across all three. So let's talk more about how all this is coming together
+to life in the Gemini app. We're launching five things today. First, let's talk about Gemini Live.
+People are blown away by how interactive and natural the conversations are. And it works in over 45 languages,
+more than 150 countries. It's so intuitive, so engaging. The conversations, in fact, are five times longer
+than the text conversations in the app. And I can tell you from personal experience, it's great for talking through things on the drive
+into work in the morning. Now, as Sundar mentioned, Gemini Live now includes camera and screen sharing, both of which
+are incredible. All of it is rolling out free of charge in the Gemini app on Android and iOS today.
+[APPLAUSE, CHEERING]
+And in the coming weeks, you'll be able to connect Gemini Live to some of your favorite apps, like Calendar, Maps, Keep, Tasks.
+So soon, you can just point your camera and ask it to add an invite to your calendar,
+and it'll be done. Or if you need to decipher your roommate's handwriting for the shopping list, Gemini Live
+can turn those scribbles into a neat list in Google Keep. Our Gemini Live roadmap is overflowing
+with exciting things. They're all being prototyped in Project Astra, like you saw earlier.
+And as those ideas mature, we'll graduate them into Gemini Live for everyone.
+And since Gemini and Android work so closely together, many of those experiences will work great on Android
+across the entire ecosystem. So stay tuned for more. All right.
+Real-time interaction is amazing, but sometimes, you need to go deep, unravel something complex.
+This is where Deep Research comes in. Starting today, Deep Research will now let you upload your own files to guide the research agent, which
+is one of the top-requested features. And soon, we'll let you research across Google Drive and Gmail,
+so you can easily pull in information from there too. So let's say you have this incredible, detailed report.
+In this case, it's about the science of comets moving throughout space. How do you get all that brilliance distilled down
+into something digestible, engaging, something you can share? This is where Canvas comes in.
+It's Gemini's interactive space for cocreation. Canvas will now let you transform that report with one
+tap into all kinds of new things, like a dynamic web page, an infographic, a helpful quiz,
+even a custom podcast in 45 languages. But if you want to go further, you
+can vibe code all sorts of amazing things in Canvas, with as much back and forth as you want.
+You can get exactly the experience you're looking for. Check out this interactive comet simulation
+that one of our Googlers made just by describing what they wanted to build, and collaborating with Gemini to get it just right.
+And as you can share apps like this, others can easily jump in and view it, and modify it,
+and remix it. This is the power to transform anything, and it's a whole new way to use Gemini.
+There's another new way you can use Gemini today, too. We're introducing Gemini in Chrome.
+This will be your AI assistant that's there for you as you browse the web on your desktop.
+The amazing part is that you can use this. And it understands the context of the page
+that you're on automatically. So if you have a question, it can be answered.
+I especially love it for comparing reviews on long pages, like this camping website.
+We're starting to roll out Gemini in Chrome this week to Gemini subscribers in the US.
+[APPLAUSE, CHEERING]
+All right. We've taken some quizzes. We've talked to Gemini Live. We've learned about comets and in campsites.
+Now it's time to create some things. Starting today, we're bringing our latest and most capable
+image generation model into the Gemini app. It's called Imagen 4, and it's a big leap forward.
+[APPLAUSE, CHEERING] The images are richer, with more nuanced colors and fine grained
+details, the shadows in the different shots, the water droplets that come through in the photos.
+I've spent a lot of time around these models. And I can say this model, and the progression
+has gone from good to great to stunning. And Imagen 4 is so much better at text and topography.
+In the past, you might have created something that looked good, but adding words didn't always work just right.
+So check this out. Maybe I want to create a poster for a music festival. We'll make the Chrome Dino the big headliner.
+Imagen 4 doesn't just get the text and spelling right. It's actually making creative choices,
+like using dinosaur bones in the font, or figuring out the spacing, the font size,
+the layout that makes it look like this great poster. So the image quality is higher.
+The speed is faster. The text is better. All of this lets you make posters,
+party invites, and anything else. And with Gemini's native image generation,
+you can easily edit these images too, right in the app. We've also made a super fast variant of Imagen 4.
+We can't wait for you to get your hands on it. In fact, it's 10 times faster than our previous model,
+so you can iterate through many ideas quickly. All right. I want to show you one last thing.
+Images are incredible, but sometimes you need motion and sound to tell the whole story.
+Last December, Veo 2 came out, and it redefined video generation for the industry.
+And if you saw Demi's sizzling onions post yesterday, you know that we've been cooking something else.
+Today, I'm excited to announce our new state of the art model, Veo 3.
+[APPLAUSE, CHEERING]
+And like a lot of other things you've heard about from stage today, it's available today. [APPLAUSE, CHEERING]
+The visual quality is even better. Its understanding of physics is stronger,
+but here's the leap forward. Veo 3 comes with Native Audio generation.
+That means-- [APPLAUSE] --that means that Veo 3 can generate
+sound effects, background sounds, and dialogue. Now you prompt it and your characters can speak.
+Here's a wise old owl and a nervous young badger in the forest. Take a listen.
+[VIDEO PLAYBACK] [MUSIC PLAYING]
+- They left behind a ball today. It bounced higher than I can jump.
+- Oh, what manner of magic is that?
+[END PLAYBACK]
+JOSH WOODWARD: Pretty cool, right? Veo added not just the sounds of the forest but also the dialogue.
+We're entering a new era of creation, with combined audio and video generation
+that's incredibly realistic. The quality is so good. It feels like you're there on the boat with this guy.
+[VIDEO PLAYBACK] - This ocean, it's a force, a wild, untamed might. And she commands your oar with every breaking light.
+[END PLAYBACK] [APPLAUSE]
+JOSH WOODWARD: The photorealistic generation, the emotion, the movement of his mouth,
+and the ocean in the background-- it's incredible how fast Veo continues to evolve as a powerful, creative tool.
+And we've been working closely with the film industry to imagine what's possible with Veo and to get this right.
+And you'll hear more about that in a few minutes. So that's what's happening around Gemini.
+Starting today, Gemini Live capabilities are free and rolling out across Android and iOS.
+Deep Research and Canvas are getting their biggest updates yet. There's a new agent mode coming for multi-step actions
+that you heard about earlier. We're introducing Gemini in Chrome to help you navigate the web.
+And you can create stunning images and videos with sound using the new Imagen 4 and Veo 3 models.
+It's all coming together in the Gemini app, as we work to deliver the most personal, proactive,
+and powerful AI assistant. And now, to go into more detail about how
+these generative models are unlocking creative expression, here's Jason. [MUSIC PLAYING, APPLAUSE]
+Generative Media
+JASON BALDRIDGE: Thanks, Josh. Whether you're a creator, a musician, or a filmmaker,
+generative media is expanding the boundaries of creativity by working closely with the artistic community
+since the very beginning, we continue to build technology that empowers their creative process.
+For example, we worked with musicians to develop Music AI Sandbox. It's a tool for professionals to explore
+the possibilities of our generative music model, Lyria, in their work. Let's watch a clip starring the legendary Grammy Award
+Winning Singer and Composer, Shanka Mahadevan, putting Music AI Sandbox and Lyria to use.
+[VIDEO PLAYBACK] - I'm Shanka Mahadevan, and I'm a music composer, singer,
+producer, and a happy man. [LAUGHS] Working with Sandbox is great.
+We inputted our requirement, and it gave us a bed. We used that bed and we came up with this song.
+[VOCALIZING] For a musician, but it's such an inspiring tool.
+You open a door and you see, hey, there's another room there. And then you open one more door, and you see one more room there.
+So that's what AI does. [NON-ENGLISH SINGING]
+[END PLAYBACK] [APPLAUSE] JASON BALDRIDGE: Amazing.
+We recently launched Lyria 2, which can generate high-fidelity music and professional grade audio.
+The music is melodious, with vocals in solos and choirs. As you hear, it makes expressive and rich music.
+[VIDEO PLAYBACK] [MUSIC PLAYING]
+[END PLAYBACK] [APPLAUSE]
+JASON BALDRIDGE: Lyria 2 is available today for enterprises, YouTube creators, and musicians.
+This focus on collaboration carries over not just into what we build but how. Right now, it's not easy for people or organizations
+to detect AI-generated images. This will become only more true as technology improves
+and the music, audio, images, and videos become more lifelike.
+So we're continuing to innovate in this space. Two years ago, we pioneered SynthID,
+which embeds invisible watermarks into generated media. To date, over 10 billion pieces of content
+have been watermarked. We're also expanding our partnerships to ensure that more content is watermarked with SynthID,
+and that more organizations can detect it too. Finally, we're also making it easier to detect the watermark.
+Our new SynthID detector can identify if an image, audio track, text, or video has
+SynthID in it, whether it's in the whole piece or even just a part. We're starting to roll this out to early testers today.
+[APPLAUSE]
+Our collaboration efforts have also helped us explore Veo as a filmmaking tool. Recently, we teamed up with visionary director,
+Darren Aronofsky, and his new storytelling venture, Primordial Soup, to shape Veo's capabilities
+to meet the needs of storytellers, putting artists in the driver's seat of innovation.
+Together, we are putting the world's best video generation model into the hands of top filmmakers
+to push the boundaries of technology as a tool for more creative and emotional storytelling.
+The first of the partnership's three short films is Director Eliza McNitt's "Ancestra."
+Let's take a peek. [VIDEO PLAYBACK] - Film has always been this deeply human act
+of connecting people with each other's stories, and it has the ability to rip us out of our experience
+and take us on another journey. I don't think that ever changes. - This is a story that traverses the entire history
+of the universe, but it's really about a mom and what happens when her child is
+born with a hole in her heart. We filmed really emotional performances
+but then generated video, we could never capture otherwise.
+I want the baby to be holding the mother's finger. - Just the bliss of the two of them.
+- Yeah. Veo is a generative video model, but to me, it's
+another lens through which I get to imagine the universe around me. - It's been incredibly interesting to see
+the strengths of these models, the limits of the models, and try to shape them to make storytelling tools.
+- To be honest, I never thought about telling the story of the day I was born, but here we are.
+- This was supposed to be a checkup. - Crash C-section. - Baby's in distress. - We need help here.
+- We need to go. - Is my baby going to be OK? - We're going to do everything we can. - Am I going to be OK?
+- For every creature that came before you, from every star that died so that you could begin.
+[END PLAYBACK] [APPLAUSE, CHEERING]
+JASON BALDRIDGE: Incredible work. [APPLAUSE, CHEERING]
+Eliza combined live action performance with Veo viewer generated video, like the microscopic worlds,
+the cosmic events, and herself as a newborn. This approach opened up completely new storytelling
+possibilities, empowering Eliza to bring cinematic scale and emotion to a deeply personal story.
+This partnership also helped shape Veo's capabilities to meet the needs of storytellers like Eliza.
+We built new capabilities for filmmakers. So when you're making a video, it will use ingredients you give
+it-- characters, scenes, or styles-- and keep them consistent.
+Or you can direct Veo, giving it precise camera instructions and have it shoot along a specific path.
+These capabilities help filmmakers fluidly express their ideas with Veo.
+We then took things one step further. To tell you more, let's get Josh back out here.
+[MUSIC PLAYING, APPLAUSE]
+JOSH WOODWARD: Thanks, Jason. Based on our collaboration with the creative community, we've been building a new AI filmmaking tool
+for creatives, one that combines the best of Veo, Imagen, and Gemini, a tool built for creatives by creatives.
+It's inspired by that magical feeling you get when you get lost in the creative zone and time
+slows down. We're calling it Flow. And it's launching today.
+Let me show you how it works. [APPLAUSE, CHEERING] Let's drop into a project I'm working on.
+Our hero, the grandpa, is building a flying car with help from a feathered friend.
+These are my ingredients-- the old man and his car. We make it easy to upload your own images into the tool,
+or you can generate them on the fly using Imagen, which is built right in. We can create a custom gold gear shift just by describing it.
+There it is. Pretty cool. Next, you can start to assemble all of those clips together.
+With a single prompt, you can describe what you want, including very precise camera controls.
+Flow puts everything in place. And I can keep iterating in the scene builder.
+Now, here's where it gets really exciting. If I want to capture the next shot of the scene,
+I can just hit the plus icon to create the next shot. I can describe what I want to happen next,
+like adding a 10-foot tall chicken in the back seat, and Flow will do the rest. The character consistency, the scene consistency,
+it just works. And if something isn't, oh, quite right, no problem. You can just go back in, like any other video tool,
+and trim it up if it's not working for you. But Flow works in the other direction as well.
+It lets you extend a clip too. So I can get the perfect ending that I've been working towards.
+Once I've got all the clips I need, I can download the files. I can bring them into my favorite editing software,
+add some music from Lyria, and now the old man finally has his flying car.
+[VIDEO PLAYBACK] [MUSIC PLAYING]
+[END PLAYBACK] [APPLAUSE]
+JOSH WOODWARD: Pretty awesome. Pretty awesome. I want you to hear just a few words from a few of our AI filmmakers who we've been working with to shape Flow,
+how they describe how it feels using it and how they're making it even better. Let's take a watch.
+[VIDEO PLAYBACK] - I don't know if I'm on the right path,
+but I'm trying to find it. I'm questioning, searching, and then something shifts.
+And I'm not trying anymore. I'm just doing.
+And all of the pieces start falling into place.
+- It all feels pretty clear in my head. I see these flashes of possibilities,
+almost like I'm traveling through dimensions. - I'm looking down at myself and my characters
+in these different worlds, and it's almost coming to life on their own, even though I know I'm in control of that narrative.
+It feels like it's almost building upon itself at some point.
+You could have an infinite amount of endings to your story.
+- So the work isn't built brick by brick by brick. It blooms like a spontaneous garden.
+It grows naturally, fully vibrant and complete.
+- I'm not forcing it. I'm just finding it.
+And that's when I know I'm in the right place. [MUSIC PLAYING]
+[END PLAYBACK] [APPLAUSE, CHEERING]
+JOSH WOODWARD: So amazing to hear those filmmakers talk about bringing their incredible visions to life and that feeling
+of building, of creating, that's exactly what we want to put in your hands today.
+So I'm excited to share that we're upgrading. And two AI subscription plans today.
+We will have Google AI Pro and all new Google AI Ultra.
+With the Pro Plan, which is going to be available globally, you'll get a full suite of AI products,
+with higher rate limits and special features compared to the free version. This includes the Pro version of the Gemini app
+that was formerly known as Gemini Advanced. Then there's the Ultra plan.
+It's for the trailblazers, the pioneers, those of you who want cutting-edge AI from Google.
+The plan comes with the highest rate limits, the earliest access to new features and products from across Google.
+It's available in the US today, and we'll be rolling it out globally soon.
+You can think of this Ultra plan as your VIP pass for Google AI. So if you're an Ultra subscriber,
+you'll get huge rate limits and access to that 2.5 Pro Deep Think mode in the Gemini app when it's ready.
+You'll get access to Flow with Veo 3 available today.
+And it also comes with YouTube Premium and a massive amount of storage. We can't wait to see what you build,
+create, and discover with these new Google AI plans. And now to give you a look ahead into how
+AI is interacting with the physical world, please welcome up Shahram. [MUSIC PLAYING, APPLAUSE]
+Android XR
+SHAHRAM IZADI: Hi everyone! There's so many exciting things happening in Android right now.
+It's the platform where you see the future first. Just last week at the Android show,
+we unveiled a bold new design and major updates to Android 16 and Wear OS 6.
+And of course, Android is the best place to experience AI. Many of the Gemini breakthroughs you saw today
+are coming soon to Android. You can already access Gemini instantly from the Power button.
+It understands your context and is ready to help. But Android is powering more than your phone.
+It's an entire ecosystem of devices. In the coming months, we're bringing Gemini
+to your watch, your car's dashboard, even your TV.
+So wherever you are, you have a helpful AI assistant to make your life easier.
+But what about emerging form factors that could let you experience an AI assistant in new ways?
+That's exactly why we're building Android XR. [APPLAUSE, CHEERING]
+It's the first Android platform built in the Gemini era, and it supports a broad spectrum of devices for different use
+cases, from headsets to glasses and everything in between.
+We believe there's not a one size fits all for XR, and you'll use different devices throughout your day.
+For example, for watching movies, playing games, or getting work done, you'll want an immersive headset.
+But when you're on the go, you'll want lightweight glasses that can give you timely information without reaching for your phone.
+We built Android XR together as one team with Samsung and optimized it for Snapdragon with Qualcomm.
+Since releasing the Android XR developer preview last year, hundreds of developers are building for the platform.
+We're also reimagining all your favorite Google apps for XR.
+And its Android, after all. So your mobile and tablet apps work too.
+Now, today I want to share how Gemini transforms the way you experience both headsets
+and glasses. On these devices, your AI assistant understands your context and intent
+in richer ways to help you throughout your day. Let's start with Gemini on headsets.
+This is Samsung's Project Moohan, the first Android XR device.
+[APPLAUSE, CHEERING]
+Moohan gives you an infinite screen to explore your apps with Gemini by your side.
+With Google Maps in XR, you can teleport anywhere in the world simply by asking Gemini to take you there.
+You can talk with your AI assistant about anything you see, and have it pull up videos and websites
+about what you're exploring. So many of us dream about sitting front row
+to watch our favorite team. Imagine watching them play in the MLB app
+as if you were right there in the stadium, while chatting with Gemini about player and game stats.
+Samsung's Project Moohan will be available for purchase later this year.
+We can't wait for you to try it for yourselves. Now, let's turn our attention to glasses.
+As you know, we've been building glasses for over 10 years. And we've never stopped.
+Glasses with Android XR are lightweight and designed for all day wear, even though they're packed with technology.
+A camera and microphones give Gemini the ability to see and hear the world.
+Speakers let you listen to the AI, play music, or take calls. And an optional in-lens display privately
+shows you helpful information just when you need it. These glasses work with your phone,
+giving you access to your apps while keeping your hands free. All this makes glasses a natural form factor for AI,
+bringing the power of Gemini right to where you are. So unlike Clark Kent, you can get superpowers
+when you put your glasses on. OK. Who's up for seeing an early demo of Android XR glasses?
+[APPLAUSE, CHEERING]
+Let's see how they work in the most hectic environment possible right now.
+Backstage at I/O, our very own superwoman, Nishida, is back there to show us how these glasses work for real.
+Let me send her a text now, and let's get started.
+[VIDEO PLAYBACK] - Hey, everyone. Right now, you should be seeing exactly what I'm
+seeing through the lens of my Android XR glasses, like my delicious coffee over here
+and that text from Shahram that just came in. Let's see what he said.
+All right. It's definitely show time. So I'm going to launch Gemini and get us going.
+Send Shahram a text that I'm getting started and silence my notifications, please.
+- OK, I've sent that message to him and muted all your notifications. - Perfect.
+- Oh. Hey, Nishtha! - Hey, Dieter. - I see the lights on your glasses. So I think it's safe to say that we're live right now?
+- Yes, we're officially on with the I/O crew. - Hey, everybody. It is pretty great to see I/O from this angle.
+Nishtha, you promised me I could get my own pair of Android XR glasses if I helped out back here. So what do you say?
+- Of course. Let's get coffee after this, and I'll bring you those glasses. - Awesome. We'll see you then. Good luck. - Thank you.
+As you all can see, there's a ton going on backstage. And is that pro basketball player, Giannis,
+wearing our glasses? - I love it. It frees up both of my hands for double high fives.
+- Nice. Let me keep showing you guys what these glasses can do. I've been curious about this photo wall all day.
+Like what band is this and how are they connected to this place?
+[AUDIO SKIPPING] - --Shoreline Amphitheatre, which are often seen
+as homecoming shows for the band. - No way. Can you show me a photo of one of their performances here?
+- Sure, here's one. Want me to play one of their songs? - I'd love that. I can listen while I make my way to the stage.
+- Right. Here's "Under the Aurora" by Counting Crows. [END PLAYBACK] SHAHRAM IZADI: OK.
+Who's ready to see these glasses? Here comes Nishtha.
+Welcome, Nishtha. NISHTHA BHATIA: Hey, everyone. [APPLAUSE]
+SHAHRAM IZADI: Thanks for that star studded behind the scenes look. By the way, do you want to book that coffee with Dieter now?
+NISHTHA BHATIA: Yes. The crew actually gave me some awesome coffee backstage, so let me try something fun.
+Gemini, what was the name of the coffee shop on the cup I had earlier?
+GEMINI: Mhm, that might have been Bloomsgiving. From what I can tell, it's a vibrant coffee shop on Castro Street.
+NISHTHA BHATIA: Great memory. [APPLAUSE]
+Can you show me the photos of that cafe? I want to check out the vibes.
+GEMINI: Definitely. Do these photos from Maps help? DIETER BOHN: Oh, I know that spot. It's a flower shop as well as a coffee shop, but it is downtown.
+NISHTHA BHATIA: OK. Gemini, Show me what it would take to walk here.
+GEMINI: Getting those directions now. It'll take you about an hour. NISHTHA BHATIA: OK.
+I can get some steps in. And these heads-up directions and a full 3D map should make it
+super easy. [APPLAUSE, CHEERING]
+Go ahead and send Dieter an invite for that cafe and to get coffee at 3:00 PM today.
+GEMINI: I'll send out that invite now. Enjoy the coffee. SHAHRAM IZADI: As you saw, Gemini helped Nishtha search what she sees, remember details
+like the coffee cup, book an event, even navigate, all without taking her phone out of her pocket.
+I'm even wearing the glasses right now, too. They're my personal teleprompter,
+and I have prescription lenses. So I can see you all. OK, Nishtha, this is a big moment for glasses.
+Let's capture it. NISHTHA BHATIA: Yes. Get ready for a quick photo, everyone. And let's bring out our star.
+SHAHRAM IZADI: Here comes Dieter. [APPLAUSE, CHEERING] NISHTHA BHATIA: All right. Gemini--
+SHARHAM IZADI: Dieter, join us. NISHTHA BHATIA: --take a photo for me. [APPLAUSE, CHEERING]
+All right, Gemini, take a photo for me and add it to my favorites.
+SHAHRAM IZADI: That looks amazing. [APPLAUSE, CHEERING]
+I'm completely starstruck. OK, one last thing. Sundar showed what's possible with live chat translation
+earlier. Let's see what that's like on glasses. This is a very risky demo, but we're going to give it a shot.
+Nishtha and I are going to speak to each other in our mother tongues. Nishtha is going to speak Hindi.
+I'm going to speak Farsi, very poorly. And you'll see the feed from both of our glasses back here.
+And so you can all follow along. We'll show an English translation in real time.
+OK? Let's give it a shot. Fingers crossed.
+[NON-ENGLISH SPEECH]
+- [NON-ENGLISH SPEECH]
+- [NON-ENGLISH SPEECH]
+See, we said it's a risky demo. [APPLAUSE, CHEERING]
+Thank you. NISHTHA BHATIA: Thank you. SHAHRAM IZADI: Thank you so much. [APPLAUSE, CHEERING]
+Thank you, Nishtha, for that awesome tour of Android XR glasses.
+We're so excited about the possibilities. When you have an incredibly helpful AI assistant
+by your side, with these Android XR devices. But that's not all. We're taking our partnership with Samsung to the next level
+by extending Android XR beyond headsets to glasses.
+We're creating the software and reference hardware platform to enable the ecosystem to build great glasses alongside us.
+Our glasses prototypes are already being used by trusted testers. And you'll be able to start developing for glasses later
+this year. Now, we know that these need to be stylish glasses that you'll want to wear all day.
+That's why I'm excited to announce today that Gentle Monster and Warby Parker will be the first eyewear
+partners to build glasses with Android XR. [APPLAUSE, CHEERING]
+We want you to be able to wear glasses that match your personal taste. This is just a start.
+I can't wait for you to try Android XR for yourself. And we'll have lots more to share in the months ahead.
+Thank you so much! [MUSIC PLAYING, APPLAUSE]
+Closing
+SUNDAR PICHAI: Those XR glasses are amazing-- research to reality literally right in front of our eyes.
+So we are nearing the end of the show. Today you've heard a lot about Elo scores, benchmarks,
+and state of the art performance. But I know there's one metric you've all been waiting for, our AI counter.
+So let's take a look at one last leaderboard. Looks like, I guess, we have a new entrant.
+Gemini takes the lead, coming in at 95.
+Very exhilarating. [APPLAUSE, CHEERING]
+On a more serious note, here's everything we've announced today, from new launches and product expansions
+to glimmers of what's to come. The opportunity with AI is truly as big as it gets.
+And it will be up to this wave of developers, technology builders to make sure its benefits reach
+as many people as possible. I want to leave you with a few examples that inspire me.
+The first is top of mind for those who live here in California and so many places around the world.
+So many of us know someone who has been affected by wildfires. They can start suddenly and grow out
+of control in a matter of minutes. Speed and precision can make all the difference.
+Together, with an amazing group of partners, we are building something called FireSat.
+It's a constellation of satellites that use multispectral satellite imagery and AI,
+aiming to provide near real-time insights. Just look at the resolution.
+It can detect fires as small as 270 square feet, about the size of a one-car garage.
+Our first satellite is in orbit now. When fully operational, imagery will
+be updated with a much greater frequency, down from every 12 hours today to every 20 minutes.
+[APPLAUSE, CHEERING]
+Speed is also of the essence in other kinds of emergencies. During Hurricane Helene, Wing--
+in partnership with Walmart and the Red Cross-- provided relief efforts with drone deliveries.
+Supported by AI, we were able to deliver critical items like food and medicine to a YMCA shelter in North Carolina based
+on real-time needs. We can imagine how this could be helpful in disaster relief in other communities, and we are actively
+working to scale up. These are examples of ways AI is helping society right now.
+It's especially inspiring to think about the research of today that will become reality
+in a few short years, whether it's building the next generation of helpful robots,
+finding treatments for the world's deadliest diseases, advancing error-corrected quantum computers,
+or delivering fully autonomous vehicles that can safely bring you anywhere you want to go.
+All of this is very much possible within not decades, but years. It's amazing.
+This opportunity to improve lives is not something I take for granted. And the recent experience brought that home for me.
+I was in San Francisco with my parents. The first thing they wanted to do was to ride in a Waymo,
+like a lot of other tourists. I had taken Waymos before. But watching my father, who was in his 80s,
+in the front seat be totally amazed, I saw the progress in a whole new light.
+It was a reminder of how incredible the power of technology is to inspire to all and to move us forward.
+And I can't wait to see what amazing things will build together next. Thank you. [APPLAUSE, CHEERING]
+[VIDEO PLAYBACK] [MUSIC PLAYING]
+- I see infinite possibilities with Flow. - What manner of magic is that?
+- AI Mode is the biggest revolution since the Search Engine was invented. - You tell Gemini exactly what you want built
+and it builds it for you. - No. - Coding with Gemini 2.5 Pro, it is awesome.
+- Project Mariner is going to change how we use our browsers. - It's an AI agent that gets things done for you.
+- NotebookLM Mindmaps completely transforms learning. - Why is this person following me wherever I walk?
+- That's just your shadow. - Wait, you're going to turn right. - AI's completely changing how we fight fires.
+- Generative media is expanding the boundaries of creativity. - It was magic the first time I saw this.
+- This isn't just another tool. - It's a game changer. - This is just like, mind blowing to me. - The potential is almost limitless.
+[END PLAYBACK]
+[MUSIC PLAYING]
