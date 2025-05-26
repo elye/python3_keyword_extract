@@ -2,8 +2,6 @@ import sys
 import nltk
 import noun_extract
 
-
-
 def main(file_name):
     try:
         with open(file_name, 'r') as file:

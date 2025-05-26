@@ -4,6 +4,9 @@ nltk.download('punkt', quiet=True)
 nltk.download('wordnet', quiet=True)
 nltk.download('omw-1.4', quiet=True)
 nltk.download('averaged_perceptron_tagger', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+nltk.download('averaged_perceptron_tagger_eng', quiet=True)
+
 from nltk.tokenize import word_tokenize
 from nltk.tag import pos_tag
 from collections import Counter
@@ -11,7 +14,7 @@ from collections import Counter
 def extract_noun_count(text):
     punctuations = "!\"#$%&()*/:;<=>?@[\]^_`{|}~"
     for punct in punctuations:
-        text = text.replace(punct, "").lower()
+        text = text.replace(punct, "")
 
     proper_nouns = extract_proper_nouns(text)
 
@@ -35,6 +38,6 @@ def extract_proper_nouns(text):
     tagged_words = pos_tag(words)
     
     # Filter out nouns (NN, NNS, NNP, NNPS)
-    nouns = [word for word, tag in tagged_words if tag.startswith('NN')]
+    nouns = [word for word, tag in tagged_words if tag.startswith('NN') and word[0].isupper()]
     
     return nouns
