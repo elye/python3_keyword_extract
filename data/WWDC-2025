@@ -1,0 +1,851 @@
+[Music]
+yeah I'm in the lead you're the only one out there
+Craig i've got to save my tires what for i don't know it's just what they say
+if I can just hold this line I can find in a piece
+so glad they put CarPlay in this beast
+you're losing time on turn six Craig it's kind of all
+turn f1 baby yes f1 baby
+box okay okay bringing it
+[Music] on that was supposed to be a quick lap not a therapy session but I feel so much
+better [Music]
+[Music] [Applause]
+good morning welcome to Apple Park and welcome to
+WWDC as you can tell we're getting ready for the release of F1 this incredible
+Apple original film premieres in theaters on June 27th and we can't wait
+for you to see it f1 is one of the most thrilling high energy movies I've ever watched
+it continues our commitment to deliver the very best in entertainment made by the world's most creative
+storytellers and we're incredibly proud that Apple TV Plus has once again been
+ranked number one in quality programming for four straight years this is truly
+amazing as you know WWDC is a special time of year and an important moment for
+us to celebrate our global developer community we believe deeply in providing
+developers with the newest tools and technologies to help them do their very best work and there's no better place to
+do that than WWDC today we'll unveil some exciting new innovations and over the course of
+the week we'll take a deeper dive with over 100 sessions as well as labs led by
+Apple engineers providing valuable technical and design guidance by
+presenting WWDC online and for free we're able to share all of this with
+millions and millions of developers around the world the apps that developers create continue to make a
+profound impact on all of our lives and these experiences are going to get
+even better with some big announcements for all of our platforms so to get us started here's
+Craig [Music]
+iOS
+we have so much to cover today i'm going to start with two things that are foundational to our platforms first is
+Apple intelligence last year we took the first steps on a journey to bring you intelligence that's most helpful and
+relevant for you like writing tools available virtually anywhere you type
+genoji and Image Playground so you can express yourself in fun ways cleanup so
+you can remove distractions from your photos and visual intelligence which builds on Apple intelligence so you can
+easily explore your surroundings apple intelligence also made it easy for you
+to find a photo or video just by describing it in natural language create a memory movie with a simple description
+summarize emails notifications and notes to quickly get the gist craft your response with a single tap using smart
+reply and more and we delivered all of this while taking an extraordinary step
+forward for privacy in AI with private cloud compute which extends the privacy
+of your iPhone into the cloud so no one else can access your data not even Apple
+we also introduced enhancements that make Siri more natural and more helpful
+and as we've shared we're continuing our work to deliver the features that make Siri even more personal this work needed
+more time to reach our high quality bar and we look forward to sharing more about it in the coming year this year
+we're expanding the languages supported by Apple Intelligence we're making the generative models that power Apple
+Intelligence more capable and more efficient and we're continuing to tap
+into Apple Intelligence in more places across our ecosystem throughout today's
+presentation you'll see new Apple intelligence features that elevate your experiences across iPhone Apple Watch
+Apple Vision Pro Mac and iPad plus this year we're doing something new and we
+think it's going to be pretty big we're opening up access for any app to tap
+directly into the ondevice large language model at the core of Apple intelligence with a new foundation
+models framework this gives developers direct access to intelligence that's powerful fast built with privacy and
+available even when you're offline we think this will ignite a whole new wave of intelligent experiences in the apps
+you use every day for example if you're getting ready for an exam an app like
+Cahoot can create a personalized quiz from your notes to make studying more engaging and because it uses ondevice
+models this happens without cloud API costs or perhaps you're camping off-rid
+pouring over the hikes you downloaded to all trails just describe what you're in the mood for and all trails can use our
+ondevice models to suggest the best
+option we couldn't be more excited about how developers can build on Apple intelligence to bring you new
+experiences that are smart available when you're offline and that protect your privacy now there's another piece
+of our platform story this year and it's a big one in fact it's the kind of
+project that only comes along about once per decade it's a gorgeous new design
+that feels effortless to use our last major redesign was iOS 7 back then we
+were inspired by the recent emergence of retina displays and the amazing power of our A6 silicon well a lot has changed
+apple silicon has become dramatically more powerful enabling software materials and experiences we once can
+only dream of and our devices have become even more vital to our daily lives with more apps available than ever
+our products are also more frequently being used together as you move across them throughout your day the stage is
+set for something new that will enable great experiences for years to come
+let's take a look [Music]
+software is the heart and soul of our products it brings them to life shapes their personality and defines their
+purpose at Apple we've always believed it's the deep integration of hardware and software that makes interacting with
+technology intuitive beautiful and a joy to use ios 7 introduced a simplified design
+built on distinct layers smooth animations and new colors it redefined our design language for years to come
+now with the powerful advances in our hardware silicon and graphics technologies we have the opportunity to
+lay the foundation for the next chapter of our software today we're excited to
+announce our broadest design update ever our goal is a beautiful new design that
+brings joy and delight to every user experience one that's more personal and
+puts greater focus on your content all while still feeling instantly familiar
+and for the first time we're introducing a universal design across our platforms
+this unified design language creates a more harmonious experience as you move between products while maintaining the
+qualities that make each unique inspired by the physicality and richness of Vision OS we challenged ourselves to
+make something purely digital feel natural and alive from how it looks to
+how it feels as it dynamically responds to touch to achieve this we began by
+rethinking the fundamental elements that make up our software and it starts with
+an entirely new expressive material we call liquid
+glass with the optical qualities of glass and a fluidity that only Apple can
+achieve it transforms depending on your content or even your context and brings more clarity to navigation and controls
+it beautifully refracts light and dynamically reacts to your movement with specular highlights this material brings
+a new level of vitality to every aspect of your experience from the smallest
+elements you interact with to larger ones it responds in real time to your
+content and your input creating a more lively experience that we think you'll find truly delightful elements once
+considered for rectangular displays have been redesigned to fit perfectly concentric with the rounded corners of
+the hardware this establishes greater harmony between our software and hardware or thoughtfully considered
+groups of controls free up valuable space for your content liquid glass is
+translucent and behaves just like glass in the real world its color is informed by your content and intelligently adapts
+between light and dark environments and as a distinct functional layer that sits above your app the material dynamically
+morphs when you need more options or as you move between views we've applied
+this same dynamic nature across other experiences instead of taking over your whole display alerts appear from where
+you tap context menus expand into an easily scannable list when you scroll
+tap bars shrink to elevate what's in front of you and they instantly come back the moment you scroll up your
+entire experience becomes more intuitive from navigating apps to system
+experiences like the lock screen notifications and control center app
+icons have been crafted with multiple layers of liquid glass and come to life in light mode dark mode colorful new
+tints or an allnew clear look the new design extends to the dock and even to
+your widgets giving you an entirely new way to personalize your experience we've always cared deeply
+about every detail of our software design and it's these moments of beauty craft and joy that bring our products to
+life our new design blurs the lines between hardware and software to create
+an experience that's more delightful than ever while still familiar and easy to use
+today marks an exciting and beautiful new chapter for our design one that sets the stage for our next era of our
+products and how you interact with them every day we are so excited about this
+beautiful new design and the way it brings greater consistency to our platforms which also gives us an
+opportunity to bring greater consistency to the way we name them we're unifying
+our version numbers across all our platforms our releases for the fall that
+will power us through the coming year 2026 will be version 26 today we'll be taking you through all
+these starting with iOS ios 26 is packed with intelligent experiences meaningful
+improvements to the things you do every day and a new design where we've also refreshed a number of system experiences
+and apps let's dive in starting from the moment you pick up your phone with the
+lock screen and home screen the lock screen has been updated
+with the time and controls now made of liquid glass and swiping up to your home
+screen is even more delightful with this beautiful glass edge and a new sense of
+responsiveness we've crafted app icons from liquid glass it makes them feel fresh while keeping them instantly
+identifiable and it allows them to adapt whether you use dark mode or one of our
+entirely new styles like our all clear look let's jump back to the lock screen
+so you can see how we've made wallpapers more dynamic i'll switch to my photo
+shuffle [Music] wallpaper and watch as I switch images
+the time now fluidly adapts to the available space its San Francisco type
+face has been uniquely crafted to dynamically scale the weight width and
+height of each numeral in order to nestle into the scene and it doesn't just adapt to the
+subjects of my photos it also keeps the best part of my photo in view as new information comes in like a message from
+a friend or an email from a colleague and there's more we love using personal
+photos as our lock screen wallpapers let me switch to another wallpaper to show
+you with advanced computer vision techniques running on the neural engine we generate a spatial scene from your 2D
+photos creating a delightful 3D effect bringing your favorite memories to life
+as you move your iPhone in your hand now there's one last touch I really love
+when I'm listening to music I can tap here and you'll see there's this gorgeous new way for artists to show off
+their album artwork the animation interacts beautifully with the glass of
+the playback controls really nice with gorgeous liquid glass that fluidly adapts our
+captivating new spatial scenes and our re-imagine now playing experience the iconic lock and home screens are more
+personal and expressive than ever next let's talk about another essential part
+of the iPhone experience camera with so many great features it can sometimes be difficult
+to find the ones you want especially when rushing to capture a shot with iOS
+26 we're giving camera a new more intuitive design a simplified and
+streamlined design elevates the two capture modes that you use most photo and video and all the powerful features
+that you love in camera are just a tap away for example just swipe your finger
+left or right to reveal additional modes like cinematic mode or portrait mode and
+a simple swipe up lets you easily reach all your settings like aspect ratio and
+timers and it's easier to change formats all the options become visible with a
+single tap so you can quickly switch to 4K when you want to capture every detail
+when you view your captures the Photos app takes advantage of the gorgeous new design many of you missed using tabs in
+the Photos app photos now features separate tabs for library and for
+collections where you'll find your favorites your albums and easy access to
+search and the stunning 3D effect that you saw in the lock screen is available in photos so you can experience any of
+your photos as an incredible spatial scene in Safari we've kept familiar
+elements while creating a more immersive experience web pages now flow edgeto edge to the
+very bottom of the screen enabling you to see more of the page the tab bar has
+been redesigned to float above the web page and surfaces frequently used actions like search and refresh with a
+tap liquid glass controls fluidly reveal other actions as you scroll the tab bar
+dynamically shrinks to put your content front and center these dynamic controls
+also look great in FaceTime when on a call your most important controls now
+float on the bottom right and seamlessly recede when you don't need them we've also reimagined the FaceTime landing
+page it's now a space that celebrates your closest relationships with beautiful personalized contact posters
+video messages play as you scroll so you can preview special moments that you may have missed this updated experience also
+extends to your car with CarPlay to tell you more here's Emily
+[Music] carplay is the smarter safer way to use your iPhone while you drive it's used
+over 600 million times per day and it's a must-have feature all over the world
+we have some great updates this year to make CarPlay more beautiful and even easier to use with iOS 26 the new design
+extends into the car for a consistent expressive experience while you drive it
+brings updates across the whole system including icons that look great in light
+or dark mode we've also added new features to help keep you connected
+while driving like a compact design when you
+get a call so you can still see what's on the screen like your upcoming directions along with tapbacks and
+pinned conversations in messages ios 26 also gives you widgets
+in CarPlay they're quick and glancable ways to get information which is perfect
+while driving as well as live activities so you can stay on top of what's important to you like a friend's flight
+status all done in a way to help you stay focused on the road for developers
+the same widgets and live activities that you've developed for iPhone work in CarPlay
+and for the ultimate CarPlay experience all of these updates also come to
+CarPlay Ultra it's the very best of iPhone and your car with a unified and consistent
+experience across all the drivers screens the first vehicles launched last
+month bringing new ways to interact with features of your car carplay Ultra lets
+you choose the layout and design of the most important information for you and
+adds vehicle controls for features like the radio and climate right in the
+CarPlay experience this is just the start of the CarPlay Ultra journey with
+many more brands around the world working to bring this experience to market we're so excited to work with
+different automakers combining their unique look and feel as well as vehicle
+features with the power of iPhone and now back to you
+Craig so that's a quick look at some of the ways the new design elevates your
+experiences of course this is just the start ios 26 also has a number of
+updates that will help you communicate stay connected and express yourself to
+tell you more here's [Music]
+Darren the phone app is fundamental to the iPhone experience so anything we can
+do to make it easier to use can have a big impact this year we're giving you the option to choose a new unified
+layout that brings together your favorites recents and voicemails so your mostused features are right at your
+fingertips without having to switch views your favorites stay front and center so you can start a call with just
+a tap your recents and voicemails now appear in a single convenient list below
+so you can easily scroll to see who reached out and what they said and with Apple intelligence new voicemail
+summaries help surface the most important information and at the bottom your contacts and the
+keypad are still just a tap away this new intuitive layout makes it easier to
+navigate the app while feeling instantly familiar we're also introducing a new way to help eliminate distractions like
+unwanted calls which can get in the way of picking up the important calls we're waiting for now when you receive a call
+from an unknown number call screening helps you quickly gauge whether it's something important or just another
+pesky telemarketer building on live voicemail call
+screening automatically answers calls from unknown numbers silently in the
+background once the caller shares their name and the reason for their call your phone
+rings and you can view their response and pick up or ignore
+hi no hold on i'll be down at the gate in a sec we have another great experience to help you on your least
+favorite kind of call one where you're put on hold we know how frustrating it is to be stuck on hold for what feels
+like forever just to finally speak with a live agent well get that time back
+with hold assist with hold assist the phone app can keep your spot in line while you wait for a live agent next
+time you're stuck on hold whether it's because you're changing your flight or dealing with utility bills the phone app automatically detects hold music and
+asks if you want it to wait for you when you tap hold the music stops but the call stays connected so you can keep
+using your iPhone or even put it away and go about your daily routines don't worry once a live agent becomes
+available we'll ring you to return to the call and let the agent know that you'll be there shortly so those are the
+exciting updates to the phone app another way we stay connected on a daily basis is with
+messages messages provides a shared space to express ourselves with the people that are closest to us this year
+we're giving you an exciting new way to bring personality to those shared spaces with backgrounds when you select a
+background it appears for everyone in the conversation to enjoy you have a variety of dynamic built-in backgrounds
+to choose from or select one of your own photos and with Apple intelligence you
+can even generate your own backgrounds in image playground next let's talk about group chats group chats are home
+to so many age-old questions like "What weekend is everyone free?" Instead of dealing with a flurry of responses we're
+introducing a delightful way to visualize what the people want with polls you can create a poll for anything
+and with Apple intelligence messages can detect when a poll might come in handy and suggest one like if someone asks
+"Where should we stay for our annual trip?" And when your more particular friends don't like the options anyone in
+the group can contribute new ideas then watch as the votes roll in live and
+groups are getting even better with Apple Cash now you can request send and
+receive Apple Cash to settle up on concert tickets or the dinner bill right from the group chat we're also bringing
+a highly requested feature typing indicators for your group chats which let you know who is about to chime in we
+can't wait to bring you these exciting updates to group chats just like in the phone app we're bringing screening tools
+to messages that help you eliminate distractions new ondevice spam detection gets spam out of your way and for even
+more control we're introducing the ability for you to screen new senders so your messages go from this a list
+cluttered with spam and unknown numbers to this giving you total control over
+who appears in your conversation list unknown senders appear in a dedicated area where you can decide if you want to
+mark the number as known ask for more information or delete until you accept
+messages from unknown senders will remain silenced and won't appear as notifications even with unknown senders
+turned on you'll continue to see important time-sensitive messages like your table is ready or a verification
+code we're excited for another big year for messages and now to tell you how
+Apple Intelligence is unlocking new ways to communicate here's Leslie
+this year we're making everyday conversations more fun and more seamless
+first there are more ways to create the perfect emoji now in addition to turning a text description into a Gen emoji you
+can mix together two emoji to create something new like a sloth and a light bulb for that moment when you're the
+last one in the group chat to get the joke you can even combine emoji with
+descriptions so if you're inviting your friends over for a karaoke night you can mix a woman emoji with a microphone and
+add a sequin jacket and when you're making images inspired by family and friends using Genmoji and image
+playground you have even more control you have the option to change expressions like making your friend look
+shocked or making them laugh you can also adjust things like hairstyle so the
+image matches your friend's latest look and in image playground you can now make
+images using chat GPT in addition to existing styles like animation or sketch
+you have new ChachiBT styles like an oil painting style for your friend's contact poster so you can see her elegant
+portrait every time she calls and for moments when you have a specific idea in mind tap any style and describe what you
+want like a realistic image for a baby shower invitation image Playground sends your
+description or photos to chatbt and gets you a unique image you're always in
+control and nothing is shared with chatbt without your permission and for
+developers you can integrate these new capabilities into your apps with the image playground
+API now let's talk about a feature we're building across our communication apps
+translation there are moments when you'd like to express an idea question or feeling but a language barrier gets in
+the way to help you communicate across languages we're introducing live
+translation with Apple intelligence live translation can translate conversations on the fly it's integrated into messages
+FaceTime and phone and it's enabled by Apple models that run entirely on device
+so your personal conversations stay personal for instance in messages live
+translation can automatically translate text for you so if you're making plans
+with some new friends while studying abroad your message can be translated as you type and delivered in their
+preferred language and when they respond each text can be instantly translated
+for you when you're catching up on FaceTime you can follow along with translated live captions while you
+continue to hear your grandmother's voice
+oh right yes when you're on a phone call your words are translated as you talk
+and the translation is spoken out loud for the call recipients hi are you available to cater a wedding
+on December 6th hello
+as they respond you can hear a spoken translation of their voice ah
+yeah ah yes I would be very happy to help you this works seamlessly even when
+you call someone who doesn't have an iPhone for developers it's easy to enable live translation for calls within
+your communication apps with a new API so that's live translation a powerful
+communication tool whether you're traveling abroad collaborating at work or school or simply catching up with the
+people who matter most to you and now back to Craig
+beyond making it easier to stay connected we're also improving some of the Apple services you enjoy using on
+iPhone to tell you all about them here's Kathy
+[Music]
+[Music] let's start with Apple Music we're
+making it easier to fall in love with music from all around the world first we're adding lyrics translation to help
+you understand the meaning behind your favorite songs and lyrics pronunciation so
+everyone can sing along to the music regardless of language
+and we're also introducing automix which uses intelligence to seamlessly mix from
+one song to the next like a DJ time stretching and beat matching at the perfect moment
+[Music]
+and finally we're making it faster and easier to get to the music you're into right now with music pins just pin your
+favorite artist album or playlist to the top of the library those are just some of the
+updates coming to Apple Music next let's talk about maps in iOS
+26 your iPhone can better understand your routines to improve your daily commute and help you remember great
+places you've been most of us regularly go between places like home school and work and we often
+have a favorite route with quick stops along the way like dropping the kids off or grabbing a cup of
+coffee your iPhone will now learn your preferred routes and offer them in maps alongside other
+options if your routine changes your iPhone will adapt to it and with the maps widget you can check your commute
+before you leave so you can get an idea of how long it'll take if there's significant delays MAPS will send you a
+notification with alternate route options even if you didn't start directions so when you have that
+important meeting you won't be late due to an unexpected slowdown if you've ever wanted to return to a great local
+business or park you went to in the past or recommend it to a friend but just can't remember the name we're
+introducing visited places you can choose to have your iPhone detect when you're somewhere like a restaurant or
+shop and then view your visited places in the maps library or simply search and
+share with a tap your visited places are easy to delete with a swipe and are
+protected with endto-end encryption so even Apple can't access them that's a
+quick peek at maps next wallet apple Wallet helps make your day-to-day
+interactions with the physical world that much easier car keys and wallet provide an
+easy and secure way to lock unlock and start your car with your iPhone or Apple
+Watch adoption by automakers continues to grow rapidly with over 20 brands
+already offering car keys and wallet and 13 more coming soon including Acura Porsche and
+Tata now let's talk about IDs with driver's licenses and wallet we've
+created the most private and secure way for you to present your identity they're currently available in nine states plus
+Puerto Rico with more to come and starting this fall you can create a digital ID with your US passport while
+not a replacement for your physical passport digital ID can be used for domestic travel at supported TSA
+checkpoints in apps and in person where age and identity verification are required and while at the airport you'll
+appreciate refreshed boarding passes and wallet which now include convenient access to indoor mapping that gets you
+around the airport quickly find My Track Yours right from the boarding pass and
+sharable live flight status so loved ones can keep track of when you are landing next Apple Pay the easiest way
+to pay with privacy and security built in used by hundreds of millions of customers it truly is a magical way to
+shop and we're adding more convenient ways for you to pay in addition to using rewards and installments while shopping
+online with Apple Pay you can now choose to redeem your points or pay with installments when you shop in person
+wallet is also the best place to track your Apple Pay orders with Apple intelligence Wallet can now identify and
+summarize order tracking details beyond your Apple Pay orders it will find emails sent by either merchants or
+delivery carriers and conveniently pull together your order details order progress notifications and more all in
+one place right in Wallet so those are some seamless new ways Wallet can
+improve your interactions with the physical world ios 26 also brings new
+experiences to your games and the friends you play with to tell you all about it here's an
+[Music]
+People love playing games on iPhone with stunning graphics powered by Apple
+Silicon the App Store's huge catalog and award-winning games on Apple Arcade it's
+no surprise that over half a billion people play games on their iPhone so
+we're creating a new destination to help you get more out of your games jump back
+into what you love find your next favorite and have even more fun with
+friends introducing the Games app it starts with the home tab where you'll
+see what's most relevant for your games front and center like updates and can't
+miss events in games you're actively playing and recommendations tailored
+just for you there's a dedicated tab for Apple Arcade where subscribers can
+access the whole catalog and the latest updates and releases and over on the
+library tab you can see all the games you've ever downloaded from the App Store you can easily jump back into the
+games you want to continue playing whether in portrait or landscape and it works great with a controller making it
+easy to move from one game to the other next head over to the play together tab
+to see what your friends are playing compare scores and achievements and invite them to play we're also making it
+easier to bring friends in on the fun with challenges a new way to compete
+with friends in score-based showdowns you'll find them in some of the most
+exciting games on the App Store like Thronefall where you can challenge your friends to see who can survive the most
+waves of enemies and in popular Apple Arcade games like Skate City New York to
+compete on racking up the highest score in each week's featured course and for
+developers challenges are built on top of game center leaderboards so singleplayer games can be turned into
+fun competitions with friends offering even more ways to rally a group see
+scores in real time crown a winner and have a rematch so that's the Games app
+your all-in-one destination for games and playing with friends and now back to
+Craig we have one more update to iOS we want to tell you about today and that's a big
+update to visual intelligence visual intelligence builds on Apple Intelligence to help you explore your
+surroundings so you can simply press the camera control or action button to pull up ratings for a cafe you walk by or
+find sneakers similar to the ones you see when you're out and about it's the fastest way to learn about the objects
+and places around you and now we're extending visual intelligence to your
+iPhone screen so you can search and take action across your apps using anything
+you're viewing and we've designed it so you can tap into the capability of apps from across the app store to give you a
+closer look here's [Music] Billy visual intelligence makes it
+faster to do more with the content on your iPhone screen and it works automatically with any app say I open a
+social media app and I see this great jacket i want to know where I can get something like this i can find out with
+visual intelligence and I can access it with a familiar gesture by pressing the same buttons I use to take a
+screenshot now at the top I have screenshot controls like markup and share at the bottom I have visual
+intelligence tools like this image search button in the bottom right i could tap here to find similar images on
+Google or other apps I use frequently thanks to visual intelligence I know where to get a jacket like this let's
+keep scrolling i dig this lamp so I'll bring
+up visual intelligence and now I can highlight a search for similar lamps across my most
+used apps like Etsy and when I tap on a result I like it takes me right into the
+app so I can save this lamp to my favorites now I want to see what else is
+going on okay suppose I come across an event
+I'm interested in and I want to add it to my calendar visual intelligence makes this
+easier than ever notice the add to calendar suggestion at the bottom with Apple intelligence it can
+extract the date time and location and prepopulate them i'll tap create event
+easy as that i want to show you one last
+example if I have a question about something on my screen like this instrument I can simply tap on the ask
+button in the bottom left to ask chat GPT which rock songs is this instrument
+featured in i love that I can jog my memory like this without jumping between
+apps and there it is just what I wanted to know visual intelligence makes it
+easy for me to search across apps take action and ask questions now back to
+Craig so those are just a few examples of how visual intelligence makes it faster to do more with the content on
+your iPhone screen for developers you can use App Intents to integrate search
+capabilities from your apps into this experience we're also making it possible for you to search visually across your
+mostused apps using visual intelligence with the iPhone camera so you can simply
+point your iPhone when you want to search the Anthropology app for a cool item you spot at a cafe we're excited
+for all the ways that visual intelligence will help you do more with what's in front of you so that's iOS 26
+a stunning new design Apple intelligence capabilities integrated throughout the system and improvements to the apps you
+use every day and it includes many more features that are going to make your iPhone experience even better next I'll
+watchOS
+hand it over to David to tell you about the latest on Watch OS
+[Music] apple Watch is indispensable whether
+using it to stay connected with friends track a workout or just live a healthy life and with Watch OS 26 we continue to
+push this further with enhancements to many of the features you use every day and as you heard earlier it has the
+gorgeous new design with liquid glass to deliver a fresh look while maintaining the instant familiarity of watch OS it
+brings a more expressive experience in places like the Smart Stack the numerals of the photos face control center and
+inapp navigation and controls while bringing more focus to your content in
+addition to these design updates Watos now uses intelligence to gain a deeper understanding of you and proactively
+give you what you need starting with workout for times when you need a little more inspiration Watch OS introduces an
+exciting new fitness feature Workout Buddy with Apple Intelligence Workout Buddy can motivate you in a new and
+unique way based on your fitness history here's Stephanie to tell you all about [Music]
+it workout Buddy is pretty incredible it simultaneously gathers all the data from
+your workout and rapidly analyzes vast amounts of your fitness history like
+your paces miles logged activity rings closed even your training load to
+identify meaningful insights in real time combined with Apple intelligence on
+your iPhone it provides you with just the right encouragement a brand new textto-spech model
+translates that encouragement into a dynamic generative voice it's built using voice data from a fitness plus
+trainer so it has the right energy style and tone for a workout and you can
+choose from multiple voices to hear the one that's right for you let's see it in
+action the workout app is updated so it's easier to access what you need as
+soon as you start your run workout buddy can kick off with a pep talk
+great job starting your run this is your second run this week you're crushing it closing that move ring for six straight
+days let's keep building on that with your run today fueled by some house vibes from
+Muramasa workout buddy will also marquee moments four miles down your last mile was your
+fastest yet coming in at 8 minutes and 56 seconds your average heart rate for
+that split was 157 beats per minute and can help you celebrate accomplishments
+you just crushed your 100th mile for running workouts this year keep up the great work
+after you end your workout it recognizes your effort fantastic run you averaged a
+pace of 9 minutes and 7 seconds per mile across 6.3 miles and your average heart
+rate was 153 beats per minute plus you earned your first 10K run award and
+that's something to really be proud of have a wonderful day and that's Workout
+Buddy it's personal and private and will be available starting in English across the most popular workout types so no
+matter where when or how you get your workout in it'll be the boost you need to reach the finish line workout is one
+of the most popular apps on Apple Watch so we wanted to give it a brand new layout now features like custom workout
+and race route are just a tap away so you can easily create a custom workout with work and recovery intervals or race
+against your last or best time from your favorite route and there are new media features built right into the app for
+your music you can keep it simple and let Apple Music choose the best playlist based on the workout you're doing and
+the music you love or instead of having Apple Music choose you can select
+playlists or podcasts that are suggested based on what you've been listening to for that type of workout so whether it's
+your media or workout buddy getting active has never been more inspiring
+back to David watch OS also enhances features like the
+smart stack which has fundamentally changed how you interact with Apple Watch by quickly identifying what
+matters in the moment and prioritizing that information for you this year the Smart Stack improves its prediction
+algorithm by fusing ondevice data like points of interest location and more and
+trends from your daily routine so it can accurately predict features that could be immediately useful to you so when you
+walk into your gym for that regular morning session a Smart Stack hit will subtly appear and when you open the
+Smart Stack a widget will be ready for you to start your workout or when Apple Watch detects that you're in a remote
+location with no connectivity a hint will appear to start Backtrack to support you while you're off the grid
+we're also making Apple Watch more proactive with enhancements to notifications you might use silent mode
+to avoid receiving a loud alert at an inopportune moment like that but now Apple Watch can
+interpret the ambient noise in your environment and automatically adjust the volume of incoming calls and
+notifications much better and when you receive a notification that you want to address later a new wrist flick gesture
+will dismiss it and take you back to your watch face you can also use wrist flick to mute incoming calls silence
+timers and alarms or even close the smart stack wrist Flick adds to the
+convenient gestures like double tap and we can't wait for you to try it for times when you do want to address a
+notification like a text from a friend the messages app gets even better with many of the features you heard about
+earlier with Apple intelligence live translation makes staying connected to your loved ones who speak a different
+language as simple as raising your wrist conversation backgrounds elevate the
+experience and now based on the context of the message you can quickly perform new actions that are intelligently
+provided using machine learning like sharing your location through Find My when someone's looking for you we're
+also giving you a quick new way to capture what's important with notes which now comes to Apple Watch it's
+perfect for when you want to save a quick note to yourself or view an existing note like the great TV
+recommendation you got from your friend so you can get started on season one of Stick right away watch OS also has new
+APIs for developers the smart stack can intelligently show a widget for slopes
+when you arrive at a ski resort with improved location APIs and now dark noise can add a custom control to
+control center so you can easily turn on a sleep soundsscape without picking up your iPhone that's what's coming to
+watch OS 26 a delightful new design with liquid glass more intelligence and
+messages hints for the smart stack and a new wrist flick gesture and Apple Intelligence comes to fitness with
+Workout Buddy next up here's Justin to talk about [Music]
+tvOS
+TVOS tv tvOS brings the best of Apple into your living room like Apple TV Plus
+original shows and movies the massive Apple Music catalog and everything you love from our app developers with TV OS
+26 we're making Apple TV more enjoyable than ever and it all begins with the new
+design with liquid glass which looks incredible on the big screen app icons
+feel more vibrant thanks to their layered design and new specular highlights that bring depth and detail
+to every edge next let's take a look at some of the changes coming to two of our most
+popular apps starting with TV and how the new design enhances the Apple TV app
+experience as you settle into a show like your friends and neighbors on Apple TV Plus you'll immediately notice how
+playback controls refract the content underneath beautifully complnting the action without distracting from the
+story this unobtrusive design carries through the control center so when you're setting a sleep timer the video
+still shines through and as you browse you'll see a bold new look with
+beautiful cinematic poster art making it fun and easy to explore all your
+favorite shows and movies of course with Apple TV Plus there's always something
+new to watch with a fantastic lineup of originals coming let's take a sneak peek
+why are you the one to tell this story what do you see that no one else does we
+will send a message to the world this is only the beginning think bigger
+this is our home i will protect us the future is
+here it's time to see what lies beyond us you get a real thrill from being in the
+action should we have written SOS no this is way more us go get it the hard
+times will come from the money and the mayhem follows we're a stone throw for mutiny
+i have 22 kids on that bus i got to get them to the bar watch out everybody
+you should have seen how far you flew that was incredible
+this is where everything is headed the question I have for you can you
+handle it
+if this is a performers review I have to tell you I am absolutely killing it
+and that was just a taste hope y'all are ready with so much to enjoy it's
+important to quickly get to the shows you love and that's exactly what profiles deliver now you can set Apple
+TV to display profiles whenever it wakes from sleep so everyone at home can choose their own and jump right back
+into the TV sports and music that matter most to them and for developers tvOS
+also introduces a new API for automatic signin linking app login to an Apple
+account that means no more signing in across each of your Apple devices
+greatly simplifying how you set up a new Apple TV of course watching great shows is
+just one part of what makes Apple TV so powerful apple Music is another favorite
+whether you're relaxing to a chill playlist or sharing a spotlight with Sing with tvOS singing along with Apple
+Music gets even better your iPhone becomes the mic amplifying your voice
+through the TV with visual effects that light up the big screen when you're with
+friends everyone can join in using their own iPhone to add songs to the queue
+react with on-screen emoji or take a turn and sing along with their favorite
+artists and that's just some of what's coming to TV OS 26 the new design with
+liquid glass makes the experience more vibrant and immersive the Apple TV app adds beautiful new poster art and Apple
+Music Scene is even more fun now here's Craig to talk about Mac OS
+[Music]
+macOS
+[Music]
+mac OS is loved by everyone from students and creatives to developers and
+anyone who appreciates its beautifully simple and powerful experience this year
+we're building on what you love most about Mac OS with a release made for all
+of its different users but what should we call it well our Crack product
+marketing team was adamant that they'd fully earned their annual paycheck the moment they noticed that years end in
+two-digit numbers but Mac OS demands more fortunately after carving some
+bodacious tracks during one of their mandatory weekly ski strategy sessions
+they bumbled into their legendary micro bus and let gravity guide them to a
+breathtaking spot where crystalclear waters meet majestic mountain peaks
+they'd found it let me introduce you to Mac OS Tahoe
+mac OS Tahoe is all about giving you beautiful and powerful tools for the
+unique ways you use Mac it includes many of the features you heard about in iOS
+like backgrounds and screening tools and messages more options in image playground and Genoji and live
+translation and it introduces many more updates taking the Mac OS experience to
+the next level starting with a stunning new design it elevates the iconic
+elements of Mac OS making them at once fresh and timelessly Mac from the moment
+you unlock the desktop is instantly familiar widgets the dock and app icons
+have been refined with liquid glass which also elevates the experience in
+your apps sidebars and toolbars reflect the depth of your workspace and offer a
+subtle hint of the content with an easy reach as you scroll this updated design doesn't just
+look stunning it also enhances the Mac OS experience in new ways the menu bar
+is now completely transparent making your display feel larger and there are more ways to customize what controls
+appear in the menu bar and control center and how they're laid out there are so many new controls to choose from
+you can even add controls for your favorite Mac apps like Zoom and iPhone apps too we've also unlocked entirely
+new ways to personalize your Mac you can change the color of your folders and add a symbol or emoji to give them a unique
+identity it's fantastic for projects along with your personalized
+wallpaper and theme colors it's easier than ever to make your Mac a seamless extension of your style you can go for
+that sleek clear look or dial up the dark aesthetic to match your workspace
+no matter what you do this new design makes the Mac OS experience even more vibrant expressive and personal speaking
+of great new experiences let's talk about the power of continuity continuity
+helps you work seamlessly across Apple devices and we're excited to introduce two new continuity features first we're
+bringing live activities to Mac so if you've ordered Uber Eats on your iPhone
+the live activity also appears in the menu bar and when you click the app
+opens in iPhone mirroring so you can take action directly on your Mac we're
+also enhancing the calling experience by bringing the phone app to Mac you can
+conveniently access your familiar content like recents contacts and voicemail synced from iPhone and easily
+make a call with just a click incoming calls look beautiful on the bigger screen featuring stunning contact
+posters of your friends and family and the phone app on Mac includes all the
+great updates we talked about earlier like hold assist call screening and live
+translation so that's what's new in continuity next
+let's talk about some new features inspired by how pros work on Mac starting with shortcuts here's Raja to
+tell you
+more shortcuts help people get more done faster every day they combine multiple
+steps from your favorite apps to create powerful personal automations in Mac OS Tahoe you can run them automatically for
+example at a specific time of day or when you take actions like saving a file to a folder or connecting to a display
+and with Apple Intelligence we're introducing intelligent actions that let you create shortcuts that are more
+powerful than ever you'll see dedicated actions for features that you're already familiar with like summarizing text with
+writing tools or creating images with image playground we've also added an
+incredibly powerful new action that lets you tap directly into Apple intelligence models and provides responses that feed
+into the rest of your shortcut for example if you're a student you can build a shortcut to compare your
+recording from a lecture to the notes you took and add any key points you missed you can access Apple intelligence
+models on device with private cloud compute or you can use chat GPT if you
+want to tap into its broadw world knowledge and expertise one of the quickest ways you can run shortcuts is
+with spotlight where we've got more updates to share spotlight has always been the central place to search for
+things and now Spotlight is getting its biggest update ever to start Spotlight
+is becoming the fastest way to browse your content on Mac it puts your most relevant files within easy reach
+including intelligent suggestions based on your routines or what you're currently working on you can also see
+all your apps and thanks to iPhone mirroring you can even launch apps that you only have on your iPhone like
+Headspace we're also introducing system and app actions in Spotlight you can
+take hundreds of actions from creating an event to starting an audio recording or even playing a podcast and you can do
+this no matter what app you're currently working in you can even fill out parameters for an action say you want to
+send an email you can write the message set the recipient and add a subject all
+without lifting your hands off the keyboard plus many bar items for the app you're in can be accessed right from
+Spotlight and for developers these are surfaced in Spotlight automatically this is great in a
+featurerich app like Acorn to make taking action in Spotlight even faster
+we're introducing quick keys these are short strings of characters that get you right to what you're looking for for
+instance sending a message can be done by simply typing SM and adding a new reminder can be done
+by typing a R and then just typing the reminder
+quick keys are automatically provided for system and app actions you've taken now I want to show you how I use
+Spotlight to get things done fast i'll type command space to bring up
+Spotlight and search for a document where I've been working on a new feature idea searching in Spotlight is better
+than ever all result types are listed together intelligently ranked by relevance to me and I can filter results
+if needed too let's open this i have an image I copied to my
+clipboard let me paste that in great next quick
+resize looks good but maybe this would look better without the background
+spotlight makes it so easy to take action from the keyboard i'll search for background removal and there's the pages menu item
+i'll just hit return there we go let me quickly adjust where it
+sits cool there's a chart that I copied earlier today that I want to bring in here too what's great is that with Mac
+OS Tahoe I can now use Spotlight to get to my clipboard history here it is on the right this is
+super helpful to get back to an image some text or a link I copied earlier in
+the day there's the chart I had in mind i'll hit return and bring it into my dock and let's just resize
+that and bring it into the corner perfect this is coming together
+but it could use a better tagline i've got a shortcut I've built for moments like this i can run it from
+Spotlight and I can get to it even faster with the quick key I've assigned to it ct for create taglines
+spotlight is now contextually aware and suggests using the document I'm currently working in the shortcut then
+takes that document taps into Apple intelligence models and gives me fresh ideas check it
+out hm maybe okay that one's great i'll just
+hit return to add that in love it now that this is in great shape I want to
+add it to the free form board where my team and I organize our big ideas i'll search for that board in
+Spotlight spotlight knows I add docs to this ideas board regularly so it
+actually offers that as an action right here it's all ready to go with the document queued up and
+everything awesome there it is with all the edits I just made i'll just move it
+over here with my favorite concepts the team is going to have fun with this one
+so that's a glimpse at how Spotlight and Shortcuts power up my workflow and for
+developers you can make your app's content and actions discoverable in Spotlight and available for use in
+Shortcuts using the App Intents API now back to
+Craig from design to continuity and productivity Mac OS Tahoe delivers great
+updates across the board it also levels up the gaming experience starting with
+the new games app which brings together all the games you have on Mac and when you're in the game a click on a
+controller brings up the new game overlay where you can adjust the system settings that matter most midame chat
+with friends or invite them to play and for developers Mac OS Tahoe introduces
+Metal 4 which brings next generation rendering technologies to games like
+frame interpolation denoising and more alongside these improvements there's a
+growing catalog of incredible titles so many games have recently arrived and
+there are even more on the way like Crimson Desert from Pearl Abyss which
+takes advantage of Apple Silicon to deliver incredible visuals and dynamic effects providing a breathtaking open
+world with immersive details or Enzo which brings new life to playerdriven
+storytelling with deep customization and gorgeous visuals apple silicon and metal
+effects make every character and light source feel vivid and real while the neural engine delivers exceptional
+performance for AI models you can pre-order Enzoy on Mac starting today
+and it will be available later this year alongside consoles and PCs so that's
+what's new with gaming on Mac and that wraps up Mac OS Tahoe a stunningly
+powerful release it introduces a gorgeous new design delightful continuity experiences along with great
+features to turbocharge your productivity next to tell you all about what's coming in Vision OS here's
+visionOS
+Mike just last year we delivered Apple Vision Pro a revolutionary spatial
+computer that seamlessly blends digital content with the physical world
+consumers and enterprises alike love Vision Pro because it unlocks experiences that just weren't possible
+before this year we're introducing an expansive update to Vision OS vision OS
+26 is packed with groundbreaking spatial experiences powerful features for
+enterprise expanded input with new spatial accessories and exciting spatial
+content to enjoy and this is in addition to Apple intelligence features
+introduced today like updates to image playground new supported languages and
+more let's start with some of the amazing new spatial experiences coming to Vision OS like widgets users love
+widgets they offer personalized and useful information at a glance in Vision
+OS they become spatial integrating seamlessly into your space and they are
+persistent staying right where you place them they're also customizable frame width color and depth
+can all be personalized to your liking vision OS now has beautiful new widgets
+like clock with distinctive and exquisitly detailed clockf face designs weather that adapts to today's
+forecast music for quick access to your favorite tunes and photos which can
+transform a stunning panorama into a window to another time or place all
+these and more can be found in the new widgets app including ones from your favorite compatible apps and developers
+can create widgets for their apps too vision OS will also remember where
+you put your apps so you can arrange your space with digital content that will be there every time you put on
+Vision Pro even if you restart it earlier iOS introduced us to spatial
+scenes and they're also coming to Vision OS here's Haley to tell you about
+it last year we made it easy to add natural looking depth to your 2D photos
+with Vision OS 26 we're making your memories feel even more realistic it
+uses a new AI algorithm that leverages computational depth to create multiple perspectives from your 2D photos making
+the images more lifelike these spatial scenes feel as if you could lean right into them and look
+around we can't wait for you to try this out in the photos app you can also view these in the new spatial gallery app
+where you can explore fresh and exciting content curated by Apple spatial scenes
+will make your web browsing experience more engaging too simply select spatial browsing to transform supported articles
+hiding distractions and revealing inline photos that come alive as you scroll and
+developers like Zillow can add them into their own apps for more lifelike experiences too some of the best experiences on
+Vision Pro are shared with others so to make sharing even better we're making big changes to Personas we first
+released Personas as a beta feature that represents you when you're on a video call with Vision OS 26 Personas will
+undergo a dramatic transformation and more realistically represent you these
+enhancements are striking hair lashes complexion all look remarkably accurate
+making your persona feel more natural and familiar and they're still created on device in a matter of seconds today
+personas let you connect with others who are located remotely but what if you want to share that same Vision Pro
+experience with someone who's in the room with you now you and your friends can watch the
+latest movie or play a spatial game together and this will be great for
+enterprise where users can collaborate using apps like 3D Live from Deso System
+to visualize 3D designs in person and with remote colleagues
+to tell you about even more enterprise features back to Mike
+hundreds of companies worldwide use Vision Pro's unique hardware and software to supercharge their workflows
+for design training sales and more with Vision OS 26 organizations can easily
+share a common pool of devices among team members and you can securely save your eye and hand data vision
+prescription and accessibility settings to your iPhone so you can quickly start to use a shared team device or a
+friend's vision pro as a guest user we're also adding more APIs so enterprises can create revolutionary
+apps only possible on vision OS for instance the new protected content API
+it's literally a for your eyeson only mode ensuring that only people who've been granted access can see confidential
+materials like medical records or business forecasts we're also expanding how you
+can interact with content and experiences by introducing support for spatial accessories that enable input in
+six degrees of freedom we're excited to share Logitech Muse built for Vision Pro
+which unlocks entirely new creative workflows logitech Muse will let you draw and collaborate in three dimensions
+with precision in apps like spatial analog and we're thrilled to share that
+Sony is bringing support for PlayStation VR2 sense controller to Vision OS
+26 games for Vision OS like Pickle Pro can take advantage of the full motion
+tracking performance for more engaging gameplay of course people aren't just
+working and playing in Vision Pro they also love watching spatial content like
+Apple Immersive Video which puts you at the heart of the most exciting stories
+events and adventures with unmatched realism and with Vision OS 26 we're
+enabling more ways to produce great new content like the brand new Adobe app for
+Vision OS powered by Premiere that will let you edit and preview spatial video
+directly in Vision Pro many people have extensive libraries of
+exciting action videos but playing them on traditional 2D displays makes them appear flat and distorted to solve this
+we've partnered with GoPro Insta3 and Canon to support native playback of 180
+360 and wide fieldof view video on Vision OS you can now relive these
+awesome moments like you're there all over again and web developers can embed
+3D objects directly into their pages so you can see them in line with depth and
+dimension and pull them right into your space for a closer look this combined
+with spatial browsing marks the beginning of the spatial web and there
+are many other new features we think you'll love like a spectacular new Jupiter environment
+standing on the moon Amla you'll be able to speed up time to watch enormous
+storms swirl across the gas giant as sunlight breaks across its surface and that's Vision OS 26 a huge
+release that delivers more spatial experiences than ever before new ways to
+stay connected with Vision Pro users near and far and big opportunities for
+enterprises developers and creators to deliver groundbreaking features and
+content now here's Craig to tell you about what's coming in iPad
+iPadOS
+OS ipad OS 26 is a giant release it starts with a beautiful new design
+making your entire experience more delightful from the lock screen with a new time layout to the home screen with
+redesigned app icons and widgets to apps like Apple TV where there's even more
+focus on your content and with Apple Intelligence integrated across iPad OS
+you can communicate seamlessly across language barriers with live translation and tap into Apple intelligence to
+supercharge your shortcuts there are also many other features you heard about on iOS and Mac OS that are
+great for everyone who uses iPad including messages with polls and enhanced group chats the new phone app
+which lets you make and take calls and the brand new games app for all your games and the friends you play with and
+all these amazing features are only the start over the years we've pushed the
+limits of how portable powerful and versatile iPad can be and it's empowered
+customers around the world whether they're just trying to escape with some me time on the couch or using iPad as a
+canvas to imagine their next big endeavor so many people feel deeply connected to iPad and some want to do
+even more with it so this year we're continuing to push the capabilities of iPad OS even further by focusing on
+improving multitasking and how you work with files and audio and video let's get
+started with multitasking where we're taking a huge leap forward this is what
+you've all been waiting for a new windowing system on iPad
+it's designed for the unique qualities of iPad and delivers on what users are asking for with a collection of powerful
+features that help you control arrange and switch between your windows and we
+think it's pretty great to show it to you here's Cindy
+this rearchitected and redesigned windowing system maintains the simplicity of iPad when I first open an
+app it shows up full screen i can swipe home and open another and it's still
+full screen so if this is how you like to use iPad it's just as simple as ever
+but now I also have this grab handle in the bottom right to fluidly resize apps into Windows if I previously resized
+apps when I open them again they open back in the exact same size and position
+and I can place them just where I want them this is designed to work great with touch or with a trackpad
+and now I also have a pointer that's more precise and responsive when I use
+it to hover over these new buttons in the top left they expand into familiar controls i can use these to close or
+minimize my windows and a tap on their app icon brings them right back another
+way I can arrange my windows is with tiling since this is designed for the unique qualities of iPad I can simply
+flick windows towards the edges to tile it's so fluid and makes arranging my
+windows super easy there's even a little grabber here to resize both at the same
+time if I click and hold on my window controls I'll see even more tiling options let's choose
+quarters with this rearchitected windowing system I also have the power to open even more
+windows and if I need an app that's not in my doc I can simply swipe home to peek at my home screen tapping an app
+opens it along with all my previous windows to quickly see all my open windows I now have expose with a swipe
+up from the bottom and hold my windows spread out and a tap brings the one I need to the front if I need to make
+space or focus in on one app I just swipe home and another swipe up minimizes everything so now when I open
+an app it opens by itself and I can start fresh making it easy to always get
+back to the distinct simplicity of iPad sometimes you need a way to see and
+access all the features of an app so we're also adding a menu bar on iPad
+it's always available from the top of the screen it's arranged to be familiar with clear labeled
+options and it's a great way to find the features you need quickly and that's a quick look at the menu bar
+and how windowing works in iPad OS 26 back to you Craig
+wow more windows a pointier pointer and a menu bar who would have thought we've
+truly pulled off a mindblowing release and this isn't just great on iPad Pro
+and iPad Air the new windowing architecture has enabled us to bring it to every iPad that runs iPad OS 26
+including iPad and iPad Mini it also works great with Stage Manager and on
+external displays it's a massive update to the way you work with multiple apps
+at once on iPad now to tell you about some other updates here's Tona
+let's talk about files when you're working on more complex projects like creating a website editing a lot of
+photos or designing a presentation you're often handling lots of files across lots of apps to make this easier
+we have a set of enhancements for managing accessing and editing your
+files first up we're supercharging the Files app it now includes features like
+an updated list view to see more details and resizable columns and collapsible
+folders it also gets the same folder customization options as Mac OS with
+custom colors and icons that sync across devices making it easy to spot the one you're looking for and you can now
+choose which app you want to open a file with and set it as a default like picking Photoshop Visco or Dark Room for
+opening images for easier access to your files you can now put folders in the
+dock simply drag any folder from the files app right into the dock when you
+tap on one it fans out showing the files inside perfect for getting to your
+downloads most recent documents or a favorite folder no matter what app you're in and it's easy to drag in and
+out of your folders too now one type of file you might be opening is a PDF and
+to help you with that we're bringing a beloved app from Mac OS to iPad OS Preview preview is a dedicated app to
+view and edit your PDFs with powerful tools like Apple Pencil Markup and
+Autofill making it easy to access annotate fill in or highlight and it
+also includes familiar tools to edit images and export them in a variety of different formats and
+sizes with the updated files app folders in the doc and preview it's never been
+easier to work with files in iPad OS this year we're also enabling more
+complex workflows for working with audio and video beginning with better control
+over your audio input content creators want to have control over their setup
+including the accessories that give them the best quality like high-end microphones to help easily specify which
+microphone to use we added an audio input selector it can even be used to choose a different one for each app this
+applies to the web as well so creators can use their favorite sites like Alatu to capture audio with the microphone
+best suited for the job audio can be made even better by blocking ambient
+sounds while recording so we're making voice isolation available no matter what app is being used keeping voices clear
+and crisp for even more convenience creators can now record studio quality
+vocals directly with AirPods thanks to improved tonal balance and tambber to
+authentically represent the texture of your voice making AirPods a great choice for producing content and to make
+recording from a distance even easier creators can use AirPods to start and stop video recording with a simple press
+and hold we've also made something for all you podcasters out there who record using video
+calls local capture lets you produce amazing content with high-quality recordings right from iPad it works with
+any of your favorite video conferencing apps just turn it on in control center and your own local highquality audio and
+video are captured on your iPad echo cancellation of other participants audio
+keeps your voice front and center so you get a clear recording of your side of the call so glad once it's over everyone
+who use local capture can easily share their own audio and video files letting you produce an interview or podcast with
+the clearest recordings gathered from every source next when it's time to edit and
+export your content we're making that even easier by enabling background tasks on iPad with the incredible power of
+Apple silicon iPad can run longunning and computationally heavy tasks in the
+background so if you start an extended process like an export and switch to
+another app the task will continue to run background tasks show up as live activities so you always know what's
+running and you always have full control and for developers apps like Shaper 3D
+and Da Vinci Resolve will be able to take advantage of the same continuous processing with an updated background
+tasks API combined with updates for controlling your audio input and
+capturing highquality content these improvements will make Creative Pros even more effective back to you
+Craig with accelerated workflows for working with audio and video huge
+improvements to working with files and the biggest update to windowing on iPad ever this release of iPad OS is a
+gamecher we couldn't be more excited for you to try it and there's even more that
+we didn't have time to cover today like advanced 3D graphing capabilities in math notes a new read pen for a
+traditional calligraphy experience and the journal app which comes to iPad with Apple Pencil support so that's iPad OS
+26 with a new design even more features powered by Apple intelligence and a
+giant leap forward in productivity it takes iPad's unique capabilities even
+further this is the biggest iPad OS release ever
+so those are the updates to our software platforms with so many helpful features
+to enhance your daily activities and as you saw throughout today's presentation
+with Apple Intelligence our platforms are more powerful and more useful than ever we're continuing to integrate Apple
+intelligence across our ecosystem with so many new features that are right where you need them in the apps you use
+every day whether you're communicating across languages with live translation exploring the content of any app with
+visual intelligence feeling motivated during a run with Workout Buddy accelerating your workflows with
+powerful shortcuts and more these brand new Apple intelligence features continue
+to elevate your iPhone Apple Watch Apple Vision Pro Mac and iPad with
+intelligence that is most helpful and relevant for you and as you've seen in
+Developers
+addition to everything in these releases for our users it's also a huge year for
+developers the foundation models framework allows developers to use our models and get
+responses in plain text or as structured swift data app intents allow developers to
+connect their apps content and capabilities throughout the system including the new shortcuts and visual
+intelligence experiences and there's much more to discover in our SDKs like
+the latest improvements to Swift which make it easier than ever to write code that's safe and efficient or the new
+APIs in Swift UI helping developers build modern user interfaces across all
+Apple platforms of course this year one of the most important updates for
+developers is the new design with liquid glass it lets developers reimagine how
+their apps look and feel making every user interaction even more intuitive and
+delightful to dive deeper we have dedicated sessions and opportunities to engage with Apple engineers and
+designers over the course of this week we also have exciting updates for our tools like the new Icon Composer app
+icon Composer helps developers and designers create layered icons that look
+stunning in light dark tinted and all clear look visualizing how light
+interacts with liquid glass and we're bringing more generative intelligence to Xcode predictive code
+completion gets more accurate using larger context from your code and we've expanded our vision for Swift Assist
+where developers interact with code using natural language directly in Xcode developers can now use a model of their
+choice and we have built-in support for the advanced coding models of Chat GPT
+this unique experience flows naturally between the source editor and the assistant to write code tests
+documentation iterate on a design or fix that stubborn compiler error you'll hear
+all about these new tools and technologies in the platform state of the union and now back to
+[Music]
+Tim thank you Craig and thanks to all of our presenters what a big day of
+announcements for our users and developers we continue to advance each of our platforms with more ways to
+harness the power of Apple intelligence as well as a beautiful new design our
+product experiences become even more seamless and enjoyable we're excited to
+see how developers will bring these updates and this new design language to their apps our new OS releases will be
+available as developer betas today with a public beta coming next month and they
+will be available to all users this fall thank you to all of our developers for
+continuing to change the world with the apps you create and thanks to everyone for joining us today we've got a big
+week ahead of us let's go have a great WWDC [Music]
+this one goes out to that very special somebody in all our lives who develops the apps we love
+best I've ever set my sorry eyes
+upon changed my life not even
+joking and I would head space logo on
+myself this is not an act it's a piece of art
+started your rap a year ago and I'm almost fluent in Spanish clap pants clap pants clap
+hands immovable jeans so I'll give you six out of
+five stars oh being a human is hard and this
+is heaven two comes and go
+to even better than five spread so I'll give you six out of
+five stars if this doesn't win that year I'll
+leadership i was glued to this game
+sing my me kiss the
+s [Music] good oh the deepest functionality with
+the most intuitive memories i love fellow kid me
+so I get the
+season and sped up in Jesus i suppose my girlfriend thinks I'm cool for playing
+this game
+focus amazing knowing I'm here to see how
+[Music]
